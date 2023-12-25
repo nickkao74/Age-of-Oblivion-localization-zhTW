@@ -1,0 +1,1278 @@
+<config>
+
+
+<!--	<insertAfter xpath="/quests/quest[@id='quest_whiteRiverCitizen1']/reward[@type='Exp']">
+		<reward type="Quest" id="q_AgeofOblivion" stage="aftercomplete"/>
+	</insertAfter>-->
+
+
+
+
+
+	
+	
+	<set xpath="/quests/quest[@id='quest_BasicSurvival1']">	
+		<property name="group_name_key" value="quest_BasicSurvivalAOO"/>
+		<property name="name_key" value="quest_BasicSurvivalAOO"/>
+		<property name="subtitle_key" value="quest_BasicSurvival_subtitleAOO"/>
+		<property name="description_key" value="quest_BasicSurvival_descriptionAOO"/>
+		<property name="icon" value="ui_game_symbol_map_bed"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="offer_key" value="quest_BasicSurvival_offerAOO"/>
+		<property name="shareable" value="false"/>
+		<action type="ShowTip" value="tutorialTipQuest02"/>
+		<property name="repeatable" value="false"/>		
+		<action type="TrackQuest"/>
+		<!-- Phase 1 -->
+		<objective type="Craft" id="wksMasterWorkBenchAOO" value="1" phase="1" />
+		<objective type="BlockPlace" id="wksMasterWorkBenchAOO" value="1" phase="1" />
+		<!-- Phase 2  -->
+		<objective type="Goto" id="trader" value="5" phase="2">
+			<property name="nav_object" value="go_to_trader" />
+		</objective>
+		<objective type="InteractWithNPC">
+			<property name="phase" value="3" />
+			<property name="nav_object" value="return_to_trader" />
+			<property name="use_closest" value="true" />
+		</objective>
+		<reward type="Exp" value="500" />
+		<reward type="Item" id="casinoCoin" value="1000" />
+		<reward type="Item" id="meleeToolSalvageT1Wrench" value="1" />
+		<reward type="Item" id="medicalFirstAidBandage" value="5" />
+		<reward type="Item" id="drugHerbalAntibiotics" value="2" />		
+		<reward type="Item" id="medicalSplint" value="1" />			
+		<reward type="Item" id="AOOSkillPoint" value= "2" />
+		<reward type="Item" id="AOOQuestSkills"  value="1"/>		
+		<reward type="SkillPoints"  value="4"/>
+		<reward type="GiveCvarDMT, SCore" id="Quest8" value="1" />				
+	</set>
+	<append xpath="/quests" >
+	
+	
+<!-- Arena Quests	-->
+
+
+
+		<quest id="CaveQuest">
+		
+			<action type="ShowTip" value="Find a Cave"/>
+			<property name="name_key" value="Find a Cave"/>
+			<property name="offer" value="Would you like to find a Cave?" />	
+			<property name="repeatable" value="true"/>				
+			<property name="subtitle_key" value="Find a Cave"/>
+			<property name="description_key" value="Go to the Area of a cave and dig for the entrance."/>
+			<property name="category_key" value="challenge" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="true" />		
+			<property name="login_rally_reset" value="false"/>
+			<property name="extra_tags" value="Caves" />	
+			<objective type="ClosestPOIGoto">
+				<!-- <property name="distance" value="10"/> -->
+				<property name="phase" value="1"/>
+				<property name="poi_tier" value="10" />
+				<property name="nav_object" value="quest" />
+			</objective>
+			<objective type="RallyPoint">
+				<property name="phase" value="2"/>
+				<property name="nav_object" value="rally" />
+			</objective>
+		
+			<reward type="Exp" value="100" />
+		</quest>
+
+		<quest id="VehicleTraderQuest">
+		
+			<action type="ShowTip" value="Find a Vehicle Trader"/>
+			<property name="name_key" value="Find a Vehicle Trader"/>
+			<property name="offer" value="Would you like to find a Vehicle Trader?" />	
+			<property name="repeatable" value="true"/>				
+			<property name="subtitle_key" value="Find a Vehicle Trader"/>
+			<property name="description_key" value="Find a Vehicle Trader."/>
+			<property name="category_key" value="challenge" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="true" />		
+			<property name="login_rally_reset" value="false"/>
+			<property name="extra_tags" value="vehicletrader" />	
+			<objective type="ClosestPOIGoto">
+				<!-- <property name="distance" value="10"/> -->
+				<property name="phase" value="1"/>
+				<property name="poi_tier" value="10" />
+				<property name="nav_object" value="quest" />
+			</objective>
+	
+			<reward type="Exp" value="100" />
+		</quest>
+
+		<quest id="KyburiumCrystalQuest">
+		
+			<action type="ShowTip" value="Find Kyburium Crystals"/>
+			<property name="name_key" value="Find Kyburium Crystals"/>
+			<property name="offer" value="Would you like to find Kyburium Crystals?" />	
+			<property name="repeatable" value="false"/>				
+			<property name="subtitle_key" value="Find Kyburium Crystals"/>
+			<property name="description_key" value="Find Kyburium Crystals"/>
+			<property name="category_key" value="challenge" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="true" />		
+			<property name="login_rally_reset" value="false"/>
+			<objective type="FetchKeep" id="KyburCrystalAOO" value="20" phase="1" />
+			<objective type="ObjectiveEntityKill" id="WildCrocAOO" value="10" phase="1" />	
+			<reward type="Exp" value="1000" />
+			<reward type="Item" id="casinoCoin" value="1000" />
+			<reward type="Item" id="AOOSkillPoint" value="1" />		
+			<reward type="Item" id="SkullTokenAOO" value="2" />
+			<reward type="Item" id="modScuba" value="1"/>
+			<reward type="Item" id="AOOQuestSkills"  value="3"/>			
+			<reward type="GiveCvarDMT, SCore" id="QuestKyburiumCrystal" value="1" />				
+		</quest>
+
+		<quest id="CaveEscapeQuest">
+		
+			<action type="ShowTip" value="Cave Escape"/>
+			<property name="name_key" value="Cave Escape"/>
+			<property name="offer" value="Would you like to try and escape a cave?" />	
+			<property name="repeatable" value="true"/>				
+			<property name="subtitle_key" value="Cave Escape"/>
+			<property name="description_key" value="You will be teleported to the deepest part of the cave and willhave to escape!"/>
+			<property name="category_key" value="challenge" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="true" />		
+			<property name="login_rally_reset" value="true"/>
+			<property name="extra_tags" value="Caves" />	
+			<objective type="ClosestPOIGoto">
+				<!-- <property name="distance" value="10"/> -->
+				<property name="phase" value="1"/>
+				<property name="poi_tier" value="10" />
+				<property name="nav_object" value="quest" />
+			</objective>
+			<objective type="RallyPoint">
+				<property name="phase" value="2"/>
+				<property name="nav_object" value="rally" />
+			</objective>
+			
+			<action type="GameEvent" id="action_TeleportCave" value="1" phase="3"/>
+		
+			<objective type="ObjectiveEntityKill" value="35" phase="3"/>
+			<objective type="POIStayWithin">
+				<property name="phase" value="3"/>
+				<property name="radius" value="2"/>
+			</objective> 			
+			<action type="UnlockPOI" >
+				<property name="phase" value="4"/>
+			</action>	
+
+			<objective type="InteractWithNPC">
+				<property name="phase" value="4"/>
+				<property name="nav_object" value="return_to_trader" />
+			</objective>			
+			<reward type="Exp" value="5000" />
+			<reward type="Item" id="casinoCoin" value="10000" />
+			<reward type="Item" id="AOOSkillPoint" value="1" />		
+			<reward type="Item" id="SkullTokenAOO" value="5" />
+			<reward type="LootItem" id="groupQuestT1SkillMagazineBundle" value="4"/>
+			<reward type="Item" id="AOOQuestSkills"  value="3"/>			
+			
+		</quest>
+
+
+
+
+		<quest id="ArenaQuest">
+		
+			<action type="ShowTip" value="ArenaQuestTipQuest"/>
+			<property name="name_key" value="quest_ArenaQuest"/>
+			<property name="offer" value="Would you like to start the Arena?" />	
+			<property name="repeatable" value="true"/>				
+			<property name="subtitle_key" value="quest_ArenaQuest_subtitleAOO"/>
+			<property name="description_key" value="quest_ArenaQuest_descriptionAOO"/>
+			<property name="category_key" value="challenge" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="true" />		
+			<property name="login_rally_reset" value="true"/>
+			<property name="extra_tags" value="Arena" />	
+			<objective type="ClosestPOIGoto">
+				<!-- <property name="distance" value="10"/> -->
+				<property name="phase" value="1"/>
+				<property name="poi_tier" value="10" />
+				<property name="nav_object" value="quest" />
+			</objective>
+			<objective type="RallyPoint">
+				<property name="phase" value="2"/>
+				<property name="nav_object" value="rally" />
+			</objective>
+			<action type="GameEvent" id="action_Arena_01_Stage01" value="1" phase="3"/>
+			<objective type="ObjectiveEntityKill" value="20" phase="3"/>
+			<objective type="POIStayWithin">
+				<property name="phase" value="3"/>
+				<property name="radius" value="2"/>
+			</objective>			
+			<action type="UnlockPOI" >
+				<property name="phase" value="4"/>
+			</action>			
+			<reward type="Exp" value="500" />
+		</quest>
+	
+		<quest id="ArenaQuestServer">
+		
+			<action type="ShowTip" value="ArenaQuestServerTipQuest"/>
+			<property name="name_key" value="quest_ArenaQuestServer"/>
+			<property name="offer" value="Would you like to start the Boss Arena?" />	
+			<property name="repeatable" value="true"/>				
+			<property name="subtitle_key" value="quest_ArenaQuestServer_subtitleAOO"/>
+			<property name="description_key" value="quest_ArenaQuestServer_descriptionAOO"/>
+			<property name="category_key" value="challenge" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="true" />		
+			<property name="login_rally_reset" value="true"/>
+			<property name="extra_tags" value="Arena" />	
+			<objective type="ClosestPOIGoto">
+				<!-- <property name="distance" value="10"/> -->
+				<property name="phase" value="1"/>
+				<property name="poi_tier" value="10" />
+				<property name="nav_object" value="quest" />
+			</objective>
+			<objective type="RallyPoint">
+				<property name="phase" value="2"/>
+				<property name="nav_object" value="rally" />
+			</objective>
+			<action type="GameEvent" id="action_Arena_02_Stage01" value="1" phase="3"/>
+			<objective type="ObjectiveEntityKill" value="3" phase="3"/>
+			<objective type="POIStayWithin">
+				<property name="phase" value="3"/>
+				<property name="radius" value="2"/>
+			</objective>			
+			<action type="UnlockPOI" >
+				<property name="phase" value="4"/>
+			</action>			
+			<reward type="Exp" value="1000" />
+		</quest>
+	
+	
+	
+	
+	
+<!-- Tier 4	MAIN Quests -->
+	
+	<quest id="questSkeletonKing">
+			<action type="ShowTip" value="SkeletonKingTipQuest"/>
+			<property name="name_key" value="quest_SkeletonKingAOO"/>
+			<property name="offer" value="Would you like to start the Skeleton King Quest?" />		<property name="repeatable" value="false"/>				
+			<property name="subtitle_key" value="quest_SkeletonKing_subtitleAOO"/>
+			<property name="description_key" value="quest_SkeletonKing_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="hard" />
+			<property name="shareable" value="true" />
+			<property name="extra_tags" value="orbdestroy" />	
+			<property name="login_rally_reset" value="true"/>			
+		<action type="TrackQuest"/>
+		<!-- Phase 1 -->
+		<objective type="GotoPOISDX, SCore" value="5-10000" phase="1" >
+			<property name="completion_distance" value="50" />
+            <property name="PrefabName" value="AOO_DarkCastle2" />
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="rally" />
+		</objective>
+
+		<objective type="BlockDestroySDX, SCore" id="decorSkeletonSphereAOO" value="8" phase="3"/>
+
+		<objective type="POIStayWithin">
+			<property name="phase" value="3"/>
+			<property name="radius" value="50"/>
+		</objective>
+
+		<action type="UnlockPOI" >
+			<property name="phase" value="4"/>
+		</action>
+
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="4"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+			<reward type="Exp" value="50000" />
+			<reward type="Item" id="casinoCoin" value="60000" />
+			<reward type="Item" id="AOOSkillPoint" value="6" />		
+			<reward type="Item" id="SkullTokenAOO" value="65" />
+			<reward type="LootItem" id="groupQuestT1SkillMagazineBundle" value="5"/>
+			<reward type="GiveCvarDMT, SCore" id="Quest7" value="1" />				
+	</quest>
+	
+	
+	<quest id="questResearchFacility">
+			<action type="ShowTip" value="ResearchFacilityTipQuest"/>
+			<property name="name_key" value="quest_ResearchFacilityAOO"/>
+			<property name="offer" value="Would you like to start the Research Facility Quest?" />	<property name="repeatable" value="false"/>				
+			<property name="subtitle_key" value="quest_ResearchFacility_subtitleAOO"/>
+			<property name="description_key" value="quest_ResearchFacility_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="hard" />
+			<property name="shareable" value="true" />
+			<property name="extra_tags" value="Research" />			
+			<property name="login_rally_reset" value="true"/>		
+		<action type="TrackQuest"/>
+		<!-- Phase 1 -->
+		<objective type="GotoPOISDX, SCore" value="5-10000" phase="1" >
+			<property name="completion_distance" value="50" />
+            <property name="PrefabName" value="AOO_Research" />
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="rally" />
+		</objective>
+
+		<objective type="BlockDestroySDX, SCore" id="researchFacility" value="1" phase="3"/>
+
+		<objective type="POIStayWithin">
+			<property name="phase" value="3"/>
+			<property name="radius" value="50"/>
+		</objective>
+
+		<action type="UnlockPOI" >
+			<property name="phase" value="4"/>
+		</action>
+		<action type="GiveCVarBuffSDX, SCore" id="Quest9" value="1" phase="4"/>
+		<objective type="Goto" id="trader" value="5" phase="4">
+			<property name="nav_object" value="go_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="4"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+			<reward type="Exp" value="500000" />
+			<reward type="Item" id="casinoCoin" value="200000" />
+			<reward type="GiveCvarDMT, SCore" id="Quest9" value="1" />	
+
+			
+	</quest>	
+
+	<quest id="questAmusementPark">
+			<action type="ShowTip" value="AmusementParkTipQuest"/>
+			<property name="name_key" value="quest_AmusementParkAOO"/>
+			<property name="offer" value="Would you like to start the Amusement Park Quest?" />	
+			<property name="subtitle_key" value="quest_AmusementPark_subtitleAOO"/>
+			<property name="description_key" value="quest_AmusementPark_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="hard" />
+			<property name="shareable" value="true" />
+			<property name="extra_tags" value="orbdestroy" />	
+			<property name="login_rally_reset" value="true"/>			
+		<action type="TrackQuest"/>
+		<!-- Phase 1 -->
+		<objective type="GotoPOISDX, SCore" value="5-10000" phase="1" >
+			<property name="completion_distance" value="50" />
+            <property name="PrefabName" value="AOO_Circus" />
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="rally" />
+		</objective>
+
+		<objective type="BlockDestroySDX, SCore" id="decorSkeletonSphereAOO" value="8" phase="3"/>
+
+		<objective type="POIStayWithin">
+			<property name="phase" value="3"/>
+			<property name="radius" value="50"/>
+		</objective>
+
+		<action type="UnlockPOI" >
+			<property name="phase" value="4"/>
+		</action>
+
+		<objective type="Goto" id="trader" value="5" phase="4">
+			<property name="nav_object" value="go_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="4"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+			<reward type="Exp" value="50000" />
+			<reward type="Item" id="casinoCoin" value="20000" />
+			<reward type="Item" id="AOOSkillPoint" value="4" />		
+			<reward type="Item" id="SkullTokenAOO" value="20" />
+			<reward type="LootItem" id="groupQuestT1SkillMagazineBundle" value="4"/>			
+		
+	</quest>	
+
+
+	
+	
+	<quest id="questEliteTrader01">
+			<action type="ShowTip" value="EliteTrader01TipQuest"/>
+			<property name="name_key" value="quest_EliteTrader01AOO"/>
+			<property name="offer" value="Would you like to start the Elite Trader Chamber Quest?" />	
+			<property name="subtitle_key" value="quest_EliteTrader01_subtitleAOO"/>
+			<property name="description_key" value="quest_EliteTrader01_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="hard" />
+			<property name="shareable" value="true" />
+			<property name="extra_tags" value="orbdestroy" />
+			<property name="login_rally_reset" value="true"/>			
+		<action type="TrackQuest"/>
+		<!-- Phase 1 -->
+		<objective type="GotoPOISDX, SCore" value="5-10000" phase="1" >
+			<property name="completion_distance" value="50" />
+            <property name="PrefabName" value="trader_bob_Old" />
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="rally" />
+		</objective>
+
+		<objective type="BlockDestroySDX, SCore" id="decorSkeletonSphereAOO" value="3" phase="3"/>
+
+		<objective type="POIStayWithin">
+			<property name="phase" value="3"/>
+			<property name="radius" value="50"/>
+		</objective>
+
+		<action type="UnlockPOI" >
+			<property name="phase" value="4"/>
+		</action>
+
+		<objective type="Goto" id="trader" value="5" phase="4">
+			<property name="nav_object" value="go_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="4"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+			<reward type="Exp" value="50000" />
+			<reward type="Item" id="casinoCoin" value="20000" />
+			<reward type="Item" id="AOOSkillPoint" value="4" />		
+			<reward type="Item" id="SkullTokenAOO" value="20" />
+			<reward type="LootItem" id="groupQuestT1SkillMagazineBundle" value="4"/>			
+			<reward type="GiveCvarDMT, SCore" id="Quest1" value="1" />			
+	</quest>	
+
+	<quest id="questEliteTrader02">
+			<action type="ShowTip" value="EliteTrader02TipQuest"/>
+			<property name="name_key" value="quest_EliteTrader02AOO"/>
+			<property name="offer" value="Would you like to start the Elite Trader Chamber Quest?" />			
+			<property name="subtitle_key" value="quest_EliteTrader02_subtitleAOO"/>
+			<property name="description_key" value="quest_EliteTrader02_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="hard" />
+			<property name="shareable" value="true" />
+			<property name="extra_tags" value="orbdestroy" />
+			<property name="login_rally_reset" value="true"/>			
+		<action type="TrackQuest"/>
+		<!-- Phase 1 -->
+		<objective type="GotoPOISDX, SCore" value="5-10000" phase="1" >
+			<property name="completion_distance" value="50" />
+            <property name="PrefabName" value="trader_hugh_Old" />
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="rally" />
+		</objective>
+
+		<objective type="BlockDestroySDX, SCore" id="decorSkeletonSphereAOO" value="4" phase="3"/>
+
+		<objective type="POIStayWithin">
+			<property name="phase" value="3"/>
+			<property name="radius" value="50"/>
+		</objective>
+
+		<action type="UnlockPOI" >
+			<property name="phase" value="4"/>
+		</action>
+
+		<objective type="Goto" id="trader" value="5" phase="4">
+			<property name="nav_object" value="go_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="4"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+			<reward type="Exp" value="50000" />
+			<reward type="Item" id="casinoCoin" value="20000" />
+			<reward type="Item" id="AOOSkillPoint" value="4" />		
+			<reward type="Item" id="SkullTokenAOO" value="20" />
+			<reward type="LootItem" id="groupQuestT1SkillMagazineBundle" value="4"/>
+			<reward type="GiveCvarDMT, SCore" id="Quest2" value="1" />			
+	</quest>	
+
+	<quest id="questEliteTrader03">
+			<action type="ShowTip" value="EliteTrader03TipQuest"/>
+			<property name="name_key" value="quest_EliteTrader03AOO"/>
+			<property name="offer" value="Would you like to start the Elite Trader Chamber Quest?" />			
+			<property name="subtitle_key" value="quest_EliteTrader03_subtitleAOO"/>
+			<property name="description_key" value="quest_EliteTrader03_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="hard" />
+			<property name="shareable" value="true" />
+			<property name="extra_tags" value="orbdestroy" />		
+			<property name="login_rally_reset" value="true"/>			
+		<action type="TrackQuest"/>
+		<!-- Phase 1 -->
+		<objective type="GotoPOISDX, SCore" value="5-10000" phase="1" >
+			<property name="completion_distance" value="50" />
+            <property name="PrefabName" value="trader_jen_Old" />
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="rally" />
+		</objective>
+
+		<objective type="BlockDestroySDX, SCore" id="decorSkeletonSphereAOO" value="6" phase="3"/>
+
+		<objective type="POIStayWithin">
+			<property name="phase" value="3"/>
+			<property name="radius" value="50"/>
+		</objective>
+
+		<action type="UnlockPOI" >
+			<property name="phase" value="4"/>
+		</action>
+
+		<objective type="Goto" id="trader" value="5" phase="4">
+			<property name="nav_object" value="go_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="4"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+			<reward type="Exp" value="50000" />
+			<reward type="Item" id="casinoCoin" value="20000" />
+			<reward type="Item" id="AOOSkillPoint" value="4" />		
+			<reward type="Item" id="SkullTokenAOO" value="20" />
+			<reward type="LootItem" id="groupQuestT1SkillMagazineBundle" value="4"/>
+			<reward type="GiveCvarDMT, SCore" id="Quest3" value="1" />			
+	</quest>	
+
+	<quest id="questEliteTrader04">
+			<action type="ShowTip" value="EliteTrader04TipQuest"/>
+			<property name="name_key" value="quest_EliteTrader04AOO"/>
+			<property name="offer" value="Would you like to start the Elite Trader Chamber Quest?" />			
+			<property name="subtitle_key" value="quest_EliteTrader04_subtitleAOO"/>
+			<property name="description_key" value="quest_EliteTrader04_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="hard" />
+			<property name="shareable" value="true" />
+			<property name="extra_tags" value="orbdestroy" />
+			<property name="login_rally_reset" value="true"/>			
+		<action type="TrackQuest"/>
+		<!-- Phase 1 -->
+		<objective type="GotoPOISDX, SCore" value="5-10000" phase="1" >
+			<property name="completion_distance" value="50" />
+            <property name="PrefabName" value="trader_joel_Old" />
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="rally" />
+		</objective>
+
+		<objective type="BlockDestroySDX, SCore" id="decorSkeletonSphereAOO" value="6" phase="3"/>
+
+		<objective type="POIStayWithin">
+			<property name="phase" value="3"/>
+			<property name="radius" value="50"/>
+		</objective>
+
+		<action type="UnlockPOI" >
+			<property name="phase" value="4"/>
+		</action>
+
+		<objective type="Goto" id="trader" value="5" phase="4">
+			<property name="nav_object" value="go_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="4"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+			<reward type="Exp" value="50000" />
+			<reward type="Item" id="casinoCoin" value="20000" />
+			<reward type="Item" id="AOOSkillPoint" value="4" />		
+			<reward type="Item" id="SkullTokenAOO" value="20" />
+			<reward type="LootItem" id="groupQuestT1SkillMagazineBundle" value="4"/>
+			<reward type="GiveCvarDMT, SCore" id="Quest4" value="1" />			
+	</quest>
+
+	<quest id="questEliteTrader05">
+			<action type="ShowTip" value="EliteTrader05TipQuest"/>
+			<property name="name_key" value="quest_EliteTrader05AOO"/>
+			<property name="offer" value="Would you like to start the Elite Trader Chamber Quest?" />			
+			<property name="subtitle_key" value="quest_EliteTrader05_subtitleAOO"/>
+			<property name="description_key" value="quest_EliteTrader05_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="hard" />
+			<property name="shareable" value="true" />
+			<property name="extra_tags" value="orbdestroy" />	
+			<property name="login_rally_reset" value="true"/>			
+		<action type="TrackQuest"/>
+		<!-- Phase 1 -->
+		<objective type="GotoPOISDX, SCore" value="5-10000" phase="1" >
+			<property name="completion_distance" value="50" />
+            <property name="PrefabName" value="trader_rekt_Old" />
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="rally" />
+		</objective>
+
+		<objective type="BlockDestroySDX, SCore" id="decorSkeletonSphereAOO" value="3" phase="3"/>
+
+		<objective type="POIStayWithin">
+			<property name="phase" value="3"/>
+			<property name="radius" value="50"/>
+		</objective>
+
+		<action type="UnlockPOI" >
+			<property name="phase" value="4"/>
+		</action>
+
+		<objective type="Goto" id="trader" value="5" phase="4">
+			<property name="nav_object" value="go_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="4"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+			<reward type="Exp" value="50000" />
+			<reward type="Item" id="casinoCoin" value="20000" />
+			<reward type="Item" id="AOOSkillPoint" value="4" />		
+			<reward type="Item" id="SkullTokenAOO" value="20" />
+			<reward type="LootItem" id="groupQuestT1SkillMagazineBundle" value="4"/>
+			<reward type="GiveCvarDMT, SCore" id="Quest5" value="1" />			
+	</quest>
+
+	<quest id="questMountainTrader">
+			<action type="ShowTip" value="MountainTraderTipQuest"/>
+			<property name="name_key" value="quest_MountainTraderAOO"/>
+			<property name="offer" value="Would you like to start the Mountain Trader Base Quest?" />			
+			<property name="subtitle_key" value="quest_MountainTrader_subtitleAOO"/>
+			<property name="description_key" value="quest_MountainTrader_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="hard" />
+			<property name="shareable" value="true" />
+			<property name="extra_tags" value="orbdestroy" />	
+			<property name="login_rally_reset" value="true"/>			
+		<action type="TrackQuest"/>
+		<!-- Phase 1 -->
+		<objective type="GotoPOISDX, SCore" value="5-12000" phase="1" >
+			<property name="completion_distance" value="50" />
+            <property name="PrefabName" value="trader_Temple_byMPLogue" />
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="rally" />
+		</objective>
+
+		<objective type="BlockDestroySDX, SCore" id="decorSkeletonSphereAOO" value="18" phase="3"/>
+
+		<objective type="POIStayWithin">
+			<property name="phase" value="3"/>
+			<property name="radius" value="50"/>
+		</objective>
+
+		<action type="UnlockPOI" >
+			<property name="phase" value="4"/>
+		</action>
+
+		<objective type="Goto" id="trader" value="5" phase="4">
+			<property name="nav_object" value="go_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="4"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+			<reward type="Exp" value="50000" />
+			<reward type="Item" id="casinoCoin" value="20000" />
+			<reward type="Item" id="AOOSkillPoint" value="4" />		
+			<reward type="Item" id="SkullTokenAOO" value="30" />
+			<reward type="LootItem" id="groupQuestT1SkillMagazineBundle" value="4"/>
+			<reward type="GiveCvarDMT, SCore" id="Quest6" value="1" />			
+	</quest>	
+	
+
+
+
+
+		<quest id="q_KeepKilling">
+			<action type="ShowTip" value="Kill 1000 of Anything!"/>
+			<property name="offer" value="Would you like to start the Kill 1000 Quest?" />
+			<property name="name_key" value="Kill 1000!"/>
+			<property name="subtitle_key" value="Kill 1000!"/>
+			<property name="description_key" value="Kill 1000 of anything! You will be rewarded as you progress!"/>
+			<property name="repeatable" value="true" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="veryeasy" />
+			<property name="shareable" value="false" />
+
+			<objective type="ObjectiveEntityKill" value="100" phase="1"/>
+			<action type="GameEvent" id="action_KillQuest" value="1" phase="2"/>
+			<objective type="ObjectiveEntityKill" value="100" phase="2"/>
+			<action type="GameEvent" id="action_KillQuest" value="1" phase="3"/>		
+			<objective type="ObjectiveEntityKill" value="100" phase="3"/>
+			<action type="GameEvent" id="action_KillQuest" value="1" phase="4"/>
+			<objective type="ObjectiveEntityKill" value="100" phase="4"/>
+			<action type="GameEvent" id="action_KillQuest" value="1" phase="5"/>
+			<objective type="ObjectiveEntityKill" value="100" phase="5"/>
+			<action type="GameEvent" id="action_KillQuest" value="1" phase="6"/>
+			<objective type="ObjectiveEntityKill" value="100" phase="6"/>
+			<action type="GameEvent" id="action_KillQuest" value="1" phase="7"/>
+			<objective type="ObjectiveEntityKill" value="100" phase="7"/>
+			<action type="GameEvent" id="action_KillQuest" value="1" phase="8"/>
+			<objective type="ObjectiveEntityKill" value="100" phase="8"/>
+			<action type="GameEvent" id="action_KillQuest" value="1" phase="9"/>
+			<objective type="ObjectiveEntityKill" value="100" phase="9"/>
+			<action type="GameEvent" id="action_KillQuest" value="1" phase="10"/>
+			<objective type="ObjectiveEntityKill" value="100" phase="10"/>
+			<action type="GameEvent" id="action_KillQuest" value="1" phase="2"/>
+
+			<reward type="Exp" value="1000" />
+			<reward type="LootItem" id="groupQuestT1SkillMagazineBundle" value="4"/>			
+			<reward type="Item" id="SkullTokenAOO" value="15" />
+		</quest>
+
+
+
+		<quest id="q_Resurrection">
+			<action type="ShowTip" value="resurrectionTipQuest"/>
+			<property name="name_key" value="quest_resurrectionAOO"/>
+			<property name="subtitle_key" value="quest_resurrection_subtitleAOO"/>
+			<property name="description_key" value="quest_resurrection_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="veryeasy" />
+			<property name="shareable" value="false" />
+			<property name="offer" value="Would you like to start the Resurrection QuestLine?" />
+			<!-- Phase 1 -->
+			<objective type="BlockPlace" id="wksResurrectionTableAOO" value="1" phase="1" />
+			<!-- Phase 2 (auto, if you add by yourself this won't be generated) -->
+			<reward type="Exp" value="500" />
+			<reward type="Item" id="casinoCoin" value="500" />
+			<reward type="Item" id="zombieCorpseAOO" value= "2" />
+			<reward type="Item" id="resPotionAOO" value= "2" />
+			<reward type="Item" id="AOOQuestSkills"  value="1"/>		
+			<reward type="Quest" id="q_Resurrection2" />
+		</quest>	
+
+		<quest id="q_Resurrection2">
+			<action type="ShowTip" value="resurrection2TipQuest"/>
+			<property name="name_key" value="quest_resurrection2AOO"/>
+			<property name="subtitle_key" value="quest_resurrection2_subtitleAOO"/>
+			<property name="description_key" value="quest_resurrection2_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="veryeasy" />
+			<property name="shareable" value="false" />
+
+			<!-- Phase 1 -->
+			<objective type="FetchKeep" id="RandomZombieGuardSpawner_AOO" value="1" phase="1" />
+			<objective type="BlockPlace" id="RandomZombieGuardSpawner_AOO" value="1" phase="1" />
+			<!-- Phase 2 (auto, if you add by yourself this won't be generated) -->
+			<reward type="Exp" value="1000" />
+			<reward type="Item" id="casinoCoin" value="2500" />
+			<reward type="Item" id="AOOQuestSkills"  value="2"/>		
+			<reward type="GiveCvarDMT, SCore" id="QuestResurrection" value="1" />
+		</quest>	
+
+
+	
+		<quest id="q_Farming">
+			<action type="ShowTip" value="farmingTipQuest"/>
+			<property name="name_key" value="quest_FarmingAOO"/>
+			<property name="subtitle_key" value="quest_Farming_subtitleAOO"/>
+			<property name="description_key" value="quest_Farming_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="veryeasy" />
+			<property name="shareable" value="false" />
+			<property name="offer" value="Would you like to start the Farming QuestLine?" />			
+			<!-- Phase 1 -->
+			<objective type="FetchKeep" id="wksFarmTableAOO" value="1" phase="1" />
+			<objective type="BlockPlace" id="wksFarmTableAOO" value="1" phase="1" />
+			<!-- Phase 2 (auto, if you add by yourself this won't be generated) -->
+			<reward type="Exp" value="500" />
+			<reward type="Item" id="casinoCoin" value="100" />
+			<reward type="Item" id="AOOQuestSkills"  value="1"/>		
+			<reward type="Quest" id="q_Farming2" />
+		</quest>	
+		
+		<quest id="q_Farming2">
+			<action type="ShowTip" value="farming2TipQuest"/>
+			<property name="name_key" value="quest_Farming2AOO"/>
+			<property name="subtitle_key" value="quest_Farming2_subtitleAOO"/>
+			<property name="description_key" value="quest_Farming2_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="veryeasy" />
+			<property name="shareable" value="false" />
+			<!-- Phase 1 -->
+			<objective type="FetchKeep" id="toolSeedProcessorAOO" value="1" phase="1" />
+			<objective type="FetchKeep" id="plantedWheatSeedAOO" value="1" phase="1" />
+			<objective type="BlockPlace" id="plantedWheatSeedAOO" value="1" phase="1" />
+			<objective type="BlockPlace" id="farmPlotBlockPlayer" value="1" phase="1" />
+			<!-- Phase 2 (auto, if you add by yourself this won't be generated) -->
+			<reward type="Exp" value="500" />
+			<reward type="Item" id="casinoCoin" value="200" />
+			<reward type="Item" id="resourceSeedPackAOO" value= "4" />
+			<reward type="Item" id="AOOQuestSkills"  value="1"/>			
+			<reward type="Quest" id="q_Farming3" />
+		</quest>
+		<quest id="q_Farming3">
+			<action type="ShowTip" value="farming3TipQuest"/>
+			<property name="name_key" value="quest_Farming3AOO"/>
+			<property name="subtitle_key" value="quest_Farming3_subtitleAOO"/>
+			<property name="description_key" value="quest_Farming3_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="veryeasy" />
+			<property name="shareable" value="false" />
+			<!-- Phase 1 -->
+			<objective type="BlockPlace" id="plantedcorn1" value="10" phase="1" />
+			<objective type="BlockPlace" id="plantedWheatSeedAOO" value="4" phase="1" />
+			<objective type="BlockPlace" id="plantedTomatoSeedAOO" value="4" phase="1" />
+			<objective type="BlockPlace" id="plantedSugarCaneSeedAOO" value="4" phase="1" />
+			<objective type="BlockPlace" id="plantedPotato1" value="4" phase="1" />		
+			<!-- Phase 2  -->
+			<reward type="Exp" value="5000" />
+			<reward type="Item" id="casinoCoin" value="2000" />
+			<reward type="Item" id="AOOQuestSkills"  value="1"/>
+			<reward type="GiveCvarDMT, SCore" id="QuestFarming" value="1" />	
+		</quest>		
+		
+	
+		<quest id="q_Cloning1">
+			<action type="ShowTip" value="cloning1TipQuest"/>
+			<property name="offer" value="Would you like to start the Cloning QuestLine?" />
+			<property name="name_key" value="quest_cloning1AOO"/>
+			<property name="subtitle_key" value="quest_cloning1_subtitleAOO"/>
+			<property name="description_key" value="quest_cloning1_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="veryeasy" />
+			<property name="shareable" value="false" />
+
+			<objective type="FetchKeep" id="wksCloningAOO" value="1" phase="1" />
+			<objective type="BlockPlace" id="wksCloningAOO" value="1" phase="1" />
+
+			<reward type="Exp" value="500" />
+			<reward type="Item" id="casinoCoin" value="500" />
+			<reward type="Item" id="AOOQuestSkills"  value="1"/>			
+			<reward type="Quest" id="q_Cloning2" />
+		</quest>
+
+		<quest id="q_Cloning2">
+			<action type="ShowTip" value="cloning2TipQuest"/>
+			<property name="name_key" value="quest_cloning2AOO"/>
+			<property name="subtitle_key" value="quest_cloning2_subtitleAOO"/>
+			<property name="description_key" value="quest_cloning2_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="veryeasy" />
+			<property name="shareable" value="false" />
+			<objective type="FetchKeep" id="resourceHDNAAOO" value="1" phase="1" />
+			<objective type="FetchKeep" id="resourceADNAAOO" value="1" phase="1" />
+			<objective type="FetchKeep" id="resourceBCryoAOO" value="1" phase="1" />
+			<objective type="FetchKeep" id="resourceICryoAOO" value="1" phase="1" />
+			<objective type="FetchKeep" id="medicalBloodBag" value="2" phase="1" />	
+			<objective type="FetchKeep" id="drugSteroids" value="2" phase="1" />
+			<objective type="FetchKeep" id="resourceScrapPolymers" value="20" phase="1" />			
+			<reward type="Exp" value="500" />
+			<reward type="Item" id="casinoCoin" value="500" />
+			<reward type="Item" id="AOOQuestSkills"  value="1"/>			
+			<reward type="Quest" id="q_Cloning3" />
+		</quest>
+
+		<quest id="q_Cloning3">
+			<action type="ShowTip" value="cloning3TipQuest"/>
+			<property name="name_key" value="quest_cloning3AOO"/>
+			<property name="subtitle_key" value="quest_cloning3_subtitleAOO"/>
+			<property name="description_key" value="quest_cloning3_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="veryeasy" />
+			<property name="shareable" value="false" />
+			<objective type="FetchKeep" id="CloningL1AOO" value="1" phase="1" />
+			<objective type="FetchKeep" id="humanCanisterAOO" value="1" phase="1" />
+			<objective type="FetchKeep" id="animalCanisterAOO" value="1" phase="1" />	
+			<reward type="Exp" value="5000" />
+			<reward type="Item" id="casinoCoin" value="1000" />
+			<reward type="Item" id="AOOQuestSkills"  value="1"/>			
+			<reward type="Quest" id="q_Cloning4" />
+		</quest>		
+
+
+		<quest id="q_Cloning4">
+			<action type="ShowTip" value="cloning4TipQuest"/>
+			<property name="name_key" value="quest_cloning4AOO"/>
+			<property name="subtitle_key" value="quest_cloning4_subtitleAOO"/>
+			<property name="description_key" value="quest_cloning4_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="veryeasy" />
+			<property name="shareable" value="false" />
+			<!-- Phase 1 -->
+			<objective type="FetchKeep" id="CloningL2AOO" value="1" phase="1" />
+			<objective type="FetchKeep" id="RandomGuardSpawner_AOO" value="1" phase="1" />
+			<objective type="FetchKeep" id="RandomAnimalSpawner_AOO" value="1" phase="1" />
+			<!-- Phase 2 (auto, if you add by yourself this won't be generated) -->
+			<reward type="Exp" value="5000" />
+			<reward type="Item" id="casinoCoin" value="1000" />
+			<reward type="Item" id="AOOQuestSkills"  value="1"/>			
+			<reward type="Quest" id="q_Cloning5" />
+		</quest>
+
+		<quest id="q_Cloning5">
+			<action type="ShowTip" value="cloning4TipQuest"/>
+			<property name="name_key" value="quest_cloning4AOO"/>
+			<property name="subtitle_key" value="quest_cloning4_subtitleAOO"/>
+			<property name="description_key" value="quest_cloning4_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="veryeasy" />
+			<property name="shareable" value="false" />
+			<!-- Phase 1 -->
+			<objective type="FetchKeep" id="CloningL3AOO" value="1" phase="1" />			
+			<objective type="FetchKeep" id="wksMilkingCowAOO" value="1" phase="1" />
+			<objective type="BlockPlace" id="wksEggChickenAOO" value="1" phase="1" />
+			<!-- Phase 2 (auto, if you add by yourself this won't be generated) -->
+			<reward type="Exp" value="5000" />
+			<reward type="Item" id="casinoCoin" value="5000" />
+			<reward type="Item" id="AOOQuestSkills"  value="4"/>			
+			<reward type="GiveCvarDMT, SCore" id="QuestCloning" value="1" />			
+		</quest>
+	
+<!-- ============= T1 Quests =========== -->
+
+		<quest id="q_HoeHoeHoe">
+			<action type="ShowTip" value="hoehoehoeTipQuest"/>
+			<property name="name_key" value="quest_hoehoehoeAOO"/>
+			<property name="offer" value="Would you like to start the hoe hoe hoe Quest?" />			
+			<property name="subtitle_key" value="quest_hoehoehoe_subtitleAOO"/>
+			<property name="description_key" value="quest_hoehoehoe_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="medium" />
+			<property name="shareable" value="false" />
+			<!-- Phase 1 -->
+			<objective type="ObjectiveEntityKill" id="zombiePartyGirl" value="20" phase="1" />
+			<action type="SpawnEnemy" id="zombiePartyGirl" value="25" phase="1" />
+
+			<reward type="Exp" value="500" />
+			<reward type="Item" id="AOOQuestSkills"  value="1"/>			
+			<reward type="Item" id="casinoCoin" value="1000" />
+			<reward type="Item" id="toolGardenHoeAOO" value= "1" />
+			<reward type="Item" id="toolScytheAOO" value= "1" />			
+			<reward type="Item" id="resourceCamelToeAOO" value= "1" />
+			<reward type="GiveCvarDMT, SCore" id="QuestHoe" value="1" />
+		</quest>		
+	
+		<quest id="q_DeepFrying">
+			<action type="ShowTip" value="DeepFryingQuest"/>
+			<property name="name_key" value="quest_DeepFryingAOO"/>
+			<property name="offer" value="Would you like to start the DeepFrying Quest?" />			
+			<property name="subtitle_key" value="quest_DeepFrying_subtitleAOO"/>
+			<property name="description_key" value="quest_DeepFrying_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="medium" />
+			<property name="shareable" value="false" />
+			<!-- Phase 1 -->
+			<objective type="BlockPlace" id="wksDeepFryerAOO" value="1" phase="1" />
+			<reward type="Exp" value="500" />
+			<reward type="Item" id="casinoCoin" value="500" />
+			<reward type="Item" id="AOOQuestSkills"  value="2"/>			
+			<reward type="Item" id="foodRawKobeSteakAOO" value= "3" />
+			<reward type="GiveCvarDMT, SCore" id="QuestDeepFrying" value="1" />			
+		</quest>
+		<quest id="q_Butcher">
+			<action type="ShowTip" value="ButcherTipQuest"/>
+			<property name="name_key" value="quest_ButcherAOO"/>
+			<property name="offer" value="Would you like to start the Butcher Quest?" />			
+			<property name="subtitle_key" value="quest_Butcher_subtitleAOO"/>
+			<property name="description_key" value="quest_Butcher_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="medium" />
+			<property name="shareable" value="false" />
+			<!-- Phase 1 -->
+			<objective type="BlockPlace" id="wksButcherTableV2" value="1" phase="1" />
+			<!-- Phase 2 (auto, if you add by yourself this won't be generated) -->
+			<reward type="Exp" value="500" />
+			<reward type="Item" id="casinoCoin" value="500" />
+			<reward type="Item" id="AOOQuestSkills"  value="2"/>			
+			<reward type="GiveCvarDMT, SCore" id="QuestButcher" value="1" />				
+		</quest>
+	
+
+		<quest id="q_Decor">
+			<action type="ShowTip" value="Decoration Bench"/>
+			<property name="name_key" value="Decoration Bench"/>
+			<property name="offer" value="Would you like to start the Decoration Quest?" />			
+			<property name="subtitle_key" value="Decoration Bench"/>
+			<property name="description_key" value="Decoration Bench"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="medium" />
+			<property name="shareable" value="false" />
+			<!-- Phase 1 -->
+			<objective type="BlockPlace" id="wksDecorationBenchAOO" value="1" phase="1" />
+			<!-- Phase 2 (auto, if you add by yourself this won't be generated) -->
+			<reward type="Exp" value="500" />
+			<reward type="Item" id="casinoCoin" value="500" />
+			<reward type="Item" id="AOOQuestSkills"  value="2"/>			
+			<reward type="GiveCvarDMT, SCore" id="QuestDecoration" value="1" />				
+		</quest>
+
+		<quest id="q_Grilling">
+			<action type="ShowTip" value="GrillingTipQuest"/>
+			<property name="name_key" value="quest_GrillingAOO"/>
+			<property name="offer" value="Would you like to start the Grilling Quest?" />			
+			<property name="subtitle_key" value="quest_Grilling_subtitleAOO"/>
+			<property name="description_key" value="quest_Grilling_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="medium" />
+			<property name="shareable" value="false" />
+			<!-- Phase 1 -->
+			<objective type="BlockPlace" id="wksWebberGrillAOO" value="1" phase="1" />
+			<!-- Phase 2 (auto, if you add by yourself this won't be generated) -->
+			<reward type="Exp" value="500" />
+			<reward type="Item" id="casinoCoin" value="500" />
+			<reward type="Item" id="AOOQuestSkills"  value="2"/>
+			<reward type="Item" id="foodFreshCheeseBurgerAOO" value= "2" />		
+			<reward type="GiveCvarDMT, SCore" id="QuestGrilling" value="1" />				
+		</quest>
+
+		<quest id="q_Ovens">
+			<action type="ShowTip" value="OvensTipQuest"/>
+			<property name="name_key" value="quest_OvensAOO"/>
+			<property name="offer" value="Would you like to start the Ovens Quest?" />			
+			<property name="subtitle_key" value="quest_Ovens_subtitleAOO"/>
+			<property name="description_key" value="quest_Ovens_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="medium" />
+			<property name="shareable" value="false" />
+			<!-- Phase 1 -->
+			<objective type="BlockPlace" id="wksGasOven5AOO" value="1" phase="1" />
+			<!-- Phase 2 (auto, if you add by yourself this won't be generated) -->
+			<reward type="Exp" value="500" />
+			<reward type="Item" id="casinoCoin" value="500" />
+			<reward type="Item" id="AOOQuestSkills"  value="2"/>
+			<reward type="Item" id="foodHomemadeChickenNoodleTSK_AOO" value= "2" />	
+			<reward type="GiveCvarDMT, SCore" id="QuestOvens" value="1" />				
+		</quest>
+
+		<quest id="q_Brewing">
+			<action type="ShowTip" value="BrewingTipQuest"/>
+			<property name="name_key" value="quest_BrewingAOO"/>
+			<property name="offer" value="Would you like to start the Brewing Quest?" />			
+			<property name="subtitle_key" value="quest_Brewing_subtitleAOO"/>
+			<property name="description_key" value="quest_Brewing_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="medium" />
+			<property name="shareable" value="false" />
+			<!-- Phase 1 -->
+			<objective type="BlockPlace" id="wksBrewStationAOO" value="1" phase="1" />
+			<!-- Phase 2 (auto, if you add by yourself this won't be generated) -->
+			<reward type="Exp" value="500" />
+			<reward type="Item" id="casinoCoin" value="500" />
+			<reward type="Item" id="AOOQuestSkills"  value="2"/>
+			<reward type="GiveCvarDMT, SCore" id="QuestBrewing" value="1" />	
+
+		</quest>
+
+		<quest id="q_Dairy">
+			<action type="ShowTip" value="DairyTipQuest"/>
+			<property name="name_key" value="quest_DairyAOO"/>
+			<property name="offer" value="Would you like to start the Dairy Quest?" />			
+			<property name="subtitle_key" value="quest_Dairy_subtitleAOO"/>
+			<property name="description_key" value="quest_Dairy_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="medium" />
+			<property name="shareable" value="false" />
+			<!-- Phase 1 -->
+			<objective type="BlockPlace" id="wksDairyChurnAOO" value="1" phase="1" />
+			<!-- Phase 2 (auto, if you add by yourself this won't be generated) -->
+			<reward type="Exp" value="500" />
+			<reward type="Item" id="casinoCoin" value="500" />
+			<reward type="Item" id="AOOQuestSkills"  value="2"/>
+			<reward type="GiveCvarDMT, SCore" id="QuestDairy" value="1" />	
+			<reward type="Item" id="foodButterAOO" value= "5" />	
+		</quest>
+
+		<quest id="q_FoodProcessing">
+			<action type="ShowTip" value="FoodProcessingTipQuest"/>
+			<property name="name_key" value="quest_FoodProcessingAOO"/>
+			<property name="offer" value="Would you like to start the Food Processing Quest?" />			
+			<property name="subtitle_key" value="quest_FoodProcessing_subtitleAOO"/>
+			<property name="description_key" value="quest_FoodProcessing_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="medium" />
+			<property name="shareable" value="false" />
+			<!-- Phase 1 -->
+			<objective type="FetchKeep" id="wksKitchNaidAOO" value="1" phase="1" />
+			<objective type="BlockPlace" id="wksKitchNaidAOO" value="1" phase="1" />
+			<!-- Phase 2 (auto, if you add by yourself this won't be generated) -->
+			<reward type="Exp" value="500" />
+			<reward type="Item" id="casinoCoin" value="500" />
+			<reward type="GiveCvarDMT, SCore" id="QuestFoodProcessing" value="1" />	
+			<reward type="Item" id="AOOQuestSkills"  value="2"/>		
+			<reward type="Item" id="foodButterAOO" value= "5" />
+			<reward type="Item" id="foodBBQSauceAOO" value= "3" />	
+		</quest>
+
+		<quest id="q_DrinkDispenser">
+			<action type="ShowTip" value="DrinkDispenserTipQuest"/>
+			<property name="name_key" value="quest_DrinkDispenserAOO"/>
+			<property name="offer" value="Would you like to start the Drink Dispenser Quest?" />			
+			<property name="subtitle_key" value="quest_DrinkDispenser_subtitleAOO"/>
+			<property name="description_key" value="quest_DrinkDispenser_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="medium" />
+			<property name="shareable" value="false" />
+			<!-- Phase 1 -->
+			<objective type="BlockPlace" id="wksDrinkDispenserV2" value="1" phase="1" />
+			<!-- Phase 2 (auto, if you add by yourself this won't be generated) -->
+			<reward type="Exp" value="1000" />
+			<reward type="Item" id="casinoCoin" value="1000" />
+			<reward type="GiveCvarDMT, SCore" id="QuestDrinkDispenser" value="1" />	
+			<reward type="Item" id="AOOQuestSkills"  value="2"/>
+			<reward type="Item" id="drinkV8JuiceAOO" value= "3" />	
+		</quest>	
+	
+
+
+
+		<quest id="q_KillerKlowns">
+			<action type="ShowTip" value="KillerKlownTipQuest"/>
+			<property name="name_key" value="quest_KillerKlownAOO"/>
+			<property name="offer" value="Would you like to start the KillerKlown Quest?" />			
+			<property name="subtitle_key" value="quest_KillerKlown_subtitleAOO"/>
+			<property name="description_key" value="quest_KillerKlown_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="hard" />
+			<property name="shareable" value="false" />
+			<!-- Phase 1 -->
+			<objective type="ObjectiveEntityKill" id="zombieKillerClownT1AOO,zombieKillerClownT2AOO,zombieKillerClownT3AOO,zombieKillerClownT4AOO,zombieManiacClown5T1AOO,zombieManiacClown5T2AOO,zombieManiacClown5T3AOO,zombieManiacClown5T4AOO,zombieManiacClown4T1AOO,zombieManiacClown4T2AOO,zombieManiacClown4T3AOO,zombieManiacClown4T4AOO,zombieManiacClown3T1AOO,zombieManiacClown3T2AOO,zombieManiacClown3T3AOO,zombieManiacClown3T4AOO,zombieManiacClown2T1AOO,zombieManiacClown2T2AOO,zombieManiacClown2T3AOO,zombieManiacClown2T4AOO,zombieManiacClown1T1AOO,zombieManiacClown1T2AOO,zombieManiacClown1T3AOO,zombieManiacClown1T4AOO" value="50" phase="1" />
+			<!-- Phase 2 (auto, if you add by yourself this won't be generated) -->
+			<objective type="ReturnToNPC">
+				<property name="phase" value="2" />
+				<property name="nav_object" value="return_to_trader" />
+			</objective>
+			<objective type="InteractWithNPC">
+				<property name="phase" value="2" />
+				<property name="nav_object" value="return_to_trader" />
+				<property name="use_closest" value="true" />
+			</objective>
+			<reward type="Exp" value="5000" />
+			<reward type="Item" id="casinoCoin" value="10000" />
+			<reward type="GiveCvarDMT, SCore" id="QuestKillerKlowns" value="1" />	
+			<reward type="Item" id="AOOQuestSkills"  value="5"/>
+			<reward type="Item" id="meleeWpnPipeHammerAOO" value= "1" />
+		</quest>
+
+	<!--	<quest id="q_GreenSlime">
+			<action type="ShowTip" value="GreenSlimeTipQuest"/>
+			<property name="name_key" value="quest_GreenSlimeAOO"/>
+			<property name="offer" value="Would you like to start the Green Slime Quest?" />			
+			<property name="subtitle_key" value="quest_GreenSlime_subtitleAOO"/>
+			<property name="description_key" value="quest_GreenSlime_descriptionAOO"/>
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty_tier" value="1" />
+			<property name="difficulty" value="hard" />
+			<property name="shareable" value="false" />
+
+			<objective type="AnimalKill" id="zombieSlime01AOO" value="50" phase="1" />
+
+			<objective type="ReturnToNPC">
+				<property name="phase" value="2" />
+				<property name="nav_object" value="return_to_trader" />
+			</objective>
+			<objective type="InteractWithNPC">
+				<property name="phase" value="2" />
+				<property name="nav_object" value="return_to_trader" />
+				<property name="use_closest" value="true" />
+			</objective>
+			<reward type="Exp" value="5000" />
+			<reward type="Item" id="casinoCoin" value="10000" />
+			<reward type="Item" id="QuestToken" value= "1" />
+			<reward type="Item" id="resourceTeleportPart1AOO" value= "1" />
+		</quest>
+	
+	-->
+	
+	
+	</append >
+
+		
+
+
+
+</config>

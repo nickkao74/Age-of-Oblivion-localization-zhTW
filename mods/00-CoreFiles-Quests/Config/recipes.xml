@@ -1,0 +1,179 @@
+<configs>
+    <append xpath="/recipes">
+	
+	<!--	<recipe name="AOOQuestSkills" count="1" craft_time="1">
+			<ingredient name="AOOSkillPoint" count="1"/>
+		</recipe>		-->
+		<recipe name="AOOCraftingSkills" count="1" craft_time="1">
+			<ingredient name="AOOSkillPoint" count="1"/>
+		</recipe>	
+		<recipe name="AOOFarmingSkills" count="1" craft_time="1">
+			<ingredient name="AOOSkillPoint" count="1"/>
+		</recipe>	
+		<recipe name="AOOWeaponSkills" count="1" craft_time="1">
+			<ingredient name="AOOSkillPoint" count="1"/>
+		</recipe>	
+		<recipe name="AOOCookingSkills" count="1" craft_time="1">
+			<ingredient name="AOOSkillPoint" count="1"/>
+		</recipe>	
+		<recipe name="AOOForgeSkills" count="1" craft_time="1">
+			<ingredient name="AOOSkillPoint" count="1"/>
+		</recipe>			
+		<recipe name="AOOCloningSkills" count="1" craft_time="1">
+			<ingredient name="AOOSkillPoint" count="1"/>
+		</recipe>	
+		<recipe name="AOOAlchemySkills" count="1" craft_time="1">
+			<ingredient name="AOOSkillPoint" count="1"/>
+		</recipe>	
+		<recipe name="AOOHealthSkills" count="1" craft_time="1">
+			<ingredient name="AOOSkillPoint" count="1"/>
+		</recipe>	
+		<recipe name="AOOStaminaSkills" count="1" craft_time="1">
+			<ingredient name="AOOSkillPoint" count="1"/>
+		</recipe>			
+		<recipe name="AOOToolSkills" count="1" craft_time="1">
+			<ingredient name="AOOSkillPoint" count="1"/>
+		</recipe>		
+	<!--	<recipe name="AOOCloningSkills" count="1" craft_time="1">
+			<ingredient name="AOOSkillPoint" count="1"/>
+		</recipe>	-->
+	
+<!--
+		<recipe name="Quest Line - Farming" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,starterquest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	-->
+
+	
+		<!-- ===== Starter Quests ===== -->
+		<recipe name="QuestLine_Cloning" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,starterquest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>		
+		<recipe name="QuestLine_Farming" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,starterquest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+<!--		<recipe name="Quest Line - Alchemy" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,starterquest">
+			<ingredient name="QuestToken" count="1"/>
+		</recipe>	-->
+		<recipe name="QuestLine_Resurrection" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,starterquest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+
+		<recipe name="Quest_1000Kills" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,starterquest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+
+
+
+
+		<!-- ===== T1 Quests ===== -->
+		<recipe name="Quest_DeepFrying" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T1quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>		
+		<recipe name="Quest_Butcher" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T1quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+		<recipe name="Quest_Decoration" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T1quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>		
+		<recipe name="Quest_FoodProcessing" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T1quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+		<recipe name="Quest_Dairy" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T1quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+		<recipe name="Quest_Brewing" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T1quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+		<recipe name="Quest_Grilling" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T1quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>		
+		<recipe name="Quest_Ovens" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T1quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>		
+		<recipe name="Quest_DrinkDispenser" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T1quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe> 
+
+		<recipe name="Quest_CaveFind" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T1quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>
+
+		<recipe name="Quest_KyburiumCrystals" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T1quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+		
+		<!-- ===== T2 Quests ===== -->
+<!--
+		
+		<recipe name="Quest - Rare Resources!" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T2quest">
+			<ingredient name="QuestToken" count="1"/>
+		</recipe>	-->	
+		<recipe name="Quest_HoeHoeHoes" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T2quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>
+	
+		
+		<recipe name="Quest_CaveEscape" count="1" craft_time="30" craft_area="QuestStation"  tags="learnable,T2quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>
+		<recipe name="Quest_Arena" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T2quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+
+		<recipe name="Quest_ArenaServer" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T2quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>			
+		
+		<recipe name="Quest_VehicleTrader" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T2quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>		
+		<!-- ===== T3 Quests ===== -->
+
+	<!--	<recipe name="Quest_GreenSlime" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T3quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	-->		
+		<recipe name="Quest_KillerKlowns" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T3quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+		<recipe name="Quest_AmusementPark" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T3quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+		<!-- ===== T4 Quests ===== -->	
+
+
+		<recipe name="Quest_SkelKing" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T4quest" >
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+		<recipe name="Quest_Research" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T4quest" >
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>		\
+		<recipe name="Quest_Elite1" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T4quest" >
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+		<recipe name="Quest_Elite2" count="1" craft_time="30" craft_area="QuestStation" tags="learnable,T4quest" >
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+		<recipe name="Quest_Elite3" count="1" craft_time="30" craft_area="QuestStation"  tags="learnable,T4quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+		<recipe name="Quest_Elite4" count="1" craft_time="30" craft_area="QuestStation"  tags="learnable,T4quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+		<recipe name="Quest_Elite5" count="1" craft_time="30" craft_area="QuestStation"  tags="learnable,T4quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+		
+		<recipe name="Quest_MountainTrader" count="1" craft_time="30" craft_area="QuestStation"  tags="learnable,T4quest">
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>	
+
+		
+
+	
+
+	
+	
+
+	
+	</append>
+</configs>

@@ -1,0 +1,144 @@
+<configs>
+    <append xpath="/recipes">
+
+	<recipe name="scrapMagazine" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>	
+	
+	<recipe name="wksCloningAOO" count="1" craft_time="1" craft_area="MasterWorkBench" tags="learnable,wksCloningAOO" >
+			<ingredient name="resourceScrapIron" count="100"/>
+			<ingredient name="resourceWood" count="100"/>
+			<ingredient name="resourceMechanicalParts" count="30"/>
+			
+		</recipe>
+		<recipe name="wksAutoMinerV2" count="1" craft_time="90" craft_area="MasterWorkBench"  >
+			<ingredient name="resourceForgedIron" count="250"/>
+			<ingredient name="resourceForgedSteel" count="150"/>			
+			<ingredient name="resourceMechanicalParts" count="250"/>
+            <ingredient name="toolCO2CanisterAOO" count="4"/>
+		</recipe>	
+		<recipe name="wksResurrectionTableAOO" count="1" craft_time="90" craft_area="MasterWorkBench" >
+			<ingredient name="resourceForgedIron" count="100"/>
+			<ingredient name="resourceRockSmall" count="250"/>
+			<ingredient name="resourceWood" count="50"/>
+			<ingredient name="resourceMetalPipe" count="15"/>
+            <ingredient name="resourceMechanicalParts" count="20"/> 
+		</recipe>			
+		<recipe name="wksMasterWorkBenchAOO" count="1" craft_time="1"  tags="learnable,wksMasterWorkBenchAOO" >
+			<ingredient name="resourceScrapIron" count="100"/>
+			<ingredient name="resourceWood" count="100"/>
+		</recipe>	
+		<recipe name="wksDecorationBenchAOO" count="1" craft_time="1"  tags="learnable,wksMasterWorkBenchAOO" >
+			<ingredient name="resourceScrapIron" count="50"/>
+			<ingredient name="resourceMetalPipe" count="15"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>			
+			<ingredient name="resourceWood" count="100"/>
+		</recipe>		
+		<recipe name="wksFarmTableAOO" count="1" craft_time="90" craft_area="MasterWorkBench"  tags="learnable,wksFarmTableAOO"  >
+			<ingredient name="resourceScrapIron" count="250"/>
+			<ingredient name="resourceMechanicalParts" count="30"/>
+			<ingredient name="toolCookingPot" count="3"/>
+			<ingredient name="resourceMetalPipe" count="15"/>
+			<ingredient name="resourceWood" count="40"/>
+		</recipe>
+		<recipe name="wksQuestStationAOO" count="1" craft_time="30" craft_area="MasterWorkBench" tags="learnable,wksQuestStationAOO" >
+			<ingredient name="resourceScrapIron" count="100"/>
+			<ingredient name="resourceWood" count="100"/>
+		</recipe>	
+		<recipe name="wksWeaponWorkBenchAOO" count="1" craft_time="90" craft_area="MasterWorkBench"  tags="learnable,wksWeaponWorkBenchAOO"  >
+			<ingredient name="resourceScrapIron" count="250"/>
+			<ingredient name="resourceMechanicalParts" count="30"/>
+			<ingredient name="resourceMetalPipe" count="15"/>
+			<ingredient name="resourceWood" count="40"/>
+		</recipe>	
+		<recipe name="wksAmmoStationAOO" count="1" craft_time="30" craft_area="MasterWorkBench"   tags="learnable,wksAmmoStationAOO"  >
+			<ingredient name="resourceScrapIron" count="100"/>
+			<ingredient name="resourceWood" count="100"/>
+			<ingredient name="resourceMagicPotionSpeedAOO" count="1"/>			
+		</recipe>	
+		<recipe name="wksButcherTableV2" count="1" craft_time="90" craft_area="MasterWorkBench" tags="learnable,foodprep"  >
+			<ingredient name="resourceForgedIron" count="25"/>
+			<ingredient name="resourceRockSmall" count="250"/>
+			<ingredient name="resourceWood" count="50"/>
+		</recipe>
+        <recipe name="wksBrewStationAOO" count="1" craft_time="90"  craft_area="MasterWorkBench" tags="learnable,boozeaoo" >
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+		<recipe name="wksSmokersAOO" count="1" craft_time="90"  craft_area="MasterWorkBench" tags="learnable,smokeraoo" >
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+		<recipe name="wksDairyChurnAOO" count="1" craft_time="90" craft_area="MasterWorkBench" tags="learnable,foodprep" >
+			<ingredient name="resourceForgedIron" count="25"/>			
+			<ingredient name="resourceWood" count="50"/>
+		</recipe>
+        <recipe name="wksOvensAOO" count="1" craft_time="90"  craft_area="MasterWorkBench" tags="learnable,ovenaoo" >
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+		<recipe name="wksKitchNaidAOO" count="1" craft_time="90"  craft_area="MasterWorkBench" tags="learnable,foodprep" >
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+		<recipe name="wksWoodGrill3AOO" count="1" craft_time="90" craft_area="MasterWorkBench" tags="learnable,grillaoo" >
+			<ingredient name="resourceScrapIron" count="250"/>
+			<ingredient name="resourceWood" count="200"/>
+		</recipe>
+		<recipe name="wksWebberGrillAOO" count="1" craft_time="90" craft_area="MasterWorkBench" tags="learnable,grillaoo" >
+			<ingredient name="resourceScrapIron" count="250"/>
+			<ingredient name="resourceWood" count="200"/>
+		</recipe>
+		<recipe name="wksWebberGrill2AOO" count="1" craft_time="90" craft_area="MasterWorkBench" tags="learnable,grillaoo" >
+			<ingredient name="resourceScrapIron" count="250"/>
+			<ingredient name="resourceWood" count="200"/>
+		</recipe>
+		<recipe name="wksWoodGrill2AOO" count="1" craft_time="90" craft_area="MasterWorkBench" tags="learnable,grillaoo" >
+			<ingredient name="resourceScrapIron" count="250"/>
+			<ingredient name="resourceWood" count="200"/>
+		</recipe>
+		<recipe name="wksRustyGrillAOO" count="1" craft_time="90" craft_area="MasterWorkBench" tags="learnable,grillaoo" >
+			<ingredient name="resourceScrapIron" count="250"/>
+			<ingredient name="resourceWood" count="200"/>
+		</recipe>
+		
+
+	
+		
+		<recipe name="wksForgeAdvancedAOO" count="1" craft_time="90" craft_area="MasterWorkBench" tags="learnable,wksForgeAdvancedAOO" >
+			<ingredient name="resourceRockSmall" count="500"/>
+			<ingredient name="resourceClayLump" count="600"/>
+			<ingredient name="resourceLeather" count="100"/>
+			<ingredient name="resourceDuctTape" count="30"/>
+			<ingredient name="resourceMetalPipe" count="30"/>
+		</recipe>
+
+        <recipe name="wksDrinkDispenserV2" count="1" craft_time="90"  craft_area="MasterWorkBench" tags="learnable,drinksaoo" >
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>	
+	
+        <recipe name="wksIceCreamMaker01AOO" count="1" craft_time="90"  craft_area="MasterWorkBench" tags="learnable,dessertaoo" >
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>	
+
+<!--		<recipe name="wksCloningStationAOO" count="1" craft_time="90" craft_area="MasterWorkBench" tags="learnable,L1Cloning">
+			<ingredient name="resourceForgedIron" count="25"/>
+			<ingredient name="resourceMechanicalParts" count="50"/>
+			<ingredient name="resourceRockSmall" count="250"/>
+			<ingredient name="resourceWhiteOakPlankAOO" count="50"/>
+		</recipe> -->	
+		<recipe name="wksAlchemyStationAOO" count="1" craft_time="90" craft_area="MasterWorkBench" tags="learnable,L1Alchemy">
+			<ingredient name="resourceForgedIron" count="25"/>
+			<ingredient name="resourceRockSmall" count="250"/>
+			<ingredient name="resourceMapleWoodPlankAOO" count="50"/>
+		</recipe>	
+
+		
+	</append>
+</configs>

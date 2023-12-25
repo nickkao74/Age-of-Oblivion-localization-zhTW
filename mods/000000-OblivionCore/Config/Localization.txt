@@ -1,0 +1,8 @@
+key,english,french
+
+poweredProducer,"Powered producer","Producteur alimenté"
+producer,"Producer","Producteur"
+buffWastelandRadiationName,"Radiation terres désolées"
+buffWastelandRadiationDesc,"Zone radioactive, tu dois avoir la tenue [ff9933]hazmat[-] complète afin de ne pas prendre de dégâts !"
+buffHazmatFullName,"Protection radioactive"
+buffHazmatFullDesc,"Une tenue qui te protège des radiations, te donnant l'accès aux terres désolées !"

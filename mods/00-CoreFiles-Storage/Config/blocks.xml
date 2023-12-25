@@ -1,0 +1,891 @@
+<config>
+	<append xpath="/blocks">
+
+		<block name="varStorageAOO">
+			<property name="Extends" value="parkBenchA" param1="EconomicBundleSize"/>
+			<property name="Stacknumber" value="500"/>
+			<property name="CustomIcon" value="decorCrate01" />
+			<property name="DescriptionKey" value="varStorageAOODesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="AllowAllRotations" value="true"/>
+			<property name="PlaceAltBlockValue" value="storageChest01AOO,DropBox_AOO,storageChest02AOO,storageChest03AOO,storageChest04AOO,storageCrate01_1X1_AOO,storageCrate02_1X1_AOO,storageCrate03_2X1_AOO,storageCrate04_2X1_AOO,storageCrate05_2X1_AOO,storageCrate06_1X1_AOO,storageCrate07_1X1_AOO,storageCrate08_1X1_AOO,storageCrate09_1X1_AOO,storageCrate10_1X1_AOO,storageCrate11_2X1_AOO,storageCrate12_1X1_AOO,storageCrate13_2X1_AOO,storageCrate14_1X1_AOO,storageCrate15_2X1_AOO,storageCrate16_1X1_AOO,storageCrate17_2X1_AOO,storageCrate18_1X1_AOO,storageCrate19_2X1_AOO,storageCrate20_1X1_AOO,WoodChestSign1,WoodChestSign2,MetalBox1,MetalBox2,MetalBox3,MetalBox4,MetalBox5,WoodBoxSign1,DisplayCaseSign1,BookCabinetSign,WallBookCase,DisplayCase2,MetalChestSign1,WoodCrateSign2"/>
+			<property name="Group" value="All,Decor"/>
+		</block>
+
+
+
+
+
+		<block name="TemplateStorage">
+			<property name="Class" value="SecureLoot"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="ActivationDistance" value="5"/>
+			<property name="AllowAllRotations" value="true"/>
+			<property name="CustomIcon" value="AOO-Logo"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="Material" value="Miron_scrap"/>
+			<property name="MaxDamage" value="500"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<drop event="Destroy" count="0" />
+			<property name="Stacknumber" value="500"/>				
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/PathingCube.unity3d?PathingCube"/>
+		</block>	
+		
+		<block name="OakravenStorageMaster">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="woodchest1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?WoodChest1"/>
+			<property name="DescriptionKey" value="cntStorageGenericSignedDesc"/>
+			<property name="Tags" value="door"/>
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/> <property name="MaxDamage" value="400"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="floot"/>
+			<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+		</block>	
+		
+		<block name="WoodChestSign1">
+			<property name="Extends" value="OakravenStorageMaster"/>		
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="woodchest1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?WoodChest1"/>
+			<property name="DescriptionKey" value="cntStorageGenericSignedDesc"/>
+			<property name="Tags" value="door"/>
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/> <property name="MaxDamage" value="400"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="DowngradeBlock" value="WoodChestSign1Insecure"/>	
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="floot"/>
+			<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+		</block>
+
+		<block name="WoodChestSign1Insecure">
+			<property name="CreativeMode" value="Test"/>
+			<property name="CustomIcon" value="woodchest1"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?WoodChest1"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+		</block>
+
+		<block name="OakravenStorageVariantHelper">
+			<property name="Extends" value="WoodChestSign1"/>		
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="woodchest1"/>
+			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="PlaceAltBlockValue" value="WoodChestSign1,WoodChestSign2,MetalBox1,MetalBox2,MetalBox3,MetalBox4,MetalBox5,WoodBoxSign1,DisplayCaseSign1,BookCabinetSign,WallBookCase,DisplayCase2,MetalChestSign1,WoodCrateSign2"/>
+		</block>
+
+		<block name="WoodChestSign2">
+			<property name="Extends" value="OakravenStorageMaster"/>		
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="woodchest2"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?woodchest2"/>
+			<property name="DescriptionKey" value="cntStorageGenericSignedDesc"/>
+			<property name="Tags" value="door"/>
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/> <property name="MaxDamage" value="400"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="DowngradeBlock" value="WoodChestSign2Insecure"/>	
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="floot"/>
+			<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+		</block>
+
+		<block name="WoodChestSign2Insecure">
+			<property name="CreativeMode" value="Test"/>
+			<property name="CustomIcon" value="woodchest2"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?woodchest2"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+		</block>
+
+		<block name="MetalBox1">
+			<property name="Extends" value="OakravenStorageMaster"/>	
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="metalbox1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?MetalBox1"/>
+			<property name="DescriptionKey" value="cntStorageGenericSignedDesc"/>
+			<property name="Tags" value="door"/>
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/> <property name="MaxDamage" value="400"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="DowngradeBlock" value="MetalBox1Insecure"/>	
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="floot"/>
+			<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+		</block>
+
+		<block name="MetalBox1Insecure">
+			<property name="CreativeMode" value="Test"/>
+			<property name="CustomIcon" value="metalbox1"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?MetalBox1"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+		</block>
+
+		<block name="MetalBox2">
+			<property name="Extends" value="OakravenStorageMaster"/>	
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="metalbox2"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?MetalBox2"/>
+			<property name="DescriptionKey" value="cntStorageGenericSignedDesc"/>
+			<property name="Tags" value="door"/>
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/> <property name="MaxDamage" value="400"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="DowngradeBlock" value="MetalBox2Insecure"/>	
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="floot"/>
+			<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+		</block>
+
+		<block name="MetalBox2Insecure">
+			<property name="CreativeMode" value="Test"/>
+			<property name="CustomIcon" value="metalbox2"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?MetalBox2"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+		</block>
+
+		<block name="MetalBox3">
+			<property name="Extends" value="OakravenStorageMaster"/>	
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="metalbox3"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?MetalBox3"/>
+			<property name="DescriptionKey" value="cntStorageGenericSignedDesc"/>
+			<property name="Tags" value="door"/>
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/> <property name="MaxDamage" value="400"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="DowngradeBlock" value="MetalBox3Insecure"/>	
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="floot"/>
+			<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+		</block>
+
+		<block name="MetalBox3Insecure">
+			<property name="CreativeMode" value="Test"/>
+			<property name="CustomIcon" value="metalbox3"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?MetalBox3"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+		</block>
+
+		<block name="MetalBox4">
+			<property name="Extends" value="OakravenStorageMaster"/>	
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="metalbox4"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?MetalBox4"/>
+			<property name="DescriptionKey" value="cntStorageGenericSignedDesc"/>
+			<property name="Tags" value="door"/>
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/> <property name="MaxDamage" value="400"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="DowngradeBlock" value="MetalBox4Insecure"/>	
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="floot"/>
+			<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+		</block>
+
+		<block name="MetalBox4Insecure">
+			<property name="CreativeMode" value="Test"/>
+			<property name="CustomIcon" value="metalbox4"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?MetalBox4"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+		</block>
+
+		<block name="MetalBox5">
+			<property name="Extends" value="OakravenStorageMaster"/>	
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="metalbox5"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?MetalBox5"/>
+			<property name="DescriptionKey" value="cntStorageGenericSignedDesc"/>
+			<property name="Tags" value="door"/>
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/> <property name="MaxDamage" value="400"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="DowngradeBlock" value="MetalBox5Insecure"/>	
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="floot"/>
+			<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+		</block>
+
+		<block name="MetalBox5Insecure">
+			<property name="CreativeMode" value="Test"/>
+			<property name="CustomIcon" value="metalbox5"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?MetalBox5"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+		</block>
+
+		<block name="WoodBoxSign1">
+			<property name="Extends" value="OakravenStorageMaster"/>	
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="woodbox1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?WoodBox1"/>
+			<property name="DescriptionKey" value="cntStorageGenericSignedDesc"/>
+			<property name="Tags" value="door"/>
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/> <property name="MaxDamage" value="400"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="DowngradeBlock" value="WoodBoxSign1Insecure"/>	
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="floot"/>
+			<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+		</block>
+
+		<block name="WoodBoxSign1Insecure">
+			<property name="CreativeMode" value="Test"/>
+			<property name="CustomIcon" value="woodbox1"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?WoodBox1"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+		</block>
+
+		<block name="DisplayCaseSign1">
+			<property name="Extends" value="OakravenStorageMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="displaycase1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?DisplayCase1"/>
+			<property name="DescriptionKey" value="cntStorageGenericSignedDesc"/>
+			<property name="Tags" value="door"/>
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="2,1,1"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/> <property name="MaxDamage" value="400"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="DowngradeBlock" value="DisplayCaseSign1Insecure"/>	
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="floot"/>
+			<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+		</block>
+
+		<block name="DisplayCaseSign1Insecure">
+			<property name="CreativeMode" value="Test"/>
+			<property name="CustomIcon" value="displaycase1"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="storageLarge"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?DisplayCase1"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+		</block>
+
+		<block name="BookCabinetSign">
+		<property name="Extends" value="OakravenStorageMaster"/>	
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="bookscabinet"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?BooksCabinet"/>
+		<property name="DescriptionKey" value="cntStorageGenericSignedDesc"/>
+		<property name="Tags" value="door"/>
+		<property name="Class" value="SecureLootSigned"/>
+		<property name="DisplayType" value="blockMulti"/>
+		<property name="MultiBlockDim" value="1,2,1"/>
+		<property name="LootList" value="storageLarge"/>
+		<property name="Material" value="Mmetal"/> <property name="MaxDamage" value="400"/>
+		<property name="FuelValue" value="300"/>
+		<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+		<property name="DowngradeBlock" value="BookCabinetSignInsecure"/>	
+		<drop event="Destroy" count="0"/>
+		<property name="Group" value="Building,advBuilding"/>
+		<property name="EconomicValue" value="6"/>
+		<property name="FilterTags" value="floot"/>
+		<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+	</block>
+
+	<block name="BookCabinetSignInsecure">
+		<property name="CreativeMode" value="Test"/>
+		<property name="CustomIcon" value="bookscabinet"/>
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="storageLarge"/>
+		<property name="Material" value="Mmetal"/>
+		<property name="MaxDamage" value="400"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Path" value="solid"/>
+		<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?BooksCabinet"/>
+		<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+		<property class="RepairItems">
+			<property name="resourceWood" value="10"/>
+		</property>
+		<drop event="Destroy" name="resourceWood" count="1,3"/>
+		<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+		<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+	</block>
+
+		<block name="WallBookCase">
+		<property name="Extends" value="OakravenStorageMaster"/>	
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="wallbookcase"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?WallBookCase"/>
+		<property name="DescriptionKey" value="cntStorageGenericSignedDesc"/>
+		<property name="Tags" value="door"/>
+		<property name="Class" value="SecureLootSigned"/>
+		<property name="DisplayType" value="blockMulti"/>
+		<property name="MultiBlockDim" value="1,1,1"/>
+		<property name="LootList" value="storageLarge"/>
+		<property name="Material" value="Mmetal"/> <property name="MaxDamage" value="400"/>
+		<property name="FuelValue" value="300"/>
+		<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+		<property name="DowngradeBlock" value="WallBookCaseInsecure"/>	
+		<drop event="Destroy" count="0"/>
+		<property name="Group" value="Building,advBuilding"/>
+		<property name="EconomicValue" value="6"/>
+		<property name="FilterTags" value="floot"/>
+		<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+	</block>
+
+	<block name="WallBookCaseInsecure">
+		<property name="CreativeMode" value="Test"/>
+		<property name="CustomIcon" value="wallbookcase"/>
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="storageLarge"/>
+		<property name="Material" value="Mmetal"/>
+		<property name="MaxDamage" value="400"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Path" value="solid"/>
+		<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?WallBookCase"/>
+		<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+		<property class="RepairItems">
+			<property name="resourceWood" value="10"/>
+		</property>
+		<drop event="Destroy" name="resourceWood" count="1,3"/>
+		<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+		<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+	</block>
+
+		<block name="DisplayCase2">
+		<property name="Extends" value="OakravenStorageMaster"/>	
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="displaycase2"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?DisplayCase2"/>
+		<property name="DescriptionKey" value="cntStorageGenericSignedDesc"/>
+		<property name="Tags" value="door"/>
+		<property name="Class" value="SecureLootSigned"/>
+		<property name="DisplayType" value="blockMulti"/>
+		<property name="MultiBlockDim" value="1,1,1"/>
+		<property name="LootList" value="storageLarge"/>
+		<property name="Material" value="Mmetal"/> <property name="MaxDamage" value="400"/>
+		<property name="FuelValue" value="300"/>
+		<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+		<property name="DowngradeBlock" value="DisplayCase2Insecure"/>	
+		<drop event="Destroy" count="0"/>
+		<property name="Group" value="Building,advBuilding"/>
+		<property name="EconomicValue" value="6"/>
+		<property name="FilterTags" value="floot"/>
+		<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+	</block>
+
+	<block name="DisplayCase2Insecure">
+		<property name="CreativeMode" value="Test"/>
+		<property name="CustomIcon" value="displaycase2"/>
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="storageLarge"/>
+		<property name="Material" value="Mmetal"/>
+		<property name="MaxDamage" value="400"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Path" value="solid"/>
+		<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?DisplayCase2"/>
+		<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+		<property class="RepairItems">
+			<property name="resourceWood" value="10"/>
+		</property>
+		<drop event="Destroy" name="resourceWood" count="1,3"/>
+		<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+		<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+	</block>
+
+		<block name="MetalChestSign1">
+		<property name="Extends" value="OakravenStorageMaster"/>	
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="metalcrate1"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?MetalCrate1"/>
+		<property name="DescriptionKey" value="cntStorageGenericSignedDesc"/>
+		<property name="Tags" value="door"/>
+		<property name="Class" value="SecureLootSigned"/>
+		<property name="DisplayType" value="blockMulti"/>
+		<property name="MultiBlockDim" value="1,1,1"/>
+		<property name="LootList" value="storageLarge"/>
+		<property name="Material" value="Mmetal"/> <property name="MaxDamage" value="400"/>
+		<property name="FuelValue" value="300"/>
+		<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+		<property name="DowngradeBlock" value="MetalChestSign1Insecure"/>	
+		<drop event="Destroy" count="0"/>
+		<property name="Group" value="Building,advBuilding"/>
+		<property name="EconomicValue" value="6"/>
+		<property name="FilterTags" value="floot"/>
+		<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+	</block>
+
+	<block name="MetalChestSign1Insecure">
+		<property name="CreativeMode" value="Test"/>
+		<property name="CustomIcon" value="metalcrate1"/>
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="storageLarge"/>
+		<property name="Material" value="Mmetal"/>
+		<property name="MaxDamage" value="400"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Path" value="solid"/>
+		<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?MetalCrate1"/>
+		<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+		<property class="RepairItems">
+			<property name="resourceWood" value="10"/>
+		</property>
+		<drop event="Destroy" name="resourceWood" count="1,3"/>
+		<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+		<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+	</block>
+
+	<block name="WoodCrateSign2">
+		<property name="Extends" value="OakravenStorageMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="woodcrate2"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?WoodCrate2"/>
+		<property name="DescriptionKey" value="cntStorageGenericSignedDesc"/>
+		<property name="Tags" value="door"/>
+		<property name="Class" value="SecureLootSigned"/>
+		<property name="DisplayType" value="blockMulti"/>
+		<property name="MultiBlockDim" value="1,1,1"/>
+		<property name="LootList" value="storageLarge"/>
+		<property name="Material" value="Mmetal"/> <property name="MaxDamage" value="400"/>
+		<property name="FuelValue" value="300"/>
+		<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+		<property name="DowngradeBlock" value="WoodCrateSign2Insecure"/>	
+		<drop event="Destroy" count="0"/>
+		<property name="Group" value="Building,advBuilding"/>
+		<property name="EconomicValue" value="6"/>
+		<property name="FilterTags" value="floot"/>
+		<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+	</block>
+
+	<block name="WoodCrateSign2Insecure">
+		<property name="CreativeMode" value="Test"/>
+		<property name="CustomIcon" value="woodcrate2"/>
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="storageLarge"/>
+		<property name="Material" value="Mmetal"/>
+		<property name="MaxDamage" value="400"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Path" value="solid"/>
+		<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?WoodCrate2"/>
+		<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+		<property class="RepairItems">
+			<property name="resourceWood" value="10"/>
+		</property>
+		<drop event="Destroy" name="resourceWood" count="1,3"/>
+		<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+		<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+	</block>
+
+
+		<block name="DropBox_AOO">
+			<!-- Doesn't need to be signed container, but might make the most sense -->
+			<property name="Extends" value="TemplateStorage"/>
+			<property name="Model" value="@:Entities/LootContainers/mailBox_01Prefab.prefab"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="ModelOffset" value="0,.5,0"/>			
+			<property name="LootList" value="storage2X4"/>		
+			<property name="Class" value="DropBoxContainer, SCore"/>
+			<property name="CustomIcon" value="cntMailBox01White"/>
+			<property name="UpdateTick" value="200" />
+			<property name="Distance" value="10" />			
+			<!-- Optionally trigger the distribution when the user closes the box -->
+			<property name="DropBox" value="true" />
+			<property name="DescriptionKey" value="DropBox_AOODesc"/>			
+		</block>			
+
+		<block name="DropBoxLarge_AOO">
+			<!-- Doesn't need to be signed container, but might make the most sense -->
+			<property name="Extends" value="TemplateStorage"/>
+			<property name="Class" value="DropBoxContainer, SCore"/>
+			<property name="CustomIcon" value="DropBox"/>
+			<property name="UpdateTick" value="200" />
+			<property name="MultiBlockDim" value="1,2,3"/>	
+			<property name="Distance" value="30" />				
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?DropBox"/>			
+			<!-- Optionally trigger the distribution when the user closes the box -->
+			<property name="DropBox" value="true" />
+			<property name="DescriptionKey" value="DropBoxLarge_AOODesc"/>
+		</block>
+
+
+		<block name="storageChest01AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="Class" value="SecureLootSigned"/>		
+			<property name="CustomIcon" value="Chest01"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?Chest01"/>
+		</block>
+
+		<block name="storageChest02AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="CustomIcon" value="Chest02"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?Chest02"/>
+		</block>
+
+		<block name="storageChest03AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="CustomIcon" value="Chest03"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?Chest03"/>
+		</block>
+
+		<block name="storageChest04AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="CustomIcon" value="Chest04"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?Chest04"/>
+		</block>		
+	
+		<block name="storageCrate01_1X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="CustomIcon" value="decorCrate01"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrate01"/>
+			<property name="LootList" value="storage10X10"/>
+		</block>
+
+		<block name="storageCrate02_1X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="CustomIcon" value="decorCrate02"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrate02"/>
+			<property name="LootList" value="storage10X10"/>
+		</block>
+
+		<block name="storageCrate03_2X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="CustomIcon" value="decorCrate03"/>
+			<property name="MultiBlockDim" value="2,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrate03"/>
+			<property name="LootList" value="storage12X13"/>
+		</block>
+
+		<block name="storageCrate04_2X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="CustomIcon" value="decorCrate04"/>
+			<property name="MultiBlockDim" value="2,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrate04"/>
+			<property name="LootList" value="storage12X13"/>
+		</block>
+
+		<block name="storageCrate05_2X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="CustomIcon" value="decorCrate05"/>
+			<property name="MultiBlockDim" value="2,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrate05"/>
+			<property name="LootList" value="storage12X13"/>
+		</block>
+
+		<block name="storageCrate06_1X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="CustomIcon" value="decorCrate06"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrate06"/>
+			<property name="LootList" value="storage10X10"/>
+		</block>
+
+		<block name="storageCrate07_1X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="CustomIcon" value="decorCrate07"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrate07"/>
+			<property name="LootList" value="storage10X10"/>
+		</block>
+
+		<block name="storageCrate08_1X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="CustomIcon" value="decorCrate08"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrate08"/>
+			<property name="LootList" value="storage10X10"/>
+		</block>
+
+		<block name="storageCrate09_1X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="CustomIcon" value="decorCrate09"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrate09"/>
+			<property name="LootList" value="storage10X10"/>
+		</block>
+
+		<block name="storageCrate10_1X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="CustomIcon" value="decorCrate10"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrate10"/>
+			<property name="LootList" value="storage10X10"/>
+		</block>
+
+		<block name="storageCrate11_2X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="CustomIcon" value="decorCrateMulti04"/>
+			<property name="MultiBlockDim" value="2,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrateMulti04"/>
+			<property name="LootList" value="storage12X13"/>
+		</block>
+
+		<block name="storageCrate12_1X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="CustomIcon" value="decorCrateMulti05"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrateMulti05"/>
+			<property name="LootList" value="storage10X10"/>
+		</block>
+
+		<block name="storageCrate13_2X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="CustomIcon" value="decorCrateMulti09"/>
+			<property name="MultiBlockDim" value="2,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrateMulti09"/>
+			<property name="LootList" value="storage12X13"/>
+		</block>
+
+		<block name="storageCrate14_1X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="CustomIcon" value="decorCrateMulti10"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrateMulti10"/>
+			<property name="LootList" value="storage10X10"/>
+		</block>
+
+		<block name="storageCrate15_2X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="CustomIcon" value="decorCrateMulti14"/>
+			<property name="MultiBlockDim" value="2,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrateMulti14"/>
+			<property name="LootList" value="storage12X13"/>
+		</block>
+
+		<block name="storageCrate16_1X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="CustomIcon" value="decorCrateMulti15"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrateMulti15"/>
+			<property name="LootList" value="storage10X10"/>
+		</block>
+
+		<block name="storageCrate17_2X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="CustomIcon" value="decorCrateMulti19"/>
+			<property name="MultiBlockDim" value="2,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrateMulti19"/>
+			<property name="LootList" value="storage12X13"/>
+		</block>
+
+		<block name="storageCrate18_1X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="CustomIcon" value="decorCrateMulti20"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrateMulti20"/>
+			<property name="LootList" value="storage10X10"/>
+		</block>
+
+		<block name="storageCrate19_2X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="CustomIcon" value="decorCrateMulti24"/>
+			<property name="MultiBlockDim" value="2,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrateMulti24"/>
+			<property name="LootList" value="storage12X13"/>
+		</block>
+
+		<block name="storageCrate20_1X1_AOO">
+			<property name="Extends" value="TemplateStorage" />
+			<property name="CustomIcon" value="decorCrateMulti25"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?decorCrateMulti25"/>
+			<property name="LootList" value="storage10X10"/>
+		</block>		
+
+		
+	</append>
+</config>	

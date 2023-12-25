@@ -1,0 +1,3133 @@
+<config>
+
+	<set xpath="/blocks/block[@name='chemistryStation']/property[@name='Group']/@value">All,WorkBenches</set>	
+	<set xpath="/blocks/block[@name='cementMixer']/property[@name='Group']/@value">All,WorkBenches</set>	
+	<set xpath="/blocks/block[@name='forge']/property[@name='Group']/@value">All,WorkBenches</set>
+	<set xpath="/blocks/block[@name='workbench']/property[@name='Group']/@value">All,WorkBenches</set>		
+
+	<append xpath="/blocks">
+
+		<!-- ============== Wind Mill================= -->	
+
+		<block name="powerWindMillAOO">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Class" value="BatteryBank"/>
+			<property name="CustomIcon" value="WindMill"/>
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?WindMill"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="DescriptionKey" value="powerWindMillAOODesc"/>
+			<property name="MaxPower" value="600"/>
+	        <property name="MultiBlockDim" value="2,8,2"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="MaxDamage" value="800"/>			
+			<property name="OutputPerStack" value="100"/>
+			<property name="OutputPerCharge" value="90"/>
+			<property name="SlotItem" value="windGears"/>
+			<property name="Group" value="Science"/>
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="8"/>
+				<property name="resourceElectricParts" value="6"/>
+				<property name="resourceElectricParts" value="2"/>
+				<property name="resourceScrapPolymers" value="4"/>
+			</property>
+			<drop event="Harvest" name="resourceScrapIron" count="120" tag="allHarvest"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceForgedIron" count="3" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceElectricParts" count="2,3" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceElectricParts" count="1,2" prob="0.6" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="TakeDelay" value="15"/>
+			<property name="EconomicValue" value="4000"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+		</block>
+
+
+
+		<block name="templateWorkstationAOO">
+			<property name="Class" value="Workstation"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="800"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Crafting/woodWorkBenchPrefab"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="3,3,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="HeatMapStrength" value="5"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property name="Stacknumber" value="1"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="MasterWorkBench,player,workbench"/>
+			</property>
+			<property name="WorkstationIcon" value="wksMasterWorkBenchAOO" />
+			<property name="OpenSound" value="open_workbench" />
+			<property name="CloseSound" value="close_workbench" />
+			<property name="WorkstationJournalTip" value="workbenchTip" />
+			<property class="RepairItems">
+				<property name="resourceScrapIron" value="5"/>			
+				<property name="resourceWood" value="5"/>
+				</property>
+			<property name="TakeDelay" value="10"/>			
+			<property name="EconomicValue" value="1000"/>
+			<property name="Group" value="Workbenches,All"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+			<property name="SortOrder1" value="70i0"/>
+			<property name="DescriptionKey" value="wksMasterWorkBenchAOODesc"/>
+		</block>	
+	
+		<!-- ================   Workstations - Working  ================================ -->
+
+
+		<block name="wksForgeAdvancedAOO">
+			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="Forge02"/>
+			<property name="UnlockedBy" value="AOOForge"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?Forge02"/>
+            <property name="MultiBlockDim" value="2,3,3"/>
+			<property name="ModelOffset" value=".5,0,-1"/>
+			<property name="HeatMapStrength" value="6"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property class="Workstation">
+				<property name="CraftingAreaRecipes" value="forge"/>
+				<property name="Modules" value="tools,output,fuel,material_input"/>
+				<property name="InputMaterials" value="iron,brass,lead,glass,stone,clay"/>
+			</property>
+			<property name="WorkstationIcon" value="ui_game_symbol_forge"/>
+			<property name="OpenSound" value="forge_open"/>
+			<property name="CloseSound" value="forge_close"/>
+			<property name="CraftSound" value="forge_smelt_click"/>
+			<property name="CraftCompleteSound" value="forge_item_complete"/>
+			<property name="WorkstationJournalTip" value="forgeTip"/>
+			<property class="RepairItems">
+				<property name="resourceRockSmall" value="50"/>
+				<property name="resourceClayLump" value="60"/>
+				<property name="resourceLeather" value="20"/>
+			</property>
+			<drop event="Harvest" name="resourceRockSmall" count="40" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceClayLump" count="20" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="5" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+			<property name="DescriptionKey" value="wksForgeAdvancedAOODesc"/>
+		</block>
+
+
+
+		<!-- ========================= -->
+
+    	<block name="wksDecorationBenchAOO">
+			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?Workstation02"/>
+			<property name="CustomIcon" value="wksMasterWorkBenchAOO"/>	
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="MultiBlockDim" value="2,2,1"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="DecorationWorkBench"/>
+			</property>
+			<property name="WorkstationIcon" value="workbench" />
+			<property class="RepairItems">
+				<property name="resourceScrapIron" value="5"/>			
+				<property name="resourceWood" value="5"/>
+				</property>
+			<property name="DescriptionKey" value="wksDecorationBenchAOODesc"/>
+		</block>	
+
+
+		<!-- ========================= -->
+
+    	<block name="wksMasterWorkBenchAOO">
+			<property name="Extends" value="templateWorkstationAOO"/>
+<!--			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?Workstation02"/>
+-->			<property name="CustomIcon" value="workbench"/>	
+			<property name="Model" value="Entities/Crafting/woodWorkBenchPrefab"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+			<property name="MultiBlockDim" value="2,2,1"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="MasterWorkBench,player,workbench"/>
+			</property>
+			<property name="WorkstationIcon" value="workbench" />
+			<property class="RepairItems">
+				<property name="resourceScrapIron" value="5"/>			
+				<property name="resourceWood" value="5"/>
+				</property>
+			<property name="DescriptionKey" value="wksMasterWorkBenchAOODesc"/>
+		</block>		
+
+		<!-- ========================= -->
+
+    	<block name="wksWeaponWorkBenchAOO">	
+			<property name="Extends" value="templateWorkstationAOO"/>		
+			<property name="CustomIcon" value="Workstation01"/>			
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?Workstation01"/>
+			<property name="MultiBlockDim" value="3,2,1"/>
+			<property name="ModelOffset" value="-1,0,0"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="WeaponWorkBench"/>
+			</property>
+			<property name="WorkstationIcon" value="Workstation01" />
+			<property class="RepairItems">
+				<property name="resourceScrapIron" value="5"/>			
+				<property name="resourceWood" value="5"/>
+				</property>
+			<property name="DescriptionKey" value="wksMasterWorkBenchAOODesc"/>
+		</block>	
+
+		<!-- ========================= -->
+		
+    	<block name="wksFarmTableAOO">	
+			<property name="Extends" value="templateWorkstationAOO"/>		
+			<property name="CustomIcon" value="FarmTablePrefab"/>			
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?FarmTablePrefab"/>
+			<property name="MultiBlockDim" value="2,2,1"/>
+			<property name="ModelOffset" value="0.5,0.5,0"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="Farm Table"/>
+			</property>
+			<property name="WorkstationIcon" value="FarmTablePrefab" />
+			<property class="RepairItems">
+				<property name="resourceScrapIron" value="5"/>			
+				<property name="resourceWood" value="5"/>
+				</property>
+			<property name="DescriptionKey" value="wksFarmTableAOODesc"/>
+		</block>
+
+		<!-- ========================= -->
+
+    	<block name="wksTransmogrifierAOO">
+			<property name="Extends" value="templateWorkstationAOO"/>		
+			<property name="CustomIcon" value="Transmogrifier"/>			
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?Transmogrifier"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="Transmogrifier"/>
+			</property>
+			<property name="WorkstationIcon" value="Transmogrifier" />
+			<property class="RepairItems">
+					<property name="resourceWood" value="10"/>
+				</property>
+			<property name="DescriptionKey" value="wksTransmogrifierAOODesc"/>
+		</block>
+
+		<!-- ========================= -->
+		
+     	<block name="wksQuestStationAOO">
+			<property name="Extends" value="templateWorkstationAOO"/>		
+			<property name="CustomIcon" value="War_Table"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?War_Table"/>
+			<property name="MultiBlockDim" value="2,1,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="QuestStation"/>
+			</property>
+			<property name="WorkstationIcon" value="War_Table" />
+			<property name="DescriptionKey" value="wksQuestStationAOODesc"/>
+		</block>		
+
+		<!-- ========================= -->
+		
+       	<block name="wksAmmoStationAOO">
+			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="AmmoMachine"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?AmmoMachine"/>
+			<property name="MultiBlockDim" value="2,3,6"/>
+			<property name="ModelOffset" value="-.5,0,0"/>
+			<property class="Workstation">
+				<property name="Modules" value="output,fuel"/>
+				<property name="CraftingAreaRecipes" value="AmmoStation"/>
+			</property>
+			<property name="WorkstationIcon" value="AmmoMachine" />
+			<property name="DescriptionKey" value="wksAmmoStationAOODesc"/>
+		</block>		
+
+		<!-- ========================= -->
+		
+       <block name="wksOblivionTraderAOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="OblivionTraderBench"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?OblivionTraderBench"/>
+             <property name="MultiBlockDim" value="1,2,1"/>
+            <property name="ModelOffset" value="0,0,0"/>
+            <property class="Workstation">
+                <property name="Modules" value="output,input"/>
+				<property name="CraftingAreaRecipes" value="OblivionTrader"/>
+            </property>
+            <property name="WorkstationIcon" value="OblivionTraderBench"/>
+			<property name="DescriptionKey" value="wksOblivionTraderAOO"/>
+        </block>
+
+		<!-- ========================= -->
+		
+       <block name="wksTraderVicAOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="OblivionTraderBench"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?OblivionTraderBench"/>
+             <property name="MultiBlockDim" value="1,2,1"/>
+            <property name="ModelOffset" value="0,0,0"/>
+            <property class="Workstation">
+                <property name="Modules" value="output,input"/>
+				<property name="CraftingAreaRecipes" value="TraderVic"/>
+            </property>
+            <property name="WorkstationIcon" value="OblivionTraderBench"/>
+			<property name="DescriptionKey" value="wksTraderVicAOO"/>
+        </block>
+
+		<!-- ========================= -->
+		
+       <block name="wksBrewStationAOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="BrewstationPrefab"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?BrewstationPrefab"/>
+            <property name="ModelOffset" value="0.75,0.5,0.5"/>
+            <property name="MultiBlockDim" value="3,3,2"/>
+            <property class="Workstation">
+                <property name="Modules" value="tools,output,input"/>
+				<property name="CraftingAreaRecipes" value="Brew Station"/>
+            </property>
+            <property name="WorkstationIcon" value="BrewstationPrefab"/>
+			<property name="DescriptionKey" value="wksBrewStationAOODesc"/>
+        </block>
+ 
+		<!-- ========================= -->
+		
+		<block name="wksDairyChurnAOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="ButterChurnPrefab"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ButterChurnPrefab"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,2,1"/>
+            <property name="ModelOffset" value="0,0.5,0"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="Dairy Churn"/></property>
+			<property name="WorkstationIcon" value="ButterChurnPrefab" />
+			<property name="DescriptionKey" value="wksDairyChurnAOODesc"/>
+		</block>
+
+		<!-- ========================= -->
+		
+		<block name="wksOvensAOO">
+			<property name="Extends" value="parkBenchA" param1="EconomicBundleSize"/>
+			<property name="Stacknumber" value="500"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="wksOvensAOODesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="AllowAllRotations" value="true"/>
+			<property name="PlaceAltBlockValue" value="wksGasOven5AOO,wksGasOven4AOO,wksGasOven3AOO,wksPizzaOvenAOO,wksDeepFryerAOO"/>
+			<property name="Group" value="Workbenches,All"/>
+		</block>	
+
+		<!-- ========================= -->
+		
+
+
+		<!-- =============================================================================================== -->
+		
+
+
+		<!-- =============================================================================================== -->
+		
+		<block name="wksGasOven3AOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="GasStove03"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?GasStove03"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+            <property class="Workstation">
+                <property name="Modules" value="tools,output,fuel,input"/>
+                <property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="All,Gas Oven,campfire"/>
+            </property>
+            <property name="WorkstationIcon" value="GasStove_03"/>
+			<property name="DescriptionKey" value="wksGasOven3AOODesc"/>
+            <property name="WorkstationIcon" value="ui_game_symbol_spatula"/>
+            <property name="OpenSound" value="campfire_open"/>
+            <property name="CloseSound" value="campfire_close"/>
+            <property name="CraftSound" value="campfire_cook_click"/>
+            <property name="CraftActionName" value="GRILL"/>
+            <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+            <property name="CraftCompleteSound" value="campfire_complete_item"/>
+            <property name="HeatMapStrength" value="5"/>
+            <property name="HeatMapTime" value="5000"/>
+            <property name="HeatMapFrequency" value="1000"/>
+        </block>
+
+		<!-- =============================================================================================== -->
+		
+		<block name="wksGasOven4AOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="range-1"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?range-1"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property class="Workstation">
+                <property name="Modules" value="tools,output,fuel,input"/>
+                <property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="All,Gas Oven,campfire"/>
+            </property>
+            <property name="WorkstationIcon" value="range-1"/>
+			<property name="DescriptionKey" value="wksGasOven4AOODesc"/>
+            <property name="WorkstationIcon" value="ui_game_symbol_spatula"/>
+            <property name="OpenSound" value="campfire_open"/>
+            <property name="CloseSound" value="campfire_close"/>
+            <property name="CraftSound" value="campfire_cook_click"/>
+            <property name="CraftActionName" value="GRILL"/>
+            <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+            <property name="CraftCompleteSound" value="campfire_complete_item"/>
+            <property name="HeatMapStrength" value="5"/>
+            <property name="HeatMapTime" value="5000"/>
+            <property name="HeatMapFrequency" value="1000"/>
+        </block>
+
+<!-- =============================================================================================== -->
+
+		<block name="wksGasOven5AOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="range-2"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?range-2"/>
+            <property name="MultiBlockDim" value="2,1,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+             <property class="Workstation">
+                <property name="Modules" value="tools,output,fuel,input"/>
+                <property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="All,Gas Oven,campfire"/>
+            </property>
+            <property name="WorkstationIcon" value="range-2"/>
+			<property name="DescriptionKey" value="wksGasOven5AOODesc"/>
+            <property name="WorkstationIcon" value="ui_game_symbol_spatula"/>
+            <property name="OpenSound" value="campfire_open"/>
+            <property name="CloseSound" value="campfire_close"/>
+            <property name="CraftSound" value="campfire_cook_click"/>
+            <property name="CraftActionName" value="GRILL"/>
+            <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+            <property name="CraftCompleteSound" value="campfire_complete_item"/>
+            <property name="HeatMapStrength" value="5"/>
+            <property name="HeatMapTime" value="5000"/>
+            <property name="HeatMapFrequency" value="1000"/>
+        </block>
+
+<!-- =============================================================================================== -->
+
+		<block name="wksPizzaOvenAOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="PizzaOven"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?PizzaOven"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property class="Workstation">
+                <property name="Modules" value="tools,output,fuel,input"/>
+                <property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="All,Pizza Oven"/>
+            </property>
+            <property name="WorkstationIcon" value="PizzaOven"/>
+ 			<property name="DescriptionKey" value="wksPizzaOvenAOODesc"/>
+            <property name="WorkstationIcon" value="ui_game_symbol_spatula"/>
+            <property name="OpenSound" value="campfire_open"/>
+            <property name="CloseSound" value="campfire_close"/>
+            <property name="CraftSound" value="campfire_cook_click"/>
+            <property name="CraftActionName" value="GRILL"/>
+            <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+            <property name="CraftCompleteSound" value="campfire_complete_item"/>
+            <property name="HeatMapStrength" value="5"/>
+            <property name="HeatMapTime" value="5000"/>
+            <property name="HeatMapFrequency" value="1000"/>
+        </block>
+
+<!-- =============================================================================================== -->
+		
+		<block name="wksDeepFryerAOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="DeepFryer"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?DeepFryer"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property class="Workstation">
+                <property name="Modules" value="tools,output,fuel,input"/>
+                <property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="All,Fryer"/>
+            </property>
+            <property name="WorkstationIcon" value="DeepFryer"/>
+			<property name="DescriptionKey" value="wksDeepFryerAOODesc"/>
+            <property name="WorkstationIcon" value="ui_game_symbol_spatula"/>
+            <property name="OpenSound" value="campfire_open"/>
+            <property name="CloseSound" value="campfire_close"/>
+            <property name="CraftSound" value="campfire_cook_click"/>
+            <property name="CraftActionName" value="GRILL"/>
+            <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+            <property name="CraftCompleteSound" value="campfire_complete_item"/>
+            <property name="HeatMapStrength" value="5"/>
+            <property name="HeatMapTime" value="5000"/>
+            <property name="HeatMapFrequency" value="1000"/>
+        </block>
+
+		<!-- =============================================================================================== -->
+
+		<block name="wksKitchNaidAOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="KitchNaidPrefab"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?KitchNaidPrefab"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+            <property class="Workstation">
+                <property name="Modules" value="tools,output,input"/>
+                <property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="KitchNaid"/>
+            </property>
+			<property name="WorkstationIcon" value="KitchNaidPrefab"/>
+			<property name="DescriptionKey" value="wksKitchNaidAOODesc"/>
+            <property name="WorkstationIcon" value="ui_game_symbol_spatula"/>
+            <property name="OpenSound" value="campfire_open"/>
+            <property name="CloseSound" value="campfire_close"/>
+            <property name="CraftSound" value="campfire_cook_click"/>
+            <property name="CraftActionName" value="GRILL"/>
+            <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+            <property name="CraftCompleteSound" value="campfire_complete_item"/>
+            <property name="HeatMapStrength" value="5"/>
+            <property name="HeatMapTime" value="5000"/>
+            <property name="HeatMapFrequency" value="1000"/>
+        </block>
+
+		<!-- =============================================================================================== -->
+		
+		<block name="wksSmokersAOO">
+			<property name="Extends" value="parkBenchA" param1="EconomicBundleSize"/>
+			<property name="Stacknumber" value="500"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="wksSmokersAOODesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="AllowAllRotations" value="true"/>
+			<property name="PlaceAltBlockValue" value="wksRusticSmokerAOO,wksColdSmokerAOO"/>
+			<property name="Group" value="Workbenches,All"/>
+
+		</block>	
+
+		<!-- =============================================================================================== -->
+
+		<block name="wksRusticSmokerAOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="SmokerPrefab"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?SmokerPrefab"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property class="Workstation">
+				<property name="Modules" value="tools,output,fuel,input"/>
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="Smoker"/>
+			</property>
+			<property name="WorkstationIcon" value="SmokerPrefab" />
+			<property name="DescriptionKey" value="wksRusticSmokerAOODesc"/>
+            <property name="WorkstationIcon" value="ui_game_symbol_spatula"/>
+            <property name="OpenSound" value="campfire_open"/>
+            <property name="CloseSound" value="campfire_close"/>
+            <property name="CraftSound" value="campfire_cook_click"/>
+            <property name="CraftActionName" value="GRILL"/>
+            <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+            <property name="CraftCompleteSound" value="campfire_complete_item"/>
+            <property name="HeatMapStrength" value="5"/>
+            <property name="HeatMapTime" value="5000"/>
+            <property name="HeatMapFrequency" value="1000"/>
+		</block>
+
+		<!-- =============================================================================================== -->
+		
+       <block name="wksColdSmokerAOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="WoodGrillPrefab"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?WoodGrillPrefab"/>
+            <property name="MultiBlockDim" value="2,1,1"/>
+			<property name="ModelOffset" value="0.5,0.5,0"/>
+             <property class="Workstation">
+                <property name="Modules" value="tools,output,input"/>
+                <property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="Smoker"/>
+            </property>
+            <property name="WorkstationIcon" value="WoodGrillPrefab"/>
+ 			<property name="DescriptionKey" value="wksColdSmokerAOODesc"/>
+            <property name="WorkstationIcon" value="ui_game_symbol_spatula"/>
+            <property name="OpenSound" value="campfire_open"/>
+            <property name="CloseSound" value="campfire_close"/>
+            <property name="CraftSound" value="campfire_cook_click"/>
+            <property name="CraftActionName" value="GRILL"/>
+            <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+            <property name="CraftCompleteSound" value="campfire_complete_item"/>
+            <property name="HeatMapStrength" value="5"/>
+            <property name="HeatMapTime" value="5000"/>
+            <property name="HeatMapFrequency" value="1000"/>
+        </block>		
+
+		<!-- =============================================================================================== -->
+
+		<block name="wksGrillsAOO">
+			<property name="Extends" value="parkBenchA" param1="EconomicBundleSize"/>
+			<property name="Stacknumber" value="500"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="wksGrillsAOODesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="AllowAllRotations" value="true"/>
+			<property name="PlaceAltBlockValue" value="wksWebberGrillAOO,wksWebberGrill2AOO,wksWoodGrill2AOO,wksRustyGrillAOO,wksWoodGrill3AOO"/>
+			<property name="Group" value="Workbenches,All"/>
+		</block>
+
+		<!-- =============================================================================================== -->
+
+		<block name="wksWoodGrill3AOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="bbq_grill-2"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?bbq_grill-2"/>
+			<property name="MultiBlockDim" value="1,1,1"/>	
+			<property name="ModelOffset" value="0,0,0"/>
+              <property class="Workstation">
+                <property name="Modules" value="tools,output,fuel,input"/>
+                <property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="Grill,campfire"/>
+            </property>
+ 			<property name="DescriptionKey" value="wksWoodGrill3AOODesc"/>			
+            <property name="WorkstationIcon" value="ui_game_symbol_spatula"/>
+            <property name="OpenSound" value="campfire_open"/>
+            <property name="CloseSound" value="campfire_close"/>
+            <property name="CraftSound" value="campfire_cook_click"/>
+            <property name="CraftActionName" value="GRILL"/>
+            <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+            <property name="CraftCompleteSound" value="campfire_complete_item"/>
+            <property name="HeatMapStrength" value="5"/>
+            <property name="HeatMapTime" value="5000"/>
+            <property name="HeatMapFrequency" value="1000"/>
+        </block>
+
+		<!-- =============================================================================================== -->
+
+		<block name="wksWebberGrillAOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="OvenPrefab"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?OvenPrefab"/>
+			<property name="MultiBlockDim" value="1,2,2"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property class="Workstation">
+				<property name="Modules" value="tools,output,fuel,input"/>
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="Grill,campfire"/>
+			</property>
+            <property name="WorkstationIcon" value="ui_game_symbol_spatula"/>
+            <property name="OpenSound" value="campfire_open"/>
+            <property name="CloseSound" value="campfire_close"/>
+            <property name="CraftSound" value="campfire_cook_click"/>
+            <property name="CraftActionName" value="GRILL"/>
+            <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+            <property name="CraftCompleteSound" value="campfire_complete_item"/>
+            <property name="HeatMapStrength" value="5"/>
+            <property name="HeatMapTime" value="5000"/>
+            <property name="HeatMapFrequency" value="1000"/>
+			<property name="DescriptionKey" value="wksWebberGrillAOODesc"/>
+		</block>
+
+		<!-- =============================================================================================== -->
+
+		<block name="wksWebberGrill2AOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="bbq_grill-3"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?bbq_grill-3"/>
+			<property name="MultiBlockDim" value="2,2,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property class="Workstation">
+				<property name="Modules" value="tools,output,fuel,input"/>
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="Grill,campfire"/>
+			</property>
+            <property name="WorkstationIcon" value="ui_game_symbol_spatula"/>
+            <property name="OpenSound" value="campfire_open"/>
+            <property name="CloseSound" value="campfire_close"/>
+            <property name="CraftSound" value="campfire_cook_click"/>
+            <property name="CraftActionName" value="GRILL"/>
+            <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+            <property name="CraftCompleteSound" value="campfire_complete_item"/>
+            <property name="HeatMapStrength" value="5"/>
+            <property name="HeatMapTime" value="5000"/>
+            <property name="HeatMapFrequency" value="1000"/>
+			<property name="DescriptionKey" value="wksWebberGrill2AOODesc"/>
+		</block>
+
+		<!-- =============================================================================================== -->
+
+
+
+		<!-- =============================================================================================== -->
+
+		<block name="wksWoodGrill2AOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="WoodGrill2"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?WoodGrill2"/>
+			<property name="MultiBlockDim" value="1,1,1"/>	
+			<property name="ModelOffset" value="0,0,0"/>
+            <property class="Workstation">
+                <property name="Modules" value="tools,output,fuel,input"/>
+                <property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="Grill,campfire"/>
+            </property>
+            <property name="WorkstationIcon" value="ui_game_symbol_spatula"/>
+            <property name="OpenSound" value="campfire_open"/>
+            <property name="CloseSound" value="campfire_close"/>
+            <property name="CraftSound" value="campfire_cook_click"/>
+            <property name="CraftActionName" value="GRILL"/>
+            <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+            <property name="CraftCompleteSound" value="campfire_complete_item"/>
+            <property name="HeatMapStrength" value="5"/>
+            <property name="HeatMapTime" value="5000"/>
+            <property name="HeatMapFrequency" value="1000"/>
+			<property name="DescriptionKey" value="wksWoodGrill2AOODesc"/>			
+             <property name="WorkstationIcon" value="ui_game_symbol_spatula"/>
+        </block>	
+
+		<!-- =============================================================================================== -->
+		
+		<block name="wksRustyGrillAOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="RustyGrill"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?RustyGrill"/>
+			<property name="MultiBlockDim" value="1,2,2"/>	
+			<property name="ModelOffset" value="0,0,0"/>
+            <property class="Workstation">
+                <property name="Modules" value="tools,output,fuel,input"/>
+                <property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="Grill,campfire"/>
+            </property>
+			<property name="DescriptionKey" value="wksRustyGrillAOODesc"/>			
+            <property name="WorkstationIcon" value="ui_game_symbol_spatula"/>
+            <property name="OpenSound" value="campfire_open"/>
+            <property name="CloseSound" value="campfire_close"/>
+            <property name="CraftSound" value="campfire_cook_click"/>
+            <property name="CraftActionName" value="GRILL"/>
+            <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+            <property name="CraftCompleteSound" value="campfire_complete_item"/>
+            <property name="HeatMapStrength" value="5"/>
+            <property name="HeatMapTime" value="5000"/>
+            <property name="HeatMapFrequency" value="1000"/>			
+        </block>
+
+		<block name="wksAlchemyStationAOO">
+			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="AlchemyBench1"/>
+			<property name="UnlockedBy" value="AOOAlchemy"/>
+             <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?AlchemyBench1"/>
+            <property name="MultiBlockDim" value="3,2,4"/>
+			<property name="ModelOffset" value="-1,0,1.2"/>
+            <property class="Workstation">
+                <property name="Modules" value="fuel,output,input,tools"/>
+				<property name="CraftingAreaRecipes" value="AlchemyStation,chemistryStation"/>
+            </property>
+            <property name="WorkstationIcon" value="AlchemyBench1"/>
+			<property name="DescriptionKey" value="wksAlchemyStationAOODesc"/>
+        </block>
+
+		<block name="wksCloningStationAOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="CloneStation1"/>
+			<property name="UnlockedBy" value="AOOCloning"/>
+             <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?CloneStation"/>
+            <property name="MultiBlockDim" value="4,2,2"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property class="Workstation">
+                <property name="Modules" value="tools,output,input"/>
+				<property name="CraftingAreaRecipes" value="Cloning Station"/>
+            </property>
+            <property name="WorkstationIcon" value="CloneStation1"/>
+			<property name="DescriptionKey" value="wksCloningStationAOODesc"/>
+        </block>
+
+
+
+		<!-- ========== Producer Workstations ========== -->
+
+
+		<block name="wksCarCrusherAOO">
+			<property name="Class" value="Productor, OblivionCore"/>
+			<property name="WindowGroup" value="Crusher"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="StabilitySupport" value="false"/> 
+			<property name="Shape" value="ModelEntity"/>
+			<property name="AllowAllRotations" value="false"/>			
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Decor.unity3d?CrusherPanel"/>
+			<property name="CustomIcon" value="7butchertable"/>	
+            <property name="MultiBlockDim" value="1,2,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="HandleFace" value="Bottom"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="HeatMapStrength" value="5"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property name="InputLootList" value="inputSlots5X2"/>
+			<property name="OutputLootList" value="outputSlots5X4"/>
+			<property name="ToolsLootList" value="toolsSlots2X2"/>
+			<property name="RandomRecipe" value="false"/>			
+			<property class="ProducerRecipes">
+				<property class="Recipe1">
+					<property name="Ingredients" value="vehicleSuperCar01Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="5,2,1" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe2">
+					<property name="Ingredients" value="vehicleSuperCar02Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="5,2,1" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>					
+				<property class="Recipe3">
+					<property name="Ingredients" value="vehicleSuperCar03Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="5,2,1" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>					
+				<property class="Recipe4">
+					<property name="Ingredients" value="vehicleBattle01Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="1,1,1" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>				
+				<property class="Recipe5">
+					<property name="Ingredients" value="vehicleBattle02Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="1,1,1" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>				
+				<property class="Recipe6">
+					<property name="Ingredients" value="vehicleBattle03Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="1,1,1" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>				
+				<property class="Recipe7">
+					<property name="Ingredients" value="vehicleBattle04Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="1,1,1" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>				
+				<property class="Recipe8">
+					<property name="Ingredients" value="vehicleBattle05Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="1,1,1" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>				
+				<property class="Recipe9">
+					<property name="Ingredients" value="vehicleBattle06Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="1,1,1" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>				
+				<property class="Recipe10">
+					<property name="Ingredients" value="vehicleBatCar01Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="8,3,3" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>					
+				<property class="Recipe11">
+					<property name="Ingredients" value="vehicleScooterPlaceable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="1,1,1" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value=".4,.1,.1" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe12">
+					<property name="Ingredients" value="vehicleSportsCarWhitePlaceable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="3,2,2" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe13">
+					<property name="Ingredients" value="vehicleCyberDeloreanPlaceable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="3,2,2" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe14">
+					<property name="Ingredients" value="vehicleHotRod01Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="2,2,2" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe15">
+					<property name="Ingredients" value="vehicleFeature01Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="2,1,1" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe16">
+					<property name="Ingredients" value="vehicleBuggy01Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="2,1,1" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>					
+				<property class="Recipe17">
+					<property name="Ingredients" value="vehicleMuscleCar01Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="2,2,1" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>					
+				<property class="Recipe18">
+					<property name="Ingredients" value="vehicleApocRVPlaceable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="3,2,2" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>					
+				<property class="Recipe19">
+					<property name="Ingredients" value="vehicleHarleyPlaceable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="1,1,1" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>				
+				<property class="Recipe20">
+					<property name="Ingredients" value="vehicleChopperPlaceable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="1,1,1" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe21">
+					<property name="Ingredients" value="vehicleApocTractorPlaceable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="2,1,1" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe22">
+					<property name="Ingredients" value="vehiclePoliceCopterPlaceable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="3,2,2" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe23">
+					<property name="Ingredients" value="vehicleMI17Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="3,2,2" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe24">
+					<property name="Ingredients" value="vehicleRickShawBluePlaceable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="1,1,1" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value=".2,.2,.2" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe25">
+					<property name="Ingredients" value="vehicleRW01Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="3,2,2" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe26">
+					<property name="Ingredients" value="vehicleRW02Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="3,2,2" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe27">
+					<property name="Ingredients" value="vehicleRW03Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="3,2,2" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe28">
+					<property name="Ingredients" value="vehicleRW04Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="3,2,2" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe29">
+					<property name="Ingredients" value="vehicleRW05Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="3,2,2" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe30">
+					<property name="Ingredients" value="vehicleRW06Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="3,2,2" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe31">
+					<property name="Ingredients" value="vehicleRW07Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="3,2,2" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe32">
+					<property name="Ingredients" value="vehicleRW08Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="3,2,2" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+
+				<property class="Recipe33">
+					<property name="Ingredients" value="vehicleRW09Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="3,2,2" />
+					<property name="CraftTime" value="60" />					
+					<property name="ItemsProbabilities" value="1,.5,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+				<property class="Recipe34">
+					<property name="Ingredients" value="vehicleMCycle01Placeable" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="vehicleTokenAOO,vehicleTokenAOO" />
+					<property name="ItemsCount" value="1,1" />
+					<property name="CraftTime" value="60" />
+					<property name="ItemsProbabilities" value="1,.5" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+			
+			</property>		
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_building,SC_loot"/>
+		</block>
+
+
+		<block name="wksMagazineMachine">
+			<property name="Class" value="Productor, OblivionCore"/>
+			<property name="WindowGroup" value="magazineMachine"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="StabilitySupport" value="false"/> 
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?bookVending"/>
+			<property name="CustomIcon" value="bookVending"/>	
+            <property name="MultiBlockDim" value="1,2,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="HandleFace" value="Bottom"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="HeatMapStrength" value="5"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property name="InputLootList" value="inputSlots5X1"/>
+			<property name="OutputLootList" value="outputSlots5X3"/>
+			<property name="ToolsLootList" value="toolsSlots2X2"/>
+			<property name="RandomRecipe" value="true"/>	
+			<property name="Place" value="TowardsPlacerInverted"/>				
+			<property class="ProducerRecipes">
+			
+				<property class="Recipe1">
+					<property name="Ingredients" value="scrapMagazine" />
+					<property name="IngredientsCount" value="2" />
+					<property name="Items" value="harvestingToolsSkillMagazine,repairToolsSkillMagazine,salvageToolsSkillMagazine,knucklesSkillMagazine,bladesSkillMagazine,armorSkillMagazine,medicalSkillMagazine,foodSkillMagazine" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,1" />
+					<property name="CraftTime" value="5" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,1,1,1" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="true"/>	
+				</property>			
+				<property class="Recipe2">
+					<property name="Ingredients" value="scrapMagazine" />
+					<property name="IngredientsCount" value="2" />
+					<property name="Items" value="clubsSkillMagazine,sledgehammersSkillMagazine,spearsSkillMagazine,bowsSkillMagazine,handgunsSkillMagazine,seedSkillMagazine,electricianSkillMagazine,trapsSkillMagazine" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,1" />
+					<property name="CraftTime" value="5" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,1" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="true"/>	
+				</property>		
+				<property class="Recipe3">
+					<property name="Ingredients" value="scrapMagazine" />
+					<property name="IngredientsCount" value="2" />
+					<property name="Items" value="shotgunsSkillMagazine,riflesSkillMagazine,machineGunsSkillMagazine,explosivesSkillMagazine,roboticsSkillMagazine,workstationSkillMagazine,vehiclesSkillMagazine" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1" />
+					<property name="CraftTime" value="5" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,1,1" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="true"/>	
+				</property>	
+	
+			<!--	<property class="Recipe1">
+					<property name="Ingredients" value="scrapMagazine" />
+					<property name="IngredientsCount" value="2" />
+					<property name="Items" value="harvestingToolsSkillMagazine,repairToolsSkillMagazine,salvageToolsSkillMagazine,knucklesSkillMagazine,bladesSkillMagazine,clubsSkillMagazine,sledgehammersSkillMagazine,spearsSkillMagazine" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,1" />
+					<property name="CraftTime" value="2" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,1,1,1" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="true"/>	
+				</property>	-->
+			<!--	<property class="Recipe2">
+					<property name="Ingredients" value="scrapMagazine" />
+					<property name="IngredientsCount" value="2" />
+					<property name="Items" value="bowsSkillMagazine,handgunsSkillMagazine,shotgunsSkillMagazine,riflesSkillMagazine,machineGunsSkillMagazine,explosivesSkillMagazine,roboticsSkillMagazine,armorSkillMagazine" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,1" />
+					<property name="CraftTime" value="2" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,1,1,1" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="true"/> 	
+				</property>	-->	
+			<!--	<property class="Recipe3">
+					<property name="Ingredients" value="scrapMagazine" />
+					<property name="IngredientsCount" value="2" />
+					<property name="Items" value="medicalSkillMagazine,foodSkillMagazine,seedSkillMagazine,electricianSkillMagazine,trapsSkillMagazine,workstationSkillMagazine,vehiclesSkillMagazine" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1" />
+					<property name="CraftTime" value="2" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,1,1" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="true"/> 	
+				</property>		-->		
+			</property>		
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_building,SC_loot"/>
+		</block>
+
+		<block name="wksButcherTableV2">
+			<property name="Class" value="Productor, OblivionCore"/>
+			<property name="WindowGroup" value="butcherTable"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="StabilitySupport" value="false"/> 
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ButcherStation"/>
+			<property name="CustomIcon" value="ButcherStation"/>	
+            <property name="MultiBlockDim" value="5,3,2"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="HandleFace" value="Bottom"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="HeatMapStrength" value="5"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property name="InputLootList" value="inputSlots5X2"/>
+			<property name="OutputLootList" value="outputSlots5X4"/>
+			<property name="ToolsLootList" value="toolsSlots2X2"/>
+			<property name="RandomRecipe" value="false"/>	
+			<property name="Place" value="TowardsPlacerInverted"/>				
+			<property class="ProducerRecipes">
+				<property class="Recipe1">
+					<property name="Ingredients" value="carcassBear_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceBearPeltAOO,foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,3,1,4,2,1,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,.7,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 					
+				</property>	
+				<property class="Recipe2">
+					<property name="Ingredients" value="carcassIbex_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceIbexPeltAOO,resourceIbexHornAOO,foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,1,3,1,4,2,1,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,.7,.15,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		
+				</property>		
+				<property class="Recipe3">
+					<property name="Ingredients" value="carcassDeer_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceDeerPeltAOO,resourceDeerAntlerAOO,foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,1,3,1,4,2,1,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,.7,.15,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		
+				</property>	
+				<property class="Recipe4">
+					<property name="Ingredients" value="carcassElephant_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceElephantPeltAOO,resourceElephantTuskAOO,foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="2,2,2,2,2,2,1,2,5,2,6,3,2,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,.7,.15,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		
+				</property>	
+				<property class="Recipe5">
+					<property name="Ingredients" value="carcassGoat_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceGoatPeltAOO,resourceGoatHornAOO,foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,1,3,1,4,2,1,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,.7,.15,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		
+				</property>		
+				<property class="Recipe6">
+					<property name="Ingredients" value="carcassWolf_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceWolfPeltAOO,foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,3,1,4,2,1,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,.7,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		
+				</property>				
+
+				<property class="Recipe7">
+					<property name="Ingredients" value="carcassRabbit_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceRabbitPeltAOO,resourceRabbitsFootAOO,foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,1,3,1,4,2,1,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,.7,.15,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		
+				</property>				
+				<property class="Recipe8">
+					<property name="Ingredients" value="carcassBuffalo_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceBuffaloPeltAOO,resourceBuffaloHornAOO,foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,1,3,1,4,2,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,.7,.15,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		
+				</property>			
+				<property class="Recipe9">
+					<property name="Ingredients" value="carcassScorpion_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,resourceBone,resourceAnimalFat,resourceScorpionTailAOO,foodRawMeat,resourceBone,resourceAnimalFat" />
+					<property name="ItemsCount" value="1,1,1,1,1,2,2,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,.15,.5,.5,.5,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		
+				</property>				
+				<property class="Recipe10">
+					<property name="Ingredients" value="carcassCow_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawGroundBeefAOO,foodRawSteakAOO,resourceBone,resourceAnimalFat,resourceCowPeltAOO,resourceCowTongueAOO,foodRawMeat,foodRawGroundBeefAOO,foodRawSteakAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1, 1,3,1,4,2,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,.7,.15,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		
+				</property>	
+				<property class="Recipe11">
+					<property name="Ingredients" value="carcassPig_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawBaconAOO,foodRawHamAOO,foodRawPorkLoinAOO,foodRawPorkRibsAOO,foodRawSausageLinkAOO,resourceBone,resourceAnimalFat,resourcePigPeltAOO,resourcePigsFeetAOO,foodRawMeat,foodRawBaconAOO,foodRawHamAOO,foodRawPorkLoinAOO,foodRawPorkRibsAOO,foodRawSausageLinkAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,1,1,1,1,3,2,1,3,4,4,2,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,1,1,1,1,1,.7,.15,.5,.7,.7,.7,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		 
+				</property>	
+				<property class="Recipe12">
+					<property name="Ingredients" value="carcassRhino_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceRhinoPeltAOO,resourceRhinoHornAOO,foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,1,3,1,4,2,1,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,.7,.15,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		
+				</property>				
+				<property class="Recipe13">
+					<property name="Ingredients" value="carcassScotCow_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawKobeSteakAOO,foodRawMeat,foodRawGroundBeefAOO,foodRawSteakAOO,resourceBone,resourceAnimalFat,resourceCowPeltAOO,resourceCowTongueAOO,foodRawMeat,foodRawGroundBeefAOO,foodRawSteakAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="2,1,1,1,1,1,1,1,1,3,1,4,2,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,1,.7,.15,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		 
+				</property>	
+				<property class="Recipe14">
+					<property name="Ingredients" value="carcassTiger_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceTigerPeltAOO,resourceTigerToothAOO,foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,1,3,1,4,2,1,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,.7,.15,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		
+				</property>	
+				<property class="Recipe15">
+					<property name="Ingredients" value="carcassCamel_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceCamelPeltAOO,resourceCamelToeAOO,foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,1,3,1,4,2,1,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,.7,.15,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		 
+				</property>	
+				<property class="Recipe16">
+					<property name="Ingredients" value="carcassPenguin_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourcePenguinPeltAOO,resourcePenguinGoldenAOO,foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,1,3,1,4,2,1,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,.7,.15,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		
+				</property>		
+				<property class="Recipe17">
+					<property name="Ingredients" value="carcassSpider_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceSpiderSilkAOO,resourceSpiderEggsAOO,foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,1,3,1,4,2,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,.7,.15,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		 
+				</property>	
+				<property class="Recipe18">
+					<property name="Ingredients" value="carcassChicken_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawChickenBreastAOO,foodRawChickenLegsandWingsAOO,resourceBone,resourceAnimalFat,resourceFeather,resourceChickenFeetAOO,foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,2,2,1,1,1,1,1,2,2,4,2,4,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,1,.15,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		 
+				</property>	
+				<property class="Recipe19">
+					<property name="Ingredients" value="carcassGoose_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceGoldNugget,foodRawMeat,foodRawChickenBreastAOO,foodRawChickenLegsandWingsAOO,resourceBone,resourceAnimalFat,resourceFeather,resourceChickenFeetAOO,foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="10,1,2,2,1,1,1,1,1,2,2,4,2,4,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,1,1,.15,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		 
+				</property>	
+				<property class="Recipe20">
+					<property name="Ingredients" value="carcassTurtle_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,resourceBone,resourceAnimalFat,resourceTurtleShellAOO,foodRawMeat,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,2,3,2,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,.15,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		
+				</property>
+				<property class="Recipe21">
+					<property name="Ingredients" value="carcassSheep_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,resourceBone,resourceAnimalFat,resourceWoolAOO,foodRawMeat,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,3,3,2,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,.15,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		
+				</property>
+				<property class="Recipe22">
+					<property name="Ingredients" value="carcassComodo_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,resourceBone,resourceAnimalFat,resourceComodoTailAOO,foodRawMeat,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,3,3,2,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,.15,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		
+				</property>
+				<property class="Recipe23">
+					<property name="Ingredients" value="carcassLeopard_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceLeopardPeltAOO,foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,1,3,1,4,2,1,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,.15,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		 
+				</property>	
+				<property class="Recipe24">
+					<property name="Ingredients" value="carcassZebra_AOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceZebraPeltAOO,foodRawMeat,foodRawWildSteakAOO,foodRawWildGameAOO,resourceBone,resourceAnimalFat,resourceADNAAOO" />
+					<property name="ItemsCount" value="1,1,1,1,1,1,1,1,3,1,4,2,1,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value="1,1,1,1,1,1,.5,.7,.7,.7,.7,.2" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		
+				</property>					
+				<property class="Recipe25">
+					<property name="Ingredients" value="zombieCorpseAOO" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceHDNAAOO,foodRottingFlesh,foodRottingFlesh,foodRottingFlesh,resourceLeather,resourceLeather,resourceLeather,resourceAnimalFat,resourceBone,resourceBone,resourceZombieGutsAOO,resourceZombieBrainsAOO" />
+					<property name="ItemsCount" value="1,3,2,2,2,2,2,3,3,3,1,1" />
+					<property name="CraftTime" value="20" />
+					<property name="ItemsProbabilities" value=".15,1,.5,.5,1,.5,.5,1,1,.5,.3,.3" />
+					<property name="Hidden" value="true"/> 
+					<property name="RandomItem" value="false"/> 	
+					<property name="AnimationStart" value="Lantern"/> 	
+					<property name="SoundStart" value="CuttingBoard"/> 		
+				</property>				
+			</property>		
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_building,SC_loot"/>
+		</block>
+
+
+		<block name="wksResurrectionTableAOO">
+			<property name="Class" value="Productor, OblivionCore"/>
+			<property name="WindowGroup" value="ResurrectionTable"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="StabilitySupport" value="false"/> 
+			<property name="AllowAllRotations" value="false"/>			
+			<property name="ActivationDistance" value="9"/>			
+			<property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ResTable2"/>
+			<property name="CustomIcon" value="ResTable" />
+            <property name="MultiBlockDim" value="6,4,3"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="HandleFace" value="Bottom"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="HeatMapStrength" value="5"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property name="InputLootList" value="inputSlots5X2"/>
+			<property name="OutputLootList" value="outputSlots5X4"/>
+			<property name="ToolsLootList" value="toolsSlots2X2"/>
+			<property name="RandomRecipe" value="false"/>
+			<property name="Place" value="TowardsPlacerInverted"/>				
+			<property class="ProducerRecipes">
+				<property class="Recipe1">
+					<property name="Ingredients" value="zombieCorpseAOO,resPotionAOO" />
+					<property name="IngredientsCount" value="1,1" />
+					<property name="Items" value="RandomZombieGuardSpawner_AOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="CraftTime" value="300" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+			
+			</property>		
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_building,SC_loot"/>
+		</block>
+
+		<block name="wksMilkingCowAOO">
+			<property name="Class" value="Productor, OblivionCore"/>
+			<property name="WindowGroup" value="MilkingCow"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="StabilitySupport" value="false"/> 
+			<property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?Cow2Prefab"/>
+			<property name="CustomIcon" value="Cow2Prefab" />
+            <property name="MultiBlockDim" value="2,2,1"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+			<property name="HandleFace" value="Bottom"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="HeatMapStrength" value="5"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property name="InputLootList" value="inputSlots5X2"/>
+			<property name="OutputLootList" value="outputSlots5X4"/>
+			<property name="ToolsLootList" value="toolsSlots2X2"/>
+			<property name="RandomRecipe" value="false"/>			
+			<property class="ProducerRecipes">
+				<property class="Recipe1">
+					<property name="Ingredients" value="resourceChickenFeedAOO" />
+					<property name="IngredientsCount" value="10" />
+					<property name="Items" value="foodRawMilkAOO,foodRawMilkAOO,foodRawMilkAOO,foodRawMilkAOO" />
+					<property name="ItemsCount" value="2,1,1,1" />
+					<property name="CraftTime" value="1800" />
+					<property name="ItemsProbabilities" value="1,.7,.5,.3" />
+					<property name="Hidden" value="true"/> 
+				
+				</property>	
+			
+			</property>		
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_building,SC_loot"/>
+		</block>
+
+		<block name="wksEggChickenAOO">
+			<property name="Class" value="Productor, OblivionCore"/>
+			<property name="WindowGroup" value="EggChicken"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="StabilitySupport" value="false"/> 
+			<property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ChickenS2"/>
+			<property name="CustomIcon" value="ChickenS2" />
+            <property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="HandleFace" value="Bottom"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="HeatMapStrength" value="5"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property name="InputLootList" value="inputSlots5X2"/>
+			<property name="OutputLootList" value="outputSlots5X4"/>
+			<property name="ToolsLootList" value="toolsSlots2X2"/>
+			<property name="RandomRecipe" value="false"/>			
+			<property class="ProducerRecipes">
+				<property class="Recipe1">
+					<property name="Ingredients" value="resourceChickenFeedAOO" />
+					<property name="IngredientsCount" value="10" />
+					<property name="Items" value="foodEgg,foodEgg,foodEgg,foodEgg" />
+					<property name="ItemsCount" value="2,1,1,1" />
+					<property name="CraftTime" value="1800" />
+					<property name="ItemsProbabilities" value="1,.7,.5,.3" />
+					<property name="Hidden" value="true"/> 
+				</property>	
+			
+			</property>		
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_building,SC_loot"/>
+		</block>
+
+
+		<block name="wksAutoMinerV2">
+			<property name="Class" value="Productor, OblivionCore"/>
+			<property name="WindowGroup" value="miner"/>
+			<property name="ActivationDistance" value="14"/>	
+			<property name="AllowAllRotations" value="false"/>	
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="CustomIcon" value="wksMiniMiner01AOO"/>
+			<property name="StabilitySupport" value="false"/> 
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?AutoMinerMini"/> 
+            <property name="MultiBlockDim" value="6,4,6"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="HandleFace" value="Bottom"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="HeatMapStrength" value="5"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property name="InputLootList" value="inputSlots6X1"/>
+			<property name="OutputLootList" value="outputSlots6X3"/>
+			<property name="ToolsLootList" value="toolsSlots2X2"/>
+			<property name="RandomRecipe" value="false"/>			
+			<property name="AllowedToolsItems" value="toolMiningDrillBit1AOO,toolMiningDrillBit2AOO,toolMiningDrillBit3AOO,toolMiningDrillBit4AOO"/> 
+			<property class="ProducerRecipes">
+				<property class="Recipe1">
+					<property name="BlockNameNeeded" value="terrStone"/>
+					<property name="BlocksSearchRange" value="10"/> 
+					<property name="BlockCountNeeded" value="4"/> 
+					<property name="Ingredients" value="ammoGasCan" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceRockSmall" />
+					<property name="ItemsCount" value="5" />
+					<property name="CraftTime" value="10" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="Tool" value="toolMiningDrillBit1AOO,toolMiningDrillBit2AOO,toolMiningDrillBit3AOO,toolMiningDrillBit4AOO" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="Required Items" /> 
+				</property>	
+				
+				<property class="Recipe2">
+					<property name="BlockNameNeeded" value="terrStone"/> 
+					<property name="BlocksSearchRange" value="10"/> 
+					<property name="BlockCountNeeded" value="4"/> 
+					<property name="Ingredients" value="ammoGasCan" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceRockSmall,resourceCrushedSand,resourceClayLump,resourceCobblestones,resourceScrapLead,resourceScrapBrass,resourceScrapIron,resourcePotassiumNitratePowder,resourceCoal,resourceOilShale,resourceSilverNugget,resourceGoldNugget,resourceRawDiamond" />
+					<property name="ItemsCount" value="5,4,5,3,2,2,3,2,2,2,1,1,1" />
+					<property name="CraftTime" value="10" />
+					<property name="ItemsProbabilities" value="1,.9,.9,.6,.2,.05,.5,.2,.2,.2,.01,.01,.01" />
+					<property name="SoundStart" value="MinerEngine" />
+				</property>
+				
+				<property class="Recipe3">
+					<property name="BlockNameNeeded" value="terrStone"/> 
+					<property name="BlocksSearchRange" value="10"/> 
+					<property name="BlockCountNeeded" value="4"/> 
+					<property name="Tool" value="toolMiningDrillBit1AOO" />
+					<property name="Ingredients" value="ammoGasCan" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceRockSmall,resourceCrushedSand,resourceClayLump,resourceCobblestones,resourceScrapLead,resourceScrapBrass,resourceScrapIron,resourcePotassiumNitratePowder,resourceCoal,resourceOilShale,resourceSilverNugget,resourceGoldNugget,resourceRawDiamond" />
+					<property name="ItemsCount" value="5,4,5,3,2,2,3,2,2,2,1,1,1" />
+					<property name="CraftTime" value="9" />
+					<property name="ItemsProbabilities" value="1,.9,.9,.6,.3,.15,.5,.3,.3,.3,.02,.02,.02" />
+					<property name="SoundStart" value="MinerEngine" />
+				</property>
+
+				<property class="Recipe4">
+					<property name="BlockNameNeeded" value="terrStone"/> 
+					<property name="BlocksSearchRange" value="10"/> 
+					<property name="BlockCountNeeded" value="4"/> 
+					<property name="Tool" value="toolMiningDrillBit2AOO" />
+					<property name="Ingredients" value="ammoGasCan" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceRockSmall,resourceCrushedSand,resourceClayLump,resourceCobblestones,resourceScrapLead,resourceScrapBrass,resourceScrapIron,resourcePotassiumNitratePowder,resourceCoal,resourceOilShale,resourceSilverNugget,resourceGoldNugget,resourceRawDiamond" />
+					<property name="ItemsCount" value="5,4,5,3,2,2,3,2,2,2,1,1,1" />
+					<property name="CraftTime" value="9" />
+					<property name="ItemsProbabilities" value="1,.9,.9,.6,.3,.15,.5,.3,.3,.3,.02,.02,.02" />
+					<property name="SoundStart" value="MinerEngine" />
+				</property>
+
+				<property class="Recipe5">
+					<property name="BlockNameNeeded" value="terrStone"/> 
+					<property name="BlocksSearchRange" value="10"/> 
+					<property name="BlockCountNeeded" value="4"/> 
+					<property name="Tool" value="toolMiningDrillBit3AOO" />
+					<property name="Ingredients" value="ammoGasCan" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceRockSmall,resourceCrushedSand,resourceClayLump,resourceCobblestones,resourceScrapLead,resourceScrapBrass,resourceScrapIron,resourcePotassiumNitratePowder,resourceCoal,resourceOilShale,resourceSilverNugget,resourceGoldNugget,resourceRawDiamond" />
+					<property name="ItemsCount" value="5,4,5,3,2,2,3,2,2,2,1,1,1" />
+					<property name="CraftTime" value="9" />
+					<property name="ItemsProbabilities" value="1,.9,.9,.6,.3,.15,.5,.3,.3,.3,.02,.02,.02" />
+					<property name="SoundStart" value="MinerEngine" />
+				</property>
+
+				<property class="Recipe6">
+					<property name="BlockNameNeeded" value="terrStone"/> 
+					<property name="BlocksSearchRange" value="10"/> 
+					<property name="BlockCountNeeded" value="4"/> 
+					<property name="Tool" value="toolMiningDrillBit4AOO" />
+					<property name="Ingredients" value="ammoGasCan" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceRockSmall,resourceCrushedSand,resourceClayLump,resourceCobblestones,resourceScrapLead,resourceScrapBrass,resourceScrapIron,resourcePotassiumNitratePowder,resourceCoal,resourceOilShale,resourceSilverNugget,resourceGoldNugget,resourceRawDiamond" />
+					<property name="ItemsCount" value="5,4,5,3,2,2,3,2,2,2,1,1,1" />
+					<property name="CraftTime" value="9" />
+					<property name="ItemsProbabilities" value="1,.9,.9,.6,.3,.15,.5,.3,.3,.3,.02,.02,.02" />
+					<property name="SoundStart" value="MinerEngine" />
+				</property>
+
+				<property class="Recipe7">
+					<property name="Tool" value="toolMiningDrillBit1AOO,toolMiningDrillBit2AOO" />
+					<property name="Ingredients" value="ammoGasCan" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceRockSmall,resourceCrushedSand,resourceClayLump,resourceCobblestones,resourceScrapLead,resourceScrapBrass,resourceScrapIron,resourcePotassiumNitratePowder,resourceCoal,resourceOilShale,resourceSilverNugget,resourceGoldNugget,resourceRawDiamond" />
+					<property name="ItemsCount" value="5,4,5,3,2,2,3,2,2,2,1,1,1" />
+					<property name="CraftTime" value="7" />
+					<property name="ItemsProbabilities" value="1,.9,.9,.6,.4,.25,.6,.4,.4,.4,.04,.04,.04" />
+					<property name="Hidden" value="true"/> 
+					<property name="SoundStart" value="MinerEngine" />
+				</property>
+
+				<property class="Recipe8">
+					<property name="Tool" value="toolMiningDrillBit1AOO,toolMiningDrillBit3AOO" />
+					<property name="Ingredients" value="ammoGasCan" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceRockSmall,resourceCrushedSand,resourceClayLump,resourceCobblestones,resourceScrapLead,resourceScrapBrass,resourceScrapIron,resourcePotassiumNitratePowder,resourceCoal,resourceOilShale,resourceSilverNugget,resourceGoldNugget,resourceRawDiamond" />
+					<property name="ItemsCount" value="5,4,5,3,2,2,3,2,2,2,1,1,1" />
+					<property name="CraftTime" value="7" />
+					<property name="ItemsProbabilities" value="1,.9,.9,.6,.4,.25,.6,.4,.4,.4,.04,.04,.04" />
+					<property name="Hidden" value="true"/> 
+					<property name="SoundStart" value="MinerEngine" />
+				</property>
+
+				<property class="Recipe9">
+					<property name="Tool" value="toolMiningDrillBit1AOO,toolMiningDrillBit4AOO" />
+					<property name="Ingredients" value="ammoGasCan" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceRockSmall,resourceCrushedSand,resourceClayLump,resourceCobblestones,resourceScrapLead,resourceScrapBrass,resourceScrapIron,resourcePotassiumNitratePowder,resourceCoal,resourceOilShale,resourceSilverNugget,resourceGoldNugget,resourceRawDiamond" />
+					<property name="ItemsCount" value="5,4,5,3,2,2,3,2,2,2,1,1,1" />
+					<property name="CraftTime" value="7" />
+					<property name="ItemsProbabilities" value="1,.9,.9,.6,.4,.25,.6,.4,.4,.4,.04,.04,.04" />
+					<property name="Hidden" value="true"/> 
+					<property name="SoundStart" value="MinerEngine" />
+				</property>
+
+				<property class="Recipe10">
+					<property name="Tool" value="toolMiningDrillBit2AOO,toolMiningDrillBit3AOO" />
+					<property name="Ingredients" value="ammoGasCan" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceRockSmall,resourceCrushedSand,resourceClayLump,resourceCobblestones,resourceScrapLead,resourceScrapBrass,resourceScrapIron,resourcePotassiumNitratePowder,resourceCoal,resourceOilShale,resourceSilverNugget,resourceGoldNugget,resourceRawDiamond" />
+					<property name="ItemsCount" value="5,4,5,3,2,2,3,2,2,2,1,1,1" />
+					<property name="CraftTime" value="7" />
+					<property name="ItemsProbabilities" value="1,.9,.9,.6,.4,.25,.6,.4,.4,.4,.04,.04,.04" />
+					<property name="Hidden" value="true"/> 
+					<property name="SoundStart" value="MinerEngine" />
+				</property>
+
+				<property class="Recipe11">
+					<property name="Tool" value="toolMiningDrillBit2AOO,toolMiningDrillBit4AOO" />
+					<property name="Ingredients" value="ammoGasCan" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceRockSmall,resourceCrushedSand,resourceClayLump,resourceCobblestones,resourceScrapLead,resourceScrapBrass,resourceScrapIron,resourcePotassiumNitratePowder,resourceCoal,resourceOilShale,resourceSilverNugget,resourceGoldNugget,resourceRawDiamond" />
+					<property name="ItemsCount" value="5,4,5,3,2,2,3,2,2,2,1,1,1" />
+					<property name="CraftTime" value="7" />
+					<property name="ItemsProbabilities" value="1,.9,.9,.6,.4,.25,.6,.4,.4,.4,.04,.04,.04" />
+					<property name="Hidden" value="true"/> 
+					<property name="SoundStart" value="MinerEngine" />
+				</property>
+
+				<property class="Recipe12">
+					<property name="Tool" value="toolMiningDrillBit3AOO,toolMiningDrillBit4AOO" />
+					<property name="Ingredients" value="ammoGasCan" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceRockSmall,resourceCrushedSand,resourceClayLump,resourceCobblestones,resourceScrapLead,resourceScrapBrass,resourceScrapIron,resourcePotassiumNitratePowder,resourceCoal,resourceOilShale,resourceSilverNugget,resourceGoldNugget,resourceRawDiamond" />
+					<property name="ItemsCount" value="5,4,5,3,2,2,3,2,2,2,1,1,1" />
+					<property name="CraftTime" value="7" />
+					<property name="ItemsProbabilities" value="1,.9,.9,.6,.4,.25,.6,.4,.4,.4,.04,.04,.04" />
+					<property name="Hidden" value="true"/> 
+					<property name="SoundStart" value="MinerEngine" />
+				</property>
+
+				<property class="Recipe13">
+					<property name="Tool" value="toolMiningDrillBit1AOO,toolMiningDrillBit2AOO,toolMiningDrillBit3AOO" />
+					<property name="Ingredients" value="ammoGasCan" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceRockSmall,resourceCrushedSand,resourceClayLump,resourceCobblestones,resourceScrapLead,resourceScrapBrass,resourceScrapIron,resourcePotassiumNitratePowder,resourceCoal,resourceOilShale,resourceSilverNugget,resourceGoldNugget,resourceRawDiamond" />
+					<property name="ItemsCount" value="5,4,5,3,2,2,3,2,2,2,1,1,1" />
+					<property name="CraftTime" value="5" />
+					<property name="ItemsProbabilities" value="1,.9,.9,.6,.4,.25,.6,.4,.4,.4,.04,.04,.04" />
+					<property name="Hidden" value="true"/> 
+					<property name="SoundStart" value="MinerEngine" />
+				</property>
+
+				<property class="Recipe14">
+					<property name="Tool" value="toolMiningDrillBit1AOO,toolMiningDrillBit3AOO,toolMiningDrillBit4AOO" />
+					<property name="Ingredients" value="ammoGasCan" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceRockSmall,resourceCrushedSand,resourceClayLump,resourceCobblestones,resourceScrapLead,resourceScrapBrass,resourceScrapIron,resourcePotassiumNitratePowder,resourceCoal,resourceOilShale,resourceSilverNugget,resourceGoldNugget,resourceRawDiamond" />
+					<property name="ItemsCount" value="5,4,5,3,2,2,3,2,2,2,1,1,1" />
+					<property name="CraftTime" value="5" />
+					<property name="ItemsProbabilities" value="1,.9,.9,.6,.4,.25,.6,.4,.4,.4,.04,.04,.04" />
+					<property name="Hidden" value="true"/> 
+					<property name="SoundStart" value="MinerEngine" />
+				</property>
+
+				<property class="Recipe15">
+					<property name="Tool" value="toolMiningDrillBit1AOO,toolMiningDrillBit2AOO,toolMiningDrillBit4AOO" />
+					<property name="Ingredients" value="ammoGasCan" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceRockSmall,resourceCrushedSand,resourceClayLump,resourceCobblestones,resourceScrapLead,resourceScrapBrass,resourceScrapIron,resourcePotassiumNitratePowder,resourceCoal,resourceOilShale,resourceSilverNugget,resourceGoldNugget,resourceRawDiamond" />
+					<property name="ItemsCount" value="5,4,5,3,2,2,3,2,2,2,1,1,1" />
+					<property name="CraftTime" value="5" />
+					<property name="ItemsProbabilities" value="1,.9,.9,.6,.4,.25,.6,.4,.4,.4,.04,.04,.04" />
+					<property name="Hidden" value="true"/> 
+					<property name="SoundStart" value="MinerEngine" />
+				</property>
+
+				<property class="Recipe16">
+					<property name="Tool" value="toolMiningDrillBit2AOO,toolMiningDrillBit3AOO,toolMiningDrillBit4AOO" />
+					<property name="Ingredients" value="ammoGasCan" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceRockSmall,resourceCrushedSand,resourceClayLump,resourceCobblestones,resourceScrapLead,resourceScrapBrass,resourceScrapIron,resourcePotassiumNitratePowder,resourceCoal,resourceOilShale,resourceSilverNugget,resourceGoldNugget,resourceRawDiamond" />
+					<property name="ItemsCount" value="5,4,5,3,2,2,3,2,2,2,1,1,1" />
+					<property name="CraftTime" value="5" />
+					<property name="ItemsProbabilities" value="1,.9,.9,.6,.4,.25,.6,.4,.4,.4,.04,.04,.04" />
+					<property name="Hidden" value="true"/> 
+					<property name="SoundStart" value="MinerEngine" />
+				</property>			
+
+				<property class="Recipe17">
+					<property name="Tool" value="toolMiningDrillBit1AOO,toolMiningDrillBit2AOO,toolMiningDrillBit3AOO,toolMiningDrillBit4AOO" />
+					<property name="Ingredients" value="ammoGasCan" />
+					<property name="IngredientsCount" value="1" />
+					<property name="Items" value="resourceRockSmall,resourceCrushedSand,resourceClayLump,resourceCobblestones,resourceScrapLead,resourceScrapBrass,resourceScrapIron,resourcePotassiumNitratePowder,resourceCoal,resourceOilShale,resourceSilverNugget,resourceGoldNugget,resourceRawDiamond" />
+					<property name="ItemsCount" value="5,4,5,3,2,2,3,2,2,2,1,1,1" />
+					<property name="CraftTime" value="3" />
+					<property name="ItemsProbabilities" value="1,.9,.9,.6,.5,.35,.7,.5,.5,.5,.05,.05,.05" />
+					<property name="Hidden" value="true"/> 
+					<property name="SoundStart" value="MinerEngine" />
+				</property>	
+	
+			</property>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_building,SC_loot"/>
+		</block>
+
+		<block name="wksDrinkDispenserV2">
+			<property name="Class" value="Productor, OblivionCore"/>
+			<property name="WindowGroup" value="drinkDispenser"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="CustomIcon" value="DrinkDispenser2"/>
+			<property name="WaterFlow" value="permitted"/>	
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?drink_dispenser-2"/>
+			<property name="HeatMapStrength" value="5"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="HandleFace" value="Bottom"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="InputLootList" value="inputSlots6X2"/>
+			<property name="OutputLootList" value="outputSlots6X2"/>
+			<property name="ToolsLootList" value="toolsSlots2X1"/>
+			<property name="RandomRecipe" value="true"/>			
+			<property name="AllowedToolsItems" value="toolCO2CanisterAOO,toolJuicerAOO"/> 
+			<property class="ProducerRecipes">
+				<property class="Recipe1">
+					<property name="Tool" value="toolJuicerAOO" />
+					<property name="Ingredients" value="foodCropOrangeAOO,drinkJarEmpty" />
+					<property name="IngredientsCount" value="5,1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="Items" value="drinkOrangeJuiceAOO" />
+					<property name="ItemsCount" value="1" />					
+					<property name="CraftTime" value="6" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="Orange Juice" />					
+				</property>
+				<property class="Recipe2">
+					<property name="Tool" value="toolJuicerAOO" />
+					<property name="Ingredients" value="foodCropApplesAOO,drinkJarEmpty" />
+					<property name="IngredientsCount" value="5,1" />
+					<property name="Items" value="drinkAppleJuiceAOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="6" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="Apple Juice" />						
+				</property>	
+				<property class="Recipe3">
+					<property name="Tool" value="toolJuicerAOO" />
+					<property name="Ingredients" value="foodCropTomatoAOO,foodCropCeleryAOO,foodCropCarrotAOO,foodCropOnionAOO,foodCropIcebergLettuceAOO,foodCropCabbageAOO,foodCropSpinachAOO,foodCropCucumberAOO,drinkJarEmpty" />
+					<property name="IngredientsCount" value="3,3,3,3,3,3,3,3,1" />
+					<property name="Items" value="drinkV8JuiceAOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="6" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="V8 Juice" />	
+				</property>	
+				<property class="Recipe4">
+					<property name="Tool" value="toolJuicerAOO" />
+					<property name="Ingredients" value="foodCropWatermelonTSK_AOO,drinkJarEmpty" />
+					<property name="IngredientsCount" value="5,1" />
+					<property name="Items" value="drinkWatermelonJuiceTSK_AOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="6" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="Watermelon Juice" />	
+				</property>
+				<property class="Recipe5">
+					<property name="Tool" value="toolJuicerAOO" />
+					<property name="Ingredients" value="foodCropLemonTSK_AOO,drinkJarEmpty" />
+					<property name="IngredientsCount" value="5,1" />
+					<property name="Items" value="drinkLemonJuiceTSK_AOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="6" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="Lemon Juice" />	
+				</property>
+				<property class="Recipe6">
+					<property name="Tool" value="toolJuicerAOO" />
+					<property name="Ingredients" value="foodCropMangoTSK_AOO,drinkJarEmpty" />
+					<property name="IngredientsCount" value="5,1" />
+					<property name="Items" value="drinkMangoJuiceTSK_AOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="6" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="Mango Juice" />	
+				</property>
+
+				<property class="Recipe7">
+					<property name="Tool" value="toolJuicerAOO" />
+					<property name="Ingredients" value="foodCropPineappleAOO,drinkJarEmpty" />
+					<property name="IngredientsCount" value="5,1" />
+					<property name="Items" value="drinkPineAppleJuiceAOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="6" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="Pineapple Juice" />	
+				</property>	
+				<property class="Recipe8">
+					<property name="Tool" value="toolCO2CanisterAOO" />
+					<property name="Ingredients" value="foodCropBananaAOO,foodSugarAOO,drinkJarBoiledWater" />
+					<property name="IngredientsCount" value="3,2,1" />
+					<property name="Items" value="drinkBananaSodaTSK_AOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="6" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="Banana Soda" />	
+				</property>	
+				<property class="Recipe9">
+					<property name="Tool" value="toolCO2CanisterAOO" />
+					<property name="Ingredients" value="foodCropCherryAOO,foodSugarAOO,drinkJarBoiledWater" />
+					<property name="IngredientsCount" value="3,2,1" />
+					<property name="Items" value="drinkCheeryCherrySodaTSK_AOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="6" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="Cheery Cherry Soda" />	
+				</property>	
+				<property class="Recipe10">
+					<property name="Tool" value="toolCO2CanisterAOO" />
+					<property name="Ingredients" value="foodCropLimeTSK_AOO,foodSugarAOO,drinkJarBoiledWater" />
+					<property name="IngredientsCount" value="3,2,1" />
+					<property name="Items" value="drinkCitrusSplashSodaTSK_AOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="6" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="Citrus Splash Soda" />						
+				</property>	
+				<property class="Recipe11">
+					<property name="Tool" value="toolCO2CanisterAOO" />
+					<property name="Ingredients" value="foodCropLemonTSK_AOO,foodSugarAOO,drinkJarBoiledWater" />
+					<property name="IngredientsCount" value="3,2,1" />
+					<property name="Items" value="drinkCitrusSplashSodaTSK_AOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="6" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="Citrus Splash Soda" />	
+				</property>	
+				<property class="Recipe12">
+					<property name="Tool" value="toolCO2CanisterAOO" />
+					<property name="Ingredients" value="foodCreamAOO,foodSugarAOO,drinkJarBoiledWater" />
+					<property name="IngredientsCount" value="3,2,1" />
+					<property name="Items" value="drinkCreamSodaTSK_AOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="6" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="Cream Soda" />	
+				</property>
+				<property class="Recipe13">
+					<property name="Tool" value="toolCO2CanisterAOO" />
+					<property name="Ingredients" value="foodCropMixedSpicesAOO,foodSugarAOO,drinkJarBoiledWater" />
+					<property name="IngredientsCount" value="10,1,1" />
+					<property name="Items" value="drinkDrJenSodaTSK_AOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="6" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="Dr Jen Soda" />	
+				</property>
+				<property class="Recipe14">
+					<property name="Tool" value="toolCO2CanisterAOO" />
+					<property name="Ingredients" value="foodCropGrapesAOO,foodSugarAOO,drinkJarBoiledWater" />
+					<property name="IngredientsCount" value="5,1,1" />
+					<property name="Items" value="drinkGrapeSodaTSK_AOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="6" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="Grape Soda" />	
+				</property>
+				<property class="Recipe15">
+					<property name="Tool" value="toolCO2CanisterAOO" />
+					<property name="Ingredients" value="foodCropLimeTSK_AOO,resourceScrapIron,foodSugarAOO,drinkJarBoiledWater" />
+					<property name="IngredientsCount" value="5,25,1,1" />
+					<property name="Items" value="drinkIronBruSodaTSK_AOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="6" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="Iron Bru Soda" />	
+				</property>
+				<property class="Recipe16">
+					<property name="Tool" value="toolCO2CanisterAOO" />
+					<property name="Ingredients" value="foodCropOrangeAOO,foodSugarAOO,drinkJarBoiledWater" />
+					<property name="IngredientsCount" value="5,1,1" />
+					<property name="Items" value="drinkOrangeSodaTSK_AOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="6" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="Orange Soda" />	
+				</property>				
+				<property class="Recipe17">
+					<property name="Tool" value="toolCO2CanisterAOO" />
+					<property name="Ingredients" value="foodCropLimeTSK_AOO,foodCropLemonTSK_AOO,foodCropMangoTSK_AOO,drinkJarBoiledWater" />
+					<property name="IngredientsCount" value="20,20,20,1" />
+					<property name="Items" value="drinkCanMegaCrush" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="6" />
+					<property name="TextOnly" value="true" />
+					<property name="RandomTextKey" value="Mega Crush" />						
+				</property>				
+			</property>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_building,SC_loot"/>
+		</block> 
+
+		<block name="wksIceCreamMaker01AOO">
+			<property name="Class" value="Productor, OblivionCore"/>
+			<property name="CustomIcon" value="yogurt_dispenser"/>
+			<property name="WindowGroup" value="drinkDispenser"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?yogurt_dispenser"/>
+			<property name="HeatMapStrength" value="5"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="HandleFace" value="Bottom"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="InputLootList" value="inputSlots5X4"/>
+			<property name="OutputLootList" value="outputSlots8X5"/>
+			<property name="ToolsLootList" value="toolsSlots1X2"/>
+			<property name="AllowedToolsItems" value="toolCO2CanisterAOO,toolCO2CanisterAOO"/> 
+			<property name="RandomRecipe" value="true"/>
+			<property class="ProducerRecipes">
+				<property class="Recipe1">
+					<property name="Ingredients" value="foodMilkAOO,foodCreamAOO,foodCropWheatAOO" />
+					<property name="IngredientsCount" value="3,2,3" />
+					<property name="Items" value="foodYogurtTSK_AOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="CraftTime" value="15" />
+					<property name="ItemsProbabilities" value="1" />
+				</property>
+				
+				<property class="Recipe2">
+					<property name="Ingredients" value="foodMilkAOO,foodCreamAOO,foodSugarAOO" />
+					<property name="IngredientsCount" value="4,2,2" />
+					<property name="Items" value="foodIceCreamTSK_AOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="15" />
+				</property>
+
+				<property class="Recipe3">
+					<property name="Ingredients" value="foodMilkAOO,foodYogurtTSK_AOO,foodCropStrawberryAOO,foodCropRaspberryAOO,foodCropCherryAOO" />
+					<property name="IngredientsCount" value="1,1,5,5,5" />
+					<property name="Items" value="drinkBerrySmoothieTSK_AOO" />
+					<property name="ItemsCount" value="1" />
+					<property name="ItemsProbabilities" value="1" />
+					<property name="CraftTime" value="25" />
+				</property>
+	
+			</property>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_building,SC_loot"/>
+		</block>
+
+
+<!-- ======================================================= -->
+<!-- ======================= Cloning ======================= -->
+<!-- ======================================================= -->
+
+
+		<block name="varCloneChambersAOO">
+			<property name="Extends" value="parkBenchA" param1="EconomicBundleSize"/>
+			<property name="Stacknumber" value="500"/>
+			<property name="CustomIcon" value="HumanCloneChamber"/>
+			<property name="DescriptionKey" value="varCloneChambersAOODesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="AllowAllRotations" value="true"/>
+			<property name="PlaceAltBlockValue" value="wksHGuardCloneChamber01AOO,wksPetCloneChamber01AOO"/>
+			<property name="Group" value="All,Cloning"/>
+		</block>
+
+		<!-- ======== Basic Human Guard Cloning Chambers ================= -->
+		 
+ 		<block name="wksHGuardCloneChamber01AOO" >
+			<property name="CustomIcon" value="HumanCloningChamberB4"/>
+            <property name="CreativeMode" value="Player"/> 
+			<property name="CanPickup" value="true"/> 
+			<property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?HumanCloningChamberB4"/>
+            <property name="MultiBlockDim" value="2,3,2"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="FilterTags" value="fother"/> 
+			<property name="Path" value="solid"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+            <property name="Group" value="All"/>
+            <property class="UpgradeBlock">
+                <property name="ToBlock" value="wksHGuardCloneChamber02AOO"/>
+                <property name="Item" value="humanCanisterAOO"/>
+                <property name="ItemCount" value="1"/>
+                <property name="UpgradeHitCount" value="1"/>
+            </property>
+	         <property class="RepairItems">
+                <property name="resourceWood" value="1"/>
+            </property>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="1000"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="0" />
+ 		</block>   
+		<block name="wksHGuardCloneChamber02AOO" >
+            <property name="CreativeMode" value="Player"/> 
+			<property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?HumanCloningChamberB1"/>
+            <property name="MultiBlockDim" value="2,3,2"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="FilterTags" value="fother"/> 
+			<property name="Path" value="solid"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="HumanCloningChamberB1"/>
+            <property name="Group" value="All"/>
+	         <property class="RepairItems">
+                <property name="resourceWood" value="1"/>
+            </property>			
+            <property class="UpgradeBlock">
+                <property name="ToBlock" value="wksAdvHGuardCloneChamber01AOO"/>
+                <property name="Item" value="AdvCCUpgradeAOO"/>
+                <property name="ItemCount" value="1"/>
+                <property name="UpgradeHitCount" value="2"/>
+            </property>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="wksHGuardCloneChamber03AOO"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="6"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="1000"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="1" name="wksHGuardCloneChamber02AOO"/>
+		</block>   
+		<block name="wksHGuardCloneChamber03AOO" >
+            <property name="CreativeMode" value="Player"/> 
+			<property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?HumanCloningChamberB2"/>
+            <property name="MultiBlockDim" value="2,3,2"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="FilterTags" value="fother"/> 
+			<property name="Path" value="solid"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="HumanCloningChamberB2"/>
+            <property name="Group" value="Breeding,All"/>
+            <property name="Class" value="PlantGrowing"/>
+			<property class="UpgradeBlock">
+                <property name="ToBlock" value="wksAdvHGuardCloneChamber01AOO"/>
+                <property name="Item" value="AdvCCUpgradeAOO"/>
+                <property name="ItemCount" value="1"/>
+                <property name="UpgradeHitCount" value="2"/>
+            </property>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="PlantGrowing.GrowthRate" value="6"/>
+            <property name="PlantGrowing.Next" value="wksHGuardCloneChamber04AOO"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="1000"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="1" name="wksHGuardCloneChamber03AOO"/>
+		</block>   		
+        <block name="wksHGuardCloneChamber04AOO" >
+            <property name="CreativeMode" value="Player"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?HumanCloningChamberB3"/>
+            <property name="MultiBlockDim" value="2,3,2"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="FilterTags" value="fother"/>
+			<property name="Path" value="solid"/> 
+            <property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="HumanCloningChamberB3" />
+			<property name="Group" value="All"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="HumanGuard" /> 
+            <property name="Material" value="Morganic"/>
+            <property name="MaxDamage" value="1000"/>			
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+		    <property name="DowngradeBlock" value="wksHGuardCloneChamber01AOO"/>
+            <drop event="Destroy" count="0"/>            
+        </block>	
+
+		<!-- ============= Basic Pet Cloning Chambers ============ -->
+
+        <block name="wksPetCloneChamber01AOO" >
+	        <property name="CustomIcon" value="HumanCloningChamberB4"/>
+			<property name="CanPickup" value="true"/> 
+            <property name="CreativeMode" value="Player"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="Group" value="Resources,Breeding,All"/>
+            <property name="FilterTags" value="fother"/>
+            <property class="UpgradeBlock">
+                <property name="ToBlock" value="wksPetCloneChamber02AOO"/>
+                <property name="Item" value="animalCanisterAOO"/>
+                <property name="ItemCount" value="1"/>
+                <property name="UpgradeHitCount" value="2"/>
+            </property>
+			<property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="4,3,4"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="200"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="0" />
+            <property class="RepairItems">
+                <property name="resourceWood" value="1"/>
+            </property>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?HumanCloningChamberB4"/>
+		</block> 
+		
+		<block name="wksPetCloneChamber02AOO">
+	        <property name="CustomIcon" value="HumanCloneChamber"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="Group" value="Resources,Breeding,All"/>
+            <property name="FilterTags" value="fother"/>
+			<property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="4,3,4"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="200"/>
+            <property name="Class" value="PlantGrowing"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="0" />
+            <property class="RepairItems">
+                <property name="resourceForgedIron" value="10"/>
+            </property>
+			<property class="UpgradeBlock">
+                <property name="ToBlock" value="wksAdvPetCloneChamber01AOO"/>
+                <property name="Item" value="AdvCCUpgradeAOO"/>
+                <property name="ItemCount" value="1"/>
+                <property name="UpgradeHitCount" value="2"/>
+            </property>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="PlantGrowing.GrowthRate" value="6"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?AnimalCloningChamberB1"/>
+            <property name="PlantGrowing.Next" value="wksPetCloneChamber03AOO"/>
+		</block>  
+		
+		<block name="wksPetCloneChamber03AOO">
+	        <property name="CustomIcon" value="HumanCloneChamber"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="Group" value="Resources,Breeding,All"/>
+            <property name="FilterTags" value="fother"/>
+			<property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="4,3,4"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="200"/>
+            <property name="Class" value="PlantGrowing"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="0" />
+            <property class="RepairItems">
+                <property name="resourceForgedIron" value="10"/>
+            </property>
+			<property class="UpgradeBlock">
+                <property name="ToBlock" value="wksAdvPetCloneChamber01AOO"/>
+                <property name="Item" value="AdvCCUpgradeAOO"/>
+                <property name="ItemCount" value="1"/>
+                <property name="UpgradeHitCount" value="2"/>
+            </property>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="PlantGrowing.GrowthRate" value="6"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?AnimalCloningChamberB2"/>
+            <property name="PlantGrowing.Next" value="wksPetCloneChamber04AOO"/>
+		</block> 
+ 		
+        <block name="wksPetCloneChamber04AOO" >
+            <property name="CreativeMode" value="Dev"/>
+            <property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="4,3,4"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="CustomIcon" value="HumanCloneChamber" />
+            <property name="Group" value="Resources"/>
+            <property name="FilterTags" value="fother"/>
+            <property name="Material" value="Morganic"/>
+            <property name="MaxDamage" value="1000"/>			
+			<property name="HeatMapStrength" value="5"/>
+			<property name="HeatMapTime" value="1200"/>
+			<property name="HeatMapFrequency" value="25"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="0"/>      
+            <property name="DowngradeBlock" value="wksPetCloneChamber01AOO"/> 		        			
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?AnimalCloningChamberB3"/>
+       		<property name="Class" value="Loot"/>
+			<property name="LootList" value="Pets" /> 
+        </block>
+
+		<!-- ================= Advanced Human Guard Chamber ============ -->	
+
+		<block name="wksAdvHGuardCloneChamber01AOO">
+            <property name="CreativeMode" value="Player"/> 
+			<property name="CanPickup" value="true"/> 
+			<property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?HumanCloning"/>
+            <property name="MultiBlockDim" value="2,3,2"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="FilterTags" value="fother"/> 
+			<property name="Path" value="solid"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="HumanCloning"/>
+            <property name="Group" value="Breeding,All"/>
+            <property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="PlantGrowing.GrowthRate" value="9"/>
+            <property name="PlantGrowing.Next" value="wksAdvHGuardCloneChamber02AOO"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="1000"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="1" name="wksAdvHGuardCloneChamber01AOO"/>
+		</block>
+		
+		<block name="wksAdvHGuardCloneChamber02AOO">
+            <property name="CreativeMode" value="Player"/> 
+			<property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?HumanCloning_2"/>
+            <property name="MultiBlockDim" value="2,3,2"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="FilterTags" value="fother"/> 
+			<property name="Path" value="solid"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/> 
+			<property name="CustomIcon" value="HumanCloneChamberAdvanced"/>
+            <property name="Group" value="Breeding,All"/>
+            <property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="PlantGrowing.GrowthRate" value="9"/>
+            <property name="PlantGrowing.Next" value="wksAdvHGuardCloneChamber03AOO"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="1000"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="1" name="Random Turret Guard Cloning Chamber"/>
+		</block>        	
+		
+        <block name="wksAdvHGuardCloneChamber03AOO">
+            <property name="CreativeMode" value="Player"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?HumanCloning_3"/>
+            <property name="MultiBlockDim" value="2,3,2"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="FilterTags" value="fother"/>
+			<property name="Path" value="solid"/> 
+            <property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="HumanCloneChamberAdvanced" />
+			<property name="Group" value="All"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="HumanGuard" /> 
+            <property name="Material" value="Morganic"/>
+            <property name="MaxDamage" value="1000"/>			
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="0"/>    
+            <property name="DowngradeBlock" value="wksAdvHGuardCloneChamber01AOO"/> 			
+        </block>
+ 
+		<!-- ============ Advanced Pet Cloning Chamber ================ -->
+		
+		<block name="wksAdvPetCloneChamber01AOO" >
+	        <property name="CustomIcon" value="AnimalCloningChamberA1"/>
+			<property name="CanPickup" value="true"/> 
+            <property name="CreativeMode" value="Player"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="Group" value="Resources,Breeding,All"/>
+            <property name="FilterTags" value="fother"/>
+			<property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="4,3,3"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="200"/>
+            <property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="1" name="wksAdvPetCloneChamber01AOO"/>
+            <property class="RepairItems">
+                <property name="resourceForgedIron" value="10"/>
+            </property>
+            <property name="PlantGrowing.GrowthRate" value="9"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?AnimalCloningChamberA1"/>
+            <property name="DescriptionKey" value="wksAdvPetCloneChamber01AOODesc"/>
+            <property name="PlantGrowing.Next" value="wksAdvPetCloneChamber02AOO"/>
+		</block>        
+
+		<block name="wksAdvPetCloneChamber02AOO" >
+	        <property name="CustomIcon" value="AnimalChamberA"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="Group" value="Resources,Breeding,All"/>
+            <property name="FilterTags" value="fother"/>
+			<property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="4,3,3"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="200"/>
+            <property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="PlantGrowing.GrowthRate" value="9"/>	
+            <property name="PlantGrowing.Next" value="wksAdvPetCloneChamber03AOO"/>			
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="1" name="wksAdvPetCloneChamber02AOO"/>
+            <property class="RepairItems">
+                <property name="resourceForgedIron" value="10"/>
+            </property>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?AnimalCloningChamberA2"/>
+		</block>  
+		
+        <block name="wksAdvPetCloneChamber03AOO" >
+            <property name="CreativeMode" value="Player"/>
+            <property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="4,3,3"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="CustomIcon" value="AnimalChamberA" />
+            <property name="Group" value="Resources"/>
+            <property name="FilterTags" value="fother"/>
+            <property name="Material" value="Morganic"/>
+            <property name="MaxDamage" value="1000"/>			
+			<property name="HeatMapStrength" value="5"/>
+			<property name="HeatMapTime" value="1200"/>
+			<property name="HeatMapFrequency" value="25"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="0"/>            
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?AnimalCloningChamberA3"/>
+       		<property name="Class" value="Loot"/>
+			<property name="LootList" value="Pets" /> 
+			<property name="DowngradeBlock" value="wksAdvPetCloneChamber01AOO"/> 
+        </block>
+
+		<!-- ==================  Resource Generating Animals  ============================= -->
+
+		<!-- ============== Chicken Incubator ================ -->
+
+		<block name="wksChickenIncubatorEmptyAOO" >
+			<property name="CanPickup" value="true"/> 
+	        <property name="CustomIcon" value="ChickenIncubatorEmpty"/>
+			<property name="CanPickup" value="true"/> 
+            <property name="CreativeMode" value="Player"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="Group" value="All"/>
+            <property name="FilterTags" value="fother"/>
+			<property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="200"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="1" name="wksChickenIncubator0Empty1AOO"/>
+            <property class="RepairItems">
+                <property name="resourceWood" value="10"/>
+            </property>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="wksChickenIncubator01AOO"/>
+				<property name="Item" value="resourceFertileEggAOO"/>
+				<property name="ItemCount" value="1"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ChickenIncubatorEmpty"/>
+            <property name="DescriptionKey" value="wksChickenIncubatorEmptyAOODesc"/>
+		</block>
+
+		<block name="wksChickenIncubator01AOO" >
+			<property name="CanPickup" value="true"/> 
+	        <property name="CustomIcon" value="ChickenIncubator1"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="Group" value="Resources,Breeding,All"/>
+            <property name="FilterTags" value="fother"/>
+			<property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="200"/>
+            <property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="1" name="wksChickenIncubator01AOO"/>
+            <property class="RepairItems">
+                <property name="resourceWood" value="10"/>
+            </property>
+            <property name="PlantGrowing.GrowthRate" value="4"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ChickenIncubator1"/>
+            <property name="DescriptionKey" value="wksChickenIncubator01AOO"/>
+            <property name="PlantGrowing.Next" value="wksChickenIncubator02AOO"/>
+		</block>        
+
+		<block name="wksChickenIncubator02AOO" >
+	        <property name="CustomIcon" value="ChickenIncubator2"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="Group" value="Resources,Breeding,All"/>
+            <property name="FilterTags" value="fother"/>
+			<property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="200"/>
+            <property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="1" name="wksChickenIncubator02AOO"/>
+            <property class="RepairItems">
+                <property name="resourceWood" value="10"/>
+            </property>
+            <property name="PlantGrowing.GrowthRate" value="4"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ChickenIncubator2"/>
+            <property name="PlantGrowing.Next" value="wksChickenIncubator03AOO"/>
+		</block>  
+		
+        <block name="wksChickenIncubator03AOO" >
+            <property name="CreativeMode" value="Player"/>
+            <property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="CustomIcon" value="ChickenIncubator3" />
+            <property name="Group" value="Resources"/>
+            <property name="FilterTags" value="fother"/>
+            <property name="Material" value="Morganic"/>
+            <property name="MaxDamage" value="1000"/>			
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="0"/>            
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ChickenIncubator3"/>
+       		<property name="Class" value="Loot"/>
+			<property name="LootList" value="Incubator" /> 
+            <property name="DowngradeBlock" value="wksChickenIncubatorEmptyAOO"/> 
+        </block>
+
+		<!-- ============ Milking Cow Chamber =============== -->
+
+		<block name="wksMCowCloneChamber01AOO">
+            <property name="CreativeMode" value="Player"/> 
+			<property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ChickenIncubatorEmpty"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="FilterTags" value="fother"/> 
+			<property name="Path" value="solid"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="ChickenIncubatorEmpty"/>
+            <property name="Group" value="Breeding,All"/>
+            <property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+            <property name="PlantGrowing.GrowthRate" value="9"/>
+            <property name="PlantGrowing.Next" value="wksMCowCloneChamber02AOO"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="1000"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="1" name="wksMCowCloneChamber01AOO"/>
+            <property name="DescriptionKey" value="wksMCowCloneChamber01AOODesc"/>
+		</block>  
+		
+        <block name="wksMCowCloneChamber02AOO" >
+            <property name="CreativeMode" value="Player"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?CowIncubator"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="FilterTags" value="fother"/>
+			<property name="Path" value="solid"/> 
+            <property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="CowIncubator" />
+			<property name="Group" value="All"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="Cow" /> 
+            <property name="Material" value="Morganic"/>
+            <property name="MaxDamage" value="1000"/>			
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="0"/>            
+        </block>
+	
+		<!-- ================ Milking Cow ================= -->	
+	
+		<block name="wksMCow01AOO">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?Cow2Prefab"/>
+            <property name="MultiBlockDim" value="2,2,1"/>
+			<property name="ModelOffset" value="0,.6,0"/>
+			<property name="FilterTags" value="floot,ffurniture"/>
+			<property name="Path" value="solid"/>
+            <property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="Cow2Prefab" />	
+			<property name="Group" value="All"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+            <property name="PlantGrowing.GrowthRate" value="4"/>
+            <property name="PlantGrowing.Next" value="wksMCow02AOO"/>
+            <property name="Material" value="Morganic"/>
+            <property name="MaxDamage" value="1000"/>	
+            <property class="RepairItems">
+                <property name="resourceWood" value="10"/>
+            </property>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="1" />
+            <property name="DescriptionKey" value="wksMCow01AOODesc"/>
+		</block>
+		
+        <block name="wksMCow02AOO" >
+            <property name="CreativeMode" value="Player"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?Cow2Prefab"/>
+            <property name="MultiBlockDim" value="2,2,1"/>
+			<property name="ModelOffset" value="0,.6,0"/>
+            <property name="FilterTags" value="fother"/>
+			<property name="Path" value="solid"/> 
+            <property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="Cow2Prefab" />
+            <property class="UpgradeBlock">
+             <property name="ToBlock" value="wksMCow03AOO"/>
+                <property name="Item" value="resourceChickenFeedAOO"/>
+                <property name="ItemCount" value="1"/>
+                <property name="UpgradeHitCount" value="1"/>
+            </property>
+			<property name="Group" value="All"/>
+            <property name="Material" value="Morganic"/>
+            <property name="MaxDamage" value="1000"/>			
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <property class="RepairItems">
+                <property name="resourceChickenFeedAOO" value="1"/>
+            </property>
+            <drop event="Destroy" count="0" />            
+            <property name="DescriptionKey" value="wksMCow02AOODesc"/>
+         </block>
+		 
+		<block name="wksMCow03AOO">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?Cow2Prefab"/>
+            <property name="MultiBlockDim" value="2,2,1"/>
+			<property name="ModelOffset" value="0,.6,0"/>
+			<property name="FilterTags" value="floot,ffurniture"/>
+			<property name="Path" value="solid"/>
+            <property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="Cow2Prefab" />	
+			<property name="Group" value="All"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="PlantGrowing.GrowthRate" value="4"/>
+            <property name="PlantGrowing.Next" value="wksMCow04AOO"/>
+            <property name="Material" value="Morganic"/>
+            <property name="MaxDamage" value="1000"/>	
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <property class="RepairItems">
+                <property name="resourceChickenFeedAOO" value="1"/>
+            </property>
+            <drop event="Destroy" count="0" />
+            <property name="DescriptionKey" value="wksMCow03AOODesc"/>
+		</block>		
+			
+		<block name="wksMCow04AOO">
+            <property name="CreativeMode" value="Player"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?Cow2Prefab"/>
+            <property name="MultiBlockDim" value="2,2,1"/>
+			<property name="ModelOffset" value="0,.6,0"/>
+            <property name="FilterTags" value="fother"/>
+			<property name="Path" value="solid"/> 
+            <property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="Cow2Prefab" />
+			<property name="Group" value="All"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="Milk" /> 
+			<property name="Material" value="Morganic"/> 
+            <property name="MaxDamage" value="1000"/>			
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <property class="RepairItems">
+                <property name="resourceChickenFeedAOO" value="1"/>
+            </property>
+            <drop event="Destroy" count="0"/>            
+            <property name="DowngradeBlock" value="wksMCow01AOO"/> 
+            <property name="DescriptionKey" value="wksMCow04AOODesc"/>
+		</block>
+
+		<!-- =========== Egg Laying Chicken Chamber ============= -->	
+
+		<block name="wksEggChickenCloneChamber01AOO">
+            <property name="CreativeMode" value="Player"/> 
+			<property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ChickenIncubatorEmpty"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="FilterTags" value="fother"/> 
+			<property name="Path" value="solid"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+	        <property name="CustomIcon" value="ChickenIncubatorEmpty"/>
+            <property name="Group" value="Breeding,All"/>
+            <property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="PlantGrowing.GrowthRate" value="6"/>
+            <property name="PlantGrowing.Next" value="wksEggChickenCloneChamber02AOO"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="1000"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="1" name="wksEggChickenCloneChamber01AOO"/>
+            <property name="DescriptionKey" value="wksEggChickenCloneChamber01AOODesc"/>
+		</block>  
+		<block name="wksEggChickenCloneChamber02AOO">
+            <property name="CreativeMode" value="Player"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ChickenIncubator3"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="FilterTags" value="fother"/>
+			<property name="Path" value="solid"/> 
+            <property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+	        <property name="CustomIcon" value="ChickenIncubator3"/>
+			<property name="Group" value="All"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="EggChicken" /> 
+            <property name="Material" value="Morganic"/>
+            <property name="MaxDamage" value="1000"/>			
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="0"/>            
+
+        </block>	
+
+		<!-- ================= Egg Laying Chicken =============== -->	
+
+
+		<block name="wksEggChicken01AOO">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="CanPickup" value="true"/> 			
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ChickenS2"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,.22,0"/>
+			<property name="FilterTags" value="floot,ffurniture"/>
+			<property name="Path" value="solid"/>
+            <property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="ChickenS2" />	
+			<property name="Group" value="All"/>
+			<property name="Class" value="PlantGrowing"/>
+            <property name="PlantGrowing.GrowthRate" value="3"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="PlantGrowing.Next" value="wksEggChicken02AOO"/>
+            <property name="Material" value="Morganic"/>
+            <property name="MaxDamage" value="1000"/>	
+	         <property class="RepairItems">
+                <property name="resourceChickenFeedAOO" value="1"/>
+            </property>				
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="1" name="wksEggChicken01AOO"/>
+            <property name="DescriptionKey" value="wksEggChicken01AOODesc"/>
+		</block>
+		
+		<block name="wksEggChicken02AOO">
+            <property name="CreativeMode" value="Player"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ChickenS2"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,.22,0"/>
+            <property name="FilterTags" value="fother"/>
+			<property name="Path" value="solid"/> 
+            <property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="ChickenS2" />
+            <property class="UpgradeBlock">
+             <property name="ToBlock" value="wksEggChicken03AOO"/>
+                <property name="Item" value="resourceChickenFeedAOO"/>
+                <property name="ItemCount" value="1"/>
+                <property name="UpgradeHitCount" value="1"/>
+            </property>
+            <property name="Material" value="Morganic"/>
+	         <property class="RepairItems">
+                <property name="resourceChickenFeedAOO" value="1"/>
+            </property>				
+            <property name="MaxDamage" value="1000"/>			
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="0"/>            
+		</block>
+		
+		<block name="wksEggChicken03AOO">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ChickenS2"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,.22,0"/>
+			<property name="FilterTags" value="floot,ffurniture"/>
+			<property name="Path" value="solid"/>
+            <property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="ChickenS2" />	
+			<property name="Group" value="All"/>
+			<property name="Class" value="PlantGrowing"/>
+            <property name="PlantGrowing.GrowthRate" value="3"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>			
+            <property name="PlantGrowing.Next" value="wksEggChicken04AOO"/>
+            <property name="Material" value="Morganic"/>
+            <property name="MaxDamage" value="1000"/>
+	         <property class="RepairItems">
+                <property name="resourceChickenFeedAOO" value="1"/>
+            </property>					
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="1" name="wksEggChicken03AOO"/>
+            <property name="DescriptionKey" value="wksEggChicken03AOODesc"/>
+		</block>		
+	
+		<block name="wksEggChicken04AOO">
+            <property name="CreativeMode" value="Player"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ChickenS2"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,.22,0"/>
+            <property name="FilterTags" value="fother"/>
+			<property name="Path" value="solid"/> 
+            <property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="ChickenS2" />
+			<property name="Group" value="All"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="Eggs" /> 
+			<property name="Material" value="Morganic"/> 
+            <property name="MaxDamage" value="1000"/>	
+	         <property class="RepairItems">
+                <property name="resourceChickenFeedAOO" value="1"/>
+            </property>					
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="0"/>            
+            <property name="DowngradeBlock" value="wksEggChicken01AOO"/> 
+		</block>
+
+		<!-- ============== Resurrection Tables================== -->	
+
+		<block name="wksResTable1AOO" >
+	        <property name="CustomIcon" value="ResTable1"/>
+			<property name="CanPickup" value="true"/> 
+            <property name="CreativeMode" value="Player"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="Group" value="WorkBenches,All"/>
+            <property name="FilterTags" value="fother"/>
+            <property class="UpgradeBlock">
+                <property name="ToBlock" value="wksResTable2AOO"/>
+                <property name="Item" value="zombieCorpseAOO"/>
+                <property name="ItemCount" value="1"/>
+                <property name="UpgradeHitCount" value="1"/>
+            </property>
+			<property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="6,3,3"/>
+			<property name="ModelOffset" value="0,0,.5"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="1000"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="0" />
+            <property class="RepairItems">
+                <property name="resourceWood" value="10"/>
+            </property>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ResTable1"/>
+            <property name="DescriptionKey" value="wksResTable1AOODesc"/>
+
+		</block> 
+		<block name="wksResTable2AOO">
+	        <property name="CustomIcon" value="ResTable1"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="Group" value="Resources,Breeding,All"/>
+            <property name="FilterTags" value="fother"/>
+            <property class="UpgradeBlock">
+                <property name="ToBlock" value="wksResTable3AOO"/>
+                <property name="Item" value="resPotionAOO"/>
+                <property name="ItemCount" value="1"/>
+                <property name="UpgradeHitCount" value="1"/>
+            </property>
+			<property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="6,3,3"/>
+			<property name="ModelOffset" value="0,0,.5"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="200"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="0" />
+            <property class="RepairItems">
+                <property name="resourceWood" value="10"/>
+            </property>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ResTable2"/>
+            <property name="DescriptionKey" value="wksResTable2AOODesc"/>
+		</block> 
+		<block name="wksResTable3AOO">
+	        <property name="CustomIcon" value="ResTable1"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="Group" value="Resources,Breeding,All"/>
+            <property name="FilterTags" value="fother"/>
+			<property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="6,3,3"/>
+			<property name="ModelOffset" value="0,0,.5"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="200"/>
+            <property name="Class" value="PlantGrowing"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="0" />
+            <property class="RepairItems">
+                <property name="resourceWood" value="10"/>
+            </property>
+            <property name="PlantGrowing.GrowthRate" value="6"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>			
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ResTable2a"/>
+            <property name="DescriptionKey" value="RandomPetChamberDesc"/>
+            <property name="PlantGrowing.Next" value="wksResTable4AOO"/>
+		</block>  		
+		<block name="wksResTable4AOO">
+	        <property name="CustomIcon" value="ResTable1"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="Group" value="Resources,Breeding,All"/>
+            <property name="FilterTags" value="fother"/>
+			<property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="6,3,3"/>
+			<property name="ModelOffset" value="0,0,.5"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="200"/>
+            <property name="Class" value="PlantGrowing"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="0" />
+            <property class="RepairItems">
+                <property name="resourceWood" value="10"/>
+            </property>
+            <property name="PlantGrowing.GrowthRate" value="2"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>			
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ResTable3"/>
+            <property name="DescriptionKey" value="RandomPetChamberDesc"/>
+            <property name="PlantGrowing.Next" value="wksResTable5AOO"/>
+		</block>  		
+        <block name="wksResTable5AOO" >
+            <property name="CreativeMode" value="Player"/>
+            <property name="DisplayInfo" value="Name"/>
+			<property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="6,3,3"/>
+			<property name="ModelOffset" value="0,0,.5"/>
+			<property name="CustomIcon" value="ResTable" />
+            <property name="Group" value="Resources"/>
+            <property name="FilterTags" value="fother"/>
+            <property name="Material" value="Morganic"/>
+            <property name="MaxDamage" value="1000"/>			
+			<property name="HeatMapStrength" value="5"/>
+			<property name="HeatMapTime" value="1200"/>
+			<property name="HeatMapFrequency" value="25"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" count="0"/>      
+            <property name="DowngradeBlock" value="wksResTable1AOO"/> 		        			
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?ResTable4"/>
+       		<property name="Class" value="Loot"/>
+			<property name="LootList" value="zombieGuards" /> 
+        </block>
+
+
+
+
+	<block name="wksCloningAOO">
+ 			<property name="Extends" value="templateWorkstationAOO"/>
+			<property name="CustomIcon" value="CloneChamber"/>
+             <property class="Workstation">
+                <property name="Modules" value="tools,output,input"/>
+				<property name="CraftingAreaRecipes" value="CloningStation"/>
+            </property>
+            <property name="WorkstationIcon" value="CloneChamber"/>
+			<property name="DescriptionKey" value="wksCloningAOODesc"/>
+		<property name="MultiBlockDim" value="8,4,8"/>		
+		<property name="ActivationDistance" value="16"/>
+		<property name="Model" value="#@modfolder(Assets):Resources/AOO_Workstations.unity3d?CloneChamber"/>
+	</block>
+	
+	</append>
+</config>	

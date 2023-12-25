@@ -1,0 +1,709 @@
+
+
+<configs>
+
+
+
+	<append xpath="/items">
+
+<!-- ========== NOTES ========== -->
+
+         <item name="noteIntro_AOO">
+			<property name="Extends" value="blankNoteMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="noteIntro_AOODesc"/>
+			<property name="CustomIcon" value="challengeQuestMaster"/>
+			<property name="PickupJournalEntry" value="noteIntro_AOOEntry,noteKyburiumCrystalEntry,noteVehicles_AOOEntry,noteSkullTokensEntry,noteQuickInfoEntry"/>
+        </item> 
+
+<!-- QUESTS -->	
+
+
+
+	    <item name="QuestLine_Resurrection">	
+            <property name="DescriptionKey" value="Resurrection Questline"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="q_Resurrection"/>
+                <property name="Delay" value="0"/>
+				<requirement name="CVarCompare" cvar="QuestResurrection" operation="LTE" value="0"/> 
+            </property>
+        </item>
+
+	    <item name="QuestLine_Farming">	
+            <property name="DescriptionKey" value="QuestLineFarmingDesc"/>
+            <property name="CustomIcon" value="QuestFarming"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="q_Farming"/>
+                <property name="Delay" value="0"/>
+				<requirement name="CVarCompare" cvar="QuestFarming" operation="LTE" value="0"/> 
+            </property>
+        </item>
+
+	    <item name="QuestLine_Cloning">	
+            <property name="DescriptionKey" value="QuestLineCloningDesc"/>
+            <property name="CustomIcon" value="QuestCloning"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="q_Cloning1"/>
+                <property name="Delay" value="0"/>
+				<requirement name="CVarCompare" cvar="QuestCloning" operation="LTE" value="0"/> 
+            </property>
+        </item>
+
+	    <item name="Quest_KillerKlowns">	
+            <property name="DescriptionKey" value="q_KillerKlownDesc"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="q_KillerKlowns"/>
+                <property name="Delay" value="0"/>
+			</property>
+			<requirement name="CVarCompare" cvar="QuestKillerKlowns" operation="LTE" value="0"/> 
+		</item>	
+
+	    <item name="Quest_KyburiumCrystals">	
+            <property name="DescriptionKey" value="q_KyburiumCrystalsDesc"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="KyburiumCrystalQuest"/>
+                <property name="Delay" value="0"/>
+			</property>
+			<requirement name="CVarCompare" cvar="QuestKyburiumCrystal" operation="LTE" value="0"/> 
+		</item>	
+
+
+
+	    <item name="Quest_1000Kills">	
+            <property name="DescriptionKey" value="Kill 1000 Quest"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="q_KeepKilling"/>
+                <property name="Delay" value="0"/>
+            </property>
+        </item>
+
+	    <item name="Quest_HoeHoeHoes">	
+            <property name="DescriptionKey" value="qHoeHoeHoesDesc"/>
+            <property name="CustomIcon" value="QuestHoes"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="q_HoeHoeHoe"/>
+                <property name="Delay" value="0"/>
+				<requirement name="CVarCompare" cvar="QuestHoe" operation="LTE" value="0"/> 				
+		</property>
+        </item>
+	    <item name="Quest_Butcher">	
+            <property name="DescriptionKey" value="qButcherDesc"/>
+            <property name="CustomIcon" value="QuestButcher"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="q_Butcher"/>
+                <property name="Delay" value="0"/>
+				<requirement name="CVarCompare" cvar="QuestButcher" operation="LTE" value="0"/> 				
+			</property>
+		</item>
+	    <item name="Quest_Decoration">	
+            <property name="DescriptionKey" value="Decoration Quest"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="q_Decor"/>
+                <property name="Delay" value="0"/>
+				<requirement name="CVarCompare" cvar="QuestDecoration" operation="LTE" value="0"/> 				
+			</property>
+		</item>		
+	    <item name="Quest_DrinkDispenser">	
+            <property name="DescriptionKey" value="q_DrinkDispenserDesc"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="q_DrinkDispenser"/>
+                <property name="Delay" value="0"/>
+				<requirement name="CVarCompare" cvar="QuestDrinkDispenser" operation="LTE" value="0"/> 						
+			</property>
+
+		</item>
+	    <item name="Quest_RareResources">	
+            <property name="DescriptionKey" value="qRareResourcesDesc"/>
+            <property name="CustomIcon" value="QuestResources"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="q_RareResources"/>
+                <property name="Delay" value="0"/>
+				<requirement name="CVarCompare" cvar="QuestRareResources" operation="LTE" value="0"/> 				
+		</property>
+        </item>
+			
+	
+	    <item name="Quest_DeepFrying">	
+            <property name="DescriptionKey" value="q_DeepFryingDesc"/>
+            <property name="CustomIcon" value="QuestFryer"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest,SecQuest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="q_DeepFrying"/>
+                <property name="Delay" value="0"/>
+				<requirement name="CVarCompare" cvar="QuestDeepFrying" operation="LTE" value="0"/> 				
+			</property>
+
+		</item>
+
+
+	    <item name="Quest_FoodProcessing">	
+            <property name="DescriptionKey" value="q_FoodProcessingDesc"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="q_FoodProcessing"/>
+                <property name="Delay" value="0"/>
+				<requirement name="CVarCompare" cvar="QuestFoodProcessing" operation="LTE" value="0"/> 				
+			</property>
+
+		</item>
+
+	    <item name="Quest_Dairy">	
+            <property name="DescriptionKey" value="q_DairyDesc"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="q_Dairy"/>
+                <property name="Delay" value="0"/>
+				<requirement name="CVarCompare" cvar="QuestDairy" operation="LTE" value="0"/> 				
+			</property>
+
+		</item>
+		
+	    <item name="Quest_Brewing">	
+            <property name="DescriptionKey" value="q_BrewingDesc"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="q_Brewing"/>
+                <property name="Delay" value="0"/>
+				<requirement name="CVarCompare" cvar="QuestBrewing" operation="LTE" value="0"/> 				
+			</property>
+
+		</item>		
+		
+	    <item name="Quest_Grilling">	
+            <property name="DescriptionKey" value="q_GrillingDesc"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="q_Grilling"/>
+                <property name="Delay" value="0"/>
+				<requirement name="CVarCompare" cvar="QuestGrilling" operation="LTE" value="0"/> 				|
+			</property>
+
+		</item>		
+	
+	    <item name="Quest_Ovens">	
+            <property name="DescriptionKey" value="q_OvensDesc"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="q_Ovens"/>
+                <property name="Delay" value="0"/>
+				<requirement name="CVarCompare" cvar="QuestOvens" operation="LTE" value="0"/> 				
+			</property>
+
+		</item>		
+
+
+	<!-- Primary Questlines -->
+
+	    <item name="Quest_Arena">	
+            <property name="DescriptionKey" value="Quest_ArenaDesc"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="ArenaQuest"/>
+                <property name="Delay" value="0"/>
+            </property>
+
+        </item>
+		
+	    <item name="Quest_ArenaServer">	
+            <property name="DescriptionKey" value="Quest_ArenaServerDesc"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="ArenaQuestServer"/>
+                <property name="Delay" value="0"/>
+            </property>
+
+        </item>		
+		
+		
+		
+	    <item name="Quest_VehicleTrader">	
+            <property name="DescriptionKey" value="Find Vehicle Trader"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="VehicleTraderQuest"/>
+                <property name="Delay" value="0"/>
+            </property>
+
+        </item>
+	    <item name="Quest_CaveFind">	
+            <property name="DescriptionKey" value="Find a Cave"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="CaveQuest"/>
+                <property name="Delay" value="0"/>
+            </property>
+
+        </item>
+
+	    <item name="Quest_CaveEscape">	
+            <property name="DescriptionKey" value="Cave Escape"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="CaveEscapeQuest"/>
+                <property name="Delay" value="0"/>
+            </property>
+
+        </item>
+
+         <item name="Quest_AmusementPark">
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+                <property name="QuestGiven" value="questAmusementPark"/>
+                <property name="Delay" value="0"/>
+           </property>
+
+        </item> 
+
+
+	<!-- T4 Quests -->
+         <item name="Quest_SkelKing">
+            <property name="DescriptionKey" value="SkeletonKingDesc"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+			<property name="UnlockedBy" value="AOOCrafting"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+<!--				<requirement name="CVarCompare" cvar="Quest1" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest2" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest3" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest4" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest5" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest6" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest7" operation="NotEquals" value="1"/> -->
+                <property name="QuestGiven" value="questSkeletonKing"/>
+                <property name="Delay" value="0"/>
+           </property>
+        </item> 
+
+
+         <item name="Quest_Research">
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+				<requirement name="CVarCompare" cvar="Quest1" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest2" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest3" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest4" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest5" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest6" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest7" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="Quest9" operation="NotEquals" value="1"/>				
+                <property name="QuestGiven" value="questResearchFacility"/>
+                <property name="Delay" value="0"/>
+           </property>
+
+        </item> 
+
+         <item name="Quest_Elite1">
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+				<requirement name="CVarCompare" cvar="Quest1" operation="NotEquals" value="1"/>				
+                <property name="QuestGiven" value="questEliteTrader01"/>
+                <property name="Delay" value="0"/>
+           </property>
+
+        </item> 
+
+         <item name="Quest_Elite2">
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+				<requirement name="CVarCompare" cvar="Quest1" operation="GTE" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest2" operation="LT" value="1"/>	
+			
+                <property name="QuestGiven" value="questEliteTrader02"/>
+                <property name="Delay" value="0"/>
+           </property>
+
+        </item> 
+
+         <item name="Quest_Elite3">
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+				<requirement name="CVarCompare" cvar="Quest1" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest2" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest3" operation="NotEquals" value="1"/>	
+                <property name="QuestGiven" value="questEliteTrader03"/>
+                <property name="Delay" value="0"/>
+           </property>
+
+        </item> 
+
+         <item name="Quest_Elite4">
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+				<requirement name="CVarCompare" cvar="Quest1" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest2" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest3" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest4" operation="NotEquals" value="1"/>	
+                <property name="QuestGiven" value="questEliteTrader04"/>
+                <property name="Delay" value="0"/>
+           </property>
+
+        </item> 
+
+         <item name="Quest_Elite5">
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+				<requirement name="CVarCompare" cvar="Quest1" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest2" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest3" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest4" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest5" operation="NotEquals" value="1"/>				
+                <property name="QuestGiven" value="questEliteTrader05"/>
+                <property name="Delay" value="0"/>
+           </property>
+
+        </item> 
+
+         <item name="Quest_MountainTrader">
+            <property name="DescriptionKey" value="MountainTraderDesc"/>
+            <property name="CustomIcon" value="QuestScrollBlank"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="All,Quest"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+            <property class="Action0">
+                <property name="Class" value="Quest"/>
+		<!--		<requirement name="CVarCompare" cvar="Quest6" operation="NotEquals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest1" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest2" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest3" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest4" operation="Equals" value="1"/>	
+				<requirement name="CVarCompare" cvar="Quest5" operation="Equals" value="1"/> -->					
+                <property name="QuestGiven" value="questMountainTrader"/>
+                <property name="Delay" value="0"/>
+           </property>
+
+        </item> 
+
+         <item name="QuestToken">
+			<property name="CustomIconTint" value="210,0,210"/>
+            <property name="CustomIcon" value="casinoCoin"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="21"/>
+            <property name="Group" value="Special Items"/>
+            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mpaper"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Weight" value="2"/>
+            <property name="FuelValue" value="2"/>
+        </item> 
+
+
+
+		
+		
+	</append>		
+	
+
+
+	
+</configs>

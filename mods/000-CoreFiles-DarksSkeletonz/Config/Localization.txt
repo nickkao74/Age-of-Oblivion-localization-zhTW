@@ -1,0 +1,12 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+zombieSkeleton1,entityclasses,Entity,,,Skeleton Warrior,,,,,,,,,,,,,
+zombieSkeleton1Feral,entityclasses,Entity,,,Skeleton Warrior,,,,,,,,,,,,,
+zombieSkeleton2,entityclasses,Entity,,,Death Knight,,,,,,,,,,,,,
+zombieSkeleton2Feral,entityclasses,Entity,,,Death Knight,,,,,,,,,,,,,
+zombieSkeleton3,entityclasses,Entity,,,Skeleton,,,,,,,,,,,,,
+zombieSkeleton3Feral,entityclasses,Entity,,,Skeleton,,,,,,,,,,,,,
+zombieSkeleton4,entityclasses,Entity,,,Skeleton Monk,,,,,,,,,,,,,
+zombieSkeleton4Feral,entityclasses,Entity,,,Skeleton Monk,,,,,,,,,,,,,
+
+

@@ -1,0 +1,18 @@
+<configs>
+    <append xpath="/recipes">
+
+		<recipe name="varStorageAOO" count="1" craft_time="20" >
+			<ingredient name="resourceNail" count="5"/>
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourceScrapIron" count="10"/>
+		</recipe>
+		
+		<recipe name="DropBoxLarge_AOO" count="1" craft_time="20" >
+			<ingredient name="resourceNail" count="25"/>
+			<ingredient name="resourceWood" count="150"/>
+			<ingredient name="resourceForgedSteel" count="75"/>
+			<ingredient name="KyburCrystalAOO" count="10"/>			
+		</recipe>
+		
+	</append>
+</configs>

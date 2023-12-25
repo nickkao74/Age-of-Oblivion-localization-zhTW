@@ -1,0 +1,526 @@
+Key,Source,Context,Changes,English
+
+plantedAgaveSeedTSK_AOO,items,Crop,, "Agave (Seed)"
+plantedAgaveGrowingTSK_AOO,items,Crop,, "Agave (Growing)"
+plantedAgavePlantHarvestTSK_AOO,items,Crop,, "Agave (Ready)"
+plantedAgavePlantWildTSK_AOO,items,Crop,, "Agave (Harvestable)"
+
+plantedAvocadoTreeSeedTSK_AOO,items,Crop,, "Avocado (Seed)"
+plantedAvocadoTreeGrowingTSK_AOO,items,Crop,, "Avocado (Growing)"
+plantedAvocadoTreePlantHarvestTSK_AOO,items,Crop,, "Avocado (Ready)"
+plantedAvocadoTreePlantWildTSK_AOO,items,Crop,, "Avocado (Harvestable)" 
+
+plantedBananaTreeSeedAOO,items,Crop,, "Banana Tree (Seed)"
+plantedBananaTreeGrowingAOO,items,Crop,, "Banana Tree (Growing)"
+plantedBananaTreePlantHarvestAOO,items,Crop,, "Banana Tree (Ready)"
+plantedBananaTreePlantWildAOO,items,Crop,, "Banana Tree (Harvestable)"
+
+plantedBroccoliSeedAOO,items,Crop,, "Broccoli (Seed)"
+plantedBroccoliGrowingAOO,items,Crop,, "Broccoli (Growing)"
+plantedBroccoliPlantHarvestAOO,items,Crop,, "Broccoli (Ready)"
+plantedBroccoliPlantWildAOO,items,Crop,, "Broccoli (Harvestable)"
+
+plantedCabbageSeedAOO,items,Crop,, "Cabbage (Seed)"
+plantedCabbageGrowingAOO,items,Crop,, "Cabbage (Growing)"
+plantedCabbagePlantHarvestAOO,items,Crop,, "Cabbage (Ready)"
+plantedCabbagePlantWildAOO,items,Crop,, "Cabbage (Harvestable)"
+
+plantedCacaoTreeSeedTSK_AOO,items,Crop,, "Cacao Tree (Seed)"
+plantedCacaoTreeGrowingTSK_AOO,items,Crop,, "Cacao Tree (Growing)"
+plantedCacaoTreePlantHarvestTSK_AOO,items,Crop,, "Cacao Tree (Ready)"
+plantedCacaoTreePlantWildTSK_AOO,items,Crop,, "Cacao Tree (Harvestable)"
+
+plantedCarrotSeedAOO,items,Crop,, "Carrot (Seed)"
+plantedCarrotGrowingAOO,items,Crop,, "Carrot (Growing)"
+plantedCarrotPlantHarvestAOO,items,Crop,, "Carrot (Ready)"
+plantedCarrotPlantWildAOO,items,Crop,, "Carrot (Harvestable)"
+
+plantedCatsClawSeedTSK_AOO,blocks,Crop,New, "Cat's Claw (Seed)"
+plantedCatsClawPlantWildTSK_AOO2,blocks,Crop,New, "Cat's Claw (Growing)"
+plantedCatsClawPlantHarvestTSK_AOO,blocks,Crop,New, "Cat's Claw (Ready)"
+plantedCatsClawPlantWildTSK_AOO,blocks,Crop,New, "Cat's Claw (Harvestable)"
+
+plantedCelerySeedAOO,items,Crop,, "Celery (Seed)"
+plantedCeleryGrowingAOO,items,Crop,, "Celery (Growing)"
+plantedCeleryPlantHarvestAOO,items,Crop,, "Celery (Ready)"
+plantedCeleryPlantWildAOO,items,Crop,, "Celery (Harvestable)"
+
+plantedCherryTreeSeedAOO,items,Crop,, "Cherry Tree (Seed)"
+plantedCherryTreeGrowingAOO,items,Crop,, "Cherry Tree (Growing)"
+plantedCherryTreePlantHarvestAOO,items,Crop,, "Cherry Tree (Ready)"
+plantedCherryTreePlantWildAOO,items,Crop,, "Cherry Tree (Harvestable)"
+
+plantedCranberryTreeSeedAOO,items,Crop,, "Cranberry Tree (Seed)"
+plantedCranberryTreeGrowingAOO,items,Crop,, "Cranberry Tree (Growing)"
+plantedCranberryTreePlantHarvestAOO,items,Crop,, "Cranberry Tree (Ready)"
+plantedCranberryTreePlantWildAOO,items,Crop,, "Cranberry Tree (Harvestable)"
+
+plantedCoconutTreeSeedAOO,items,Crop,, "Coconut Tree (Seed)"
+plantedCoconutTreeGrowingAOO,items,Crop,, "Coconut Tree (Growing)"
+plantedCoconutTreePlantHarvestAOO,items,Crop,, "Coconut Tree (Ready)"
+plantedCoconutTreePlantWildAOO,items,Crop,, "Coconut Tree (Harvestable)"
+
+plantedCucumberSeedAOO,items,Crop,, "Cucumber (Seed)"
+plantedCucumberGrowingAOO,items,Crop,, "Cucumber (Growing)"
+plantedCucumberPlantHarvestAOO,items,Crop,, "Cucumber (Ready)"
+plantedCucumberPlantAOO,items,Crop,, "Cucumber (Harvestable)"
+
+plantedDevilsClawSeedTSK_AOO,blocks,Crop,New, "Devil's Claw (Seed)"
+plantedDevilsClawGrowingTSK_AOO,blocks,Crop,New, "Devil's Claw (Growing)"
+plantedDevilsClawPlantHarvestTSK_AOO,blocks,Crop,New, "Devil's Claw (Ready)"
+plantedDevilsClawPlantWildTSK_AOO,blocks,Crop,New, "Devil's Claw (Harvestable)"
+
+plantedEchinaceaSeedTSK_AOO,blocks,Crop,New,"Echinacea (Seed)"
+plantedEchinaceaGrowingTSK_AOO,blocks,Crop,New,"Echinacea (Growing)"
+plantedEchinaceaPlantHarvestTSK_AOO,blocks,Crop,New,"Echinacea (Ready)"
+plantedEchinaceaPlantWildTSK_AOO,blocks,Crop,New,"Echinacea (Harvestable)"
+
+plantedFeverfewSeedTSK_AOO,blocks,Crop,New,"Feverfew (Seed)"
+plantedFeverfewGrowingTSK_AOO,blocks,Crop,New,"Feverfew (Growing)"
+plantedFeverfewPlantHarvestTSK_AOO,blocks,Crop,New,"Feverfew (Ready)"
+plantedFeverfewPlantWildTSK_AOO,blocks,Crop,New,"Feverfew (Harvestable)"
+
+plantedFlaxSeedAOO,items,Crop,, "Flax (Seed)"
+plantedFlaxGrowingAOO,items,Crop,, "Flax (Growing)"
+plantedFlaxPlantHarvestAOO,items,Crop,, "Flax (Ready)"
+plantedFlaxPlantWildAOO,items,Crop,, "Flax (Harvestable)"
+
+plantedGarlicSeedTSK_AOO,items,Crop,, "Garlic (Seed)"
+plantedGarlicGrowingTSK_AOO,items,Crop,, "Garlic (Growing)"
+plantedGarlicPlantHarvestTSK_AOO,items,Crop,, "Garlic (Ready)"
+plantedGarlicPlantWildTSK_AOO,items,Crop,, "Garlic (Harvestable)"
+
+plantedGingerSeedTSK_AOO,items,Crop,, "Ginger (Seed)"
+plantedGingerGrowingTSK_AOO,items,Crop,, "Ginger (Growing)"
+plantedGingerPlantHarvestTSK_AOO,items,Crop,, "Ginger (Ready)"
+plantedGingerPlantWildTSK_AOO,items,Crop,, "Ginger (Harvestable)"
+
+plantedGuavaSeedTSK_AOO,items,Crop,, "Guava (Seed)"
+plantedGuavaGrowingTSK_AOO,items,Crop,, "Guava (Growing)"
+plantedGuavaPlantHarvestTSK_AOO,items,Crop,, "Guava (Ready)"
+plantedGuavaPlantWildTSK_AOO,items,Crop,, "Guava (Harvestable)"
+
+plantedMixedHerbsSeedAOO,items,Crop,, "Mixed Herbs (Seed)"
+plantedMixedHerbsGrowingAOO,items,Crop,, "Mixed Herbs (Growing)"
+plantedMixedHerbsPlantWildAOO,items,Crop,, "Mixed Herbs (Ready)"
+plantedMixedHerbsPlantHarvestAOO,items,Crop,, "Mixed Herbs (Harvestable)"
+
+plantedIcebergLettuceSeedAOO,items,Crop,, "Iceberg Lettuce (Seed)"
+plantedIcebergLettuceGrowingAOO,items,Crop,, "Iceberg Lettuce (Growing)"
+plantedIcebergLettucePlantHarvestAOO,items,Crop,, "Iceberg Lettuce (Ready)"
+plantedIcebergLettuceGrowingAOO,items,Crop,, "Iceberg Lettuce (Harvestable)"
+
+plantedJalapenoSeedAOO,items,Crop,, "Jalapeno (Seed)"
+plantedJalapenoGrowingAOO,items,Crop,, "Jalapeno (Growing)"
+plantedJalapenoPlantHarvestAOO,items,Crop,, "Jalapeno (Ready)"
+plantedJalapenoPlantWildAOO,items,Crop,, "Jalapeno (Harvestable)"
+
+plantedLemonTreeSeedTSK_AOO,items,Crop,, "Lemon Tree (Seed)"
+plantedLemonTreeGrowingTSK_AOO,items,Crop,, "Lemon Tree (Growing)"
+plantedLemonTreePlantHarvestTSK_AOO,items,Crop,, "Lemon Tree (Ready)"
+plantedLemonTreePlantWildTSK_AOO,items,Crop,, "Lemon Tree (Harvestable)"
+
+plantedLimeTreeSeedTSK_AOO,items,Crop,, "Lime Tree (Seed)"
+plantedLimeTreeGrowingTSK_AOO,items,Crop,, "Lime Tree (Growing)"
+plantedLimeTreePlantHarvestTSK_AOO,items,Crop,, "Lime Tree (Ready)"
+plantedLimeTreePlantWildTSK_AOO,items,Crop,, "Lime Tree (Harvestable)"
+
+plantedMangoTreeSeedTSK_AOO,items,Crop,, "Mango Tree (Seed)"
+plantedMangoTreeGrowingTSK_AOO,items,Crop,, "Mango Tree (Growing)"
+plantedMangoTreePlantHarvestTSK_AOO,items,Crop,, "Mango Tree (Ready)"
+plantedMangoTreePlantWildTSK_AOO,items,Crop,, "Mango Tree (Harvestable)"
+
+plantedMarijuanaSeedAOO,items,Crop,, "Marijuana (Seed)"
+plantedMarijuanaGrowingAOO,items,Crop,, "Marijuana (Growing)"
+plantedMarijuanaPlantHarvestAOO,items,Crop,, "Marijuana (Ready)"
+plantedMarijuanaPlantWildAOO,items,Crop,, "Marijuana (Harvestable)"
+
+plantedMintSeedTSK_AOO,items,Crop,, "Mint (Seed)"
+plantedMintGrowingTSK_AOO,items,Crop,, "Mint (Growing)"
+plantedMintPlantHarvestTSK_AOO,items,Crop,, "Mint (Ready)"
+plantedMintPlantWildTSK_AOO,items,Crop,, "Mint (Harvestable)"
+
+plantedMixedNutTreeSeedAOO,items,Crop,, "Mixed Nut Tree (Seed)"
+plantedMixedNutTreeGrowingAOO,items,Crop,, "Mixed Nut Tree (Growing)"
+plantedMixedNutTreePlantWildAOO,items,Crop,, "Mixed Nut Tree (Ready)"
+plantedMixedNutTreePlantHarvestAOO,items,Crop,, "Mixed Nut Tree (Harvestable)"
+
+plantedOliveTreeSeedTSK_AOO,items,Crop,, "Olive Tree (Seed)"
+plantedOliveTreeGrowingTSK_AOO,items,Crop,, "Olive Tree (Growing)"
+plantedOliveTreePlantHarvestTSK_AOO,items,Crop,, "Olive Tree (Ready)"
+plantedOliveTreePlantWildTSK_AOO,items,Crop,, "Olive Tree (Harvestable)"
+
+plantedOnionSeedAOO,items,Crop,, "Onion (Seed)"
+plantedOnionGrowingAOO,items,Crop,, "Onion (Growing)"
+plantedOnionPlantHarvestAOO,items,Crop,, "Onion (Ready)"
+plantedOnionPlantWildAOO,items,Crop,, "Onion (Harvestable)"
+
+plantedOrangeTreeSeedAOO,items,Crop,, "Orange Tree (Seed)"
+plantedOrangeTreeGrowingAOO,items,Crop,, "Orange Tree (Growing)"
+plantedOrangeTreePlantHarvestAOO,items,Crop,, "Orange Tree (Ready)"
+plantedOrangeTreePlantWildAOO,items,Crop,, "Orange Tree (Harvestable)"
+
+plantedPeachTreeSeedAOO,items,Crop,, "Peach Tree (Seed)"
+plantedPeachTreeGrowingAOO,items,Crop,, "Peach Tree (Growing)"
+plantedPeachTreePlantHarvestAOO,items,Crop,, "Peach Tree (Ready)"
+plantedPeachTreePlantWildAOO,items,Crop,, "Peach Tree (Harvestable)"
+
+plantedPearTreeSeedAOO,items,Crop,, "Pear Tree (Seed)"
+plantedPearTreeGrowingAOO,items,Crop,, "Pear Tree (Growing)"
+plantedPearTreePlantHarvestAOO,items,Crop,, "Pear Tree (Ready)"
+plantedPearTreePlantWildAOO,items,Crop,, "Pear Tree (Harvestable)"
+
+plantedPineappleSeedAOO,items,Crop,, "Pineapple (Seed)"
+plantedPineappleGrowingAOO,items,Crop,, "Pineapple (Growing)"
+plantedPineapplePlantHarvestAOO,items,Crop,, "Pineapple (Ready)"
+plantedPineapplePlantWildAOO,items,Crop,, "Pineapple (Harvestable)"
+
+plantedRaspberrySeedAOO,items,Crop,, "Raspberry (Seed)"
+plantedRaspberryGrowingAOO,items,Crop,, "Raspberry (Growing)"
+plantedRaspberryPlantHarvestAOO,items,Crop,, "Raspberry (Ready)"
+plantedRaspberryPlantWildAOO,items,Crop,, "Raspberry (Harvestable)"
+
+plantedAppleTreeSeedAOO,items,Crop,, "Apple Tree (Seed)"
+plantedAppleTreeGrowingAOO,items,Crop,, "Apple Tree (Growing)"
+plantedAppleTreePlantHarvestAOO,items,Crop,, "Apple Tree (Ready)"
+plantedAppleTreePlantWildAOO,items,Crop,, "Apple Tree (Harvestable)"
+
+plantedRiceSeedAOO,items,Crop,, "Rice (Seed)"
+plantedRiceGrowingAOO,items,Crop,, "Rice (Growing)"
+plantedRicePlantHarvestAOO,items,Crop,, "Rice (Ready)"
+plantedRicePlantWildAOO,items,Crop,, "Rice (Harvestable)"
+
+plantedRomaineLettuceSeedAOO,items,Crop,, "Romaine Lettuce (Seed)"
+plantedRomaineGrowingAOO,items,Crop,, "Romaine Lettuce (Growing)"
+plantedRomaineLettucePlantHarvestAOO,items,Crop,, "Romaine Lettuce (Ready)"
+plantedRomaineLettucePlantWildAOO,items,Crop,, "Romaine Lettuce (Harvestable)"
+
+plantedRoseSeedTSK_AOO,blocks,Crop,New,"Rose (Seed)"
+plantedRoseGrowingTSK_AOO,blocks,Crop,New,"Rose (Growing)"
+plantedRosePlantHarvestTSK_AOO,blocks,Crop,New,"Rose (Ready)"
+plantedRosePlantWildTSK_AOO,blocks,Crop,New,"Rose (Harvestable)"
+
+plantedRosemarySeedTSK_AOO,blocks,Crop,New,"Rosemary (Seed)"
+plantedRosemaryGrowingTSK_AOO,blocks,Crop,New,"Rosemary (Growing)"
+plantedRosemaryPlantHarvestTSK_AOO,blocks,Crop,New,"Rosemary (Ready)"
+plantedRosemaryPlantWildTSK_AOO,blocks,Crop,New,"Rosemary (Harvestable)"
+
+plantedRyeSeedTSK_AOO,items,Crop,, "Rye (Seed)"
+plantedRyeGrowingTSK_AOO,items,Crop,, "Rye (Growing)"
+plantedRyePlantHarvestTSK_AOO,items,Crop,, "Rye (Ready)"
+plantedRyePlantWildTSK_AOO,items,Crop,, "Rye (Harvestable)"
+
+plantedSorghumSeedTSK_AOO,items,Crop,, "Sorghum (Seed)"
+plantedSorghumGrowingTSK_AOO,items,Crop,, "Sorghum (Growing)"
+plantedSorghumPlantHarvestTSK_AOO,items,Crop,, "Sorghum (Ready)"
+plantedSorghumPlantWildTSK_AOO,items,Crop,, "Sorghum (Harvestable)"
+
+plantedSoybeanSeedTSK_AOO,items,Crop,, "Soybean (Seed)"
+plantedSoybeanGrowingTSK_AOO,items,Crop,, "Soybean (Growing)"
+plantedSoybeanPlantHarvestTSK_AOO,items,Crop,, "Soybean (Ready)"
+plantedSoybeanPlantWildTSK_AOO,items,Crop,, "Soybean (Harvestable)"
+
+plantedMixedSpicesSeedAOO,items,Crop,, "Mixed Spices (Seed)"
+plantedMixedSpicesGrowingAOO,items,Crop,, "Mixed Spices (Growing)"
+plantedMixedSpicesPlantHarvestAOO,items,Crop,, "Mixed Spices (Ready)"
+plantedMixedSpicesPlantWildAOO,items,Crop,, "Mixed Spices (Harvestable)"
+
+plantedSpinachSeedAOO,items,Crop,, "Spinach (Seed)"
+plantedSpinachGrowingAOO,items,Crop,, "Spinach (Growing)"
+plantedSpinachPlantHarvestAOO,items,Crop,, "Spinach (Ready)"
+plantedSpinachPlantWildAOO,items,Crop,, "Spinach (Harvestable)"
+
+plantedSquashSeedAOO,items,Crop,, "Squash (Seed)"
+plantedSquashGrowingAOO,items,Crop,, "Squash (Growing)"
+plantedSquashPlantHarvestAOO,items,Crop,, "Squash (Ready)"
+plantedSquashPlantWildAOO,items,Crop,, "Squash (Harvestable)"
+
+plantedStrawberrySeedAOO,items,Crop,, "Strawberry (Seed)"
+plantedStrawberryGrowingAOO,items,Crop,, "Strawberry (Growing)"
+plantedStrawberryPlantHarvestAOO,items,Crop,, "Strawberry (Ready)"
+plantedStrawberryPlantWildAOO,items,Crop,, "Strawberry (Harvestable)"
+
+plantedSugarMapleTreeSeedAOO,items,Crop,, "Sugar Maple Tree (Seed)"
+plantedSugarMapleTreeGrowingAOO,items,Crop,, "Sugar Maple Tree (Growing)"
+plantedSugarMapleTreePlantHarvestAOO,items,Crop,, "Sugar Maple Tree (Ready)"
+plantedSugarMapleTreePlantWildAOO,items,Crop,, "Sugar Maple Tree (Ready)"
+
+plantedSugarcaneSeedAOO,items,Crop,, "Sugarcane (Seed)"
+plantedSugarcaneGrowingAOO,items,Crop,, "Sugarcane (Growing)"
+plantedSugarcanePlantHarvestAOO,items,Crop,, "Sugarcane (Ready)"
+plantedSugarcanePlantWildAOO,items,Crop,, "Sugarcane (Harvestable)"
+
+plantedSunflowerSeedAOO,items,Crop,, "Sunflower (Seed)"
+plantedSunflowerGrowingAOO,items,Crop,, "Sunflower (Growing)"
+plantedSunflowerPlantHarvestAOO,items,Crop,, "Sunflower (Ready)"
+plantedSunflowerPlantWildAOO,items,Crop,, "Sunflower (Harvestable)"
+
+plantedTomatoSeedAOO,items,Crop,, "Tomato (Seed)"
+plantedTomatoGrowingAOO,items,Crop,, "Tomato (Growing)"
+plantedTomatoPlantHarvestAOO,items,Crop,, "Tomato (Ready)"
+plantedTomatoPlantWildAOO,items,Crop,, "Tomato (Harvestable)"
+
+plantedValerianSeedTSK_AOO,blocks,Crop,New,"Valerian (Seed)"
+plantedValerianGrowingTSK_AOO,blocks,Crop,New,"Valerian (Growing)"
+plantedValerianPlantHarvestTSK_AOO,blocks,Crop,New,"Valerian (Ready)"
+plantedValerianPlantWildTSK_AOO,blocks,Crop,New,"Valerian (Harvestable)"
+
+plantedVanillaSeedTSK_AOO,items,Crop,, "Vanilla (Seed)"
+plantedVanillaGrowingTSK_AOO,items,Crop,, "Vanilla (Growing)"
+plantedVanillaPlantHarvestTSK_AOO,items,Crop,, "Vanilla (Ready)"
+plantedVanillaPlantWildTSK_AOO,items,Crop,, "Vanilla (Harvestable)"
+
+plantedGrapeSeedAOO,items,Crop,, "Grape (Seed)"
+plantedGrapeGrowingAOO,items,Crop,, "Grape (Growing)"
+plantedGrapePlantHarvestAOO,items,Crop,, "Grape (Ready)"
+plantedGrapePlantWildAOO,items,Crop,, "Grape (Ready)"
+
+plantedWatermelonSeedTSK_AOO,items,Crop,, "Watermelon (Seed)"
+plantedWatermelonGrowingTSK_AOO,items,Crop,, "Watermelon (Growing)"
+plantedWatermelonPlantHarvestTSK_AOO,items,Crop,, "Watermelon (Ready)"
+plantedWatermelonPlantWildTSK_AOO,items,Crop,, "Watermelon (Harvestable)"
+
+plantedWheatSeedAOO,items,Crop,, "Wheat (Seed)"
+plantedWheatGrowingAOO,items,Crop,, "Wheat (Growing)"
+plantedWheatPlantHarvestAOO,items,Crop,, "Wheat (Ready)"
+plantedWheatPlantWildAOO,items,Crop,, "Wheat (Harvestable)"
+
+plantedWhiteOakTreeSeedAOO,items,Crop,, "White Oak Tree (Seed)"
+plantedWhiteOakTreeGrowingAOO,items,Crop,, "White Oak Tree (Growing)"
+plantedWhiteOakTreePlantHarvestAOO,items,Crop,, "White Oak Tree (Ready)"
+plantedWhiteOakTreePlantWildAOO,items,Crop,, "White Oak Tree (Harvestable)"
+
+resourceSeedPackAOO,items,Farming,,"Mixed Seed Pack"
+resourceSeedPackAOODesc,items,Farming,,"[d5e2ff]TYPE: [abddfc]Farming \n[8fd3fe]CRAFTING TABLE: [abddfc]Farm Table with Seed Processor with Seed Processor \n[b7e9f7]UNLOCKED BY: [abddfc]Planting and Growing Level 1 \n\n[d7e5f0]DESCRIPTION:[8aecff]A packet of mixed seeds. Use these to create specific seeds in order to plant them for farming."
+
+plantedAgaveSeedTSK_AOODesc,items,Crop,, "[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Agave seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropAgaveTSK_AOODesc,items,Food,, "[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff] \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked agave. Agave can be eaten raw, used to make tequila, or crafted into seeds."
+foodCropAgaveTSK_AOO,items,Food,,Agave
+
+plantedAvocadoTreeSeedTSK_AOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Avocado tree seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropAvocadoTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked avocados. Avocados can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropAvocadoTSK_AOO,items,Food,,Avocado
+
+plantedBananaTreeSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Banana tree seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew." 
+foodCropBananaAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked bananas. Bananas can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropBananaAOO,items,Food,,Banana
+
+plantedBroccoliSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Broccoli seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."  
+foodCropBroccoliAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked broccoli. Broccoli can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropBroccoliAOO,items,Food,,Broccoli
+
+plantedCabbageSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Cabbage seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropCabbageAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked cabbages. Cabbage can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropCabbageAOO,items,Food,,Cabbage
+
+plantedCacaoTreeSeedTSK_AOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Cacao tree seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropCocoaBeansTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked cocoa beans. Cocoa beans need to be processed into chocolate before they can be used in food, or they can be crafted into seeds."
+foodCropCocoaBeansTSK_AOO,items,Food,,Cocoa Beans
+
+plantedCarrotSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Carrot seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropCarrotAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked carrots. Carrots can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropCarrotAOO,items,Food,,Carrot
+ 
+plantedCatsClawSeedTSK_AOODesc,items,Crop,New,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Cat's claw herb seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropCatsClawTSK_AOODesc,items,Medical,New,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked cat's claw herbs. The bark of the cat's claw plant is an alchemical ingredient used in advanced medical recipes. It can also be crafted into seeds."
+foodCropCatsClawTSK_AOO,items,Medical,New,Cats Claw
+
+plantedCelerySeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Celery seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew." 
+foodCropCeleryAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked celery. Celery can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropCeleryAOO,items,Food,,Celery
+
+plantedCherryTreeSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Cherry tree seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew." 
+foodCropCherryAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked cherries. can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropCherryAOO,items,Food,,Cherry
+
+plantedCoconutTreeSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Coconut tree seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew." 
+foodCropCoconutAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked coconuts. can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropCoconutAOO,items,Food,,Coconut
+
+plantedCranberryTreeSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Cranberry tree seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropCranberryAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked cherries. Cherries can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropCranberryAOO,items,Food,,Cranberry
+
+plantedCucumberSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Cucumber seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropCucumberAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked cucumbers. Cucumbers can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropCucumberAOO,items,Food,,Cucumber
+
+plantedDevilsClawSeedTSK_AOODesc,items,Crop,New,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Devil's claw herb seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropDevilsClawTSK_AOODesc,items,Medical,New,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked devils'crop herbs. Devil's claw is an alchemical ingredient used in advanced medical recipes. It can also be crafted into seeds."
+foodCropDevilsClawTSK_AOO,items,Medical,New,Devils Claw
+
+plantedEchinaceaSeedTSK_AOODesc,items,Crop,New,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Echinacea seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropEchinaceaTSK_AOODesc,items,Medical,New,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked echinacea. Echinacea is easy to spot due to its "inside-out" flowers and can be used to make various alchemical and medical recipes. It can also be crafted into seeds."
+foodCropEchinaceaTSK_AOO,items,Medical,New,Enchinacea
+
+plantedFeverfewSeedTSK_AOODesc,items,Crop,New,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Feverfew seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropFeverfewTSK_AOODesc,items,Medical,New,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked feverfew. True to its name, the feverfew herb is an excellent ingredient for herbal remedies. It can also be crafted into seeds."
+foodCropFeverfewTSK_AOO,items,Medical,New,Fever Few
+
+plantedFlaxSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Flax seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropFlaxFiberAOODesc,items,Resource,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-harvested raw flax fiber. Flax can be used in various recipes, or crafted into seeds."
+foodCropFlaxFiberAOO,items,Resource,,Flax
+
+plantedGarlicSeedTSK_AOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Garlic seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropGarlicTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked garlic. Garlic can be used in various food recipes, or crafted into seeds."
+foodCropGarlicTSK_AOO,items,Food,, Garlic
+
+plantedGingerSeedTSK_AOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Ginger seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropGingerTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked ginger. Ginger can be used in various food recipes, or crafted into seeds."
+foodCropGingerTSK_AOO,items,Food,,Ginger
+
+plantedGuavaSeedTSK_AOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Guava seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropGuavaTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked guava. Guava can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropGuavaTSK_AOO,items,Food,,Guava
+
+plantedMixedHerbsSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Seeds for mixed herbs. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropMixedHerbsAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked mixed herbs. Herbs can be used in various food recipes, or crafted into seeds."
+foodCropMixedHerbsAOO,items,Food,,Herbs
+
+plantedIcebergLettuceSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Iceberg lettuce seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropIcebergLettuceAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked iceberg lettuce. Iceberg lettuce can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropIcebergLettuceAOO,items,Food,, Iceberg Lettuce
+
+plantedJalapenoSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Jalapeno pepper seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropJalapenoPepperAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked jalapenos. Jalapenos can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropJalapenoPepperAOO,items,Food,,Jalapeno Pepper
+
+plantedLemonTreeSeedTSK_AOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Lemon tree seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropLemonTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked lemons. Lemons can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropLemonTSK_AOO,items,Food,,Lemon
+
+plantedLimeTreeSeedTSK_AOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Lime tree seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropLimeTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked limes. Limes can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropLimeTSK_AOO,items,Food,,Lime
+
+plantedMangoTreeSeedTSK_AOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Mango tree seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropMangoTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked mangos. Mangos can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropMangoTSK_AOO,items,Food,,Mango
+
+plantedMarijuanaSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Marijuana seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropHempAOODesc,items,Resource,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked marijuana. Marijuana can be used in various recipes, or crafted into seeds."
+foodCropHempAOO,items,Resource,,Weed!
+
+plantedMintSeedTSK_AOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Mint seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropMintTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked mint. Mint can be used in various food recipes, or crafted into seeds."
+foodCropMintTSK_AOO,items,Food,,Mint
+
+plantedMixedNutTreeSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Seeds for mixed nuts. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropMixedNutsAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked mixed nuts. Nuts can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropMixedNutsAOO,items,Food,,Nuts
+
+plantedOliveTreeSeedTSK_AOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Olive tree seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropOliveTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked olives. Olives can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropOliveTSK_AOO,items,Food,,Olive
+
+plantedOnionSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Onion seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropOnionAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked onions. Onions can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropOnionAOO,items,Food,,Onion
+
+plantedOrangeTreeSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Orange tree seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropOrangeAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked oranges. Oranges can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropOrangeAOO,items,Food,,Orange
+
+plantedPeachTreeSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Peach tree seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropPeachTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked peaches. Peaches can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropPeachTSK_AOO,items,Food,,Peach
+
+plantedPearTreeSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Pear tree seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropPearAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked pears. Pears can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropPearAOO,items,Food,,Pear
+
+plantedPineappleSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Pineapple seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropPineappleAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked pineapples. Pineapple can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropPineappleAOO,items,Food,,Pineapple
+
+plantedRaspberrySeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Raspberry seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropRaspberryAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked raspberries. Raspberries can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropRaspberryAOO,items,Food,,Raspberry
+
+plantedAppleTreeSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Aple tree seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropApplesAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked apples. Apples can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropApplesAOO,items,Food,,Apple
+
+plantedRiceSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Rice seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropRiceAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-harvested rice. Rice can be used in various food recipes, or crafted into seeds."
+foodCropRiceAOO,items,Food,,Rice
+
+plantedRomaineLettuceSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Romaine lettuce seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropRomaineAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked romaine lettuce. Romaine lettuce can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropRomaineAOO,items,Food,,Romaine Lettuce
+
+plantedRoseSeedTSK_AOODesc,items,Crop,New,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Rose seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropRoseTSK_AOODesc,items,Medical,New,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked roses. Roses are valued for their beauty as well as their alchemical and medicinal uses. It can also be crafted into seeds."
+foodCropRoseTSK_AOO,items,Medical,New,Rose
+
+plantedRosemarySeedTSK_AOODesc,items,Crop,New,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Rosemary seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropRosemaryTSK_AOODesc,items,Medical,New,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked rosemary. Rosemary is a staple of most kitchen herb gardens and is useful for both cooking and alchemy. It can also be crafted into seeds."
+foodCropRosemaryTSK_AOO,items,Medical,New,Rosemary
+
+plantedRyeSeedTSK_AOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Rye seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropRyeTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-harvested rye. Rye can be used in various food recipes, or crafted into seeds."
+foodCropRyeTSK_AOO,items,Food,,Rye
+
+plantedSorghumSeedTSK_AOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Sorghum seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropSorghumTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-harvested sorghum. Sorghum can be used in various food recipes, or crafted into seeds."
+foodCropSorghumTSK_AOO,items,Food,,Sorghum
+
+plantedSoybeanSeedTSK_AOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Soybean seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropSoybeanTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-harvested soybeans. Soybeans can be used in various food recipes, or crafted into seeds."
+foodCropSoybeanTSK_AOO,items,Food,,Soybean
+
+plantedMixedSpicesSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Seeds for mixed spices. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropMixedSpicesAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked mixed spices. Spices can be used in various food recipes, or crafted into seeds."
+foodCropMixedSpicesAOO,items,Food,,Spices
+
+plantedSpinachSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Spinach seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropSpinachAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked spinach. Spinach can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropSpinachAOO,items,Food,,Spinach
+
+plantedSquashSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Squash seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropSquashAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked squash. Squash can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropSquashAOO,items,Food,,Squash
+
+plantedStrawberrySeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Strawberry seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropStrawberryAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked strawberries. Strawberries can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropStrawberryAOO,items,Food,,Strawberry
+
+plantedSugarMapleTreeSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Maple tree seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+resourceMapleWoodPlankAOODesc,items,Resource,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Raw maple wood planks. Sugar maple wood planks are used to make various workbenches."
+resourceMapleWoodPlankAOO,items,Resource,,Maple Wood Plank
+
+plantedSugarcaneSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Sugarcane seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropSugarcaneStalkAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-harvested sugarcane. Sugarcane must be processed before it can be used in food recipes, or it can be crafted into seeds."
+foodCropSugarcaneStalkAOO,items,Food,,Sugarcane
+
+plantedSunflowerSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Sunflower seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropSunflowerSeedAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-harvested sunflower seeds. Sunflower seeds can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropSunflowerSeedAOO,items,Food,, Sunflower Seeds
+
+plantedTomatoSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Tomato seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropTomatoAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff] \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked tomatoes. Tomatoes can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropTomatoAOO,items,Food,,Tomato
+
+plantedValerianSeedTSK_AOODesc,items,Crop,New,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Valerian seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropValerianTSK_AOODesc,items,Medical,New,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked valerian. Those with migraines already know the benefits of the valerian root, but this herb is also an alchemical staple. It can also be crafted into seeds."
+foodCropValerianTSK_AOO,items,Medical,New,Valarian
+
+plantedVanillaSeedTSK_AOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Vanilla seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropVanillaTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked vanilla. Vanilla can be used in various food recipes, or crafted into seeds."
+foodCropVanillaTSK_AOO,items,Food,,Vanilla
+
+plantedGrapeSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Grape seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropGrapesAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked grapes. Grapes can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropGrapesAOO,items,Food,,Grapes
+
+plantedWatermelonSeedTSK_AOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Watermelon seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropWatermelonTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-picked watermelon. Watermelon can be eaten raw, used in various food recipes, or crafted into seeds."
+foodCropWatermelonTSK_AOO,items,Food,,Watermelon
+
+plantedWheatSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]Wheat seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+foodCropWheatAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-harvested wheat. Wheat can be used in various food recipes, or crafted into seeds."
+foodCropWheatAOO,items,Food,,Wheat
+
+plantedWhiteOakTreeSeedAOODesc,items,Crop,,"[abddfc]TYPE: [ffffff]Farming \n[abddfc]CRAFTING TABLE: [ffffff]Farm Table with Seed Processor \n[abddfc]UNLOCKED BY: [ffffff]Planting and Growing Level 1 \n\n[abddfc]DESCRIPTION:[ffffff]White oak tree seeds. Plant these in a farm crop plot. When the plant says Ready, harvest it with a scythe to gather the crop and leave the seeds to grow anew."
+resourceWhiteOakPlankAOODesc,items,Resource,,"[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]None \n[abddfc]UNLOCKED BY: [ffffff]Not Locked \n\n[abddfc]DESCRIPTION:[ffffff]Raw white oak planks. White oak planks are used to make various workbenches."
+resourceWhiteOakPlankAOO,items,Resource,,White Oak Planks

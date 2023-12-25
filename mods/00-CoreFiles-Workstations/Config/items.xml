@@ -1,0 +1,322 @@
+
+
+<configs>
+
+	<append xpath="/items">
+
+<!-- Workstation Tools -->
+
+
+
+
+
+
+	<!-- Advanced Forge Tools -->
+
+		<item name="toolBellowsx40AOO">
+			<property name="CustomIcon" value="toolBellows"/>
+			<property name="CustomIconTint" value="255,155,0"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MtoolBellows"/>
+			<property name="Stacknumber" value="10"/> <!-- STK resource -->
+			<property name="Weight" value="100"/>
+			<property name="EconomicValue" value="500"/>
+			<property name="Group" value="Tools/Traps"/>
+			<property name="DisplayType" value="toolBellows"/>
+			<property name="ItemTypeIcon" value="forge"/>
+			<effect_group tiered="false">
+				<passive_effect name="CraftingSmeltTime" operation="perc_add" value="-.15"/> <!-- this is essentially a multiplier -->
+				<display_value name="dCraftingSmeltTime" value=".15"/>
+			</effect_group>	
+            <property name="DescriptionKey" value="toolBellowsx40AOODesc"/>			
+		</item>
+
+		<item name="toolBellowsx50AOO">
+			<property name="CustomIcon" value="toolBellows"/> 
+			<property name="CustomIconTint" value="255,255,0"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MtoolBellows"/>
+			<property name="Stacknumber" value="10"/> <!-- STK resource -->
+			<property name="Weight" value="100"/>
+				<property name="EconomicValue" value="500"/>
+			<property name="Group" value="Tools/Traps"/>
+			<property name="DisplayType" value="toolBellows"/>
+			<property name="ItemTypeIcon" value="forge"/>
+			<effect_group tiered="false">
+				<passive_effect name="CraftingSmeltTime" operation="perc_add" value="-.15"/> <!-- this is essentially a multiplier -->
+				<display_value name="dCraftingSmeltTime" value=".15"/>
+			</effect_group>
+            <property name="DescriptionKey" value="toolBellowsx50AOODesc"/>			
+		</item>
+
+		<item name="toolBellowsx60AOO">
+
+			<property name="CustomIcon" value="toolBellows"/> 
+			<property name="CustomIconTint" value="0,255,0"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MtoolBellows"/>
+			<property name="Stacknumber" value="10"/> <!-- STK resource -->
+			<property name="Weight" value="100"/>
+			<property name="EconomicValue" value="500"/>
+			<property name="Group" value="Tools/Traps"/>
+			<property name="DisplayType" value="toolBellows"/>
+			<property name="ItemTypeIcon" value="forge"/>
+			<effect_group tiered="false">
+				<passive_effect name="CraftingSmeltTime" operation="perc_add" value="-.15"/> <!-- this is essentially a multiplier -->
+				<display_value name="dCraftingSmeltTime" value=".15"/>
+			</effect_group>
+            <property name="DescriptionKey" value="toolBellowsx60AOODesc"/>
+		</item>
+
+		<item name="toolBellowsx70AOO">
+
+			<property name="CustomIcon" value="toolBellows"/> 
+			<property name="CustomIconTint" value="0,0,255"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MtoolBellows"/>
+			<property name="Stacknumber" value="10"/> <!-- STK resource -->
+			<property name="Weight" value="100"/>
+			<property name="EconomicValue" value="500"/>
+			<property name="Group" value="Tools/Traps"/>
+			<property name="DisplayType" value="toolBellows"/>
+			<property name="ItemTypeIcon" value="forge"/>
+			<effect_group tiered="false">
+				<passive_effect name="CraftingSmeltTime" operation="perc_add" value="-.15"/> <!-- this is essentially a multiplier -->
+				<display_value name="dCraftingSmeltTime" value=".15"/>
+			</effect_group>
+            <property name="DescriptionKey" value="toolBellowsx70AOODesc"/>
+		</item>
+
+		<item name="toolBellowsx80AOO">
+
+			<property name="CustomIcon" value="toolBellows"/> 
+			<property name="CustomIconTint" value="255,0,255"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MtoolBellows"/>
+			<property name="Stacknumber" value="10"/> <!-- STK resource -->
+			<property name="Weight" value="100"/>
+			<property name="EconomicValue" value="500"/>
+			<property name="Group" value="Tools/Traps"/>
+			<property name="DisplayType" value="toolBellows"/>
+			<property name="ItemTypeIcon" value="forge"/>
+			<effect_group tiered="false">
+				<passive_effect name="CraftingSmeltTime" operation="perc_add" value="-.15"/> <!-- this is essentially a multiplier -->
+				<display_value name="dCraftingSmeltTime" value=".15"/>
+			</effect_group>
+            <property name="DescriptionKey" value="toolBellowsx80AOODesc"/>
+		</item>	
+		
+		
+	<!-- Tools Cloning Station -->
+		
+		<item name="toolAnimalBreedingKitAOO">
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="31"/>
+            <property name="Group" value="Animals,All"/>
+            <property name="Meshfile" value="@:Items/Misc/parcelPrefab"/>
+            <property name="DropMeshfile" value="@:Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="500"/>
+            <property name="EconomicValue" value="400"/>
+            <property name="EconomicBundleSize" value="5"/>
+            <property name="CraftingIngredientTime" value="10"/>
+            <property name="Weight" value="5"/>
+            <property name="DescriptionKey" value="toolAnimalBreedingKitAOODesc"/>
+        </item>
+ 		<item name="toolDNAExtractorAOO">
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="31"/>
+            <property name="Group" value="Cloning,All"/>
+			<property name="CustomIcon" value="DNAExtractor"/>
+            <property name="Meshfile" value="@:Items/Misc/parcelPrefab"/>
+            <property name="DropMeshfile" value="@:Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="500"/>
+            <property name="EconomicValue" value="400"/>
+            <property name="EconomicBundleSize" value="5"/>
+            <property name="CraftingIngredientTime" value="10"/>
+            <property name="Weight" value="5"/>
+            <property name="DescriptionKey" value="toolDNAExtractorAOODesc"/>
+        </item>             
+
+	
+		
+	<!-- Farm Table Tools -->
+		
+        <item name="toolSeedProcessorAOO">
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="31"/>
+            <property name="Group" value="Food/Cooking,CTools,All"/>
+			<property name="CustomIcon" value="SeedProcessor"/>
+            <property name="Meshfile" value="@:Items/Misc/parcelPrefab"/>
+            <property name="DropMeshfile" value="@:Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="100"/>
+            <property name="EconomicValue" value="200"/>
+            <property name="EconomicBundleSize" value="1"/>
+            <property name="CraftingIngredientTime" value="50"/>
+            <property name="Weight" value="5"/>
+            <property name="DescriptionKey" value="toolSeedProcessorAOO"/>
+        </item>
+
+	<!-- Brew Station Tools -->
+	
+
+        <item name="toolWineTankAOO">
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="31"/>
+            <property name="Group" value="Food/Cooking,CTools,All"/>
+            <property name="Meshfile" value="@:Items/Misc/parcelPrefab"/>
+            <property name="DropMeshfile" value="@:Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="10"/>
+            <property name="EconomicValue" value="200"/>
+            <property name="EconomicBundleSize" value="1"/>
+            <property name="CraftingIngredientTime" value="50"/>
+            <property name="Weight" value="5"/>
+            <property name="DescriptionKey" value="toolWineTankAOODesc"/>
+        </item>
+
+        <item name="toolAgedBarrelAOO">
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="31"/>
+            <property name="Group" value="Food/Cooking,CTools,All"/>
+            <property name="Meshfile" value="@:Items/Misc/parcelPrefab"/>
+            <property name="DropMeshfile" value="@:Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="10"/>
+            <property name="EconomicValue" value="200"/>
+            <property name="EconomicBundleSize" value="1"/>
+            <property name="CraftingIngredientTime" value="50"/>
+            <property name="Weight" value="5"/>
+            <property name="DescriptionKey" value="toolAgedBarrelAOODesc"/>
+        </item>
+
+		<item name="toolPasteurizerAOO">
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="31"/>
+            <property name="Group" value="All,Food/Cooking,CTools"/>
+            <property name="Meshfile" value="@:Items/Misc/parcelPrefab"/>
+            <property name="DropMeshfile" value="@:Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="10"/>
+            <property name="EconomicValue" value="200"/>
+            <property name="EconomicBundleSize" value="1"/>
+            <property name="CraftingIngredientTime" value="50"/>
+            <property name="Weight" value="5"/>
+            <property name="DescriptionKey" value="toolPasteurizerAOODesc"/>
+        </item>
+
+	<!-- Drink Dispenser Tools -->
+
+		<item name="toolJuicerAOO">
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="31"/>
+			<property name="CustomIcon" value="Juicer"/>
+            <property name="Group" value="Food/Cooking,CTools,All"/>
+            <property name="Meshfile" value="@:Items/Misc/parcelPrefab"/>
+            <property name="DropMeshfile" value="@:Items/Misc/sack_droppedPrefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="10"/>
+            <property name="EconomicValue" value="200"/>
+            <property name="EconomicBundleSize" value="1"/>
+            <property name="CraftingIngredientTime" value="50"/>
+            <property name="Weight" value="5"/>
+            <property name="DescriptionKey" value="toolJuicerAOODesc"/>
+        </item>	
+		
+		<item name="toolCO2CanisterAOO">
+			<property name="CustomIcon" value="CO2Canister"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Weight" value="5"/>
+			<property name="Stacknumber" value="500"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="7000"/>
+			<property name="Group" value="Tools/Traps"/>
+            <property name="DescriptionKey" value="toolCO2CanisterAOODesc"/>
+		</item>	
+	
+		<item name="toolMiningDrillBit1AOO">
+			<property name="CustomIcon" value="MiningBit"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Weight" value="5"/>
+			<property name="Stacknumber" value="500"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="10000"/>
+			<property name="Group" value="Tools/Traps"/>
+            <property name="DescriptionKey" value="toolMiningDrillBit1AOODesc"/>
+		</item>	
+		<item name="toolMiningDrillBit2AOO">
+			<property name="CustomIcon" value="MiningBit"/>
+			<property name="CustomIconTint" value="255,255,43"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Weight" value="5"/>
+			<property name="Stacknumber" value="500"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="10000"/>
+			<property name="Group" value="Tools/Traps"/>
+            <property name="DescriptionKey" value="toolMiningDrillBit2AOODesc"/>
+		</item>
+
+		<item name="toolMiningDrillBit3AOO">
+			<property name="CustomIcon" value="MiningBit"/>
+			<property name="CustomIconTint" value="255,168,230"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Weight" value="5"/>
+			<property name="Stacknumber" value="500"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="10000"/>
+			<property name="Group" value="Tools/Traps"/>
+            <property name="DescriptionKey" value="toolMiningDrillBit3AOODesc"/>
+		</item>	
+		<item name="toolMiningDrillBit4AOO">
+			<property name="CustomIcon" value="MiningBit"/>
+			<property name="CustomIconTint" value="0,255,250"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Weight" value="5"/>
+			<property name="Stacknumber" value="500"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="EconomicValue" value="10000"/>
+			<property name="Group" value="Tools/Traps"/>
+            <property name="DescriptionKey" value="toolMiningDrillBit4AOODesc"/>
+		</item>	
+
+
+		
+		
+	</append>		
+	
+
+
+	
+</configs>
