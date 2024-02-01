@@ -1,83 +1,83 @@
-Key,English,French,tchinese,中文機翻
-takeandreplace,Rip off,Changer,撕裂,撕裂
-musicbox_turnOn,Turn On,Allumer,開啟,開啟
-musicbox_turnOff,Turn Off,Eteindre,關閉,關閉
-BanditFactionSchematic,Master of disguse,Maitre de l'écoeurement,偽裝大師,偽裝大師
-UndeadFactionSchematic,Master of disguse,Maitre de l'écoeurement,偽裝大師,偽裝大師
-DukeRiverFactionSchematic,Master of disguse,Maitre de l'écoeurement,偽裝大師,偽裝大師
-WhiteRiverFactionSchematic,Master of disguse,Maitre de l'écoeurement,偽裝大師,偽裝大師
-ResetFactionSchematic,Master of disguse,Maitre de l'écoeurement,偽裝大師,偽裝大師
-ResetFactionSchematicDesc,Read this to reset your faction!,le Reseter Le Faction...er...,閱讀此內容以重置你的陣營！,閱讀此內容以重置你的陣營！
-BanditFactionSchematicDesc,Read this to switch over to the bandit faction!,Lisez ceci pour basculer dans la faction des bandits!,閱讀此內容以切換到盜匪陣營！,閱讀此內容以切換到盜匪陣營！
-UndeadFactionSchematicDesc,Read this to switch over to the undead faction!,Lisez ceci pour basculer dans la faction des morts-vivants!,閱讀此內容以切換到不死族陣營！,閱讀此內容以切換到不死族陣營！
-WhiteRiverFactionSchematicDesc,Read this to switch over to the White River faction!,Lisez ceci pour basculer dans la faction White River!,閱讀此內容以切換到白河陣營！,閱讀此內容以切換到白河陣營！
-DukeRiverFactionSchematicDesc,Read this to switch over to the Duke faction!,Lisez ceci pour basculer dans la faction du Duke!,閱讀此內容以切換到公爵陣營！,閱讀此內容以切換到公爵陣營！
-UndeadPositiveFactionSchematic,Peace and Love to the Undead,,和平與愛給予不死族,和平與愛給予不死族
-UndeadPositiveFactionSchematicDesc,Read this to spread the message of the undead! Increase your standings with the undead!,,閱讀此內容以散播不死族的訊息！提升你在不死族中的地位！,閱讀此內容以散播不死族的訊息！提升你在不死族中的地位！
-UndeadNegativeFactionSchematic,Undead: Unreliable! Untrustworthy!,,不死族：不可靠！不可信！,不死族：不可靠！不可信！
-UndeadNegativeFactionSchematicDesc,Read this to spread lies and fake news about the undead! Decrease your standings with the undead!,,閱讀此內容以散播關於不死族的謊言和假新聞！降低你在不死族中的地位！,閱讀此內容以散播關於不死族的謊言和假新聞！降低你在不死族中的地位！
-advancedlockpicking_desc,Use the arrow keys to change the position of the pick locks. Then space to try to unlock.,,使用箭頭鍵來改變撬鎖的位置。然後按空格嘗試解鎖。,使用箭頭鍵來改變撬鎖的位置。然後按空格嘗試解鎖。
-SpawnCube,Spawn Cube,,生成方塊,生成方塊
-SpawnCubeDesc,"Allows Prefab builders to set up specific spawn entities via in-game programmable code:  Sign Text:  ec=npcBaker;task=wander;pc=99. Entity Class zombie Bow, with Task Wander, and PathingCode 99.",,允許預製建築師透過遊戲內可程式設計的程式碼來設定特定的生成實體：標誌文字：ec=npcBaker；task=wander；pc=99。實體類別為殭屍弓箭手，具有漫遊任務和路徑代碼 99。,允許預製建築師透過遊戲內可程式設計的程式碼來設定特定的生成實體：標誌文字：ec=npcBaker；task=wander；pc=99。實體類別為殭屍弓箭手，具有漫遊任務和路徑代碼 99。
-loadingTipScoreSigns_title,(SCore) Enhanced Signs,,(SCore) 增強標誌,(SCore) 增強標誌
-loadingTipScoreSigns,"Enter a URL for an image or gif, like an imgur link, in a sign's edit box to display the image on the sign! Re-Edit to change it.",,在標誌的編輯方塊中輸入圖像或 gif 的 URL，例如 imgur 連結，以在標誌上顯示圖像！重新編輯以變更它。,在標誌的編輯方塊中輸入圖像或 gif 的 URL，例如 imgur 連結，以在標誌上顯示圖像！重新編輯以變更它。
-teleportto,Teleport To,,傳送到,傳送到
-portal_not_configured,Not Configured,,未設定,未設定
-portal_configure,Not Connected,,未連接,未連接
-portalActivate,Activate Portal,,啟動傳送門,啟動傳送門
-ObjectiveEntityAliveSDXKill_keyword,Kill {0}:,,殺死 {0}:,殺死 {0}:
-teleporttoNeedPower,Needs Power,,需要電力,需要電力
-xuiPinGrab,Broadcast,,廣播,廣播
-ObjectiveBlockDestroy_keyword,Destroy {0}:,Le Destroy {0},摧毀 {0}:,摧毀 {0}:
-xuiSCoreGameOptions,SCore,Le SCore,SCore,SCore
-goCustomAdvancedPlayerFeaturesAntiNerdPole,Disable Nerd-Poling,Le Disable Nerd-Poling,停用書呆子撐桿,停用書呆子撐桿
-goCustomAdvancedPlayerFeaturesAntiNerdPoleDesc,Disables placing blocks when jumping.,,在跳躍時停用放置方塊。,在跳躍時停用放置方塊。
-goCustomAdvancedPlayerFeaturesVehicleNoTake,Disable Vehicle Pickup,Le Disable Vehicle Pickup,停用載具拾取,停用載具拾取
-goCustomAdvancedPlayerFeaturesVehicleNoTakeDesc,Disables picking up vehicles,,停用拾取載具,停用拾取載具
-goCustomFoodSpoilageFoodSpoilage,Food Spoilage,,食物腐敗,食物腐敗
-goCustomFoodSpoilageFoodSpoilageDesc,Food Spoilage requires an additional modlet that would enable food spoilage on items.,,食物腐敗需要額外的模組，才能在物品上啟用食物腐敗。,食物腐敗需要額外的模組，才能在物品上啟用食物腐敗。
-goCustomAdvancedPlayerFeaturesOneBlockCrouch,Allow One Block Crouch,,允許單格蹲伏,允許單格蹲伏
-goCustomAdvancedPlayerFeaturesOneBlockCrouchDesc,Allows the player to crouch in 1 block openings.,,允許玩家在 1 格開口處蹲伏。,允許玩家在 1 格開口處蹲伏。
-goCustomAdvancedPlayerFeaturesSoftHands,Soft Hands,,柔軟的手,柔軟的手
-goCustomAdvancedPlayerFeaturesSoftHandsDesc,"If enabled, player will take damage when punching with bare hands",,如果啟用，玩家在徒手出拳時會受到傷害,如果啟用，玩家在徒手出拳時會受到傷害
-goCustomAdvancedPlayerFeaturesExtendedSigns,Allow enhanced signs,,允許增強標誌,允許增強標誌
-goCustomAdvancedPlayerFeaturesExtendedSignsDesc,"If enabled, allows players to place imgur links in signs to display pictures.",,如果啟用，允許玩家在標誌中放置 imgur 連結以顯示圖片。,如果啟用，允許玩家在標誌中放置 imgur 連結以顯示圖片。
-goCustomAdvancedZombieFeaturesHeadshotOnly,Head Shot only,,僅爆頭,僅爆頭
-goCustomAdvancedZombieFeaturesHeadshotOnlyDesc,Allow zombies to only get hurt if hit in the head.,,允許殭屍只有在被擊中頭部時才會受到傷害。,允許殭屍只有在被擊中頭部時才會受到傷害。
-goCustomAdvancedZombieFeaturesRandomSize,Random Size Zombies,,隨機大小的殭屍,隨機大小的殭屍
-goCustomAdvancedZombieFeaturesRandomSizeDesc,Allow zombies to be random size,,允許殭屍具有隨機大小,允許殭屍具有隨機大小
-goCustomAdvancedZombieFeaturesRandomWalk,Random Walk types,,隨機行走類型,隨機行走類型
-goCustomAdvancedZombieFeaturesRandomWalkDesc,Allow zombies to have random walk types,,允許殭屍具有隨機行走類型,允許殭屍具有隨機行走類型
-goCustomErrorHandlingNoExceptionHijack,Hide Null Refs,,隱藏空引用,隱藏空引用
-goCustomErrorHandlingNoExceptionHijackDesc,"DEBUG ONLY! If enabled, blocks null refs from dropping the console.",,僅限除錯！如果啟用，會阻止空引用中斷主控台。,僅限除錯！如果啟用，會阻止空引用中斷主控台。
-goCustomSCoreAdvanced,Debug Only,,僅限除錯,僅限除錯
-xuiSCoreDebugGameOptions,SCore Debug,,SCore 除錯,SCore 除錯
-goCustomThemeSpook,Enable Spook Theme,,啟用鬼魅主題,啟用鬼魅主題
-goCustomThemeSpookDesc,Enabled perpetual blood moon effects,,啟用永久血月效果,啟用永久血月效果
-goCustomCaveConfigurationCaveEnabled,Enable Caves,,啟用洞穴,啟用洞穴
-goCustomCaveConfigurationCaveEnabledDesc,Enable support for caves,,啟用對洞穴的支援,啟用對洞穴的支援
-goCustomCropManagementCropEnable,Enable Advanced Water,,啟用進階水,啟用進階水
-goCustomCropManagementCropEnableDesc,"Enables plants requiring water, allows pipes, etc",,啟用需要水的植物，允許管道等,啟用需要水的植物，允許管道等
-goCustomFireManagementFireEnable,Enable Fire Spreading,,啟用火勢蔓延,啟用火勢蔓延
-goCustomFireManagementFireEnableDesc,Enable fire to ignore and spread to other blocks,,啟用火勢忽略並蔓延到其他方塊,啟用火勢忽略並蔓延到其他方塊
-goCustomFireManagementCheckInterval,Fire Burn Interval,,火勢燃燒間隔,火勢燃燒間隔
-goCustomFireManagementCheckIntervalDesc,"How fast, in seconds, the fire will spread.",,火勢蔓延的速度，以秒為單位。,火勢蔓延的速度，以秒為單位。
-goCustomFireManagementFireDamage,Fire Damage,,火勢傷害,火勢傷害
-goCustomFireManagementFireDamage,"How much damage, per Check Interval, blocks take from damage.",,方塊在每次檢查間隔中受到的傷害量。,方塊在每次檢查間隔中受到的傷害量。
-goCustomFireManagementSmokeTime,Smoke Time,,煙霧時間,煙霧時間
-goCustomFireManagementSmokeTimeDesc,How long smoke lasts on extinguished block.,,煙霧在熄滅的方塊上持續的時間。,煙霧在熄滅的方塊上持續的時間。
-goCustomCaveConfigurationCaveType,Cave Type,,洞穴類型,洞穴類型
-goCustomCaveConfigurationCaveTypeDesc,Decide what type of cave system to generate.,,決定要生成哪種類型的洞穴系統。,決定要生成哪種類型的洞穴系統。
-,,,,
-goCustomAdvancedTroubleshootingFeaturesVerboseXMLParser,Verbose XML Parser,,詳細 XML 解析器,詳細 XML 解析器
-goCustomAdvancedTroubleshootingFeaturesVerboseXMLParserDesc,Enables very verbose XML troubleshooting for some XML files.,,為某些 XML 檔案啟用非常詳細的 XML 疑難排解。,為某些 XML 檔案啟用非常詳細的 XML 疑難排解。
-goCustomAdvancedTroubleshootingFeaturesPhysicsBody,Verbose Physics Body,,詳細物理主體,詳細物理主體
-goCustomAdvancedTroubleshootingFeaturesPhysicsBodyDesc,Enables Physics Body troubleshooting for models,,為模型啟用物理主體疑難排解,為模型啟用物理主體疑難排解
-goCustomAdvancedTroubleshootingFeaturesAnimatorMapper,Animator Mapper,,動畫師對應器,動畫師對應器
-goCustomAdvancedTroubleshootingFeaturesAnimatorMapperDesc,Animator Mapper,,動畫師對應器,動畫師對應器
-goCustomAdvancedTroubleshootingFeaturesComponentMapper,Component Mapper,,元件對應器,元件對應器
-goCustomAdvancedTroubleshootingFeaturesComponentMapperDesc,Shows Component Map of Entities,,顯示實體的元件對應,顯示實體的元件對應
-goCustomAdvancedUIDisableXPIconNotification,Disable XP Icon Notification,,停用經驗值圖示通知,停用經驗值圖示通知
-goCustomAdvancedUIDisableXPIconNotificationDesc,Disables the XP pop up from the UI,,停用使用者介面中的經驗值彈出視窗,停用使用者介面中的經驗值彈出視窗
-blockcommand_search,Open,,開啟,開啟
-npcHasItems,NPC has items in their inventory.,,NPC 的清單中有物品。,NPC 的清單中有物品。
+Key,English,French,tchinese
+takeandreplace,Rip off,Changer,撕裂
+musicbox_turnOn,Turn On,Allumer,開啟
+musicbox_turnOff,Turn Off,Eteindre,關閉
+BanditFactionSchematic,Master of disguse,Maitre de l'écoeurement,偽裝大師
+UndeadFactionSchematic,Master of disguse,Maitre de l'écoeurement,偽裝大師
+DukeRiverFactionSchematic,Master of disguse,Maitre de l'écoeurement,偽裝大師
+WhiteRiverFactionSchematic,Master of disguse,Maitre de l'écoeurement,偽裝大師
+ResetFactionSchematic,Master of disguse,Maitre de l'écoeurement,偽裝大師
+ResetFactionSchematicDesc,Read this to reset your faction!,le Reseter Le Faction...er...,閱讀此內容以重置你的陣營！
+BanditFactionSchematicDesc,Read this to switch over to the bandit faction!,Lisez ceci pour basculer dans la faction des bandits!,閱讀此內容以切換到盜匪陣營！
+UndeadFactionSchematicDesc,Read this to switch over to the undead faction!,Lisez ceci pour basculer dans la faction des morts-vivants!,閱讀此內容以切換到不死族陣營！
+WhiteRiverFactionSchematicDesc,Read this to switch over to the White River faction!,Lisez ceci pour basculer dans la faction White River!,閱讀此內容以切換到白河陣營！
+DukeRiverFactionSchematicDesc,Read this to switch over to the Duke faction!,Lisez ceci pour basculer dans la faction du Duke!,閱讀此內容以切換到公爵陣營！
+UndeadPositiveFactionSchematic,Peace and Love to the Undead,,和平與愛給予不死族
+UndeadPositiveFactionSchematicDesc,Read this to spread the message of the undead! Increase your standings with the undead!,,閱讀此內容以散播不死族的訊息！提升你在不死族中的地位！
+UndeadNegativeFactionSchematic,Undead: Unreliable! Untrustworthy!,,不死族：不可靠！不可信！
+UndeadNegativeFactionSchematicDesc,Read this to spread lies and fake news about the undead! Decrease your standings with the undead!,,閱讀此內容以散播關於不死族的謊言和假新聞！降低你在不死族中的地位！
+advancedlockpicking_desc,Use the arrow keys to change the position of the pick locks. Then space to try to unlock.,,使用箭頭鍵來改變撬鎖的位置。然後按空格嘗試解鎖。
+SpawnCube,Spawn Cube,,生成方塊
+SpawnCubeDesc,"Allows Prefab builders to set up specific spawn entities via in-game programmable code:  Sign Text:  ec=npcBaker;task=wander;pc=99. Entity Class zombie Bow, with Task Wander, and PathingCode 99.",,允許預製建築師透過遊戲內可程式設計的程式碼來設定特定的生成實體：標誌文字：ec=npcBaker；task=wander；pc=99。實體類別為殭屍弓箭手，具有漫遊任務和路徑代碼 99。
+loadingTipScoreSigns_title,(SCore) Enhanced Signs,,(SCore) 增強標誌
+loadingTipScoreSigns,"Enter a URL for an image or gif, like an imgur link, in a sign's edit box to display the image on the sign! Re-Edit to change it.",,在標誌的編輯方塊中輸入圖像或 gif 的 URL，例如 imgur 連結，以在標誌上顯示圖像！重新編輯以變更它。
+teleportto,Teleport To,,傳送到
+portal_not_configured,Not Configured,,未設定
+portal_configure,Not Connected,,未連接
+portalActivate,Activate Portal,,啟動傳送門
+ObjectiveEntityAliveSDXKill_keyword,Kill {0}:,,殺死 {0}:
+teleporttoNeedPower,Needs Power,,需要電力
+xuiPinGrab,Broadcast,,廣播
+ObjectiveBlockDestroy_keyword,Destroy {0}:,Le Destroy {0},摧毀 {0}:
+xuiSCoreGameOptions,SCore,Le SCore,SCore
+goCustomAdvancedPlayerFeaturesAntiNerdPole,Disable Nerd-Poling,Le Disable Nerd-Poling,停用書呆子撐桿
+goCustomAdvancedPlayerFeaturesAntiNerdPoleDesc,Disables placing blocks when jumping.,,在跳躍時停用放置方塊。
+goCustomAdvancedPlayerFeaturesVehicleNoTake,Disable Vehicle Pickup,Le Disable Vehicle Pickup,停用載具拾取
+goCustomAdvancedPlayerFeaturesVehicleNoTakeDesc,Disables picking up vehicles,,停用拾取載具
+goCustomFoodSpoilageFoodSpoilage,Food Spoilage,,食物腐敗
+goCustomFoodSpoilageFoodSpoilageDesc,Food Spoilage requires an additional modlet that would enable food spoilage on items.,,食物腐敗需要額外的模組，才能在物品上啟用食物腐敗。
+goCustomAdvancedPlayerFeaturesOneBlockCrouch,Allow One Block Crouch,,允許單格蹲伏
+goCustomAdvancedPlayerFeaturesOneBlockCrouchDesc,Allows the player to crouch in 1 block openings.,,允許玩家在 1 格開口處蹲伏。
+goCustomAdvancedPlayerFeaturesSoftHands,Soft Hands,,柔軟的手
+goCustomAdvancedPlayerFeaturesSoftHandsDesc,"If enabled, player will take damage when punching with bare hands",,如果啟用，玩家在徒手出拳時會受到傷害
+goCustomAdvancedPlayerFeaturesExtendedSigns,Allow enhanced signs,,允許增強標誌
+goCustomAdvancedPlayerFeaturesExtendedSignsDesc,"If enabled, allows players to place imgur links in signs to display pictures.",,如果啟用，允許玩家在標誌中放置 imgur 連結以顯示圖片。
+goCustomAdvancedZombieFeaturesHeadshotOnly,Head Shot only,,僅爆頭
+goCustomAdvancedZombieFeaturesHeadshotOnlyDesc,Allow zombies to only get hurt if hit in the head.,,允許殭屍只有在被擊中頭部時才會受到傷害。
+goCustomAdvancedZombieFeaturesRandomSize,Random Size Zombies,,隨機大小的殭屍
+goCustomAdvancedZombieFeaturesRandomSizeDesc,Allow zombies to be random size,,允許殭屍具有隨機大小
+goCustomAdvancedZombieFeaturesRandomWalk,Random Walk types,,隨機行走類型
+goCustomAdvancedZombieFeaturesRandomWalkDesc,Allow zombies to have random walk types,,允許殭屍具有隨機行走類型
+goCustomErrorHandlingNoExceptionHijack,Hide Null Refs,,隱藏空引用
+goCustomErrorHandlingNoExceptionHijackDesc,"DEBUG ONLY! If enabled, blocks null refs from dropping the console.",,僅限除錯！如果啟用，會阻止空引用中斷主控台。
+goCustomSCoreAdvanced,Debug Only,,僅限除錯
+xuiSCoreDebugGameOptions,SCore Debug,,SCore 除錯
+goCustomThemeSpook,Enable Spook Theme,,啟用鬼魅主題
+goCustomThemeSpookDesc,Enabled perpetual blood moon effects,,啟用永久血月效果
+goCustomCaveConfigurationCaveEnabled,Enable Caves,,啟用洞穴
+goCustomCaveConfigurationCaveEnabledDesc,Enable support for caves,,啟用對洞穴的支援
+goCustomCropManagementCropEnable,Enable Advanced Water,,啟用進階水
+goCustomCropManagementCropEnableDesc,"Enables plants requiring water, allows pipes, etc",,啟用需要水的植物，允許管道等
+goCustomFireManagementFireEnable,Enable Fire Spreading,,啟用火勢蔓延
+goCustomFireManagementFireEnableDesc,Enable fire to ignore and spread to other blocks,,啟用火勢忽略並蔓延到其他方塊
+goCustomFireManagementCheckInterval,Fire Burn Interval,,火勢燃燒間隔
+goCustomFireManagementCheckIntervalDesc,"How fast, in seconds, the fire will spread.",,火勢蔓延的速度，以秒為單位。
+goCustomFireManagementFireDamage,Fire Damage,,火勢傷害
+goCustomFireManagementFireDamage,"How much damage, per Check Interval, blocks take from damage.",,方塊在每次檢查間隔中受到的傷害量。
+goCustomFireManagementSmokeTime,Smoke Time,,煙霧時間
+goCustomFireManagementSmokeTimeDesc,How long smoke lasts on extinguished block.,,煙霧在熄滅的方塊上持續的時間。
+goCustomCaveConfigurationCaveType,Cave Type,,洞穴類型
+goCustomCaveConfigurationCaveTypeDesc,Decide what type of cave system to generate.,,決定要生成哪種類型的洞穴系統。
+,,,
+goCustomAdvancedTroubleshootingFeaturesVerboseXMLParser,Verbose XML Parser,,詳細 XML 解析器
+goCustomAdvancedTroubleshootingFeaturesVerboseXMLParserDesc,Enables very verbose XML troubleshooting for some XML files.,,為某些 XML 檔案啟用非常詳細的 XML 疑難排解。
+goCustomAdvancedTroubleshootingFeaturesPhysicsBody,Verbose Physics Body,,詳細物理主體
+goCustomAdvancedTroubleshootingFeaturesPhysicsBodyDesc,Enables Physics Body troubleshooting for models,,為模型啟用物理主體疑難排解
+goCustomAdvancedTroubleshootingFeaturesAnimatorMapper,Animator Mapper,,動畫師對應器
+goCustomAdvancedTroubleshootingFeaturesAnimatorMapperDesc,Animator Mapper,,動畫師對應器
+goCustomAdvancedTroubleshootingFeaturesComponentMapper,Component Mapper,,元件對應器
+goCustomAdvancedTroubleshootingFeaturesComponentMapperDesc,Shows Component Map of Entities,,顯示實體的元件對應
+goCustomAdvancedUIDisableXPIconNotification,Disable XP Icon Notification,,停用經驗值圖示通知
+goCustomAdvancedUIDisableXPIconNotificationDesc,Disables the XP pop up from the UI,,停用使用者介面中的經驗值彈出視窗
+blockcommand_search,Open,,開啟
+npcHasItems,NPC has items in their inventory.,,NPC 的清單中有物品。

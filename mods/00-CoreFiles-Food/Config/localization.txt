@@ -1,810 +1,810 @@
-Key,Source,Context,Changes,English,tchinese,中文機翻
-,,,,,,
-buffIllFoodPoisoning01Name,buffs,Buff,,Food Poisoning,食物中毒,食物中毒
-foodBBQSauceAOO,items,Food,,BBQ Sauce,烤肉醬,烤肉醬
-foodBBQSauceAOOSchematic,items,Food,,BBQ Sauce Recipe,烤肉醬食譜,烤肉醬食譜
-foodBBQSauceAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]It's time to get saucy!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]是時候來點醬汁了！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]是時候來點醬汁了！
-,,,,,,
-foodBagelAOO,items,Food,,Bagel,貝果,貝果
-foodBagelAOOSchematic,items,Food,,Bagel Recipe,貝果食譜,貝果食譜
-foodBagelAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n[abddfc]UNLOCKED BY: [ffffff] \n\n[abddfc]DESCRIPTION:[ffffff]Little-known fact: a bagel is the favorite food of most golfers. Why? There's a hole in one.,[abddfc]類型：[ffffff]食物\n[abddfc]解鎖條件：[ffffff]\n\n[abddfc]說明：[ffffff]鮮為人知的事實：貝果是大多數高爾夫球手的最愛食物。為什麼？因為它有一個洞。,[abddfc]類型：[ffffff]食物\n[abddfc]解鎖條件：[ffffff]\n\n[abddfc]說明：[ffffff]鮮為人知的事實：貝果是大多數高爾夫球手的最愛食物。為什麼？因為它有一個洞。
-,,,,,,
-foodBreadAOO,items,Food,,Bread,麵包,麵包
-foodBreadAOOSchematic,items,Food,,Homemade Bread Recipe,自製麵包食譜,自製麵包食譜
-foodBreadAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Many say it's the best thing ever.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]許多人說這是史上最棒的東西。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]許多人說這是史上最棒的東西。
-,,,,,,
-foodButterAOO,items,Food,,Butter,奶油,奶油
-foodButterAOOSchematic,items,Food,,Home-Churned Butter Recipe,自製奶油食譜,自製奶油食譜
-foodButterAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Used as an ingredient in tasty recipies.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用於美味食譜的成分。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用於美味食譜的成分。
-,,,,,,
-foodCheeseAOO,items,Food,,Cheese,起司,起司
-foodCheeseAOOSchematic,items,Food,,Homemade Cheeses Recipe,自製起司食譜,自製起司食譜
-foodCheeseAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Used as an ingredient in tasty recipies.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用於美味食譜的成分。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用於美味食譜的成分。
-,,,,,,
-foodCreamAOO,items,Food,,Cream,鮮奶油,鮮奶油
-foodCreamAOOSchematic,items,Food,,Cream Recipe,鮮奶油食譜,鮮奶油食譜
-foodCreamAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Freshly whipped cream, used as an igredient in tasty recipies.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]新鮮打發的鮮奶油，用於美味食譜的成分。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]新鮮打發的鮮奶油，用於美味食譜的成分。
-,,,,,,
-foodCreamCheeseAOO,items,Food,,Cream Cheese,奶油乳酪,奶油乳酪
-foodCreamCheeseAOOSchematic,items,Food,,Cream Cheese Recipe,奶油乳酪食譜,奶油乳酪食譜
-foodCreamCheeseAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Exactly as simple to make as you suspected all along.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]就像你一直懷疑的那樣簡單。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]就像你一直懷疑的那樣簡單。
-,,,,,,
-foodDoughAOO,items,Food,,Freshly Kneaded Dough,新鮮揉好的麵團,新鮮揉好的麵團
-foodDoughAOOSchematic,items,Food,,"Freshly Kneaded Dough Recipe""",新鮮揉好的麵團食譜,新鮮揉好的麵團食譜
-foodDoughAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Face it... you knead it.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]面對現實吧...你需要它。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]面對現實吧...你需要它。
-,,,,,,
-foodFlourAOO,items,Food,,Flour,麵粉,麵粉
-foodFlourAOOSchematic,items,Food,,Flour Recipe,麵粉食譜,麵粉食譜
-foodFlourAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]All bakers believe in flour power.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]所有麵包師都相信麵粉的力量。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]所有麵包師都相信麵粉的力量。
-,,,,,,
-foodGrandMa'sFamousSauceAOO,items,Food,,Grandma's Famous Sauce,奶奶的著名醬汁,奶奶的著名醬汁
-foodGrandMa'sFamousSauceAOOSchematic,items,Food,,Grandma's Famous Sauce Recipe,奶奶的著名醬汁食譜,奶奶的著名醬汁食譜
-foodGrandMa'sFamousSauceAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Only the best tomato sauce, just like Grandma used to make!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]只有最好的番茄醬，就像奶奶以前做的一樣！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]只有最好的番茄醬，就像奶奶以前做的一樣！
-,,,,,,
-foodMilkAOO,items,Food,,Milk,牛奶,牛奶
-foodMilkAOOSchematic,items,Food,,Pasteurized Milk Recipe,巴氏殺菌牛奶食譜,巴氏殺菌牛奶食譜
-foodMilkAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Milk! It does the body good. Not much use on its own but can be used in recipies to make other ingredients and tasty food.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]牛奶！對身體有益。單獨使用沒有太大用處，但可以用於食譜中，以製作其他成分和美味食物。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]牛奶！對身體有益。單獨使用沒有太大用處，但可以用於食譜中，以製作其他成分和美味食物。
-,,,,,,
-foodOldSaltAOO,items,Food,,Salt,鹽,鹽
-foodOldSaltAOOSchematic,items,Food,,Salt Recipe,鹽食譜,鹽食譜
-foodOldSaltAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]It's salty.""",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]它是鹹的。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]它是鹹的。
-,,,,,,
-foodRawBaconAOO,items,Food,,Raw Bacon,生培根,生培根
-foodRawBaconAOOSchematic,items,Food,,Raw Bacon Recipe,生培根食譜,生培根食譜
-foodRawBaconAOODescs,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw bacon, ready for fry-up.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生培根，準備好油炸。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生培根，準備好油炸。
-,,,,,,
-foodRawWildSteakAOO,items,Food,,Raw Wild Steak,生野牛排,生野牛排
-foodRawWildSteakAOODescs,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw Wild Steak, ready for fry-up.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生野牛排，準備好油炸。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生野牛排，準備好油炸。
-,,,,,,
-foodRawKobeSteakAOO,items,Food,,Raw Kobe Steak,生神戶牛排,生神戶牛排
-foodRawKobeSteakAOODescs,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw Kobe Steak, ready for fry-up.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生神戶牛排，準備好油炸。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生神戶牛排，準備好油炸。
-,,,,,,
-foodRawWildGameAOO,items,Food,,Raw Wild Game,生野味,生野味
-foodRawWildGameAOODescs,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw Wild Game, Carve it up on the Butcher's Table.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生野味，在屠夫桌上切開它。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生野味，在屠夫桌上切開它。
-,,,,,,
-foodRawBeefAOO,items,Food,,Raw Beef,生牛肉,生牛肉
-foodRawBeefAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]Butcher Table \n[abddfc]UNLOCKED BY: [ffffff] \n\n[abddfc]DESCRIPTION:[ffffff]Beef straight from the cow,[abddfc]類型：[ffffff]食物\n[abddfc]製作台：[ffffff]屠夫桌\n[abddfc]解鎖條件：[ffffff]\n\n[abddfc]說明：[ffffff]直接來自牛的牛肉,[abddfc]類型：[ffffff]食物\n[abddfc]製作台：[ffffff]屠夫桌\n[abddfc]解鎖條件：[ffffff]\n\n[abddfc]說明：[ffffff]直接來自牛的牛肉
-,,,,,,
-foodRawChickenBreastAOO,items,Food,,Raw Chicken Breast,生雞胸肉,生雞胸肉
-foodRawChickenBreastAOOSchematic,items,Food,,Raw Chicken Breast Recipe,生雞胸肉食譜,生雞胸肉食譜
-foodRawChickenBreastAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw chicken breast ready for cooking.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生雞胸肉，準備好烹飪。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生雞胸肉，準備好烹飪。
-,,,,,,
-foodRawChickenLegsandWingsAOO,items,Food,,Raw Chicken Legs and Wings,生雞腿和雞翅,生雞腿和雞翅
-foodRawChickenLegsandWingsAOOSchematic,items,Food,,Raw Chicken Legs and Wings Recipe,生雞腿和雞翅食譜,生雞腿和雞翅食譜
-foodRawChickenLegsandWingsAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw chicken legs and wings, ready for cooking.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生雞腿和雞翅，準備好烹飪。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生雞腿和雞翅，準備好烹飪。
-,,,,,,
-foodRawGroundBeefAOO,items,Food,,Raw Ground Beef,生絞肉,生絞肉
-foodRawGroundBeefAOOSchematic,items,Food,,Raw Ground Beef Recipe,生絞肉食譜,生絞肉食譜
-foodRawGroundBeefAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Raw ground beef, ready for cooking.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生絞肉，準備好烹飪。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生絞肉，準備好烹飪。
-,,,,,,
-foodRawHamAOO,items,Food,,Raw Ham,生火腿,生火腿
-foodRawHamAOOSchematic,items,Food,,Raw Ham Recipe,生火腿食譜,生火腿食譜
-foodRawHamAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw ham, ready for cooking.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生火腿，準備好烹飪。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生火腿，準備好烹飪。
-,,,,,,
-foodRawKobeBeefAOO,items,Food,,Raw Kobe Beef,生神戶牛肉,生神戶牛肉
-foodRawKobeBeefAOOSchematic,items,Food,,Raw Kobe Beef Recipe,生神戶牛肉食譜,生神戶牛肉食譜
-foodRawKobeBeefAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw kobe beef, ready for cooking.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生神戶牛肉，準備好烹飪。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生神戶牛肉，準備好烹飪。
-,,,,,,
-foodRawMilkAOO,items,Food,,Raw Milk,生牛奶,生牛奶
-foodRawMilkAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Milk straight from the cow. Pasteurize this before drinking!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]直接來自牛的牛奶。在飲用前先巴氏殺菌！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]直接來自牛的牛奶。在飲用前先巴氏殺菌！
-,,,,,,
-foodRawPastaAOO,items,Food,,Raw Pasta,生義大利麵,生義大利麵
-foodRawPastaAOOSchematic,items,Food,,Homemade Pasta Recipe,自製義大利麵食譜,自製義大利麵食譜
-foodRawPastaAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Spaghetti, lasagna, angelhair, rigatoni, tortelini... you name it, you make it!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]義大利麵、千層麵、天使麵、通心粉、餛飩...你說得出來，你做得到！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]義大利麵、千層麵、天使麵、通心粉、餛飩...你說得出來，你做得到！
-,,,,,,
-foodRawPorkAOO,items,Food,,Raw Pork,生豬肉,生豬肉
-foodRawPorkAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Pork straight from the pig, or boar. Ready to be butchered into specific cuts for cooking.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]直接來自豬或野豬的豬肉。準備好屠宰成特定部位以供烹飪。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]直接來自豬或野豬的豬肉。準備好屠宰成特定部位以供烹飪。
-,,,,,,
-foodRawPorkLoinAOO,items,Food,,Raw Pork Loin,生豬里肌肉,生豬里肌肉
-foodRawPorkLoinAOOSchematic,items,Food,,Raw Pork Loin Recipe,生豬里肌肉食譜,生豬里肌肉食譜
-foodRawPorkLoinAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw pork loin ready for cooking.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生豬里肌肉，準備好烹飪。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生豬里肌肉，準備好烹飪。
-,,,,,,
-foodRawPorkRibsAOO,items,Food,,Raw Pork Ribs,生豬肋排,生豬肋排
-foodRawPorkRibsAOOSchematic,items,Food,,Raw Pork Ribs Recipe,生豬肋排食譜,生豬肋排食譜
-foodRawPorkRibsAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw pork ribs ready for cooking.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生豬肋排，準備好烹飪。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生豬肋排，準備好烹飪。
-,,,,,,
-foodRawSausageLinkAOO,items,Food,,Raw Sausage Link,生香腸連結,生香腸連結
-foodRawSausageLinkAOOSchematic,items,Food,,Raw Sausage Link Recipe,生香腸連結食譜,生香腸連結食譜
-foodRawSausageLinkAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw sausage links ready for cooking.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生香腸連結，可供烹飪。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生香腸連結，可供烹飪。
-,,,,,,
-foodRawSteakAOO,items,Food,,Raw Steak,生牛排,生牛排
-foodRawSteakAOOSchematic,items,Food,,Raw Steak Recipe,生牛排食譜,生牛排食譜
-foodRawSteakAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw steak ready for cooking.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生牛排，可供烹飪。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生牛排，可供烹飪。
-,,,,,,
-foodSugarAOO,items,Food,,Sugar,糖,糖
-foodSugarAOOSchematic,items,Food,,Sugar Recipe,糖食譜,糖食譜
-foodSugarAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Aw, it's so sweet!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]哇，好甜！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]哇，好甜！
-,,,,,,
-foodVegOilAOO,items,Food,,Vegetable Oil,植物油,植物油
-foodVegOilAOOSchematic,items,Food,,Vegetable Oil Recipe,植物油食譜,植物油食譜
-foodVegOilAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Used as an ingredient in tasty recipies.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用於美味食譜的成分。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用於美味食譜的成分。
-,,,,,,
-foodWhiteRiceAOO,items,Food,,White Rice,白米,白米
-foodWhiteRiceAOOSchematic,items,Food,,Steamed White Rice Recipe,蒸白米食譜,蒸白米食譜
-foodWhiteRiceAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]I'm all over that!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]我喜歡！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]我喜歡！
-,,,,,,
-,,,,,,
-foodBagelandCreamCheeseAOO,items,Food,,Bagel and Cream Cheese,貝果和奶油乳酪,貝果和奶油乳酪
-foodBagelandCreamCheeseAOOSchematic,items,Food,,Bagel and Cream Cheese Recipe,貝果和奶油乳酪食譜,貝果和奶油乳酪食譜
-foodBagelandCreamCheeseAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]A classic breakfast treat.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]經典早餐美食。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]經典早餐美食。
-,,,,,,
-foodBreakfastBaconSandwichAOO,items,Food,,Breakfast Bacon Sandwich,培根三明治,培根三明治
-foodBreakfastBaconSandwichAOOSchematic,items,Food,,Breakfast Bacon Sandwich Recipe,培根三明治食譜,培根三明治食譜
-foodBreakfastBaconSandwichAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Bacon! Also a breakfast sandwich.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]培根！也是早餐三明治。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]培根！也是早餐三明治。
-,,,,,,
-foodBreakfastSausageSandwichAOO,items,Food,,Breakfast Sausage Sandwich,香腸三明治,香腸三明治
-foodBreakfastSausageSandwichAOOSchematic,items,Food,,Breakfast Sausage Sandwich Recipe,香腸三明治食譜,香腸三明治食譜
-foodBreakfastSausageSandwichAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]What makes bagels even better? Why, meat, of course!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]什麼讓貝果更好吃？當然是肉！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]什麼讓貝果更好吃？當然是肉！
-,,,,,,
-foodFruitPancakesAOO,items,Food,,Fruit Pancakes,水果鬆餅,水果鬆餅
-foodFruitPancakesAOOSchematic,items,Food,,Fruit Pancakes Recipe,水果鬆餅食譜,水果鬆餅食譜
-foodFruitPancakesAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Delightfully fresh and delicious.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]令人愉悅的新鮮美味。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]令人愉悅的新鮮美味。
-,,,,,,
-foodFullStackoPancakesAOO,items,Food,,Full Stack of Pancakes,一疊鬆餅,一疊鬆餅
-foodFullStackoPancakesAOOSchematic,items,Food,,Full Stack of Pancakes Recipe,一疊鬆餅食譜,一疊鬆餅食譜
-foodFullStackoPancakesAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]For when one pancake just isn't enough.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]當一個鬆餅不夠時。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]當一個鬆餅不夠時。
-,,,,,,
-foodPancakeAOO,items,Food,,Pancake,鬆餅,鬆餅
-foodPancakeAOOSchematic,items,Food,,Pancake Recipe,鬆餅食譜,鬆餅食譜
-foodPancakeAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Flat, yet delicious.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]扁平但美味。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]扁平但美味。
-,,,,,,
-foodYogurtHotTSK_AOO,items,Food,New,Yogurt (Hot),優格（熱）,優格（熱）
-foodYogurtHotTSK_AOOSchematic,items,Food,,Homemade Yogurt (Hot) Recipe,自製優格（熱）食譜,自製優格（熱）食譜
-foodYogurtHotTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Very freshly made yogurt. Place in a fridge to cool it before eating.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]非常新鮮的優格。在食用前放入冰箱冷卻。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]非常新鮮的優格。在食用前放入冰箱冷卻。
-,,,,,,
-foodYogurtTSK_AOO,items,Food,New,Yogurt,優格,優格
-foodYogurtTSK_AOOSchematic,items,Food,,Homemade Yogurt (Chilled) Recipe,自製優格（冷藏）食譜,自製優格（冷藏）食譜
-foodYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Yogurt: good for your innards. Tastes best mixed with something else.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]優格：對你的內臟有益。與其他東西混合後味道最佳。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]優格：對你的內臟有益。與其他東西混合後味道最佳。
-,,,,,,
-foodChickenPotPieTSK_AOO,items,Food,New,Homemade Chicken Pot Pie,自製雞肉餡餅,自製雞肉餡餅
-foodChickenPotPieTSK_AOOSchematic,items,Food,New,Homemade Chicken Pot Pie Recipe,自製雞肉餡餅食譜,自製雞肉餡餅食譜
-foodChickenPotPieTSK_AOODesc,items,Food,New,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Steamy, juicy pot pie.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]熱騰騰、多汁的餡餅。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]熱騰騰、多汁的餡餅。
-,,,,,,
-foodHasenpfefferTSK_AOO,items,Food,New,Hasenpfeffer,野兔肉燉肉,野兔肉燉肉
-foodHasenpfefferTSK_AOOSchematic,items,Food,New,Hasenpfeffer Recipe,野兔肉燉肉食譜,野兔肉燉肉食譜
-foodHasenpfefferTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Traditional German rabbit stew.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]傳統的德國野兔燉肉。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]傳統的德國野兔燉肉。
-,,,,,,
-,,,,,,
-foodHomemadeChickenNoodleTSK_AOO,items,Food,New,Homemade Chicken Noodle Soup,自製雞肉麵條湯,自製雞肉麵條湯
-foodHomemadeChickenNoodleTSK_AOOSchematic,items,Item,New,Homemade Chicken Noodle Soup Recipe,自製雞肉麵條湯食譜,自製雞肉麵條湯食譜
-foodHomemadeChickenNoodleTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Well what do you know? It really is good for the soul.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]你怎麼知道？它真的對靈魂有益。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]你怎麼知道？它真的對靈魂有益。
-,,,,,,
-foodRamenTSK_AOO,items,Food,New,Ramen,拉麵,拉麵
-foodRamenTSK_AOOSchematic,items,Item,New,Ramen Recipe,拉麵食譜,拉麵食譜
-foodRamenTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Amazing ramen. Itadakimasu!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]令人驚嘆的拉麵。いただきます！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]令人驚嘆的拉麵。いただきます！
-,,,,,,
-foodRoyalGamePieTSK_AOO,items,Food,New,Royal Game Pie,皇家野味餡餅,皇家野味餡餅
-foodRoyalGamePieTSK_AOOSchematic,items,Food,New,Royal Game Pie Recipe,皇家野味餡餅食譜,皇家野味餡餅食譜
-foodRoyalGamePieTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Tuck in!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]享用吧！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]享用吧！
-,,,,,,
-foodVenisonStewTSK_AOO,items,Food,New,Venison Stew,鹿肉燉肉,鹿肉燉肉
-foodVenisonStewTSK_AOOSchematic,items,Food,New,Venison Stew Recipe,鹿肉燉肉食譜,鹿肉燉肉食譜
-foodVenisonStewTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Juicy and delicious venison stew.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]多汁美味的鹿肉燉肉。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]多汁美味的鹿肉燉肉。
-,,,,,,
-foodBBQPorkRibsAOO,items,Food,,BBQ Pork Ribs,烤豬肋排,烤豬肋排
-foodBBQPorkRibsAOOSchematic,items,Food,,BBQ Pork Ribs Recipe,烤豬肋排食譜,烤豬肋排食譜
-foodBBQPorkRibsAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Tangy BBQ pork ribs.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]酸甜烤豬肋排。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]酸甜烤豬肋排。
-,,,,,,
-foodBeefChiliAOO,items,Food,,Beef Chili,牛肉辣椒,牛肉辣椒
-foodBeefChiliAOOSchematic,items,Food,,Beef Chili Recipe,牛肉辣椒食譜,牛肉辣椒食譜
-foodBeefChiliAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Hearty beef chili,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]豐盛的牛肉辣椒,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]豐盛的牛肉辣椒
-,,,,,,
-foodBeefwithBroccoliAOO,items,Food,,Beef with Broccoli,牛肉炒花椰菜,牛肉炒花椰菜
-foodBeefwithBroccoliAOOSchematic,items,Food,,Beef with Broccoli Recipe,牛肉炒花椰菜食譜,牛肉炒花椰菜食譜
-foodBeefwithBroccoliAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Served at Asian restaurants everywhere.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]在各地的亞洲餐廳供應。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]在各地的亞洲餐廳供應。
-,,,,,,
-foodBloominOnionAOO,items,Food,,Bloomin' Onion,盛開的洋蔥,盛開的洋蔥
-foodBloominOnionAOOSchematic,items,Food,,Bloomin' Onion Recipe,盛開的洋蔥食譜,盛開的洋蔥食譜
-foodBloominOnionAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Delectable - just don't expect a kiss until you've brushed your teeth.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]美味 - 只是在刷牙之前不要期待親吻。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]美味 - 只是在刷牙之前不要期待親吻。
-,,,,,,
-foodCabbageRollsandCoffeeAOO,items,Food,,Cabbage Rolls and Coffee,包心菜捲和咖啡,包心菜捲和咖啡
-foodCabbageRollsandCoffeeAOOSchematic,items,Food,,Cabbage Rolls and Coffee Recipe,包心菜捲和咖啡食譜,包心菜捲和咖啡食譜
-foodCabbageRollsandCoffeeAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Schmenge Bros Cabbage Rolls and Coffee ... Mmm Mmm Good!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]施門奇兄弟的包心菜捲和咖啡... 嗯嗯好吃！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]施門奇兄弟的包心菜捲和咖啡... 嗯嗯好吃！
-,,,,,,
-foodCanChickpeasAOO,items,Food,,Chickpeas,鷹嘴豆,鷹嘴豆
-foodCanChickpeasAOOSchematic,items,Food,,Chickpeas in a Can Recipe,罐裝鷹嘴豆食譜,罐裝鷹嘴豆食譜
-"foodCanChickpeasAOODesc ""[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Used as an ingredient in tasty recipies.""",,,,,,
-,,,,,,
-foodExoticGrilledSteakTSK_AOO,items,Food,,Exotic Grilled Steak,異國烤牛排,異國烤牛排
-foodExoticGrilledSteakTSK_AOOSchematic,items,Food,,Exotic Grilled Steak Recipe,異國烤牛排食譜,異國烤牛排食譜
-foodExoticGrilledSteakTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Exotic wild game steak, grilled to perfection.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]異國野生牛排，烤至完美。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]異國野生牛排，烤至完美。
-,,,,,,
-,,,,,,
-foodFalafelAOO,items,Food,,Falafel Plate,法拉費盤,法拉費盤
-foodFalafelAOOSchematic,items,Food,,Falafel Plate Recipe,法拉費盤食譜,法拉費盤食譜
-foodFalafelAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Who wants some falafel?,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]誰想要法拉費？,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]誰想要法拉費？
-,,,,,,
-foodFingersFriesAOO,items,Food,,Chicken Fingers and Fries,雞柳條和薯條,雞柳條和薯條
-foodFingersFriesAOOSchematic,items,Food,,Chicken Fingers and Fries Recipe,雞柳條和薯條食譜,雞柳條和薯條食譜
-foodFingersFriesAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Don't mess with the classics.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]不要搞砸經典。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]不要搞砸經典。
-,,,,,,
-foodFreshBBQChickenLegsAOO,items,Food,,Fresh BBQ Chicken Legs,新鮮烤雞腿,新鮮烤雞腿
-foodFreshBBQChickenLegsAOOSchematic,items,Food,,BBQ Chicken Legs Recipe,BBQ 雞腿食譜,BBQ 雞腿食譜
-foodFreshBBQChickenLegsAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Look at those saucy legs!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]看看那些美味的腿！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]看看那些美味的腿！
-,,,,,,
-foodFreshBaconMeatloafAOO,items,Food,,Fresh Bacon Meatloaf,新鮮培根肉餡麵包,新鮮培根肉餡麵包
-foodFreshBaconMeatloafAOOSchematic,items,Food,,Bacon Meatloaf Recipe,培根肉餡麵包食譜,培根肉餡麵包食譜
-foodFreshBaconMeatloafAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]It's meatloaf, with BACON! What could be better?",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]這是肉餡麵包，加上培根！還有什麼比這更好的？,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]這是肉餡麵包，加上培根！還有什麼比這更好的？
-,,,,,,
-foodFreshBakedChickenBreastAOO,items,Food,,Fresh-Baked Chicken Breast,新鮮烤雞胸肉,新鮮烤雞胸肉
-foodFreshBakedChickenBreastAOOSchematic,items,Food,,Fresh-Baked Chicken Breast Recipe,新鮮烤雞胸肉食譜,新鮮烤雞胸肉食譜
-foodFreshBakedChickenBreastAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Baked chicken breast - so juicy.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]烤雞胸肉 - 非常多汁。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]烤雞胸肉 - 非常多汁。
-,,,,,,
-foodFreshCheeseBurgerAOO,items,Food,,Fresh Cheeseburger,新鮮起司漢堡,新鮮起司漢堡
-foodFreshCheeseBurgerAOOSchematic,items,Food,,Cheeseburger Recipe,起司漢堡食譜,起司漢堡食譜
-foodFreshCheeseBurgerAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]An American favorite!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]美國人的最愛！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]美國人的最愛！
-,,,,,,
-foodFreshHoneyGlazedHamAOO,items,Food,,Fresh Honey-Glazed Ham,新鮮蜂蜜烤火腿,新鮮蜂蜜烤火腿
-foodFreshHoneyGlazedHamAOOSchematic,items,Food,,Honey-Glazed Ham Recipe,蜂蜜烤火腿食譜,蜂蜜烤火腿食譜
-foodFreshHoneyGlazedHamAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]The main course of a delicious feast.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]美味盛宴的主菜。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]美味盛宴的主菜。
-,,,,,,
-foodFreshKobeBeefAOO,items,Food,,Fresh Kobe Beef,新鮮神戶牛肉,新鮮神戶牛肉
-foodFreshKobeBeefAOOSchematic,items,Food,,Kobe Beef Recipe,神戶牛肉食譜,神戶牛肉食譜
-foodFreshKobeBeefAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]It doesn't get any beefier than this, folks!",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]各位，沒有比這更美味的牛肉了！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]各位，沒有比這更美味的牛肉了！
-,,,,,,
-foodFreshSmokedSausageAOO,items,Food,,Fresh Smoked Sausage,新鮮煙燻香腸,新鮮煙燻香腸
-foodFreshSmokedSausageAOOSchematic,items,Food,,Smoked Sausage Recipe,煙燻香腸食譜,煙燻香腸食譜
-foodFreshSmokedSausageAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Smoked to perfection!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]完美煙燻！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]完美煙燻！
-,,,,,,
-foodFriedRiceAOO,items,Food,,Fried Rice,炒飯,炒飯
-foodFriedRiceAOOSchematic,items,Food,,Fried Rice Recipe,炒飯食譜,炒飯食譜
-foodFriedRiceAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]A quick and easy, yet tasty, meal.",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]快速簡單，但美味的一餐。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]快速簡單，但美味的一餐。
-,,,,,,
-foodGrilledSteakAOO,items,Food,,Griled Steak,烤牛排,烤牛排
-foodGrilledSteakAOOSchematic,items,Food,,Grilled Steak Recipe,烤牛排食譜,烤牛排食譜
-foodGrilledSteakAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Juicy steak grilled just the way you love it.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]多汁的牛排，烤成您最喜歡的樣子。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]多汁的牛排，烤成您最喜歡的樣子。
-,,,,,,
-foodJalapenoPoppersAOO,items,Food,,Jalapeno Poppers,墨西哥辣椒,墨西哥辣椒
-foodJalapenoPoppersAOOSchematic,items,Food,,Jalapeno Poppers Recipe,墨西哥辣椒食譜,墨西哥辣椒食譜
-foodJalapenoPoppersAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Live coals are cooler than these guys. Be sure to have those drinks nearby!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]活炭比這些傢伙更酷。一定要在附近放好飲料！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]活炭比這些傢伙更酷。一定要在附近放好飲料！
-,,,,,,
-foodJamTSK_AOO,items,Food,New,Fruit Jam,水果醬,水果醬
-foodJamTSK_AOOSchematic,items,Food,,Homemade Fruit Jam Recipe,自製水果醬食譜,自製水果醬食譜
-foodJamTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Oh, jam!",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]喔，果醬！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]喔，果醬！
-,,,,,,
-foodJamHotTSK_AOO,items,Food,New,Fruit Jam (Hot),水果醬（辣）,水果醬（辣）
-foodJamHotTSK_AOOSchematic,items,Food,,Jam (Hot) Recipe,果醬（辣）食譜,果醬（辣）食譜
-foodJamHotTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Very freshly made fruit jam. Place in a fridge to cool before eating.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]非常新鮮的水果醬。在食用前放入冰箱冷卻。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]非常新鮮的水果醬。在食用前放入冰箱冷卻。
-,,,,,,
-foodPBnJ_TSK_AOO,items,Food,New,PB&J,花生醬果醬三明治,花生醬果醬三明治
-foodPBnJ_TSK_AOOSchematic,items,Food,,PB&J Recipe,花生醬果醬三明治食譜,花生醬果醬三明治食譜
-foodPBnJ_TSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]With or without the crust, still a childhood favorite.",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]無論有無麵包皮，仍然是童年最愛。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]無論有無麵包皮，仍然是童年最愛。
-,,,,,,
-foodPizzaAOO,items,Food,,Pizza,披薩,披薩
-foodPizzaAOOSchematic,items,Food,,Pizza Recipe,披薩食譜,披薩食譜
-foodPizzaAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]A different kind of pie. Save me a slice!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]一種不同的派。幫我留一片！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]一種不同的派。幫我留一片！
-,,,,,,
-foodSmokedChickenTSK_AOO,items,Food,New,Smoked Chicken,煙燻雞肉,煙燻雞肉
-foodSmokedChickenTSK_AOOSchematic,items,Item,New,Smoked Chicken Recipe,煙燻雞肉食譜,煙燻雞肉食譜
-foodSmokedChickenTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Succulent smoked chicken,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]多汁的煙燻雞肉,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]多汁的煙燻雞肉
-,,,,,,
-foodSmokedFishTSK_AOO,items,Food,New,Smoked Fish,煙燻魚,煙燻魚
-foodSmokedFishTSK_AOOSchematic,items,Item,New,Smoked Fish Recipe,煙燻魚食譜,煙燻魚食譜
-foodSmokedFishTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Smoked fish - my personal favorite is teriyaki smoked salmon.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]煙燻魚 - 我個人最喜歡的是照燒煙燻鮭魚。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]煙燻魚 - 我個人最喜歡的是照燒煙燻鮭魚。
-,,,,,,
-foodSpaghettiandaMeataBallsAOO,items,Food,,Spaghetti and Meatballs,義大利麵和肉丸,義大利麵和肉丸
-foodSpaghettiandaMeataBallsAOOSchematic,items,Food,,Spaghetti and Meatballs Recipe,義大利麵和肉丸食譜,義大利麵和肉丸食譜
-foodSpaghettiandaMeataBallsAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Spaghetti and-a Meat-a Balls! Fills you up and-a warms your soul!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]義大利麵和肉丸！讓你吃飽喝足，溫暖你的靈魂！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]義大利麵和肉丸！讓你吃飽喝足，溫暖你的靈魂！
-,,,,,,
-foodSpicyHotWingsAOO,items,Food,,Spicy Hot Wings,辣雞翅,辣雞翅
-foodSpicyHotWingsAOOSchematic,items,Food,,Spicy Hot Wings Recipe,辣雞翅食譜,辣雞翅食譜
-foodSpicyHotWingsAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Buffalo wings - trivia not included.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]水牛城雞翅 - 不含瑣事。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]水牛城雞翅 - 不含瑣事。
-,,,,,,
-,,,,,,
-foodApplePieAOO,items,Food,,Apple Pie,蘋果派,蘋果派
-foodApplePieAOOSchematic,items,Food,,Apple Pie Recipe,蘋果派食譜,蘋果派食譜
-foodApplePieAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]A perfectly-baked apple pie. Delicious!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]完美烘烤的蘋果派。美味！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]完美烘烤的蘋果派。美味！
-foodBananaCreamPieAOO,items,Food,,Banana Cream Pie,香蕉奶油派,香蕉奶油派
-foodBananaCreamPieAOOSchematic,items,Food,,Banana Cream Pie Recipe,香蕉奶油派食譜,香蕉奶油派食譜
-,,,,,,
-foodBananaCreamPieAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]A light and delightful pie.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]輕盈可口的派。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]輕盈可口的派。
-,,,,,,
-foodBananaSplitTSK_AOO,items,Food,New,Banana Split,香蕉船,香蕉船
-foodBananaSplitTSK_AOOSchematic,items,Food,,Banana Split Recipe,香蕉船食譜,香蕉船食譜
-foodBananaSplitTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Why was the ice cream lonely? Because the banana split.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]為什麼冰淇淋很孤單？因為香蕉船。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]為什麼冰淇淋很孤單？因為香蕉船。
-,,,,,,
-foodBlueberryFrozenYogurtTSK_AOO,items,Food,New,Blueberry Frozen Yogurt,藍莓冷凍優格,藍莓冷凍優格
-foodBlueberryFrozenYogurtTSK_AOOSchematic,items,Food,,Blueberry Frozen Yogurt Recipe,藍莓冷凍優格食譜,藍莓冷凍優格食譜
-foodBlueberryFrozenYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Frozen yogurt made with fresh blueberries.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]用新鮮藍莓製成的冷凍優格。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]用新鮮藍莓製成的冷凍優格。
-,,,,,,
-foodBlueberryIceCreamTSK_AOO,items,Food,New,Blueberry Ice Cream,藍莓冰淇淋,藍莓冰淇淋
-foodBlueberryIceCreamTSK_AOOSchematic,items,Food,,Blueberry Ice Cream Recipe,藍莓冰淇淋食譜,藍莓冰淇淋食譜
-foodBlueberryIceCreamTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Homemade ice cream made with fresh blueberries.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]用新鮮藍莓製成的自製冰淇淋。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]用新鮮藍莓製成的自製冰淇淋。
-,,,,,,
-foodBlueRaspberrySnoConeTSK_AOO,items,Food,New,Raspberry Shaved Ice,覆盆子刨冰,覆盆子刨冰
-foodBlueRaspberrySnoConeTSK_AOOSchematic,items,Food,,Raspberry Shaved Ice Recipe,覆盆子刨冰食譜,覆盆子刨冰食譜
-foodBlueRaspberrySnoConeTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Ice, with some raspberry flavoring. About what you'd expect, really.",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]冰，加上一些覆盆子調味。真的，你會期待什麼。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]冰，加上一些覆盆子調味。真的，你會期待什麼。
-,,,,,,
-foodCherryPieAOO,items,Food,,She's My Cherry Pie,她是我的櫻桃派,她是我的櫻桃派
-foodCherryPieAOOSchematic,items,Food,,Cherry Pie Recipe,櫻桃派食譜,櫻桃派食譜
-foodCherryPieAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Baked to perfection and ready to eat.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]完美烘烤，準備食用。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]完美烘烤，準備食用。
-,,,,,,
-foodCherrySnoConeTSK_AOO,items,Food,New,Cherry Shaved Ice,櫻桃刨冰,櫻桃刨冰
-foodCherrySnoConeTSK_AOOSchematic,items,Food,,Cherry Shaved Ice Recipe,櫻桃刨冰食譜,櫻桃刨冰食譜
-foodCherrySnoConeTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Ice, with some cherry flavoring. About what you'd expect, really.",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]冰，加上一些櫻桃調味。真的，你會期待什麼。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]冰，加上一些櫻桃調味。真的，你會期待什麼。
-,,,,,,
-foodChocolateBarTSK_AOO,items,Food,,Chocolate Bar,巧克力棒,巧克力棒
-foodChocolateBarTSK_AOOSchematic,items,Food,,Chocolate Bar Recipe,巧克力棒食譜,巧克力棒食譜
-foodChocolateBarTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Chocolate makes everything better - even the end of the world as you know it.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]巧克力讓一切變得更好 - 即使是世界末日，你所知道的世界末日。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]巧克力讓一切變得更好 - 即使是世界末日，你所知道的世界末日。
-,,,,,,
-foodChocolateCakeTSK_AOO,items,Food,New,Chocolate Cake,巧克力蛋糕,巧克力蛋糕
-foodChocolateCakeTSK_AOOSchematic,items,Food,,Chocolate Cake Recipe,巧克力蛋糕食譜,巧克力蛋糕食譜
-foodChocolateCakeTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]A decadent chocolate cake.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]頹廢的巧克力蛋糕。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]頹廢的巧克力蛋糕。
-,,,,,,
-foodChocolateChipCookieTSK_AOO,items,Food,New,Chocolate Chip Cookies,巧克力碎餅乾,巧克力碎餅乾
-foodChocolateChipCookieTSK_AOOSchematic,items,Food,,Chocolate Chip Cookies Recipe,巧克力碎餅乾食譜,巧克力碎餅乾食譜
-foodChocolateChipCookieTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Chocolate chip cookies. Yes, they are chocolate chips, not raisins. Go on, take a bite!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]巧克力碎餅乾。是的，它們是巧克力碎，不是葡萄乾。繼續，咬一口！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]巧克力碎餅乾。是的，它們是巧克力碎，不是葡萄乾。繼續，咬一口！
-,,,,,,
-foodCCCDIceCreamTSK_AOO,items,Food,New,Chocolate Chip Cookie Dough Ice Cream,巧克力碎餅乾麵團冰淇淋,巧克力碎餅乾麵團冰淇淋
-foodCCCDIceCreamTSK_AOOSchematic,items,Food,,Chocolate Chip Cookie Dough Ice Cream Recipe,巧克力碎餅乾麵團冰淇淋食譜,巧克力碎餅乾麵團冰淇淋食譜
-foodCCCDIceCreamTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Otherwise known as CCCDIC, because even the name is a mouthful!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]又稱 CCCDIC，因為連名字都一大串！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]又稱 CCCDIC，因為連名字都一大串！
-,,,,,,
-foodChocolateIceCreamTSK_AOO,items,Food,New,Chocolate Ice Cream,巧克力冰淇淋,巧克力冰淇淋
-foodChocolateIceCreamTSK_AOOSchematic,items,Food,,Chocolate Ice Cream Recipe,巧克力冰淇淋食譜,巧克力冰淇淋食譜
-foodChocolateIceCreamTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Homemade chocolate ice cream.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]自製巧克力冰淇淋。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]自製巧克力冰淇淋。
-,,,,,,
-foodChocolateFrozenYogurtTSK_AOO,items,Food,New,Chocolate Frozen Yogurt,巧克力冷凍優格,巧克力冷凍優格
-foodChocolateFrozenYogurtTSK_AOOSchematic,items,Food,,Chocolate Frozen Yogurt Recipe,巧克力冷凍優格食譜,巧克力冷凍優格食譜
-foodChocolateFrozenYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Homemade chocolate frozen yogurt.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]自製巧克力冷凍優格。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]自製巧克力冷凍優格。
-,,,,,,
-foodChocolateMousseTSK_AOO,items,Food,New,Chocolate Mousse,巧克力慕斯,巧克力慕斯
-foodChocolateMousseTSK_AOOSchematic,items,Food,,Chocolate Mousse Recipe,巧克力慕斯食譜,巧克力慕斯食譜
-foodChocolateMousseTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Light and fluffy raspberry mousse.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]輕盈蓬鬆的覆盆子慕斯。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]輕盈蓬鬆的覆盆子慕斯。
-,,,,,,
-foodCoconutCreamPieAOO,items,Food,,Coconut Cream Pie,椰奶派,椰奶派
-foodCoconutCreamPieAOOSchematic,items,Food,,Coconut Cream Pie Recipe,椰奶派食譜,椰奶派食譜
-foodCoconutCreamPieAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Tastes like the tropics!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]嚐起來像熱帶水果！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]嚐起來像熱帶水果！
-,,,,,,
-foodCoconutFrozenYogurtTSK_AOO,items,Food,New,Coconut Frozen Yogurt,椰子冷凍優格,椰子冷凍優格
-foodCoconutFrozenYogurtTSK_AOOSchematic,items,Food,,Coconut Frozen Yogurt Recipe,椰子冷凍優格食譜,椰子冷凍優格食譜
-foodCoconutFrozenYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Frozen yogurt made with fresh coconut.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮椰子製成的冷凍優格。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮椰子製成的冷凍優格。
-,,,,,,
-foodCoconutIceCreamTSK_AOO,items,Food,New,Coconut Ice Cream,椰子冰淇淋,椰子冰淇淋
-foodCoconutIceCreamTSK_AOOSchematic,items,Food,,Coconut Ice Cream Recipe,椰子冰淇淋食譜,椰子冰淇淋食譜
-foodCoconutIceCreamTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Ice cream made with fresh coconut.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮椰子製成的冰淇淋。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮椰子製成的冰淇淋。
-,,,,,,
-foodCookiesAndMilkTSK_AOO,items,Food,New,Cookies & Milk,餅乾和牛奶,餅乾和牛奶
-foodCookiesAndMilkTSK_AOOSchematic,items,Food,,Cookies & Milk Recipe,餅乾和牛奶食譜,餅乾和牛奶食譜
-foodCookiesAndMilkTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]All cookies are better with a tall glass of milk.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]所有餅乾都配上一大杯牛奶更好喝。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]所有餅乾都配上一大杯牛奶更好喝。
-,,,,,,
-foodCreamOfTartarTSK_AOO,items,Food,New,Cream of Tartar,酒石酸鉀,酒石酸鉀
-foodCreamOfTartarTSK_AOOSchematic,items,Food,,Cream of Tartar Recipe,酒石酸鉀食譜,酒石酸鉀食譜
-foodCreamOfTartarTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]An essential ingredient in snickerdoodle cookies.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]史尼可杜德餅乾中不可或缺的成分。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]史尼可杜德餅乾中不可或缺的成分。
-,,,,,,
-foodDeerTracksFrozenYogurtTSK_AOO,items,Food,New,Deer Tracks Frozen Yogurt,鹿跡冷凍優格,鹿跡冷凍優格
-foodDeerTracksFrozenYogurtTSK_AOOSchematic,items,Food,,Deer Tracks Frozen Yogurt Recipe,鹿跡冷凍優格食譜,鹿跡冷凍優格食譜
-foodDeerTracksFrozenYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Frozen yogurt with chunks of strawberry and chocolate. Yum!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冷凍優格，裡面有草莓和巧克力塊。好吃！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冷凍優格，裡面有草莓和巧克力塊。好吃！
-,,,,,,
-foodDeerTracksIceCreamTSK_AOO,items,Food,New,Deer Tracks Ice Cream,鹿跡冰淇淋,鹿跡冰淇淋
-foodDeerTracksIceCreamTSK_AOOSchematic,items,Food,,Deer Tracks Ice Cream Recipe,鹿跡冰淇淋食譜,鹿跡冰淇淋食譜
-foodDeerTracksIceCreamTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Ice cream with chunks of strawberry and chocolate. Yum!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冰淇淋，裡面有草莓和巧克力塊。好吃！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冰淇淋，裡面有草莓和巧克力塊。好吃！
-,,,,,,
-foodFrostingTSK_AOO,items,Food,New,Frosting,糖霜,糖霜
-foodFrostingTSK_AOOSchematic,items,Food,,Homemade Frosting Recipe,自製糖霜食譜,自製糖霜食譜
-foodFrostingTSK_AOODesc,items,Food,,Workstation: KitchNaid with Mixing Bowl /n Thick and sugary and ready to be whipped onto a cake!,工作站：KitchNaid 帶攪拌碗 /n 濃稠、含糖，準備好塗在蛋糕上了！,工作站：KitchNaid 帶攪拌碗 /n 濃稠、含糖，準備好塗在蛋糕上了！
-,,,,,,
-foodFrozenYogurtTSK_AOO,items,Food,New,Plain Frozen Yogurt,原味冷凍優格,原味冷凍優格
-foodFrozenYogurtTSK_AOOSchematic,items,Food,,Plain Frozen Yogurt Recipe,原味冷凍優格食譜,原味冷凍優格食譜
-foodFrozenYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Used as a base for many flavors of frozen yogurt.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用作許多口味冷凍優格的基底。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用作許多口味冷凍優格的基底。
-,,,,,,
-foodIceCreamTSK_AOO,items,Food,New,Plain Ice Cream,原味冰淇淋,原味冰淇淋
-foodIceCreamTSK_AOOSchematic,items,Food,,Plain Ice Cream Recipe,原味冰淇淋食譜,原味冰淇淋食譜
-foodIceCreamTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Used as a base for many flavors of ice cream.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用作許多口味冰淇淋的基底。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用作許多口味冰淇淋的基底。
-,,,,,,
-foodIceCreamSammieTSK_AOO,items,Food,New,Ice Cream Sandwich,冰淇淋三明治,冰淇淋三明治
-foodIceCreamSammieTSK_AOOSchematic,items,Food,,Ice Cream Sandwich Recipe,冰淇淋三明治食譜,冰淇淋三明治食譜
-foodIceCreamSammieTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]A simple frozen dessert.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]簡單的冷凍甜點。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]簡單的冷凍甜點。
-,,,,,,
-foodKittenChowTSK_AOO,items,Food,New,Kitten Chow,小貓糧,小貓糧
-foodKittenChowTSK_AOOSchematic,items,Food,,Kitten Chow Recipe,小貓糧食譜,小貓糧食譜
-foodKittenChowTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Also known as muddy buddies, this chocolate-and-powdered-sugar snack is so delicious!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]也被稱為泥巴夥伴，這種巧克力和糖粉零食非常美味！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]也被稱為泥巴夥伴，這種巧克力和糖粉零食非常美味！
-,,,,,,
-foodLemonCakeTSK_AOO,items,Food,New,Lemon Cake,檸檬蛋糕,檸檬蛋糕
-foodLemonCakeTSK_AOOSchematic,items,Food,,Lemon Cake Recipe,檸檬蛋糕食譜,檸檬蛋糕食譜
-foodLemonCakeTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]A decadent lemon bundt cake.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]頹廢的檸檬邦特蛋糕。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]頹廢的檸檬邦特蛋糕。
-,,,,,,
-foodLemonSnoConeTSK_AOO,items,Food,New,Lemon Shaved Ice,檸檬刨冰,檸檬刨冰
-foodLemonSnoConeTSK_AOOSchematic,items,Food,,Lemon Shaved Ice Recipe,檸檬刨冰食譜,檸檬刨冰食譜
-foodLemonSnoConeTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Ice, with some lemon flavoring. About what you'd expect, really.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冰，帶有一些檸檬味。真的，你會期待什麼呢？,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冰，帶有一些檸檬味。真的，你會期待什麼呢？
-,,,,,,
-foodLimeSnoConeTSK_AOO,items,Food,New,Lime Shaved Ice,萊姆刨冰,萊姆刨冰
-foodLimeSnoConeTSK_AOOSchematic,items,Food,,Lime Shaved Ice Recipe,萊姆刨冰食譜,萊姆刨冰食譜
-foodLimeSnoConeTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Ice, with some lime flavoring. About what you'd expect, really.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冰，帶有一些萊姆味。真的，你會期待什麼呢？,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冰，帶有一些萊姆味。真的，你會期待什麼呢？
-,,,,,,
-foodMarshmallowTSK_AOO,items,Food,New,Marshmallow,棉花糖,棉花糖
-foodMarshmallowTSK_AOOSchematic,items,Food,,Homemade Marshmallow Recipe,自製棉花糖食譜,自製棉花糖食譜
-foodMarshmallowTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]A light, fluffy, squishy, sugary cloud.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]輕盈蓬鬆、軟綿綿、含糖的雲朵。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]輕盈蓬鬆、軟綿綿、含糖的雲朵。
-,,,,,,
-foodMolassesTSK_AOO,items,Food,New,Molasses,糖蜜,糖蜜
-foodMolassesTSK_AOOSchematic,items,Food,,Molasses Recipe,糖蜜食譜,糖蜜食譜
-foodMolassesTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Definitely do not mistake this for honey.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]絕對不要誤認為是蜂蜜。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]絕對不要誤認為是蜂蜜。
-,,,,,,
-foodMolassesCookieTSK_AOO,items,Food,New,Molasses Cookies,糖蜜餅乾,糖蜜餅乾
-foodMolassesCookieTSK_AOOSchematic,items,Food,,Molasses Cookies Recipe,糖蜜餅乾食譜,糖蜜餅乾食譜
-foodMolassesCookieTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Dark and rich cookies.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]深色濃郁的餅乾。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]深色濃郁的餅乾。
-,,,,,,
-foodOrangeSnoConeTSK_AOO,items,Food,New,Orange Shaved Ice,橘子刨冰,橘子刨冰
-foodOrangeSnoConeTSK_AOOSchematic,items,Food,,Orange Shaved Ice Recipe,橘子刨冰食譜,橘子刨冰食譜
-foodOrangeSnoConeTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Ice, with some orange flavoring. About what you'd expect, really.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冰，帶有一些橘子風味。真的，就是你所期待的樣子。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冰，帶有一些橘子風味。真的，就是你所期待的樣子。
-,,,,,,
-foodParfaitTSK_AOO,items,Food,New,Parfait,帕菲,帕菲
-foodParfaitTSK_AOOSchematic,items,Food,,Parfait Recipe,帕菲食譜,帕菲食譜
-foodParfaitTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food\n\n[abddfc]DESCRIPTION:[ffffff]The dessert version of pafrait with jello, fruit, and cream.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]甜點版本的帕菲，含有果凍、水果和奶油。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]甜點版本的帕菲，含有果凍、水果和奶油。
-,,,,,,
-foodPeachCobblerTSK_AOO,items,Food,New,Peach Cobbler,桃子烤餅,桃子烤餅
-,,,,,,
-foodPeanutButterTSK_AOO,items,Food,New,Peanut Butter,花生醬,花生醬
-foodPeanutButterTSK_AOOSchematic,items,Food,,Homemade Peanut Butter Recipe,自製花生醬食譜,自製花生醬食譜
-foodPeanutButterTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Rich and creamy peanut butter.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]濃郁滑順的花生醬。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]濃郁滑順的花生醬。
-,,,,,,
-foodPeanutButterCookieTSK_AOO,items,Food,New,Peanut Butter Cookies,花生醬餅乾,花生醬餅乾
-foodPeanutButterCookieTSK_AOOSchematic,items,Food,,Peanut Butter Cookies Recipe,花生醬餅乾食譜,花生醬餅乾食譜
-foodPeanutButterCookieTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Cookies full of peanut buttery goodness.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]充滿花生醬美味的餅乾。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]充滿花生醬美味的餅乾。
-,,,,,,
-foodPuppyChowTSK_AOO,items,Food,New,Puppy Chow,小狗糧,小狗糧
-foodPuppyChowTSK_AOOSchematic,items,Food,,Puppy Chow Recipe,小狗糧食譜,小狗糧食譜
-foodPuppyChowTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Also known as muddy buddies, this chocolate-and-powdered-sugar snack is so delicious!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]也被稱為泥巴夥伴，這種巧克力和糖粉零食非常美味！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]也被稱為泥巴夥伴，這種巧克力和糖粉零食非常美味！
-,,,,,,
-foodRaspberryFrozenYogurtTSK_AOO,items,Food,New,Raspberry Frozen Yogurt,覆盆子冷凍優格,覆盆子冷凍優格
-foodRaspberryFrozenYogurtTSK_AOOSchematic,items,Food,,Raspberry Frozen Yogurt Recipe,覆盆子冷凍優格食譜,覆盆子冷凍優格食譜
-foodRaspberryFrozenYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Homemade frozen yogurt made with fresh raspberries.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮覆盆子製成的自製冷凍優格。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮覆盆子製成的自製冷凍優格。
-,,,,,,
-foodRaspberryIceCreamTSK_AOO,items,Food,New,Raspberry Ice Cream,覆盆子冰淇淋,覆盆子冰淇淋
-foodRaspberryIceCreamTSK_AOOSchematic,items,Food,,Raspberry Ice Cream Recipe,覆盆子冰淇淋食譜,覆盆子冰淇淋食譜
-foodRaspberryIceCreamTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Homemade ice cream made with fresh raspberries.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮覆盆子製成的自製冰淇淋。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮覆盆子製成的自製冰淇淋。
-,,,,,,
-foodRaspberryMousseTSK_AOO,items,Food,New,Raspberry Mousse,覆盆子慕斯,覆盆子慕斯
-foodRaspberryMousseTSK_AOOSchematic,items,Food,,Raspberry Mousse Recipe,覆盆子慕斯食譜,覆盆子慕斯食譜
-foodRaspberryMousseTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Light and fluffy raspberry mousse.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]輕盈蓬鬆的覆盆子慕斯。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]輕盈蓬鬆的覆盆子慕斯。
-,,,,,,
-foodSmoresTSK_AOO,items,Food,New,S'mores,烤棉花糖,烤棉花糖
-foodSmoresTSK_AOOSchematic,items,Food,,S'mores Recipe,烤棉花糖食譜,烤棉花糖食譜
-foodSmoresTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]The absolute best camp snack of all time!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]有史以來最棒的露營零食！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]有史以來最棒的露營零食！
-,,,,,,
-foodSnickerdoodleCookieTSK_AOO,items,Food,New,Snickerdoodle Cookies,肉桂餅乾,肉桂餅乾
-foodSnickerdoodleCookieTSK_AOOSchematic,items,Food,,Snickerdoodle Cookies Recipe,肉桂餅乾食譜,肉桂餅乾食譜
-foodSnickerdoodleCookieTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Soft and gooey snickerdoodles.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]柔軟黏膩的肉桂餅乾。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]柔軟黏膩的肉桂餅乾。
-,,,,,,
-foodSpecialBrowniesTSK_AOO,items,Food,New,Special Chocolate Brownies,特殊巧克力布朗尼,特殊巧克力布朗尼
-foodSpecialBrowniesTSK_AOOSchematic,items,Food,,Special Chocolate Brownies Recipe,特殊巧克力布朗尼食譜,特殊巧克力布朗尼食譜
-foodSpecialBrowniesTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Thick, rich chocolate brownies with a special surprise.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]濃郁厚實的巧克力布朗尼，還有一個特別驚喜。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]濃郁厚實的巧克力布朗尼，還有一個特別驚喜。
-,,,,,,
-foodStrawberryFrozenYogurtTSK_AOO,items,Food,New,Strawberry Frozen Yogurt,草莓冷凍優格,草莓冷凍優格
-foodStrawberryFrozenYogurtTSK_AOOSchematic,items,Food,,Strawberry Frozen Yogurt Recipe,草莓冷凍優格食譜,草莓冷凍優格食譜
-foodStrawberryFrozenYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Homemade frozen yogurt made with fresh strawberries.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮草莓製成的自製冷凍優格。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮草莓製成的自製冷凍優格。
-,,,,,,
-foodStrawberryIceCreamTSK_AOO,items,Food,New,Strawberry Ice Cream,草莓冰淇淋,草莓冰淇淋
-foodStrawberryIceCreamTSK_AOOSchematic,items,Food,,Strawberry Ice Cream Recipe,草莓冰淇淋食譜,草莓冰淇淋食譜
-foodStrawberryIceCreamTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Homemade ice cream made with fresh strawberries.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮草莓製成的自製冰淇淋。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮草莓製成的自製冰淇淋。
-,,,,,,
-foodStrawberryMousseTSK_AOO,items,Food,New,Strawberry Mousse,草莓慕斯,草莓慕斯
-foodStrawberryMousseTSK_AOOSchematic,items,Food,,Strawberry Mousse Recipe,草莓慕斯食譜,草莓慕斯食譜
-foodStrawberryMousseTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Light and fluffy strawberry mousse.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]輕盈蓬鬆的草莓慕斯。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]輕盈蓬鬆的草莓慕斯。
-,,,,,,
-foodTurtleSundaeTSK_AOO,items,Food,New,Turtle Sundae,海龜聖代,海龜聖代
-foodTurtleSundaeTSK_AOOSchematic,items,Food,,Turtle Sundae Recipe,海龜聖代食譜,海龜聖代食譜
-foodTurtleSundaeTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]A certain reptile is now homeless so you may have a fortifying frozen dessert. Don't tell Rodolphus!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]某隻爬蟲類現在無家可歸，所以你可以享用一份營養的冷凍甜點。別告訴羅道夫斯！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]某隻爬蟲類現在無家可歸，所以你可以享用一份營養的冷凍甜點。別告訴羅道夫斯！
-,,,,,,
-foodVanillaFrozenYogurtTSK_AOO,items,Food,New,Vanilla Frozen Yogurt,香草冷凍優格,香草冷凍優格
-foodVanillaFrozenYogurtTSK_AOOSchematic,items,Food,,Vanilla Frozen Yogurt Recipe,香草冷凍優格食譜,香草冷凍優格食譜
-foodVanillaFrozenYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Homemade frozen yogurt made with fresh vanilla.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮香草製成的自製冷凍優格。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮香草製成的自製冷凍優格。
-,,,,,,
-foodVanillaIceCreamTSK_AOO,items,Food,New,Vanilla Ice Cream,香草冰淇淋,香草冰淇淋
-foodVanillaIceCreamTSK_AOOSchematic,items,Food,,Vanilla Ice Cream Recipe,香草冰淇淋食譜,香草冰淇淋食譜
-foodVanillaIceCreamTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Homemade ice cream made with fresh vanilla.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮香草製成的自製冰淇淋。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮香草製成的自製冰淇淋。
-,,,,,,
-foodWatermelonSnoConeTSK_AOO,items,Food,New,Watermelon Shaved Ice,西瓜刨冰,西瓜刨冰
-foodWatermelonSnoConeTSK_AOOSchematic,items,Food,,Watermelon Shaved Ice Recipe,西瓜刨冰食譜,西瓜刨冰食譜
-foodWatermelonSnoConeTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Ice, with some watermelon flavoring. About what you'd expect, really.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冰，帶有一些西瓜風味。真的，就是你所期待的樣子。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冰，帶有一些西瓜風味。真的，就是你所期待的樣子。
-,,,,,,
-,,,,,,
-foodChipsTSK_AOO,items,Food,New,Chips,薯片,薯片
-foodChipsTSK_AOOSchematic,items,Item,New,Chips Recipe,薯片食譜,薯片食譜
-foodChipsTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food\n\n[abddfc]DESCRIPTION:[ffffff]A simple salty snack. Even better with sauces!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]簡單的鹹味零食。搭配醬汁更美味！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]簡單的鹹味零食。搭配醬汁更美味！
-,,,,,,
-foodChipsAndSalsaTSK_AOO,items,Food,New,Chips and Salsa,薯片和莎莎醬,薯片和莎莎醬
-foodChipsAndSalsaTSK_AOOSchematic,items,Item,New,Chips and Salsa Recipe,薯片和莎莎醬食譜,薯片和莎莎醬食譜
-foodChipsAndSalsaTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Homemade chips and salsa - delicious!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]自製薯片和莎莎醬 - 美味！,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]自製薯片和莎莎醬 - 美味！
-,,,,,,
-foodDriedFruitAOO,items,Food,,Dried Fruit,乾果,乾果
-foodDriedFruitAOOSchematic,items,Food,,Dried Fruit Recipe,乾果食譜,乾果食譜
-foodDriedFruitAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]A sweet little snack.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]甜美的小零食。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]甜美的小零食。
-,,,,,,
-foodFriesAOO,items,Food,,Basket of Fries,炸薯條籃,炸薯條籃
-foodFriesAOOSchematic,items,Food,,Fries Recipe,炸薯條食譜,炸薯條食譜
-foodFriesAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Whether chips or fries, these are sure to satisfy your salty cravings.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]無論是薯片還是炸薯條，這些都能滿足你對鹹味的渴望。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]無論是薯片還是炸薯條，這些都能滿足你對鹹味的渴望。
-,,,,,,
-foodGelatinTSK_AOO,items,Food,New,Gelatin,吉利丁,吉利丁
-foodGelatinTSK_AOOSchematic,items,Food,,,,
-foodGelatinTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Very freshly made gelatin. Place in a fridge for a while before trying to use it.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]非常新鮮的吉利丁。在嘗試使用之前，先放入冰箱一段時間。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]非常新鮮的吉利丁。在嘗試使用之前，先放入冰箱一段時間。
-,,,,,,
-foodJelloTSK_AOO,items,Food,New,Jello,果凍,果凍
-foodJelloTSK_AOOSchematic,items,Food,,Jello Recipe,果凍食譜,果凍食譜
-foodJelloTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]It's wiggly, it's jiggly, but thankfully it is not actually alive.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]它會搖晃，它會晃動，但謝天謝地它沒有生命。,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]它會搖晃，它會晃動，但謝天謝地它沒有生命。
-,,,,,,
-foodMixedFruitTSK_AOO,items,Food,New,Mixed Fruit,綜合水果,綜合水果
-foodMixedFruitTSK_AOOSchematic,items,Food,,Mixed Fruit Recipe,綜合水果食譜,綜合水果食譜
-foodMixedFruitTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Beautifully fresh fruit, ready to be used as an ingredient in tasty recipes.",[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]新鮮水果，可作為美味食譜的食材。,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]新鮮水果，可作為美味食譜的食材。
-,,,,,,
-foodMixedVeggiesTSK_AOO,items,Food,New,Mixed Veggies,綜合蔬菜,綜合蔬菜
-foodMixedVeggiesTSK_AOOSchematic,items,Item,New,Mixed Veggies Recipe,綜合蔬菜食譜,綜合蔬菜食譜
-foodMixedVeggiesTSK_AOODesc,items,Food,New,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Crunchy mixed veggies, ready to be used as an ingredient in tasty recipies.",[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]爽脆的綜合蔬菜，可作為美味食譜的食材。,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]爽脆的綜合蔬菜，可作為美味食譜的食材。
-,,,,,,
-foodOnionRingsAOO,items,Food,,Onion Rings,洋蔥圈,洋蔥圈
-foodOnionRingsAOOSchematic,items,Food,,Onion Rings Recipe,洋蔥圈食譜,洋蔥圈食譜
-foodOnionRingsAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Perfectly golden-brown deep-fried onion rings.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]完美金黃色的油炸洋蔥圈。,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]完美金黃色的油炸洋蔥圈。
-,,,,,,
-foodPopcornTSK_AOO,items,Food,New,Popcorn,爆米花,爆米花
-foodPopcornTSK_AOOSchematic,items,Food,,Popcorn Recipe,爆米花食譜,爆米花食譜
-foodPopcornTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \\n\n[abddfc]DESCRIPTION:[ffffff]With enough salt and butter, who cares if it's stale?",[abddfc]類型：[ffffff]食物 \\n\n[abddfc]說明：[ffffff]只要有足夠的鹽和奶油，誰在乎它是否陳舊？,[abddfc]類型：[ffffff]食物 \\n\n[abddfc]說明：[ffffff]只要有足夠的鹽和奶油，誰在乎它是否陳舊？
-,,,,,,
-foodRawVeggieMixAOO,items,Food,New,Raw veg mix (obsolete),生菜混合物（已停產）,生菜混合物（已停產）
-RawVeggieMixDesc,items,Food,,raw veg mix - obsolete. Make Mixed Veggies instead!,生菜混合物 - 已停產。改用綜合蔬菜！,生菜混合物 - 已停產。改用綜合蔬菜！
-,,,,,,
-foodSalsaTSK_AOO,items,Food,New,Salsa,莎莎醬,莎莎醬
-foodSalsaTSK_AOOSchematic,items,Item,New,Salsa Recipe,莎莎醬食譜,莎莎醬食譜
-foodSalsaTSK_AOODesc,items,Food,New,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Tangy, fresh salsa best enjoyed with chips.",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]酸辣新鮮的莎莎醬，最適合搭配薯片享用。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]酸辣新鮮的莎莎醬，最適合搭配薯片享用。
-,,,,,,
-foodSuperPopcornTSK_AOO,items,Food,New,Super Popcorn,超級爆米花,超級爆米花
-foodSuperPopcornTSK_AOOSchematic,items,Food,,Super Popcorn Recipe,超級爆米花食譜,超級爆米花食譜
-foodSuperPopcornTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]It must be super. It says so right on the box.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]它一定是超級的。盒子上面這麼寫。,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]它一定是超級的。盒子上面這麼寫。
-,,,,,,
-foodTrailMixAOO,items,Food,,Trail Mix,綜合堅果,綜合堅果
-foodTrailMixAOOSchematic,items,Food,,Trail Mix Recipe,綜合堅果食譜,綜合堅果食譜
-foodTrailMixAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Perfect for nibbling while out on a run.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]非常適合在跑步時享用。,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]非常適合在跑步時享用。
-,,,,,,
-foodWatermelonSliceTSK_AOO,items,Food,New,"Fresh Slice of Watermelon""","新鮮西瓜片""","新鮮西瓜片"""
-foodWatermelonSliceTSK_AOOSchematic,items,Food,,Fresh Watermelon Slice Recipe,新鮮西瓜片食譜,新鮮西瓜片食譜
-foodWatermelonSliceTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Anyone up for a seed-spitting contest?,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]有人要來參加吐籽比賽嗎？,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]有人要來參加吐籽比賽嗎？
-,,,,,,
-foodWineAndCheeseBoardTSK_AOO,items,Food,New,Wine and Cheese Board,葡萄酒和起司拼盤,葡萄酒和起司拼盤
-foodWineAndCheeseBoardTSK_AOOSchematic,items,Food,,Wine and Cheese Board Recipe,葡萄酒和起司拼盤食譜,葡萄酒和起司拼盤食譜
-foodWineAndCheeseBoardTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Don't dismiss these delicate delights!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]不要錯過這些精緻的美食！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]不要錯過這些精緻的美食！
-,,,,,,
-,,,,,,
-drinkAppleJuiceAOO,items,Food,,Apple Juice,蘋果汁,蘋果汁
-drinkAppleJuiceAOOSchematic,items,Food,,Apple Juice Recipe,蘋果汁食譜,蘋果汁食譜
-drinkAppleJuiceAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \\n\n[abddfc]DESCRIPTION:[ffffff]100% apple juice - not from concentrate.,[abddfc]類型：[ffffff]食物 \\n\n[abddfc]說明：[ffffff]100% 蘋果汁 - 非濃縮還原。,[abddfc]類型：[ffffff]食物 \\n\n[abddfc]說明：[ffffff]100% 蘋果汁 - 非濃縮還原。
-,,,,,,
-drinkBananaSodaTSK_AOO,items,Food,New,Banana Blast Soda,香蕉爆破汽水,香蕉爆破汽水
-drinkBananaSodaTSK_AOOSchematic,items,Food,,Banana Blast Soda Recipe,香蕉爆破汽水食譜,香蕉爆破汽水食譜
-drinkBananaSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Soda - it's a banana BLAST!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]汽水 - 這是香蕉爆破！,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]汽水 - 這是香蕉爆破！
-,,,,,,
-drinkBerrySmoothieTSK_AOO,items,Food,New,Berry Smoothie,莓果冰沙,莓果冰沙
-drinkBerrySmoothieTSK_AOOSchematic,items,Food,,Berry Smoothie Recipe,莓果冰沙食譜,莓果冰沙食譜
-drinkBerrySmoothieTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-blended mixed berry smoothie. Cooling and quenching!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]新鮮混合莓果冰沙。清涼解渴！,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]新鮮混合莓果冰沙。清涼解渴！
-,,,,,,
-drinkCheeryCherrySodaTSK_AOO,items,Food,New,Cheery Cherry Soda,櫻桃汽水,櫻桃汽水
-drinkCheeryCherrySodaTSK_AOOSchematic,items,Food,,Cheery Cherry Soda Recipe,櫻桃汽水食譜,櫻桃汽水食譜
-drinkCheeryCherrySodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Cherry soda that puts a smile on your face!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]櫻桃汽水，讓你面帶微笑！,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]櫻桃汽水，讓你面帶微笑！
-,,,,,,
-drinkChocolateMilkTSK_AOO,items,Food,New,Chocolate Milk,巧克力牛奶,巧克力牛奶
-drinkChocolateMilkTSK_AOOSchematic,items,Food,,Chocolate Milk Recipe,巧克力牛奶食譜,巧克力牛奶食譜
-drinkChocolateMilkTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Milk, but chocolate. Better in every way!",[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]牛奶，但它是巧克力。各方面都更好！,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]牛奶，但它是巧克力。各方面都更好！
-,,,,,,
-drinkCiderTSK_AOO,items,Food,New,Fresh Cider,新鮮蘋果酒,新鮮蘋果酒
-drinkCiderTSK_AOOSchematic,items,Food,,Fresh Fruit Cider Recipe,新鮮水果蘋果酒食譜,新鮮水果蘋果酒食譜
-drinkCiderTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Farm fresh cider - not just an autumn drink anymore.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]農場新鮮蘋果酒 - 不再只是秋季飲品。,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]農場新鮮蘋果酒 - 不再只是秋季飲品。
-,,,,,,
-drinkCitrusSplashSodaTSK_AOO,items,Food,New,Citrus Splash Soda,柑橘汽水,柑橘汽水
-drinkCitrusSplashSodaTSK_AOOSchematic,items,Food,,Citrus Splash Soda Recipe,柑橘汽水食譜,柑橘汽水食譜
-drinkCitrusSplashSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Lemon-lime? Lime-lemon? How about both in this citrus splash!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]檸檬萊姆？萊姆檸檬？何不兩者都加到這個柑橘汽水中！,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]檸檬萊姆？萊姆檸檬？何不兩者都加到這個柑橘汽水中！
-,,,,,,
-drinkColaSodaTSK_AOO,items,Food,New,Black Soul Cola,黑魂可樂,黑魂可樂
-drinkColaSodaTSK_AOOSchematic,items,Food,,Black Soul Cola Recipe,黑魂可樂食譜,黑魂可樂食譜
-drinkColaSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Black Soul cola: the darkest of sodas for the darkest of times. Or for the thirsty. Either way.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]黑魂可樂：最黑暗的時代或最口渴的時候最適合喝的可樂。無論如何。,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]黑魂可樂：最黑暗的時代或最口渴的時候最適合喝的可樂。無論如何。
-,,,,,,
-drinkCreamSodaTSK_AOO,items,Food,New,Cream Soda,奶油汽水,奶油汽水
-drinkCreamSodaTSK_AOOSchematic,items,Food,,Cream Soda Recipe,奶油汽水食譜,奶油汽水食譜
-drinkCreamSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Smooth vanilla cream soda. So good!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]順滑的香草奶油汽水。太好喝了！,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]順滑的香草奶油汽水。太好喝了！
-,,,,,,
-resourceCrushedIceTSK_AOO,items,Food,New,Crushed Ice,碎冰,碎冰
-resourceCrushedIceTSK_AOOSchematic,items,Food,,Crushed Ice Recipe,碎冰食譜,碎冰食譜
-resourceCrushedIceTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]You take ice, and crush it. The end.",[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]你拿冰，然後把它弄碎。結束。,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]你拿冰，然後把它弄碎。結束。
-,,,,,,
-drinkCucumberSodaTSK_AOO,items,Food,New,Cucumber Soda,黃瓜汽水,黃瓜汽水
-drinkCucumberSodaTSK_AOOSchematic,items,Food,,Cucumber Soda Recipe,黃瓜汽水食譜,黃瓜汽水食譜
-drinkCucumberSodaTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Now you, too, can be cool as a cucumber!",[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]現在，你也可以像黃瓜一樣清涼！,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]現在，你也可以像黃瓜一樣清涼！
-,,,,,,
-drinkDrJenSodaTSK_AOO,items,Food,New,Dr. Jen's Soda,珍醫生汽水,珍醫生汽水
-drinkDrJenSodaTSK_AOOSchematic,items,Food,,Dr. Jen's Soda Recipe,珍醫生汽水食譜,珍醫生汽水食譜
-drinkDrJenSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]No pepper needed. Get Dr. Jen's Soda today!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]無需胡椒。今天就來一杯珍醫生汽水！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]無需胡椒。今天就來一杯珍醫生汽水！
-,,,,,,
-drinkGingerAleSodaTSK_AOO,items,Food,New,Ginger Ale Soda,薑汁汽水,薑汁汽水
-drinkGingerAleSodaTSK_AOOSchematic,items,Food,,Ginger Ale Soda Recipe,薑汁汽水食譜,薑汁汽水食譜
-drinkGingerAleSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Ginger ale: non-alcoholic and simply the best!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]薑汁汽水：無酒精，而且是最好的！,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]薑汁汽水：無酒精，而且是最好的！
-,,,,,,
-drinkGrapeSodaTSK_AOO,items,Food,New,Grape Explosion Soda,葡萄爆炸汽水,葡萄爆炸汽水
-drinkGrapeSodaTSK_AOOSchematic,items,Food,,Grape Explosion Soda Recipe,葡萄爆炸汽水食譜,葡萄爆炸汽水食譜
-drinkGrapeSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]It's soda. It's purple. It's Grape Explosion! (Explosion not guaranteed.),[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]它是汽水。它是紫色的。它是葡萄爆炸！（不保證爆炸。）,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]它是汽水。它是紫色的。它是葡萄爆炸！（不保證爆炸。）
-,,,,,,
-drinkGuavaSodaTSK_AOO,items,Food,New,Guava Gulp Soda,番石榴汽水,番石榴汽水
-drinkGuavaSodaTSK_AOOSchematic,items,Food,,Guava Gulp Soda Recipe,番石榴汽水食譜,番石榴汽水食譜
-drinkGuavaSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]It's Gulp-a-licious!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]它很美味！,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]它很美味！
-,,,,,,
-drinkHotCocoaTSK_AOO,items,Food,New,Hot Cocoa,熱可可,熱可可
-drinkHotCocoaTSK_AOOSchematic,items,Food,,Hot Cocoa Recipe,熱可可食譜,熱可可食譜
-drinkHotCocoaTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Smooth melted chocolate, fluffy marshmallows, and a pinch of cinnamon spice. This warms you from the tip of your nose to the tips of your toes!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]滑順的融化巧克力、蓬鬆的棉花糖和一撮肉桂香料。這會讓你從鼻尖暖到腳趾頭！\n冰塊\n冰塊食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]非立方體形狀的冰塊將不被接受。\n鐵釀蘇打水\n鐵釀蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]到處礦工間稍微不那麼受歡迎的蘇打水品牌。\n檸檬汁\n檸檬汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]這是純檸檬汁，用於美味食譜的成分。\n檸檬汁\n新鮮檸檬汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]新鮮現榨的檸檬汁。\n芒果汁\n芒果汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]100% 芒果汁 - 非濃縮還原。\n芒果拉西\n芒果拉西食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]一種清淡爽口的芒果飲料。\n芒果瘋狂蘇打水\n芒果瘋狂蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]你準備好發瘋了嗎？今天就喝一些芒果瘋狂蘇打水吧！\n綜合莓果汁\n綜合莓果汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]100% 果汁 - 非濃縮還原。成分可能包括水果、水果和其他水果。\n柳橙汁\n柳橙汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]100% 柳橙汁 - 非濃縮還原。\n明顯的柳橙蘇打水\n明顯的柳橙蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]在味道和顏色上都是柳橙口味的蘇打水。顯然。\n鳳梨汁\n鳳梨汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]100% 鳳梨汁 - 非濃縮還原。\n豐富的鳳梨蘇打水\n豐富的鳳梨蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]豐富的鳳梨蘇打水無論是獨自享用還是與朋友分享都很棒！\n覆盆子蘇打水\n覆盆子蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]它令人驚嘆，令人眼花繚亂，令人愉悅。來一瓶覆盆子蘇打水吧！\n喬爾的根汁汽水\n喬爾的根汁汽水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]一種令人驚奇的美味根汁汽水，由喬爾自己的秘密食譜製成。\n根汁汽水漂浮\n根汁汽水漂浮食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]根汁汽水和冰淇淋製成一種甜美的款待，很容易隨身攜帶。\n傲慢的雪莓蘇打水\n傲慢的雪莓蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]這種蘇打水的酸味會讓你的鼻子皺起來，但味道卻出奇的好。\n蘇打水\n蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]這本身對你沒有多大幫助，但想想可能性吧！\n美味的雲杉啤酒蘇打水\n美味的雲杉啤酒蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]美味的雲杉啤酒：別問，喝就對了！\n草莓蘇打水\n草莓蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]草莓蘇打水真是太棒了！\nV8 蔬菜汁\nV8 蔬菜汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]我本可以喝一瓶 V8！\n西瓜汁\n西瓜汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]100% 西瓜汁 - 非濃縮還原。\n野西瓜蘇打水\n野西瓜蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]讓我們用野西瓜蘇打水來狂野一下吧！\n白蘭地\n白蘭地食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]白蘭地\n香檳\n香檳食譜,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]滑順的融化巧克力、蓬鬆的棉花糖和一撮肉桂香料。這會讓你從鼻尖暖到腳趾頭！\n冰塊\n冰塊食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]非立方體形狀的冰塊將不被接受。\n鐵釀蘇打水\n鐵釀蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]到處礦工間稍微不那麼受歡迎的蘇打水品牌。\n檸檬汁\n檸檬汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]這是純檸檬汁，用於美味食譜的成分。\n檸檬汁\n新鮮檸檬汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]新鮮現榨的檸檬汁。\n芒果汁\n芒果汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]100% 芒果汁 - 非濃縮還原。\n芒果拉西\n芒果拉西食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]一種清淡爽口的芒果飲料。\n芒果瘋狂蘇打水\n芒果瘋狂蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]你準備好發瘋了嗎？今天就喝一些芒果瘋狂蘇打水吧！\n綜合莓果汁\n綜合莓果汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]100% 果汁 - 非濃縮還原。成分可能包括水果、水果和其他水果。\n柳橙汁\n柳橙汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]100% 柳橙汁 - 非濃縮還原。\n明顯的柳橙蘇打水\n明顯的柳橙蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]在味道和顏色上都是柳橙口味的蘇打水。顯然。\n鳳梨汁\n鳳梨汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]100% 鳳梨汁 - 非濃縮還原。\n豐富的鳳梨蘇打水\n豐富的鳳梨蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]豐富的鳳梨蘇打水無論是獨自享用還是與朋友分享都很棒！\n覆盆子蘇打水\n覆盆子蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]它令人驚嘆，令人眼花繚亂，令人愉悅。來一瓶覆盆子蘇打水吧！\n喬爾的根汁汽水\n喬爾的根汁汽水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]一種令人驚奇的美味根汁汽水，由喬爾自己的秘密食譜製成。\n根汁汽水漂浮\n根汁汽水漂浮食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]根汁汽水和冰淇淋製成一種甜美的款待，很容易隨身攜帶。\n傲慢的雪莓蘇打水\n傲慢的雪莓蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]這種蘇打水的酸味會讓你的鼻子皺起來，但味道卻出奇的好。\n蘇打水\n蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]這本身對你沒有多大幫助，但想想可能性吧！\n美味的雲杉啤酒蘇打水\n美味的雲杉啤酒蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]美味的雲杉啤酒：別問，喝就對了！\n草莓蘇打水\n草莓蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]草莓蘇打水真是太棒了！\nV8 蔬菜汁\nV8 蔬菜汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]我本可以喝一瓶 V8！\n西瓜汁\n西瓜汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]100% 西瓜汁 - 非濃縮還原。\n野西瓜蘇打水\n野西瓜蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]讓我們用野西瓜蘇打水來狂野一下吧！\n白蘭地\n白蘭地食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]白蘭地\n香檳\n香檳食譜
-,,,,,,
-resourceIceCubeTSK_AOO,items,Food,New,Ice Cube,Ice Cube,Ice Cube
-resourceIceCubeTSK_AOOSchematic,items,Food,,Ice Cube Recipe,Ice Cube 食譜,Ice Cube 食譜
-resourceIceCubeTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Ice not in cube shape will not be accepted.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]不接受非立方體形狀的冰塊。,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]不接受非立方體形狀的冰塊。
-,,,,,,
-drinkIronBruSodaTSK_AOO,items,Food,New,Iron Brew Soda,Iron Brew 汽水,Iron Brew 汽水
-drinkIronBruSodaTSK_AOOSchematic,items,Food,,Iron Brew Soda Recipe,Iron Brew 汽水食譜,Iron Brew 汽水食譜
-drinkIronBruSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]The slightly less popular brand of soda for miners everywhere.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]到處礦工都略為不那麼喜歡的汽水品牌。,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]到處礦工都略為不那麼喜歡的汽水品牌。
-,,,,,,
-drinkLemonJuiceTSK_AOO,items,Food,New,Lemon Juice,檸檬汁,檸檬汁
-drinkLemonJuiceTSK_AOOSchematic,items,Food,,Lemon Juice Recipe,檸檬汁食譜,檸檬汁食譜
-drinkLemonJuiceTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]This is pure lemon juice, used as an ingredient for tasty recipes.",[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]這是純檸檬汁，用於美味食譜的成分。,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]這是純檸檬汁，用於美味食譜的成分。
-,,,,,,
-drinkLemonadeTSK_AOO,items,Food,New,Lemonade,檸檬汁,檸檬汁
-drinkLemonadeTSK_AOOSchematic,items,Food,,Fresh Lemonade Recipe,新鮮檸檬汁食譜,新鮮檸檬汁食譜
-drinkLemonadeTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-squeezed lemonade.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]新鮮現榨的檸檬汁。,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]新鮮現榨的檸檬汁。
-,,,,,,
-drinkMangoJuiceTSK_AOO,items,Food,New,Mango Juice,芒果汁,芒果汁
-drinkMangoJuiceTSK_AOOSchematic,items,Food,,Mango Juice Recipe,芒果汁食譜,芒果汁食譜
-drinkMangoJuiceTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]100% mango juice - not from concentrate.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]100% 芒果汁 - 非濃縮還原。,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]100% 芒果汁 - 非濃縮還原。
-,,,,,,
-drinkMangoLassiTSK_AOO,items,Food,New,Mango Lassi,芒果拉西,芒果拉西
-drinkMangoLassiTSK_AOOSchematic,items,Food,,Mango Lassi Recipe,芒果拉西食譜,芒果拉西食譜
-drinkMangoLassiTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]A light and refreshing mango drink.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]一種清淡爽口的芒果飲品。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]一種清淡爽口的芒果飲品。
-,,,,,,
-drinkMangoSodaTSK_AOO,items,Food,New,Mango Madness Soda,芒果狂熱汽水,芒果狂熱汽水
-drinkMangoSodaTSK_AOOSchematic,items,Food,,Mango Madness Soda Recipe,芒果狂熱汽水食譜,芒果狂熱汽水食譜
-drinkMangoSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Are you ready to get crazy? Drink some Mango Madness today!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]你準備好發瘋了嗎？今天就喝一些芒果狂熱吧！,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]你準備好發瘋了嗎？今天就喝一些芒果狂熱吧！
-,,,,,,
-drinkMixedBerryJuiceTSK_AOO,items,Food,New,Mixed Berry Juice,綜合莓汁,綜合莓汁
-drinkMixedBerryJuiceTSK_AOOSchematic,items,Food,,Mixed Berry Juice Recipe,綜合莓汁食譜,綜合莓汁食譜
-drinkMixedBerryJuiceTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]100% fruit juice - not from concentrate. Ingredients may include fruit, fruit, and other fruit.",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]100% 果汁 - 非濃縮還原。成分可能包括水果、水果和其他水果。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]100% 果汁 - 非濃縮還原。成分可能包括水果、水果和其他水果。
-,,,,,,
-drinkOrangeJuiceAOO,items,Food,,Orange Juice,柳橙汁,柳橙汁
-drinkOrangeJuiceAOOSchematic,items,Food,,Orange Juice Recipe,柳橙汁食譜,柳橙汁食譜
-drinkOrangeJuiceAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]100% Orange juice - not from concentrate.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]100% 柳橙汁 - 非濃縮還原。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]100% 柳橙汁 - 非濃縮還原。
-,,,,,,
-drinkOrangeSodaTSK_AOO,items,Food,New,Obvious Orange Soda,明顯的柳橙汽水,明顯的柳橙汽水
-drinkOrangeSodaTSK_AOOSchematic,items,Food,,Obvious Orange Soda Recipe,明顯的柳橙汽水食譜,明顯的柳橙汽水食譜
-drinkOrangeSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Soda that is orange in taste and color. Obviously.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]在味道和顏色上都是柳橙的汽水。顯然。,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]在味道和顏色上都是柳橙的汽水。顯然。
-,,,,,,
-drinkPineAppleJuiceAOO,items,Food,,Pineapple Juice,鳳梨汁,鳳梨汁
-drinkPineAppleJuiceAOOSchematic,items,Food,,Pineapple Juice Recipe,鳳梨汁食譜,鳳梨汁食譜
-drinkPineAppleJuiceAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]100% pineapple juice - not from concentrate.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]100% 鳳梨汁 - 非濃縮還原。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]100% 鳳梨汁 - 非濃縮還原。
-,,,,,,
-drinkPineappleSodaTSK_AOO,items,Food,New,Plentiful Pineapple Soda,豐盛鳳梨汽水,豐盛鳳梨汽水
-drinkPineappleSodaTSK_AOOSchematic,items,Food,,Plentiful Pineapple Soda Recipe,豐盛鳳梨汽水食譜,豐盛鳳梨汽水食譜
-drinkPineappleSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Plentiful Pineapple is great to enjoy alone or with a friend!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]豐盛鳳梨汽水無論是獨自享用還是與朋友分享都很棒！,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]豐盛鳳梨汽水無論是獨自享用還是與朋友分享都很棒！
-,,,,,,
-drinkRaspberrySodaTSK_AOO,items,Food,New,Razzle Raspberry Soda,覆盆子汽水,覆盆子汽水
-drinkRaspberrySodaTSK_AOOSchematic,items,Food,,Razzle Raspberry Soda Recipe,覆盆子汽水食譜,覆盆子汽水食譜
-drinkRaspberrySodaTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]It razzles, it dazzles, it delights. Have a bottle of Razzle Raspberry!",[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]它令人驚嘆，令人眼花繚亂，令人愉悅。來一瓶覆盆子汽水吧！,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]它令人驚嘆，令人眼花繚亂，令人愉悅。來一瓶覆盆子汽水吧！
-,,,,,,
-drinkRootBeerSodaTSK_AOO,items,Food,New,Trader Joel's Root Beer,Trader Joel's 根汁汽水,Trader Joel's 根汁汽水
-drinkRootBeerSodaTSK_AOOSchematic,items,Food,,Trader Joel's Root Beer Recipe,Trader Joel's 根汁汽水食譜,Trader Joel's 根汁汽水食譜
-drinkRootBeerSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]A deceptively delicious root beer made from Trader Joel's own secret recipe.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]一種令人驚奇的美味根汁汽水，由 Trader Joel's 自己的秘密配方製成。,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]一種令人驚奇的美味根汁汽水，由 Trader Joel's 自己的秘密配方製成。
-,,,,,,
-drinkRootBeerFloatSodaTSK_AOO,items,Food,New,Root Beer Float,根汁汽水漂浮,根汁汽水漂浮
-drinkRootBeerFloatSodaTSK_AOOSchematic,items,Food,,Root Beer Float Recipe,根汁汽水漂浮食譜,根汁汽水漂浮食譜
-drinkRootBeerFloatSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Root beer and ice cream makes for a sweet treat that's easy to take with you.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]根汁汽水和冰淇淋製成一種甜美的款待，很容易隨身攜帶。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]根汁汽水和冰淇淋製成一種甜美的款待，很容易隨身攜帶。
-,,,,,,
-drinkSnowberrySodaTSK_AOO,items,Food,New,Snobby Snowberry Soda,傲慢雪莓汽水,傲慢雪莓汽水
-drinkSnowberrySodaTSK_AOOSchematic,items,Food,,Snobby Snowberry Soda Recipe,傲慢雪莓汽水食譜,傲慢雪莓汽水食譜
-drinkSnowberrySodaTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]The tartness of this soda makes your nose wrinkle, but the taste is surprisingly good.",[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]這種汽水的酸澀會讓你的鼻子皺起來，但味道卻出奇的好。,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]這種汽水的酸澀會讓你的鼻子皺起來，但味道卻出奇的好。
-,,,,,,
-drinkSodaWaterTSK_AOO,items,Food,New,Soda Water,蘇打水,蘇打水
-drinkSodaWaterTSK_AOOSchematic,items,Item,New,Soda Water Recipe,蘇打水食譜,蘇打水食譜
-drinkSodaWaterTSK_AOODesc,items,Food,New,"[abddfc]TYPE: [ffffff]Foo \n\n[abddfc]DESCRIPTION:[ffffff]This doesn't do much for you on its own, but think of the possibilities!",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]這本身對你沒有多大幫助，但想想可能性吧！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]這本身對你沒有多大幫助，但想想可能性吧！
-,,,,,,
-drinkSpruceBeerSodaTSK_AOO,items,Food,,Salacious Spruce Beer Soda,淫蕩雲杉啤酒汽水,淫蕩雲杉啤酒汽水
-drinkSpruceBeerSodaTSK_AOOSchematic,items,Food,,Salacious Spruce Beer Soda Recipe,淫蕩雲杉啤酒汽水食譜,淫蕩雲杉啤酒汽水食譜
-drinkSpruceBeerSodaTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \\n\n[abddfc]DESCRIPTION:[ffffff]Salacious Spruce Beer: don't ask, just drink!",[abddfc]類型：[ffffff]食物 \\n\n[abddfc]說明：[ffffff]淫蕩雲杉啤酒：別問，喝就對了！,[abddfc]類型：[ffffff]食物 \\n\n[abddfc]說明：[ffffff]淫蕩雲杉啤酒：別問，喝就對了！
-,,,,,,
-drinkStrawberrySodaTSK_AOO,items,Food,New,Sublime Strawberry Soda,昇華草莓汽水,昇華草莓汽水
-drinkStrawberrySodaTSK_AOOSchematic,items,Item,New,Sublime Strawberry Soda Recipe,昇華草莓汽水食譜,昇華草莓汽水食譜
-drinkStrawberrySodaTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Strawberry soda truly is sublime!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]草莓汽水真是太棒了！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]草莓汽水真是太棒了！
-,,,,,,
-drinkV8JuiceAOO,items,Food,,V8 Veggie Juice,V8 蔬菜汁,V8 蔬菜汁
-drinkV8JuiceAOOSchematic,items,Food,,V8 Veggie Juice Recipe,V8 蔬菜汁食譜,V8 蔬菜汁食譜
-drinkV8JuiceAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]I coulda had a V8!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]我本可以喝一瓶 V8！,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]我本可以喝一瓶 V8！
-,,,,,,
-drinkWatermelonJuiceTSK_AOO,items,Food,New,Watermelon Juice,西瓜汁,西瓜汁
-drinkWatermelonJuiceTSK_AOOSchematic,items,Food,,Watermelon Juice Recipe,西瓜汁食譜,西瓜汁食譜
-drinkWatermelonJuiceTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]100% watermelon juice - not from concentrate.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]100% 西瓜汁 - 非濃縮還原。,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]100% 西瓜汁 - 非濃縮還原。
-,,,,,,
-drinkWatermelonSodaTSK_AOO,items,Food,New,Wild Watermelon Soda,野西瓜汽水,野西瓜汽水
-drinkWatermelonSodaTSK_AOOSchematic,items,Food,,Wild Watermelon Soda Recipe,野西瓜汽水食譜,野西瓜汽水食譜
-drinkWatermelonSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Let's get wild with Wild Watermelon Soda!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]讓我們用野西瓜汽水來野一下吧！,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]讓我們用野西瓜汽水來野一下吧！
-,,,,,,
-,,,,,,
-,,,,,,
-drinkBrandyTSK_AOO,items,Food,New,Brandy,白蘭地,白蘭地
-drinkBrandyTSK_AOOSchematic,items,Food,,Brandy Recipe,白蘭地食譜,白蘭地食譜
-drinkBrandyTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Brandy,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]白蘭地,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]白蘭地
-,,,,,,
-drinkChampagneTSK_AOO,items,Food,New,Champagne,香檳,香檳
-drinkChampagneTSK_AOOSchematic,items,Food,,Champagne Recipe,香檳食譜,香檳食譜
-drinkChampagneTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Time to celebrate. Break out the bubbly!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]慶祝時間到了。打開香檳！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]慶祝時間到了。打開香檳！
-,,,,,,
-drinkGinTSK_AOO,items,Food,New,Gin,琴酒,琴酒
-drinkGinTSK_AOOSchematic,items,Item,New,Gin Recipe,琴酒食譜,琴酒食譜
-drinkGinTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Now you know why it tastes like pine. This would be much better off mixed with something.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]現在你知道為什麼它嚐起來像松樹了。這與其他東西混合會好得多。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]現在你知道為什麼它嚐起來像松樹了。這與其他東西混合會好得多。
-,,,,,,
-drinkMimosaTSK_AOO,items,Food,New,Mimosa,含羞草,含羞草
-drinkMimosaTSK_AOOSchematic,items,Food,,Mimosa Recipe,含羞草食譜,含羞草食譜
-drinkMimosaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Enjoy at breakfast or at any time of day.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]在早餐或一天中的任何時間享用。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]在早餐或一天中的任何時間享用。
-,,,,,,
-drinkMochaTSK_AOO,items,Food,New,Mocha,摩卡,摩卡
-drinkMochaTSK_AOOSchematic,items,Food,,Mocha Recipe,摩卡食譜,摩卡食譜
-drinkMochaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Chocolate and coffee come together in perfect harmony.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]巧克力和咖啡完美融合。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]巧克力和咖啡完美融合。
-,,,,,,
-drinkMoonshineTSK_AOO,items,Food,New,Moonshine,私釀酒,私釀酒
-drinkMoonshineTSK_AOOSchematic,items,Food,,Moonshine Recipe,私釀酒食譜,私釀酒食譜
-drinkMoonshineTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Lightweights need not attempt.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]輕量級的人不要嘗試。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]輕量級的人不要嘗試。
-,,,,,,
-drinkPortTSK_AOO,items,Food,New,Port,波特酒,波特酒
-drinkPortTSK_AOOSchematic,items,Food,,Port Recipe,波特酒食譜,波特酒食譜
-drinkPortTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]What's better than wine? Fortified wine!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]比葡萄酒更好的東西是什麼？加強葡萄酒！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]比葡萄酒更好的東西是什麼？加強葡萄酒！
-,,,,,,
-drinkRedWineTSK_AOO,items,Food,New,Red Wine,紅酒,紅酒
-drinkRedWineTSK_AOOSchematic,items,Food,,Red Wine Recipe,紅酒食譜,紅酒食譜
-drinkRedWineTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Red wine, featuring hints of cherry, plum, and spice, aged in an oak barrel for many years.",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]紅酒，帶有櫻桃、李子和香料的香氣，在橡木桶中陳釀多年。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]紅酒，帶有櫻桃、李子和香料的香氣，在橡木桶中陳釀多年。
-,,,,,,
-drinkRumTSK_AOO,items,Food,New,Rum,蘭姆酒,蘭姆酒
-drinkRumTSK_AOOSchematic,items,Food,,Rum Recipe,蘭姆酒食譜,蘭姆酒食譜
-drinkRumTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n \n\n[abddfc]DESCRIPTION:[ffffff]If gone, just make, find, or steal more!",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]如果沒有了，就做、找或偷更多！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]如果沒有了，就做、找或偷更多！
-,,,,,,
-drinkSakeTSK_AOO,items,Food,New,Sake,清酒,清酒
-drinkSakeTSK_AOOSchematic,items,Food,,Sake Recipe,清酒食譜,清酒食譜
-drinkSakeTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Smooth and silky rice wine.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]柔滑的米酒。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]柔滑的米酒。
-,,,,,,
-drinkSakeChilledTSK_AOO,items,Food,New,Chilled Sake,冰鎮清酒,冰鎮清酒
-drinkSakeChilledTSK_AOOSchematic,items,Food,,Chilled Sake Recipe,冰鎮清酒食譜,冰鎮清酒食譜
-drinkSakeChilledTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Smooth and silky rice wine.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]柔滑的米酒。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]柔滑的米酒。
-,,,,,,
-drinkSakeHotTSK_AOO,items,Food,New,Hot Sake,熱清酒,熱清酒
-drinkSakeHotTSK_AOOSchematic,items,Food,,Hot Sake Recipe,熱清酒食譜,熱清酒食譜
-drinkSakeHotTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Smooth and silky rice wine.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]柔滑的米酒。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]柔滑的米酒。
-,,,,,,
-drinkTequilaTSK_AOO,items,Food,New,Tequila,龍舌蘭酒,龍舌蘭酒
-drinkTequilaTSK_AOOSchematic,items,Food,,Tequila Recipe,龍舌蘭酒食譜,龍舌蘭酒食譜
-drinkTequilaTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Wherever you are, it's a party with tequila!",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]無論你在哪裡，龍舌蘭酒都是派對！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]無論你在哪裡，龍舌蘭酒都是派對！
-,,,,,,
-drinkVodkaTSK_AOO,items,Food,New,Vodka,伏特加,伏特加
-drinkVodkaTSK_AOOSchematic,items,Food,,Vodka Recipe,伏特加食譜,伏特加食譜
-drinkVodkaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Always be true to the Motherland.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]永遠忠於祖國。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]永遠忠於祖國。
-,,,,,,
-drinkWhiskeyTSK_AOO,items,Food,New,Whiskey,威士忌,威士忌
-drinkWhiskeyTSK_AOOSchematic,items,Food,,Whiskey Recipe,威士忌食譜,威士忌食譜
-drinkWhiskeyTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Whiskey, scotch, and bourbon",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]威士忌、蘇格蘭威士忌和波本威士忌,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]威士忌、蘇格蘭威士忌和波本威士忌
-,,,,,,
-resourceWhiskeyStoneTSK_AOO,items,Food,New,Whiskey Stone,威士忌石,威士忌石
-resourceWhiskeyStoneTSK_AOOSchematic,items,Food,,Whiskey Stone Recipe,威士忌石食譜,威士忌石食譜
-resourceWhiskeyStoneTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Chill your scotch without watering it down with these whiskey stones.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]用這些威士忌石冷卻你的蘇格蘭威士忌，而不會用水稀釋它。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]用這些威士忌石冷卻你的蘇格蘭威士忌，而不會用水稀釋它。
-,,,,,,
-drinkWhiteWineTSK_AOO,items,Food,New,White Wine,白葡萄酒,白葡萄酒
-drinkWhiteWineTSK_AOOSchematic,items,Food,,White Wine Recipe,白葡萄酒食譜,白葡萄酒食譜
-drinkWhiteWineTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]White wine, featuring floral hints and a light fruit finish.",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]白葡萄酒，帶有花香和清淡的水果味。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]白葡萄酒，帶有花香和清淡的水果味。
-,,,,,,
-drinkSchnappsTSK_AOO,items,Food,New,Schnapps,水果白蘭地,水果白蘭地
-drinkSchnappsTSK_AOOSchematic,items,Food,,Schnapps Recipe,水果白蘭地食譜,水果白蘭地食譜
-drinkSchnappsTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]A light alcohol made from different fruits.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]由不同水果製成的清淡酒精。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]由不同水果製成的清淡酒精。
-,,,,,,
-,,,,,,
-drugClawedPainkillersTSK_AOO,items,Medical,New,Clawed Painkillers,爪狀止痛藥,爪狀止痛藥
-drugClawedPainkillersTSK_AOOSchematic,items,Item,New,Clawed Painkillers Recipe,爪狀止痛藥食譜,爪狀止痛藥食譜
-drugClawedPainkillersTSK_AOODesc,items,Medical,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]More powerful than regular painkillers and gives you better knuckle brawling for a short time.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]比普通止痛藥更有效，並在短時間內讓你的指關節打架更好。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]比普通止痛藥更有效，並在短時間內讓你的指關節打架更好。
-,,,,,,
-medicalLionBalmTSK_AOO,items,Medical,New,Lion Balm,萬金油,萬金油
-medicalLionBalmTSK_AOOSchematic,items,Item,New,Lion Balm Recipe,萬金油食譜,萬金油食譜
-medicalLionBalmTSK_AOODesc,items,Medical,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Apply to aches and pains to regain the strength of the lion!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]塗抹在疼痛部位，以恢復獅子的力量！,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]塗抹在疼痛部位，以恢復獅子的力量！
-,,,,,,
-medicalMentholTSK_AOO,items,Medical,New,Menthol,薄荷醇,薄荷醇
-medicalMentholTSK_AOOSchematic,items,Item,New,Menthol Recipe,薄荷醇食譜,薄荷醇食譜
-medicalMentholTSK_AOODesc,items,Medical,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Menthol is a common ingredient in medical recipes.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]薄荷醇是醫學食譜中常見的成分。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]薄荷醇是醫學食譜中常見的成分。
-,,,,,,
-drugRestorativeTabletTSK_AOO,items,Medical,New,Restorative Capsule,恢復膠囊,恢復膠囊
-drugRestorativeTabletTSK_AOOSchematic,items,Item,New,Restorative Capsule Recipe,恢復膠囊食譜,恢復膠囊食譜
-drugRestorativeTabletTSK_AOODesc,items,Medical,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Hefty anti-ouch meds for the survivor on the move.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]為移動中的倖存者提供強效的止痛藥。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]為移動中的倖存者提供強效的止痛藥。
-,,,,,,
-drinkRoseWaterTSK_AOO,items,Food,New,Rose Water,玫瑰水,玫瑰水
-drinkRoseWaterTSK_AOOSchematic,items,Item,New,Rose Water Recipe,玫瑰水食譜,玫瑰水食譜
-drinkRoseWaterTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Rose water can be used in cooking as well as in medicinal recipes.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]玫瑰水可用於烹飪和藥用食譜。,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]玫瑰水可用於烹飪和藥用食譜。
+Key,Source,Context,Changes,English,tchinese
+,,,,,
+buffIllFoodPoisoning01Name,buffs,Buff,,Food Poisoning,食物中毒
+foodBBQSauceAOO,items,Food,,BBQ Sauce,烤肉醬
+foodBBQSauceAOOSchematic,items,Food,,BBQ Sauce Recipe,烤肉醬食譜
+foodBBQSauceAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]It's time to get saucy!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]是時候來點醬汁了！
+,,,,,
+foodBagelAOO,items,Food,,Bagel,貝果
+foodBagelAOOSchematic,items,Food,,Bagel Recipe,貝果食譜
+foodBagelAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n[abddfc]UNLOCKED BY: [ffffff] \n\n[abddfc]DESCRIPTION:[ffffff]Little-known fact: a bagel is the favorite food of most golfers. Why? There's a hole in one.,[abddfc]類型：[ffffff]食物\n[abddfc]解鎖條件：[ffffff]\n\n[abddfc]說明：[ffffff]鮮為人知的事實：貝果是大多數高爾夫球手的最愛食物。為什麼？因為它有一個洞。
+,,,,,
+foodBreadAOO,items,Food,,Bread,麵包
+foodBreadAOOSchematic,items,Food,,Homemade Bread Recipe,自製麵包食譜
+foodBreadAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Many say it's the best thing ever.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]許多人說這是史上最棒的東西。
+,,,,,
+foodButterAOO,items,Food,,Butter,奶油
+foodButterAOOSchematic,items,Food,,Home-Churned Butter Recipe,自製奶油食譜
+foodButterAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Used as an ingredient in tasty recipies.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用於美味食譜的成分。
+,,,,,
+foodCheeseAOO,items,Food,,Cheese,起司
+foodCheeseAOOSchematic,items,Food,,Homemade Cheeses Recipe,自製起司食譜
+foodCheeseAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Used as an ingredient in tasty recipies.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用於美味食譜的成分。
+,,,,,
+foodCreamAOO,items,Food,,Cream,鮮奶油
+foodCreamAOOSchematic,items,Food,,Cream Recipe,鮮奶油食譜
+foodCreamAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Freshly whipped cream, used as an igredient in tasty recipies.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]新鮮打發的鮮奶油，用於美味食譜的成分。
+,,,,,
+foodCreamCheeseAOO,items,Food,,Cream Cheese,奶油乳酪
+foodCreamCheeseAOOSchematic,items,Food,,Cream Cheese Recipe,奶油乳酪食譜
+foodCreamCheeseAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Exactly as simple to make as you suspected all along.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]就像你一直懷疑的那樣簡單。
+,,,,,
+foodDoughAOO,items,Food,,Freshly Kneaded Dough,新鮮揉好的麵團
+foodDoughAOOSchematic,items,Food,,"Freshly Kneaded Dough Recipe""",新鮮揉好的麵團食譜
+foodDoughAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Face it... you knead it.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]面對現實吧...你需要它。
+,,,,,
+foodFlourAOO,items,Food,,Flour,麵粉
+foodFlourAOOSchematic,items,Food,,Flour Recipe,麵粉食譜
+foodFlourAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]All bakers believe in flour power.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]所有麵包師都相信麵粉的力量。
+,,,,,
+foodGrandMa'sFamousSauceAOO,items,Food,,Grandma's Famous Sauce,奶奶的著名醬汁
+foodGrandMa'sFamousSauceAOOSchematic,items,Food,,Grandma's Famous Sauce Recipe,奶奶的著名醬汁食譜
+foodGrandMa'sFamousSauceAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Only the best tomato sauce, just like Grandma used to make!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]只有最好的番茄醬，就像奶奶以前做的一樣！
+,,,,,
+foodMilkAOO,items,Food,,Milk,牛奶
+foodMilkAOOSchematic,items,Food,,Pasteurized Milk Recipe,巴氏殺菌牛奶食譜
+foodMilkAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Milk! It does the body good. Not much use on its own but can be used in recipies to make other ingredients and tasty food.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]牛奶！對身體有益。單獨使用沒有太大用處，但可以用於食譜中，以製作其他成分和美味食物。
+,,,,,
+foodOldSaltAOO,items,Food,,Salt,鹽
+foodOldSaltAOOSchematic,items,Food,,Salt Recipe,鹽食譜
+foodOldSaltAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]It's salty.""",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]它是鹹的。
+,,,,,
+foodRawBaconAOO,items,Food,,Raw Bacon,生培根
+foodRawBaconAOOSchematic,items,Food,,Raw Bacon Recipe,生培根食譜
+foodRawBaconAOODescs,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw bacon, ready for fry-up.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生培根，準備好油炸。
+,,,,,
+foodRawWildSteakAOO,items,Food,,Raw Wild Steak,生野牛排
+foodRawWildSteakAOODescs,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw Wild Steak, ready for fry-up.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生野牛排，準備好油炸。
+,,,,,
+foodRawKobeSteakAOO,items,Food,,Raw Kobe Steak,生神戶牛排
+foodRawKobeSteakAOODescs,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw Kobe Steak, ready for fry-up.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生神戶牛排，準備好油炸。
+,,,,,
+foodRawWildGameAOO,items,Food,,Raw Wild Game,生野味
+foodRawWildGameAOODescs,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw Wild Game, Carve it up on the Butcher's Table.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生野味，在屠夫桌上切開它。
+,,,,,
+foodRawBeefAOO,items,Food,,Raw Beef,生牛肉
+foodRawBeefAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n[abddfc]CRAFTING TABLE: [ffffff]Butcher Table \n[abddfc]UNLOCKED BY: [ffffff] \n\n[abddfc]DESCRIPTION:[ffffff]Beef straight from the cow,[abddfc]類型：[ffffff]食物\n[abddfc]製作台：[ffffff]屠夫桌\n[abddfc]解鎖條件：[ffffff]\n\n[abddfc]說明：[ffffff]直接來自牛的牛肉
+,,,,,
+foodRawChickenBreastAOO,items,Food,,Raw Chicken Breast,生雞胸肉
+foodRawChickenBreastAOOSchematic,items,Food,,Raw Chicken Breast Recipe,生雞胸肉食譜
+foodRawChickenBreastAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw chicken breast ready for cooking.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生雞胸肉，準備好烹飪。
+,,,,,
+foodRawChickenLegsandWingsAOO,items,Food,,Raw Chicken Legs and Wings,生雞腿和雞翅
+foodRawChickenLegsandWingsAOOSchematic,items,Food,,Raw Chicken Legs and Wings Recipe,生雞腿和雞翅食譜
+foodRawChickenLegsandWingsAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw chicken legs and wings, ready for cooking.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生雞腿和雞翅，準備好烹飪。
+,,,,,
+foodRawGroundBeefAOO,items,Food,,Raw Ground Beef,生絞肉
+foodRawGroundBeefAOOSchematic,items,Food,,Raw Ground Beef Recipe,生絞肉食譜
+foodRawGroundBeefAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Raw ground beef, ready for cooking.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生絞肉，準備好烹飪。
+,,,,,
+foodRawHamAOO,items,Food,,Raw Ham,生火腿
+foodRawHamAOOSchematic,items,Food,,Raw Ham Recipe,生火腿食譜
+foodRawHamAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw ham, ready for cooking.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生火腿，準備好烹飪。
+,,,,,
+foodRawKobeBeefAOO,items,Food,,Raw Kobe Beef,生神戶牛肉
+foodRawKobeBeefAOOSchematic,items,Food,,Raw Kobe Beef Recipe,生神戶牛肉食譜
+foodRawKobeBeefAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw kobe beef, ready for cooking.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生神戶牛肉，準備好烹飪。
+,,,,,
+foodRawMilkAOO,items,Food,,Raw Milk,生牛奶
+foodRawMilkAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Milk straight from the cow. Pasteurize this before drinking!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]直接來自牛的牛奶。在飲用前先巴氏殺菌！
+,,,,,
+foodRawPastaAOO,items,Food,,Raw Pasta,生義大利麵
+foodRawPastaAOOSchematic,items,Food,,Homemade Pasta Recipe,自製義大利麵食譜
+foodRawPastaAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Spaghetti, lasagna, angelhair, rigatoni, tortelini... you name it, you make it!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]義大利麵、千層麵、天使麵、通心粉、餛飩...你說得出來，你做得到！
+,,,,,
+foodRawPorkAOO,items,Food,,Raw Pork,生豬肉
+foodRawPorkAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Pork straight from the pig, or boar. Ready to be butchered into specific cuts for cooking.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]直接來自豬或野豬的豬肉。準備好屠宰成特定部位以供烹飪。
+,,,,,
+foodRawPorkLoinAOO,items,Food,,Raw Pork Loin,生豬里肌肉
+foodRawPorkLoinAOOSchematic,items,Food,,Raw Pork Loin Recipe,生豬里肌肉食譜
+foodRawPorkLoinAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw pork loin ready for cooking.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生豬里肌肉，準備好烹飪。
+,,,,,
+foodRawPorkRibsAOO,items,Food,,Raw Pork Ribs,生豬肋排
+foodRawPorkRibsAOOSchematic,items,Food,,Raw Pork Ribs Recipe,生豬肋排食譜
+foodRawPorkRibsAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw pork ribs ready for cooking.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生豬肋排，準備好烹飪。
+,,,,,
+foodRawSausageLinkAOO,items,Food,,Raw Sausage Link,生香腸連結
+foodRawSausageLinkAOOSchematic,items,Food,,Raw Sausage Link Recipe,生香腸連結食譜
+foodRawSausageLinkAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw sausage links ready for cooking.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生香腸連結，可供烹飪。
+,,,,,
+foodRawSteakAOO,items,Food,,Raw Steak,生牛排
+foodRawSteakAOOSchematic,items,Food,,Raw Steak Recipe,生牛排食譜
+foodRawSteakAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Raw steak ready for cooking.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]生牛排，可供烹飪。
+,,,,,
+foodSugarAOO,items,Food,,Sugar,糖
+foodSugarAOOSchematic,items,Food,,Sugar Recipe,糖食譜
+foodSugarAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Aw, it's so sweet!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]哇，好甜！
+,,,,,
+foodVegOilAOO,items,Food,,Vegetable Oil,植物油
+foodVegOilAOOSchematic,items,Food,,Vegetable Oil Recipe,植物油食譜
+foodVegOilAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Used as an ingredient in tasty recipies.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用於美味食譜的成分。
+,,,,,
+foodWhiteRiceAOO,items,Food,,White Rice,白米
+foodWhiteRiceAOOSchematic,items,Food,,Steamed White Rice Recipe,蒸白米食譜
+foodWhiteRiceAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]I'm all over that!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]我喜歡！
+,,,,,
+,,,,,
+foodBagelandCreamCheeseAOO,items,Food,,Bagel and Cream Cheese,貝果和奶油乳酪
+foodBagelandCreamCheeseAOOSchematic,items,Food,,Bagel and Cream Cheese Recipe,貝果和奶油乳酪食譜
+foodBagelandCreamCheeseAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]A classic breakfast treat.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]經典早餐美食。
+,,,,,
+foodBreakfastBaconSandwichAOO,items,Food,,Breakfast Bacon Sandwich,培根三明治
+foodBreakfastBaconSandwichAOOSchematic,items,Food,,Breakfast Bacon Sandwich Recipe,培根三明治食譜
+foodBreakfastBaconSandwichAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Bacon! Also a breakfast sandwich.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]培根！也是早餐三明治。
+,,,,,
+foodBreakfastSausageSandwichAOO,items,Food,,Breakfast Sausage Sandwich,香腸三明治
+foodBreakfastSausageSandwichAOOSchematic,items,Food,,Breakfast Sausage Sandwich Recipe,香腸三明治食譜
+foodBreakfastSausageSandwichAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]What makes bagels even better? Why, meat, of course!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]什麼讓貝果更好吃？當然是肉！
+,,,,,
+foodFruitPancakesAOO,items,Food,,Fruit Pancakes,水果鬆餅
+foodFruitPancakesAOOSchematic,items,Food,,Fruit Pancakes Recipe,水果鬆餅食譜
+foodFruitPancakesAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Delightfully fresh and delicious.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]令人愉悅的新鮮美味。
+,,,,,
+foodFullStackoPancakesAOO,items,Food,,Full Stack of Pancakes,一疊鬆餅
+foodFullStackoPancakesAOOSchematic,items,Food,,Full Stack of Pancakes Recipe,一疊鬆餅食譜
+foodFullStackoPancakesAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]For when one pancake just isn't enough.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]當一個鬆餅不夠時。
+,,,,,
+foodPancakeAOO,items,Food,,Pancake,鬆餅
+foodPancakeAOOSchematic,items,Food,,Pancake Recipe,鬆餅食譜
+foodPancakeAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Flat, yet delicious.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]扁平但美味。
+,,,,,
+foodYogurtHotTSK_AOO,items,Food,New,Yogurt (Hot),優格（熱）
+foodYogurtHotTSK_AOOSchematic,items,Food,,Homemade Yogurt (Hot) Recipe,自製優格（熱）食譜
+foodYogurtHotTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Very freshly made yogurt. Place in a fridge to cool it before eating.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]非常新鮮的優格。在食用前放入冰箱冷卻。
+,,,,,
+foodYogurtTSK_AOO,items,Food,New,Yogurt,優格
+foodYogurtTSK_AOOSchematic,items,Food,,Homemade Yogurt (Chilled) Recipe,自製優格（冷藏）食譜
+foodYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Yogurt: good for your innards. Tastes best mixed with something else.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]優格：對你的內臟有益。與其他東西混合後味道最佳。
+,,,,,
+foodChickenPotPieTSK_AOO,items,Food,New,Homemade Chicken Pot Pie,自製雞肉餡餅
+foodChickenPotPieTSK_AOOSchematic,items,Food,New,Homemade Chicken Pot Pie Recipe,自製雞肉餡餅食譜
+foodChickenPotPieTSK_AOODesc,items,Food,New,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Steamy, juicy pot pie.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]熱騰騰、多汁的餡餅。
+,,,,,
+foodHasenpfefferTSK_AOO,items,Food,New,Hasenpfeffer,野兔肉燉肉
+foodHasenpfefferTSK_AOOSchematic,items,Food,New,Hasenpfeffer Recipe,野兔肉燉肉食譜
+foodHasenpfefferTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Traditional German rabbit stew.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]傳統的德國野兔燉肉。
+,,,,,
+,,,,,
+foodHomemadeChickenNoodleTSK_AOO,items,Food,New,Homemade Chicken Noodle Soup,自製雞肉麵條湯
+foodHomemadeChickenNoodleTSK_AOOSchematic,items,Item,New,Homemade Chicken Noodle Soup Recipe,自製雞肉麵條湯食譜
+foodHomemadeChickenNoodleTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Well what do you know? It really is good for the soul.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]你怎麼知道？它真的對靈魂有益。
+,,,,,
+foodRamenTSK_AOO,items,Food,New,Ramen,拉麵
+foodRamenTSK_AOOSchematic,items,Item,New,Ramen Recipe,拉麵食譜
+foodRamenTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Amazing ramen. Itadakimasu!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]令人驚嘆的拉麵。いただきます！
+,,,,,
+foodRoyalGamePieTSK_AOO,items,Food,New,Royal Game Pie,皇家野味餡餅
+foodRoyalGamePieTSK_AOOSchematic,items,Food,New,Royal Game Pie Recipe,皇家野味餡餅食譜
+foodRoyalGamePieTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Tuck in!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]享用吧！
+,,,,,
+foodVenisonStewTSK_AOO,items,Food,New,Venison Stew,鹿肉燉肉
+foodVenisonStewTSK_AOOSchematic,items,Food,New,Venison Stew Recipe,鹿肉燉肉食譜
+foodVenisonStewTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Juicy and delicious venison stew.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]多汁美味的鹿肉燉肉。
+,,,,,
+foodBBQPorkRibsAOO,items,Food,,BBQ Pork Ribs,烤豬肋排
+foodBBQPorkRibsAOOSchematic,items,Food,,BBQ Pork Ribs Recipe,烤豬肋排食譜
+foodBBQPorkRibsAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Tangy BBQ pork ribs.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]酸甜烤豬肋排。
+,,,,,
+foodBeefChiliAOO,items,Food,,Beef Chili,牛肉辣椒
+foodBeefChiliAOOSchematic,items,Food,,Beef Chili Recipe,牛肉辣椒食譜
+foodBeefChiliAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Hearty beef chili,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]豐盛的牛肉辣椒
+,,,,,
+foodBeefwithBroccoliAOO,items,Food,,Beef with Broccoli,牛肉炒花椰菜
+foodBeefwithBroccoliAOOSchematic,items,Food,,Beef with Broccoli Recipe,牛肉炒花椰菜食譜
+foodBeefwithBroccoliAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Served at Asian restaurants everywhere.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]在各地的亞洲餐廳供應。
+,,,,,
+foodBloominOnionAOO,items,Food,,Bloomin' Onion,盛開的洋蔥
+foodBloominOnionAOOSchematic,items,Food,,Bloomin' Onion Recipe,盛開的洋蔥食譜
+foodBloominOnionAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Delectable - just don't expect a kiss until you've brushed your teeth.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]美味 - 只是在刷牙之前不要期待親吻。
+,,,,,
+foodCabbageRollsandCoffeeAOO,items,Food,,Cabbage Rolls and Coffee,包心菜捲和咖啡
+foodCabbageRollsandCoffeeAOOSchematic,items,Food,,Cabbage Rolls and Coffee Recipe,包心菜捲和咖啡食譜
+foodCabbageRollsandCoffeeAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Schmenge Bros Cabbage Rolls and Coffee ... Mmm Mmm Good!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]施門奇兄弟的包心菜捲和咖啡... 嗯嗯好吃！
+,,,,,
+foodCanChickpeasAOO,items,Food,,Chickpeas,鷹嘴豆
+foodCanChickpeasAOOSchematic,items,Food,,Chickpeas in a Can Recipe,罐裝鷹嘴豆食譜
+"foodCanChickpeasAOODesc ""[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Used as an ingredient in tasty recipies.""",,,,,
+,,,,,
+foodExoticGrilledSteakTSK_AOO,items,Food,,Exotic Grilled Steak,異國烤牛排
+foodExoticGrilledSteakTSK_AOOSchematic,items,Food,,Exotic Grilled Steak Recipe,異國烤牛排食譜
+foodExoticGrilledSteakTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Exotic wild game steak, grilled to perfection.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]異國野生牛排，烤至完美。
+,,,,,
+,,,,,
+foodFalafelAOO,items,Food,,Falafel Plate,法拉費盤
+foodFalafelAOOSchematic,items,Food,,Falafel Plate Recipe,法拉費盤食譜
+foodFalafelAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Who wants some falafel?,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]誰想要法拉費？
+,,,,,
+foodFingersFriesAOO,items,Food,,Chicken Fingers and Fries,雞柳條和薯條
+foodFingersFriesAOOSchematic,items,Food,,Chicken Fingers and Fries Recipe,雞柳條和薯條食譜
+foodFingersFriesAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Don't mess with the classics.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]不要搞砸經典。
+,,,,,
+foodFreshBBQChickenLegsAOO,items,Food,,Fresh BBQ Chicken Legs,新鮮烤雞腿
+foodFreshBBQChickenLegsAOOSchematic,items,Food,,BBQ Chicken Legs Recipe,BBQ 雞腿食譜
+foodFreshBBQChickenLegsAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Look at those saucy legs!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]看看那些美味的腿！
+,,,,,
+foodFreshBaconMeatloafAOO,items,Food,,Fresh Bacon Meatloaf,新鮮培根肉餡麵包
+foodFreshBaconMeatloafAOOSchematic,items,Food,,Bacon Meatloaf Recipe,培根肉餡麵包食譜
+foodFreshBaconMeatloafAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]It's meatloaf, with BACON! What could be better?",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]這是肉餡麵包，加上培根！還有什麼比這更好的？
+,,,,,
+foodFreshBakedChickenBreastAOO,items,Food,,Fresh-Baked Chicken Breast,新鮮烤雞胸肉
+foodFreshBakedChickenBreastAOOSchematic,items,Food,,Fresh-Baked Chicken Breast Recipe,新鮮烤雞胸肉食譜
+foodFreshBakedChickenBreastAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Baked chicken breast - so juicy.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]烤雞胸肉 - 非常多汁。
+,,,,,
+foodFreshCheeseBurgerAOO,items,Food,,Fresh Cheeseburger,新鮮起司漢堡
+foodFreshCheeseBurgerAOOSchematic,items,Food,,Cheeseburger Recipe,起司漢堡食譜
+foodFreshCheeseBurgerAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]An American favorite!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]美國人的最愛！
+,,,,,
+foodFreshHoneyGlazedHamAOO,items,Food,,Fresh Honey-Glazed Ham,新鮮蜂蜜烤火腿
+foodFreshHoneyGlazedHamAOOSchematic,items,Food,,Honey-Glazed Ham Recipe,蜂蜜烤火腿食譜
+foodFreshHoneyGlazedHamAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]The main course of a delicious feast.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]美味盛宴的主菜。
+,,,,,
+foodFreshKobeBeefAOO,items,Food,,Fresh Kobe Beef,新鮮神戶牛肉
+foodFreshKobeBeefAOOSchematic,items,Food,,Kobe Beef Recipe,神戶牛肉食譜
+foodFreshKobeBeefAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]It doesn't get any beefier than this, folks!",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]各位，沒有比這更美味的牛肉了！
+,,,,,
+foodFreshSmokedSausageAOO,items,Food,,Fresh Smoked Sausage,新鮮煙燻香腸
+foodFreshSmokedSausageAOOSchematic,items,Food,,Smoked Sausage Recipe,煙燻香腸食譜
+foodFreshSmokedSausageAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Smoked to perfection!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]完美煙燻！
+,,,,,
+foodFriedRiceAOO,items,Food,,Fried Rice,炒飯
+foodFriedRiceAOOSchematic,items,Food,,Fried Rice Recipe,炒飯食譜
+foodFriedRiceAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]A quick and easy, yet tasty, meal.",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]快速簡單，但美味的一餐。
+,,,,,
+foodGrilledSteakAOO,items,Food,,Griled Steak,烤牛排
+foodGrilledSteakAOOSchematic,items,Food,,Grilled Steak Recipe,烤牛排食譜
+foodGrilledSteakAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Juicy steak grilled just the way you love it.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]多汁的牛排，烤成您最喜歡的樣子。
+,,,,,
+foodJalapenoPoppersAOO,items,Food,,Jalapeno Poppers,墨西哥辣椒
+foodJalapenoPoppersAOOSchematic,items,Food,,Jalapeno Poppers Recipe,墨西哥辣椒食譜
+foodJalapenoPoppersAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Live coals are cooler than these guys. Be sure to have those drinks nearby!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]活炭比這些傢伙更酷。一定要在附近放好飲料！
+,,,,,
+foodJamTSK_AOO,items,Food,New,Fruit Jam,水果醬
+foodJamTSK_AOOSchematic,items,Food,,Homemade Fruit Jam Recipe,自製水果醬食譜
+foodJamTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Oh, jam!",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]喔，果醬！
+,,,,,
+foodJamHotTSK_AOO,items,Food,New,Fruit Jam (Hot),水果醬（辣）
+foodJamHotTSK_AOOSchematic,items,Food,,Jam (Hot) Recipe,果醬（辣）食譜
+foodJamHotTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Very freshly made fruit jam. Place in a fridge to cool before eating.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]非常新鮮的水果醬。在食用前放入冰箱冷卻。
+,,,,,
+foodPBnJ_TSK_AOO,items,Food,New,PB&J,花生醬果醬三明治
+foodPBnJ_TSK_AOOSchematic,items,Food,,PB&J Recipe,花生醬果醬三明治食譜
+foodPBnJ_TSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]With or without the crust, still a childhood favorite.",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]無論有無麵包皮，仍然是童年最愛。
+,,,,,
+foodPizzaAOO,items,Food,,Pizza,披薩
+foodPizzaAOOSchematic,items,Food,,Pizza Recipe,披薩食譜
+foodPizzaAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]A different kind of pie. Save me a slice!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]一種不同的派。幫我留一片！
+,,,,,
+foodSmokedChickenTSK_AOO,items,Food,New,Smoked Chicken,煙燻雞肉
+foodSmokedChickenTSK_AOOSchematic,items,Item,New,Smoked Chicken Recipe,煙燻雞肉食譜
+foodSmokedChickenTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Succulent smoked chicken,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]多汁的煙燻雞肉
+,,,,,
+foodSmokedFishTSK_AOO,items,Food,New,Smoked Fish,煙燻魚
+foodSmokedFishTSK_AOOSchematic,items,Item,New,Smoked Fish Recipe,煙燻魚食譜
+foodSmokedFishTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Smoked fish - my personal favorite is teriyaki smoked salmon.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]煙燻魚 - 我個人最喜歡的是照燒煙燻鮭魚。
+,,,,,
+foodSpaghettiandaMeataBallsAOO,items,Food,,Spaghetti and Meatballs,義大利麵和肉丸
+foodSpaghettiandaMeataBallsAOOSchematic,items,Food,,Spaghetti and Meatballs Recipe,義大利麵和肉丸食譜
+foodSpaghettiandaMeataBallsAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Spaghetti and-a Meat-a Balls! Fills you up and-a warms your soul!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]義大利麵和肉丸！讓你吃飽喝足，溫暖你的靈魂！
+,,,,,
+foodSpicyHotWingsAOO,items,Food,,Spicy Hot Wings,辣雞翅
+foodSpicyHotWingsAOOSchematic,items,Food,,Spicy Hot Wings Recipe,辣雞翅食譜
+foodSpicyHotWingsAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Buffalo wings - trivia not included.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]水牛城雞翅 - 不含瑣事。
+,,,,,
+,,,,,
+foodApplePieAOO,items,Food,,Apple Pie,蘋果派
+foodApplePieAOOSchematic,items,Food,,Apple Pie Recipe,蘋果派食譜
+foodApplePieAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]A perfectly-baked apple pie. Delicious!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]完美烘烤的蘋果派。美味！
+foodBananaCreamPieAOO,items,Food,,Banana Cream Pie,香蕉奶油派
+foodBananaCreamPieAOOSchematic,items,Food,,Banana Cream Pie Recipe,香蕉奶油派食譜
+,,,,,
+foodBananaCreamPieAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]A light and delightful pie.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]輕盈可口的派。
+,,,,,
+foodBananaSplitTSK_AOO,items,Food,New,Banana Split,香蕉船
+foodBananaSplitTSK_AOOSchematic,items,Food,,Banana Split Recipe,香蕉船食譜
+foodBananaSplitTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Why was the ice cream lonely? Because the banana split.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]為什麼冰淇淋很孤單？因為香蕉船。
+,,,,,
+foodBlueberryFrozenYogurtTSK_AOO,items,Food,New,Blueberry Frozen Yogurt,藍莓冷凍優格
+foodBlueberryFrozenYogurtTSK_AOOSchematic,items,Food,,Blueberry Frozen Yogurt Recipe,藍莓冷凍優格食譜
+foodBlueberryFrozenYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Frozen yogurt made with fresh blueberries.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]用新鮮藍莓製成的冷凍優格。
+,,,,,
+foodBlueberryIceCreamTSK_AOO,items,Food,New,Blueberry Ice Cream,藍莓冰淇淋
+foodBlueberryIceCreamTSK_AOOSchematic,items,Food,,Blueberry Ice Cream Recipe,藍莓冰淇淋食譜
+foodBlueberryIceCreamTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Homemade ice cream made with fresh blueberries.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]用新鮮藍莓製成的自製冰淇淋。
+,,,,,
+foodBlueRaspberrySnoConeTSK_AOO,items,Food,New,Raspberry Shaved Ice,覆盆子刨冰
+foodBlueRaspberrySnoConeTSK_AOOSchematic,items,Food,,Raspberry Shaved Ice Recipe,覆盆子刨冰食譜
+foodBlueRaspberrySnoConeTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Ice, with some raspberry flavoring. About what you'd expect, really.",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]冰，加上一些覆盆子調味。真的，你會期待什麼。
+,,,,,
+foodCherryPieAOO,items,Food,,She's My Cherry Pie,她是我的櫻桃派
+foodCherryPieAOOSchematic,items,Food,,Cherry Pie Recipe,櫻桃派食譜
+foodCherryPieAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Baked to perfection and ready to eat.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]完美烘烤，準備食用。
+,,,,,
+foodCherrySnoConeTSK_AOO,items,Food,New,Cherry Shaved Ice,櫻桃刨冰
+foodCherrySnoConeTSK_AOOSchematic,items,Food,,Cherry Shaved Ice Recipe,櫻桃刨冰食譜
+foodCherrySnoConeTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Ice, with some cherry flavoring. About what you'd expect, really.",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]冰，加上一些櫻桃調味。真的，你會期待什麼。
+,,,,,
+foodChocolateBarTSK_AOO,items,Food,,Chocolate Bar,巧克力棒
+foodChocolateBarTSK_AOOSchematic,items,Food,,Chocolate Bar Recipe,巧克力棒食譜
+foodChocolateBarTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Chocolate makes everything better - even the end of the world as you know it.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]巧克力讓一切變得更好 - 即使是世界末日，你所知道的世界末日。
+,,,,,
+foodChocolateCakeTSK_AOO,items,Food,New,Chocolate Cake,巧克力蛋糕
+foodChocolateCakeTSK_AOOSchematic,items,Food,,Chocolate Cake Recipe,巧克力蛋糕食譜
+foodChocolateCakeTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]A decadent chocolate cake.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]頹廢的巧克力蛋糕。
+,,,,,
+foodChocolateChipCookieTSK_AOO,items,Food,New,Chocolate Chip Cookies,巧克力碎餅乾
+foodChocolateChipCookieTSK_AOOSchematic,items,Food,,Chocolate Chip Cookies Recipe,巧克力碎餅乾食譜
+foodChocolateChipCookieTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Chocolate chip cookies. Yes, they are chocolate chips, not raisins. Go on, take a bite!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]巧克力碎餅乾。是的，它們是巧克力碎，不是葡萄乾。繼續，咬一口！
+,,,,,
+foodCCCDIceCreamTSK_AOO,items,Food,New,Chocolate Chip Cookie Dough Ice Cream,巧克力碎餅乾麵團冰淇淋
+foodCCCDIceCreamTSK_AOOSchematic,items,Food,,Chocolate Chip Cookie Dough Ice Cream Recipe,巧克力碎餅乾麵團冰淇淋食譜
+foodCCCDIceCreamTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Otherwise known as CCCDIC, because even the name is a mouthful!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]又稱 CCCDIC，因為連名字都一大串！
+,,,,,
+foodChocolateIceCreamTSK_AOO,items,Food,New,Chocolate Ice Cream,巧克力冰淇淋
+foodChocolateIceCreamTSK_AOOSchematic,items,Food,,Chocolate Ice Cream Recipe,巧克力冰淇淋食譜
+foodChocolateIceCreamTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Homemade chocolate ice cream.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]自製巧克力冰淇淋。
+,,,,,
+foodChocolateFrozenYogurtTSK_AOO,items,Food,New,Chocolate Frozen Yogurt,巧克力冷凍優格
+foodChocolateFrozenYogurtTSK_AOOSchematic,items,Food,,Chocolate Frozen Yogurt Recipe,巧克力冷凍優格食譜
+foodChocolateFrozenYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Homemade chocolate frozen yogurt.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]自製巧克力冷凍優格。
+,,,,,
+foodChocolateMousseTSK_AOO,items,Food,New,Chocolate Mousse,巧克力慕斯
+foodChocolateMousseTSK_AOOSchematic,items,Food,,Chocolate Mousse Recipe,巧克力慕斯食譜
+foodChocolateMousseTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Light and fluffy raspberry mousse.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]輕盈蓬鬆的覆盆子慕斯。
+,,,,,
+foodCoconutCreamPieAOO,items,Food,,Coconut Cream Pie,椰奶派
+foodCoconutCreamPieAOOSchematic,items,Food,,Coconut Cream Pie Recipe,椰奶派食譜
+foodCoconutCreamPieAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Tastes like the tropics!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]嚐起來像熱帶水果！
+,,,,,
+foodCoconutFrozenYogurtTSK_AOO,items,Food,New,Coconut Frozen Yogurt,椰子冷凍優格
+foodCoconutFrozenYogurtTSK_AOOSchematic,items,Food,,Coconut Frozen Yogurt Recipe,椰子冷凍優格食譜
+foodCoconutFrozenYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Frozen yogurt made with fresh coconut.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮椰子製成的冷凍優格。
+,,,,,
+foodCoconutIceCreamTSK_AOO,items,Food,New,Coconut Ice Cream,椰子冰淇淋
+foodCoconutIceCreamTSK_AOOSchematic,items,Food,,Coconut Ice Cream Recipe,椰子冰淇淋食譜
+foodCoconutIceCreamTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Ice cream made with fresh coconut.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮椰子製成的冰淇淋。
+,,,,,
+foodCookiesAndMilkTSK_AOO,items,Food,New,Cookies & Milk,餅乾和牛奶
+foodCookiesAndMilkTSK_AOOSchematic,items,Food,,Cookies & Milk Recipe,餅乾和牛奶食譜
+foodCookiesAndMilkTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]All cookies are better with a tall glass of milk.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]所有餅乾都配上一大杯牛奶更好喝。
+,,,,,
+foodCreamOfTartarTSK_AOO,items,Food,New,Cream of Tartar,酒石酸鉀
+foodCreamOfTartarTSK_AOOSchematic,items,Food,,Cream of Tartar Recipe,酒石酸鉀食譜
+foodCreamOfTartarTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]An essential ingredient in snickerdoodle cookies.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]史尼可杜德餅乾中不可或缺的成分。
+,,,,,
+foodDeerTracksFrozenYogurtTSK_AOO,items,Food,New,Deer Tracks Frozen Yogurt,鹿跡冷凍優格
+foodDeerTracksFrozenYogurtTSK_AOOSchematic,items,Food,,Deer Tracks Frozen Yogurt Recipe,鹿跡冷凍優格食譜
+foodDeerTracksFrozenYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Frozen yogurt with chunks of strawberry and chocolate. Yum!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冷凍優格，裡面有草莓和巧克力塊。好吃！
+,,,,,
+foodDeerTracksIceCreamTSK_AOO,items,Food,New,Deer Tracks Ice Cream,鹿跡冰淇淋
+foodDeerTracksIceCreamTSK_AOOSchematic,items,Food,,Deer Tracks Ice Cream Recipe,鹿跡冰淇淋食譜
+foodDeerTracksIceCreamTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Ice cream with chunks of strawberry and chocolate. Yum!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冰淇淋，裡面有草莓和巧克力塊。好吃！
+,,,,,
+foodFrostingTSK_AOO,items,Food,New,Frosting,糖霜
+foodFrostingTSK_AOOSchematic,items,Food,,Homemade Frosting Recipe,自製糖霜食譜
+foodFrostingTSK_AOODesc,items,Food,,Workstation: KitchNaid with Mixing Bowl /n Thick and sugary and ready to be whipped onto a cake!,工作站：KitchNaid 帶攪拌碗 /n 濃稠、含糖，準備好塗在蛋糕上了！
+,,,,,
+foodFrozenYogurtTSK_AOO,items,Food,New,Plain Frozen Yogurt,原味冷凍優格
+foodFrozenYogurtTSK_AOOSchematic,items,Food,,Plain Frozen Yogurt Recipe,原味冷凍優格食譜
+foodFrozenYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Used as a base for many flavors of frozen yogurt.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用作許多口味冷凍優格的基底。
+,,,,,
+foodIceCreamTSK_AOO,items,Food,New,Plain Ice Cream,原味冰淇淋
+foodIceCreamTSK_AOOSchematic,items,Food,,Plain Ice Cream Recipe,原味冰淇淋食譜
+foodIceCreamTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Used as a base for many flavors of ice cream.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用作許多口味冰淇淋的基底。
+,,,,,
+foodIceCreamSammieTSK_AOO,items,Food,New,Ice Cream Sandwich,冰淇淋三明治
+foodIceCreamSammieTSK_AOOSchematic,items,Food,,Ice Cream Sandwich Recipe,冰淇淋三明治食譜
+foodIceCreamSammieTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]A simple frozen dessert.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]簡單的冷凍甜點。
+,,,,,
+foodKittenChowTSK_AOO,items,Food,New,Kitten Chow,小貓糧
+foodKittenChowTSK_AOOSchematic,items,Food,,Kitten Chow Recipe,小貓糧食譜
+foodKittenChowTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Also known as muddy buddies, this chocolate-and-powdered-sugar snack is so delicious!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]也被稱為泥巴夥伴，這種巧克力和糖粉零食非常美味！
+,,,,,
+foodLemonCakeTSK_AOO,items,Food,New,Lemon Cake,檸檬蛋糕
+foodLemonCakeTSK_AOOSchematic,items,Food,,Lemon Cake Recipe,檸檬蛋糕食譜
+foodLemonCakeTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]A decadent lemon bundt cake.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]頹廢的檸檬邦特蛋糕。
+,,,,,
+foodLemonSnoConeTSK_AOO,items,Food,New,Lemon Shaved Ice,檸檬刨冰
+foodLemonSnoConeTSK_AOOSchematic,items,Food,,Lemon Shaved Ice Recipe,檸檬刨冰食譜
+foodLemonSnoConeTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Ice, with some lemon flavoring. About what you'd expect, really.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冰，帶有一些檸檬味。真的，你會期待什麼呢？
+,,,,,
+foodLimeSnoConeTSK_AOO,items,Food,New,Lime Shaved Ice,萊姆刨冰
+foodLimeSnoConeTSK_AOOSchematic,items,Food,,Lime Shaved Ice Recipe,萊姆刨冰食譜
+foodLimeSnoConeTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Ice, with some lime flavoring. About what you'd expect, really.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冰，帶有一些萊姆味。真的，你會期待什麼呢？
+,,,,,
+foodMarshmallowTSK_AOO,items,Food,New,Marshmallow,棉花糖
+foodMarshmallowTSK_AOOSchematic,items,Food,,Homemade Marshmallow Recipe,自製棉花糖食譜
+foodMarshmallowTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]A light, fluffy, squishy, sugary cloud.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]輕盈蓬鬆、軟綿綿、含糖的雲朵。
+,,,,,
+foodMolassesTSK_AOO,items,Food,New,Molasses,糖蜜
+foodMolassesTSK_AOOSchematic,items,Food,,Molasses Recipe,糖蜜食譜
+foodMolassesTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Definitely do not mistake this for honey.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]絕對不要誤認為是蜂蜜。
+,,,,,
+foodMolassesCookieTSK_AOO,items,Food,New,Molasses Cookies,糖蜜餅乾
+foodMolassesCookieTSK_AOOSchematic,items,Food,,Molasses Cookies Recipe,糖蜜餅乾食譜
+foodMolassesCookieTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Dark and rich cookies.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]深色濃郁的餅乾。
+,,,,,
+foodOrangeSnoConeTSK_AOO,items,Food,New,Orange Shaved Ice,橘子刨冰
+foodOrangeSnoConeTSK_AOOSchematic,items,Food,,Orange Shaved Ice Recipe,橘子刨冰食譜
+foodOrangeSnoConeTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Ice, with some orange flavoring. About what you'd expect, really.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冰，帶有一些橘子風味。真的，就是你所期待的樣子。
+,,,,,
+foodParfaitTSK_AOO,items,Food,New,Parfait,帕菲
+foodParfaitTSK_AOOSchematic,items,Food,,Parfait Recipe,帕菲食譜
+foodParfaitTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food\n\n[abddfc]DESCRIPTION:[ffffff]The dessert version of pafrait with jello, fruit, and cream.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]甜點版本的帕菲，含有果凍、水果和奶油。
+,,,,,
+foodPeachCobblerTSK_AOO,items,Food,New,Peach Cobbler,桃子烤餅
+,,,,,
+foodPeanutButterTSK_AOO,items,Food,New,Peanut Butter,花生醬
+foodPeanutButterTSK_AOOSchematic,items,Food,,Homemade Peanut Butter Recipe,自製花生醬食譜
+foodPeanutButterTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Rich and creamy peanut butter.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]濃郁滑順的花生醬。
+,,,,,
+foodPeanutButterCookieTSK_AOO,items,Food,New,Peanut Butter Cookies,花生醬餅乾
+foodPeanutButterCookieTSK_AOOSchematic,items,Food,,Peanut Butter Cookies Recipe,花生醬餅乾食譜
+foodPeanutButterCookieTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Cookies full of peanut buttery goodness.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]充滿花生醬美味的餅乾。
+,,,,,
+foodPuppyChowTSK_AOO,items,Food,New,Puppy Chow,小狗糧
+foodPuppyChowTSK_AOOSchematic,items,Food,,Puppy Chow Recipe,小狗糧食譜
+foodPuppyChowTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Also known as muddy buddies, this chocolate-and-powdered-sugar snack is so delicious!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]也被稱為泥巴夥伴，這種巧克力和糖粉零食非常美味！
+,,,,,
+foodRaspberryFrozenYogurtTSK_AOO,items,Food,New,Raspberry Frozen Yogurt,覆盆子冷凍優格
+foodRaspberryFrozenYogurtTSK_AOOSchematic,items,Food,,Raspberry Frozen Yogurt Recipe,覆盆子冷凍優格食譜
+foodRaspberryFrozenYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Homemade frozen yogurt made with fresh raspberries.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮覆盆子製成的自製冷凍優格。
+,,,,,
+foodRaspberryIceCreamTSK_AOO,items,Food,New,Raspberry Ice Cream,覆盆子冰淇淋
+foodRaspberryIceCreamTSK_AOOSchematic,items,Food,,Raspberry Ice Cream Recipe,覆盆子冰淇淋食譜
+foodRaspberryIceCreamTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Homemade ice cream made with fresh raspberries.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮覆盆子製成的自製冰淇淋。
+,,,,,
+foodRaspberryMousseTSK_AOO,items,Food,New,Raspberry Mousse,覆盆子慕斯
+foodRaspberryMousseTSK_AOOSchematic,items,Food,,Raspberry Mousse Recipe,覆盆子慕斯食譜
+foodRaspberryMousseTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Light and fluffy raspberry mousse.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]輕盈蓬鬆的覆盆子慕斯。
+,,,,,
+foodSmoresTSK_AOO,items,Food,New,S'mores,烤棉花糖
+foodSmoresTSK_AOOSchematic,items,Food,,S'mores Recipe,烤棉花糖食譜
+foodSmoresTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]The absolute best camp snack of all time!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]有史以來最棒的露營零食！
+,,,,,
+foodSnickerdoodleCookieTSK_AOO,items,Food,New,Snickerdoodle Cookies,肉桂餅乾
+foodSnickerdoodleCookieTSK_AOOSchematic,items,Food,,Snickerdoodle Cookies Recipe,肉桂餅乾食譜
+foodSnickerdoodleCookieTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Soft and gooey snickerdoodles.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]柔軟黏膩的肉桂餅乾。
+,,,,,
+foodSpecialBrowniesTSK_AOO,items,Food,New,Special Chocolate Brownies,特殊巧克力布朗尼
+foodSpecialBrowniesTSK_AOOSchematic,items,Food,,Special Chocolate Brownies Recipe,特殊巧克力布朗尼食譜
+foodSpecialBrowniesTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Thick, rich chocolate brownies with a special surprise.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]濃郁厚實的巧克力布朗尼，還有一個特別驚喜。
+,,,,,
+foodStrawberryFrozenYogurtTSK_AOO,items,Food,New,Strawberry Frozen Yogurt,草莓冷凍優格
+foodStrawberryFrozenYogurtTSK_AOOSchematic,items,Food,,Strawberry Frozen Yogurt Recipe,草莓冷凍優格食譜
+foodStrawberryFrozenYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Homemade frozen yogurt made with fresh strawberries.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮草莓製成的自製冷凍優格。
+,,,,,
+foodStrawberryIceCreamTSK_AOO,items,Food,New,Strawberry Ice Cream,草莓冰淇淋
+foodStrawberryIceCreamTSK_AOOSchematic,items,Food,,Strawberry Ice Cream Recipe,草莓冰淇淋食譜
+foodStrawberryIceCreamTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Homemade ice cream made with fresh strawberries.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮草莓製成的自製冰淇淋。
+,,,,,
+foodStrawberryMousseTSK_AOO,items,Food,New,Strawberry Mousse,草莓慕斯
+foodStrawberryMousseTSK_AOOSchematic,items,Food,,Strawberry Mousse Recipe,草莓慕斯食譜
+foodStrawberryMousseTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Light and fluffy strawberry mousse.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]輕盈蓬鬆的草莓慕斯。
+,,,,,
+foodTurtleSundaeTSK_AOO,items,Food,New,Turtle Sundae,海龜聖代
+foodTurtleSundaeTSK_AOOSchematic,items,Food,,Turtle Sundae Recipe,海龜聖代食譜
+foodTurtleSundaeTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]A certain reptile is now homeless so you may have a fortifying frozen dessert. Don't tell Rodolphus!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]某隻爬蟲類現在無家可歸，所以你可以享用一份營養的冷凍甜點。別告訴羅道夫斯！
+,,,,,
+foodVanillaFrozenYogurtTSK_AOO,items,Food,New,Vanilla Frozen Yogurt,香草冷凍優格
+foodVanillaFrozenYogurtTSK_AOOSchematic,items,Food,,Vanilla Frozen Yogurt Recipe,香草冷凍優格食譜
+foodVanillaFrozenYogurtTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Homemade frozen yogurt made with fresh vanilla.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮香草製成的自製冷凍優格。
+,,,,,
+foodVanillaIceCreamTSK_AOO,items,Food,New,Vanilla Ice Cream,香草冰淇淋
+foodVanillaIceCreamTSK_AOOSchematic,items,Food,,Vanilla Ice Cream Recipe,香草冰淇淋食譜
+foodVanillaIceCreamTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Homemade ice cream made with fresh vanilla.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]用新鮮香草製成的自製冰淇淋。
+,,,,,
+foodWatermelonSnoConeTSK_AOO,items,Food,New,Watermelon Shaved Ice,西瓜刨冰
+foodWatermelonSnoConeTSK_AOOSchematic,items,Food,,Watermelon Shaved Ice Recipe,西瓜刨冰食譜
+foodWatermelonSnoConeTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Ice, with some watermelon flavoring. About what you'd expect, really.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]冰，帶有一些西瓜風味。真的，就是你所期待的樣子。
+,,,,,
+,,,,,
+foodChipsTSK_AOO,items,Food,New,Chips,薯片
+foodChipsTSK_AOOSchematic,items,Item,New,Chips Recipe,薯片食譜
+foodChipsTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food\n\n[abddfc]DESCRIPTION:[ffffff]A simple salty snack. Even better with sauces!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]簡單的鹹味零食。搭配醬汁更美味！
+,,,,,
+foodChipsAndSalsaTSK_AOO,items,Food,New,Chips and Salsa,薯片和莎莎醬
+foodChipsAndSalsaTSK_AOOSchematic,items,Item,New,Chips and Salsa Recipe,薯片和莎莎醬食譜
+foodChipsAndSalsaTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Homemade chips and salsa - delicious!,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]自製薯片和莎莎醬 - 美味！
+,,,,,
+foodDriedFruitAOO,items,Food,,Dried Fruit,乾果
+foodDriedFruitAOOSchematic,items,Food,,Dried Fruit Recipe,乾果食譜
+foodDriedFruitAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]A sweet little snack.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]甜美的小零食。
+,,,,,
+foodFriesAOO,items,Food,,Basket of Fries,炸薯條籃
+foodFriesAOOSchematic,items,Food,,Fries Recipe,炸薯條食譜
+foodFriesAOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Whether chips or fries, these are sure to satisfy your salty cravings.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]無論是薯片還是炸薯條，這些都能滿足你對鹹味的渴望。
+,,,,,
+foodGelatinTSK_AOO,items,Food,New,Gelatin,吉利丁
+foodGelatinTSK_AOOSchematic,items,Food,,,
+foodGelatinTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Very freshly made gelatin. Place in a fridge for a while before trying to use it.,[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]非常新鮮的吉利丁。在嘗試使用之前，先放入冰箱一段時間。
+,,,,,
+foodJelloTSK_AOO,items,Food,New,Jello,果凍
+foodJelloTSK_AOOSchematic,items,Food,,Jello Recipe,果凍食譜
+foodJelloTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]It's wiggly, it's jiggly, but thankfully it is not actually alive.",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]它會搖晃，它會晃動，但謝天謝地它沒有生命。
+,,,,,
+foodMixedFruitTSK_AOO,items,Food,New,Mixed Fruit,綜合水果
+foodMixedFruitTSK_AOOSchematic,items,Food,,Mixed Fruit Recipe,綜合水果食譜
+foodMixedFruitTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Beautifully fresh fruit, ready to be used as an ingredient in tasty recipes.",[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]新鮮水果，可作為美味食譜的食材。
+,,,,,
+foodMixedVeggiesTSK_AOO,items,Food,New,Mixed Veggies,綜合蔬菜
+foodMixedVeggiesTSK_AOOSchematic,items,Item,New,Mixed Veggies Recipe,綜合蔬菜食譜
+foodMixedVeggiesTSK_AOODesc,items,Food,New,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Crunchy mixed veggies, ready to be used as an ingredient in tasty recipies.",[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]爽脆的綜合蔬菜，可作為美味食譜的食材。
+,,,,,
+foodOnionRingsAOO,items,Food,,Onion Rings,洋蔥圈
+foodOnionRingsAOOSchematic,items,Food,,Onion Rings Recipe,洋蔥圈食譜
+foodOnionRingsAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Perfectly golden-brown deep-fried onion rings.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]完美金黃色的油炸洋蔥圈。
+,,,,,
+foodPopcornTSK_AOO,items,Food,New,Popcorn,爆米花
+foodPopcornTSK_AOOSchematic,items,Food,,Popcorn Recipe,爆米花食譜
+foodPopcornTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \\n\n[abddfc]DESCRIPTION:[ffffff]With enough salt and butter, who cares if it's stale?",[abddfc]類型：[ffffff]食物 \\n\n[abddfc]說明：[ffffff]只要有足夠的鹽和奶油，誰在乎它是否陳舊？
+,,,,,
+foodRawVeggieMixAOO,items,Food,New,Raw veg mix (obsolete),生菜混合物（已停產）
+RawVeggieMixDesc,items,Food,,raw veg mix - obsolete. Make Mixed Veggies instead!,生菜混合物 - 已停產。改用綜合蔬菜！
+,,,,,
+foodSalsaTSK_AOO,items,Food,New,Salsa,莎莎醬
+foodSalsaTSK_AOOSchematic,items,Item,New,Salsa Recipe,莎莎醬食譜
+foodSalsaTSK_AOODesc,items,Food,New,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Tangy, fresh salsa best enjoyed with chips.",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]酸辣新鮮的莎莎醬，最適合搭配薯片享用。
+,,,,,
+foodSuperPopcornTSK_AOO,items,Food,New,Super Popcorn,超級爆米花
+foodSuperPopcornTSK_AOOSchematic,items,Food,,Super Popcorn Recipe,超級爆米花食譜
+foodSuperPopcornTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]It must be super. It says so right on the box.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]它一定是超級的。盒子上面這麼寫。
+,,,,,
+foodTrailMixAOO,items,Food,,Trail Mix,綜合堅果
+foodTrailMixAOOSchematic,items,Food,,Trail Mix Recipe,綜合堅果食譜
+foodTrailMixAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Perfect for nibbling while out on a run.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]非常適合在跑步時享用。
+,,,,,
+foodWatermelonSliceTSK_AOO,items,Food,New,"Fresh Slice of Watermelon""","新鮮西瓜片"""
+foodWatermelonSliceTSK_AOOSchematic,items,Food,,Fresh Watermelon Slice Recipe,新鮮西瓜片食譜
+foodWatermelonSliceTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Anyone up for a seed-spitting contest?,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]有人要來參加吐籽比賽嗎？
+,,,,,
+foodWineAndCheeseBoardTSK_AOO,items,Food,New,Wine and Cheese Board,葡萄酒和起司拼盤
+foodWineAndCheeseBoardTSK_AOOSchematic,items,Food,,Wine and Cheese Board Recipe,葡萄酒和起司拼盤食譜
+foodWineAndCheeseBoardTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Don't dismiss these delicate delights!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]不要錯過這些精緻的美食！
+,,,,,
+,,,,,
+drinkAppleJuiceAOO,items,Food,,Apple Juice,蘋果汁
+drinkAppleJuiceAOOSchematic,items,Food,,Apple Juice Recipe,蘋果汁食譜
+drinkAppleJuiceAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \\n\n[abddfc]DESCRIPTION:[ffffff]100% apple juice - not from concentrate.,[abddfc]類型：[ffffff]食物 \\n\n[abddfc]說明：[ffffff]100% 蘋果汁 - 非濃縮還原。
+,,,,,
+drinkBananaSodaTSK_AOO,items,Food,New,Banana Blast Soda,香蕉爆破汽水
+drinkBananaSodaTSK_AOOSchematic,items,Food,,Banana Blast Soda Recipe,香蕉爆破汽水食譜
+drinkBananaSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Soda - it's a banana BLAST!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]汽水 - 這是香蕉爆破！
+,,,,,
+drinkBerrySmoothieTSK_AOO,items,Food,New,Berry Smoothie,莓果冰沙
+drinkBerrySmoothieTSK_AOOSchematic,items,Food,,Berry Smoothie Recipe,莓果冰沙食譜
+drinkBerrySmoothieTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-blended mixed berry smoothie. Cooling and quenching!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]新鮮混合莓果冰沙。清涼解渴！
+,,,,,
+drinkCheeryCherrySodaTSK_AOO,items,Food,New,Cheery Cherry Soda,櫻桃汽水
+drinkCheeryCherrySodaTSK_AOOSchematic,items,Food,,Cheery Cherry Soda Recipe,櫻桃汽水食譜
+drinkCheeryCherrySodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Cherry soda that puts a smile on your face!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]櫻桃汽水，讓你面帶微笑！
+,,,,,
+drinkChocolateMilkTSK_AOO,items,Food,New,Chocolate Milk,巧克力牛奶
+drinkChocolateMilkTSK_AOOSchematic,items,Food,,Chocolate Milk Recipe,巧克力牛奶食譜
+drinkChocolateMilkTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Milk, but chocolate. Better in every way!",[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]牛奶，但它是巧克力。各方面都更好！
+,,,,,
+drinkCiderTSK_AOO,items,Food,New,Fresh Cider,新鮮蘋果酒
+drinkCiderTSK_AOOSchematic,items,Food,,Fresh Fruit Cider Recipe,新鮮水果蘋果酒食譜
+drinkCiderTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Farm fresh cider - not just an autumn drink anymore.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]農場新鮮蘋果酒 - 不再只是秋季飲品。
+,,,,,
+drinkCitrusSplashSodaTSK_AOO,items,Food,New,Citrus Splash Soda,柑橘汽水
+drinkCitrusSplashSodaTSK_AOOSchematic,items,Food,,Citrus Splash Soda Recipe,柑橘汽水食譜
+drinkCitrusSplashSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Lemon-lime? Lime-lemon? How about both in this citrus splash!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]檸檬萊姆？萊姆檸檬？何不兩者都加到這個柑橘汽水中！
+,,,,,
+drinkColaSodaTSK_AOO,items,Food,New,Black Soul Cola,黑魂可樂
+drinkColaSodaTSK_AOOSchematic,items,Food,,Black Soul Cola Recipe,黑魂可樂食譜
+drinkColaSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Black Soul cola: the darkest of sodas for the darkest of times. Or for the thirsty. Either way.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]黑魂可樂：最黑暗的時代或最口渴的時候最適合喝的可樂。無論如何。
+,,,,,
+drinkCreamSodaTSK_AOO,items,Food,New,Cream Soda,奶油汽水
+drinkCreamSodaTSK_AOOSchematic,items,Food,,Cream Soda Recipe,奶油汽水食譜
+drinkCreamSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Smooth vanilla cream soda. So good!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]順滑的香草奶油汽水。太好喝了！
+,,,,,
+resourceCrushedIceTSK_AOO,items,Food,New,Crushed Ice,碎冰
+resourceCrushedIceTSK_AOOSchematic,items,Food,,Crushed Ice Recipe,碎冰食譜
+resourceCrushedIceTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]You take ice, and crush it. The end.",[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]你拿冰，然後把它弄碎。結束。
+,,,,,
+drinkCucumberSodaTSK_AOO,items,Food,New,Cucumber Soda,黃瓜汽水
+drinkCucumberSodaTSK_AOOSchematic,items,Food,,Cucumber Soda Recipe,黃瓜汽水食譜
+drinkCucumberSodaTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Now you, too, can be cool as a cucumber!",[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]現在，你也可以像黃瓜一樣清涼！
+,,,,,
+drinkDrJenSodaTSK_AOO,items,Food,New,Dr. Jen's Soda,珍醫生汽水
+drinkDrJenSodaTSK_AOOSchematic,items,Food,,Dr. Jen's Soda Recipe,珍醫生汽水食譜
+drinkDrJenSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]No pepper needed. Get Dr. Jen's Soda today!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]無需胡椒。今天就來一杯珍醫生汽水！
+,,,,,
+drinkGingerAleSodaTSK_AOO,items,Food,New,Ginger Ale Soda,薑汁汽水
+drinkGingerAleSodaTSK_AOOSchematic,items,Food,,Ginger Ale Soda Recipe,薑汁汽水食譜
+drinkGingerAleSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Ginger ale: non-alcoholic and simply the best!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]薑汁汽水：無酒精，而且是最好的！
+,,,,,
+drinkGrapeSodaTSK_AOO,items,Food,New,Grape Explosion Soda,葡萄爆炸汽水
+drinkGrapeSodaTSK_AOOSchematic,items,Food,,Grape Explosion Soda Recipe,葡萄爆炸汽水食譜
+drinkGrapeSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]It's soda. It's purple. It's Grape Explosion! (Explosion not guaranteed.),[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]它是汽水。它是紫色的。它是葡萄爆炸！（不保證爆炸。）
+,,,,,
+drinkGuavaSodaTSK_AOO,items,Food,New,Guava Gulp Soda,番石榴汽水
+drinkGuavaSodaTSK_AOOSchematic,items,Food,,Guava Gulp Soda Recipe,番石榴汽水食譜
+drinkGuavaSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]It's Gulp-a-licious!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]它很美味！
+,,,,,
+drinkHotCocoaTSK_AOO,items,Food,New,Hot Cocoa,熱可可
+drinkHotCocoaTSK_AOOSchematic,items,Food,,Hot Cocoa Recipe,熱可可食譜
+drinkHotCocoaTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Smooth melted chocolate, fluffy marshmallows, and a pinch of cinnamon spice. This warms you from the tip of your nose to the tips of your toes!",[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]滑順的融化巧克力、蓬鬆的棉花糖和一撮肉桂香料。這會讓你從鼻尖暖到腳趾頭！\n冰塊\n冰塊食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]非立方體形狀的冰塊將不被接受。\n鐵釀蘇打水\n鐵釀蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]到處礦工間稍微不那麼受歡迎的蘇打水品牌。\n檸檬汁\n檸檬汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]這是純檸檬汁，用於美味食譜的成分。\n檸檬汁\n新鮮檸檬汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]新鮮現榨的檸檬汁。\n芒果汁\n芒果汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]100% 芒果汁 - 非濃縮還原。\n芒果拉西\n芒果拉西食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]一種清淡爽口的芒果飲料。\n芒果瘋狂蘇打水\n芒果瘋狂蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]你準備好發瘋了嗎？今天就喝一些芒果瘋狂蘇打水吧！\n綜合莓果汁\n綜合莓果汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]100% 果汁 - 非濃縮還原。成分可能包括水果、水果和其他水果。\n柳橙汁\n柳橙汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]100% 柳橙汁 - 非濃縮還原。\n明顯的柳橙蘇打水\n明顯的柳橙蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]在味道和顏色上都是柳橙口味的蘇打水。顯然。\n鳳梨汁\n鳳梨汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]100% 鳳梨汁 - 非濃縮還原。\n豐富的鳳梨蘇打水\n豐富的鳳梨蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]豐富的鳳梨蘇打水無論是獨自享用還是與朋友分享都很棒！\n覆盆子蘇打水\n覆盆子蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]它令人驚嘆，令人眼花繚亂，令人愉悅。來一瓶覆盆子蘇打水吧！\n喬爾的根汁汽水\n喬爾的根汁汽水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]一種令人驚奇的美味根汁汽水，由喬爾自己的秘密食譜製成。\n根汁汽水漂浮\n根汁汽水漂浮食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]根汁汽水和冰淇淋製成一種甜美的款待，很容易隨身攜帶。\n傲慢的雪莓蘇打水\n傲慢的雪莓蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]這種蘇打水的酸味會讓你的鼻子皺起來，但味道卻出奇的好。\n蘇打水\n蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]這本身對你沒有多大幫助，但想想可能性吧！\n美味的雲杉啤酒蘇打水\n美味的雲杉啤酒蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]美味的雲杉啤酒：別問，喝就對了！\n草莓蘇打水\n草莓蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]草莓蘇打水真是太棒了！\nV8 蔬菜汁\nV8 蔬菜汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]我本可以喝一瓶 V8！\n西瓜汁\n西瓜汁食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]100% 西瓜汁 - 非濃縮還原。\n野西瓜蘇打水\n野西瓜蘇打水食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]讓我們用野西瓜蘇打水來狂野一下吧！\n白蘭地\n白蘭地食譜\n[abddfc]類型：[ffffff]食物\n\n[abddfc]說明：[ffffff]白蘭地\n香檳\n香檳食譜
+,,,,,
+resourceIceCubeTSK_AOO,items,Food,New,Ice Cube,Ice Cube
+resourceIceCubeTSK_AOOSchematic,items,Food,,Ice Cube Recipe,Ice Cube 食譜
+resourceIceCubeTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Ice not in cube shape will not be accepted.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]不接受非立方體形狀的冰塊。
+,,,,,
+drinkIronBruSodaTSK_AOO,items,Food,New,Iron Brew Soda,Iron Brew 汽水
+drinkIronBruSodaTSK_AOOSchematic,items,Food,,Iron Brew Soda Recipe,Iron Brew 汽水食譜
+drinkIronBruSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]The slightly less popular brand of soda for miners everywhere.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]到處礦工都略為不那麼喜歡的汽水品牌。
+,,,,,
+drinkLemonJuiceTSK_AOO,items,Food,New,Lemon Juice,檸檬汁
+drinkLemonJuiceTSK_AOOSchematic,items,Food,,Lemon Juice Recipe,檸檬汁食譜
+drinkLemonJuiceTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]This is pure lemon juice, used as an ingredient for tasty recipes.",[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]這是純檸檬汁，用於美味食譜的成分。
+,,,,,
+drinkLemonadeTSK_AOO,items,Food,New,Lemonade,檸檬汁
+drinkLemonadeTSK_AOOSchematic,items,Food,,Fresh Lemonade Recipe,新鮮檸檬汁食譜
+drinkLemonadeTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Freshly-squeezed lemonade.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]新鮮現榨的檸檬汁。
+,,,,,
+drinkMangoJuiceTSK_AOO,items,Food,New,Mango Juice,芒果汁
+drinkMangoJuiceTSK_AOOSchematic,items,Food,,Mango Juice Recipe,芒果汁食譜
+drinkMangoJuiceTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]100% mango juice - not from concentrate.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]100% 芒果汁 - 非濃縮還原。
+,,,,,
+drinkMangoLassiTSK_AOO,items,Food,New,Mango Lassi,芒果拉西
+drinkMangoLassiTSK_AOOSchematic,items,Food,,Mango Lassi Recipe,芒果拉西食譜
+drinkMangoLassiTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]A light and refreshing mango drink.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]一種清淡爽口的芒果飲品。
+,,,,,
+drinkMangoSodaTSK_AOO,items,Food,New,Mango Madness Soda,芒果狂熱汽水
+drinkMangoSodaTSK_AOOSchematic,items,Food,,Mango Madness Soda Recipe,芒果狂熱汽水食譜
+drinkMangoSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Are you ready to get crazy? Drink some Mango Madness today!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]你準備好發瘋了嗎？今天就喝一些芒果狂熱吧！
+,,,,,
+drinkMixedBerryJuiceTSK_AOO,items,Food,New,Mixed Berry Juice,綜合莓汁
+drinkMixedBerryJuiceTSK_AOOSchematic,items,Food,,Mixed Berry Juice Recipe,綜合莓汁食譜
+drinkMixedBerryJuiceTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]100% fruit juice - not from concentrate. Ingredients may include fruit, fruit, and other fruit.",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]100% 果汁 - 非濃縮還原。成分可能包括水果、水果和其他水果。
+,,,,,
+drinkOrangeJuiceAOO,items,Food,,Orange Juice,柳橙汁
+drinkOrangeJuiceAOOSchematic,items,Food,,Orange Juice Recipe,柳橙汁食譜
+drinkOrangeJuiceAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]100% Orange juice - not from concentrate.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]100% 柳橙汁 - 非濃縮還原。
+,,,,,
+drinkOrangeSodaTSK_AOO,items,Food,New,Obvious Orange Soda,明顯的柳橙汽水
+drinkOrangeSodaTSK_AOOSchematic,items,Food,,Obvious Orange Soda Recipe,明顯的柳橙汽水食譜
+drinkOrangeSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Soda that is orange in taste and color. Obviously.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]在味道和顏色上都是柳橙的汽水。顯然。
+,,,,,
+drinkPineAppleJuiceAOO,items,Food,,Pineapple Juice,鳳梨汁
+drinkPineAppleJuiceAOOSchematic,items,Food,,Pineapple Juice Recipe,鳳梨汁食譜
+drinkPineAppleJuiceAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]100% pineapple juice - not from concentrate.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]100% 鳳梨汁 - 非濃縮還原。
+,,,,,
+drinkPineappleSodaTSK_AOO,items,Food,New,Plentiful Pineapple Soda,豐盛鳳梨汽水
+drinkPineappleSodaTSK_AOOSchematic,items,Food,,Plentiful Pineapple Soda Recipe,豐盛鳳梨汽水食譜
+drinkPineappleSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Plentiful Pineapple is great to enjoy alone or with a friend!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]豐盛鳳梨汽水無論是獨自享用還是與朋友分享都很棒！
+,,,,,
+drinkRaspberrySodaTSK_AOO,items,Food,New,Razzle Raspberry Soda,覆盆子汽水
+drinkRaspberrySodaTSK_AOOSchematic,items,Food,,Razzle Raspberry Soda Recipe,覆盆子汽水食譜
+drinkRaspberrySodaTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]It razzles, it dazzles, it delights. Have a bottle of Razzle Raspberry!",[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]它令人驚嘆，令人眼花繚亂，令人愉悅。來一瓶覆盆子汽水吧！
+,,,,,
+drinkRootBeerSodaTSK_AOO,items,Food,New,Trader Joel's Root Beer,Trader Joel's 根汁汽水
+drinkRootBeerSodaTSK_AOOSchematic,items,Food,,Trader Joel's Root Beer Recipe,Trader Joel's 根汁汽水食譜
+drinkRootBeerSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]A deceptively delicious root beer made from Trader Joel's own secret recipe.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]一種令人驚奇的美味根汁汽水，由 Trader Joel's 自己的秘密配方製成。
+,,,,,
+drinkRootBeerFloatSodaTSK_AOO,items,Food,New,Root Beer Float,根汁汽水漂浮
+drinkRootBeerFloatSodaTSK_AOOSchematic,items,Food,,Root Beer Float Recipe,根汁汽水漂浮食譜
+drinkRootBeerFloatSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Root beer and ice cream makes for a sweet treat that's easy to take with you.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]根汁汽水和冰淇淋製成一種甜美的款待，很容易隨身攜帶。
+,,,,,
+drinkSnowberrySodaTSK_AOO,items,Food,New,Snobby Snowberry Soda,傲慢雪莓汽水
+drinkSnowberrySodaTSK_AOOSchematic,items,Food,,Snobby Snowberry Soda Recipe,傲慢雪莓汽水食譜
+drinkSnowberrySodaTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]The tartness of this soda makes your nose wrinkle, but the taste is surprisingly good.",[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]這種汽水的酸澀會讓你的鼻子皺起來，但味道卻出奇的好。
+,,,,,
+drinkSodaWaterTSK_AOO,items,Food,New,Soda Water,蘇打水
+drinkSodaWaterTSK_AOOSchematic,items,Item,New,Soda Water Recipe,蘇打水食譜
+drinkSodaWaterTSK_AOODesc,items,Food,New,"[abddfc]TYPE: [ffffff]Foo \n\n[abddfc]DESCRIPTION:[ffffff]This doesn't do much for you on its own, but think of the possibilities!",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]這本身對你沒有多大幫助，但想想可能性吧！
+,,,,,
+drinkSpruceBeerSodaTSK_AOO,items,Food,,Salacious Spruce Beer Soda,淫蕩雲杉啤酒汽水
+drinkSpruceBeerSodaTSK_AOOSchematic,items,Food,,Salacious Spruce Beer Soda Recipe,淫蕩雲杉啤酒汽水食譜
+drinkSpruceBeerSodaTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \\n\n[abddfc]DESCRIPTION:[ffffff]Salacious Spruce Beer: don't ask, just drink!",[abddfc]類型：[ffffff]食物 \\n\n[abddfc]說明：[ffffff]淫蕩雲杉啤酒：別問，喝就對了！
+,,,,,
+drinkStrawberrySodaTSK_AOO,items,Food,New,Sublime Strawberry Soda,昇華草莓汽水
+drinkStrawberrySodaTSK_AOOSchematic,items,Item,New,Sublime Strawberry Soda Recipe,昇華草莓汽水食譜
+drinkStrawberrySodaTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Strawberry soda truly is sublime!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]草莓汽水真是太棒了！
+,,,,,
+drinkV8JuiceAOO,items,Food,,V8 Veggie Juice,V8 蔬菜汁
+drinkV8JuiceAOOSchematic,items,Food,,V8 Veggie Juice Recipe,V8 蔬菜汁食譜
+drinkV8JuiceAOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]I coulda had a V8!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]我本可以喝一瓶 V8！
+,,,,,
+drinkWatermelonJuiceTSK_AOO,items,Food,New,Watermelon Juice,西瓜汁
+drinkWatermelonJuiceTSK_AOOSchematic,items,Food,,Watermelon Juice Recipe,西瓜汁食譜
+drinkWatermelonJuiceTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]100% watermelon juice - not from concentrate.,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]100% 西瓜汁 - 非濃縮還原。
+,,,,,
+drinkWatermelonSodaTSK_AOO,items,Food,New,Wild Watermelon Soda,野西瓜汽水
+drinkWatermelonSodaTSK_AOOSchematic,items,Food,,Wild Watermelon Soda Recipe,野西瓜汽水食譜
+drinkWatermelonSodaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Let's get wild with Wild Watermelon Soda!,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]讓我們用野西瓜汽水來野一下吧！
+,,,,,
+,,,,,
+,,,,,
+drinkBrandyTSK_AOO,items,Food,New,Brandy,白蘭地
+drinkBrandyTSK_AOOSchematic,items,Food,,Brandy Recipe,白蘭地食譜
+drinkBrandyTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Brandy,[abddfc]類型：[ffffff]食物  \n\n[abddfc]說明：[ffffff]白蘭地
+,,,,,
+drinkChampagneTSK_AOO,items,Food,New,Champagne,香檳
+drinkChampagneTSK_AOOSchematic,items,Food,,Champagne Recipe,香檳食譜
+drinkChampagneTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Time to celebrate. Break out the bubbly!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]慶祝時間到了。打開香檳！
+,,,,,
+drinkGinTSK_AOO,items,Food,New,Gin,琴酒
+drinkGinTSK_AOOSchematic,items,Item,New,Gin Recipe,琴酒食譜
+drinkGinTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Now you know why it tastes like pine. This would be much better off mixed with something.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]現在你知道為什麼它嚐起來像松樹了。這與其他東西混合會好得多。
+,,,,,
+drinkMimosaTSK_AOO,items,Food,New,Mimosa,含羞草
+drinkMimosaTSK_AOOSchematic,items,Food,,Mimosa Recipe,含羞草食譜
+drinkMimosaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Enjoy at breakfast or at any time of day.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]在早餐或一天中的任何時間享用。
+,,,,,
+drinkMochaTSK_AOO,items,Food,New,Mocha,摩卡
+drinkMochaTSK_AOOSchematic,items,Food,,Mocha Recipe,摩卡食譜
+drinkMochaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Chocolate and coffee come together in perfect harmony.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]巧克力和咖啡完美融合。
+,,,,,
+drinkMoonshineTSK_AOO,items,Food,New,Moonshine,私釀酒
+drinkMoonshineTSK_AOOSchematic,items,Food,,Moonshine Recipe,私釀酒食譜
+drinkMoonshineTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Lightweights need not attempt.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]輕量級的人不要嘗試。
+,,,,,
+drinkPortTSK_AOO,items,Food,New,Port,波特酒
+drinkPortTSK_AOOSchematic,items,Food,,Port Recipe,波特酒食譜
+drinkPortTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]What's better than wine? Fortified wine!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]比葡萄酒更好的東西是什麼？加強葡萄酒！
+,,,,,
+drinkRedWineTSK_AOO,items,Food,New,Red Wine,紅酒
+drinkRedWineTSK_AOOSchematic,items,Food,,Red Wine Recipe,紅酒食譜
+drinkRedWineTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Red wine, featuring hints of cherry, plum, and spice, aged in an oak barrel for many years.",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]紅酒，帶有櫻桃、李子和香料的香氣，在橡木桶中陳釀多年。
+,,,,,
+drinkRumTSK_AOO,items,Food,New,Rum,蘭姆酒
+drinkRumTSK_AOOSchematic,items,Food,,Rum Recipe,蘭姆酒食譜
+drinkRumTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n \n\n[abddfc]DESCRIPTION:[ffffff]If gone, just make, find, or steal more!",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]如果沒有了，就做、找或偷更多！
+,,,,,
+drinkSakeTSK_AOO,items,Food,New,Sake,清酒
+drinkSakeTSK_AOOSchematic,items,Food,,Sake Recipe,清酒食譜
+drinkSakeTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Smooth and silky rice wine.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]柔滑的米酒。
+,,,,,
+drinkSakeChilledTSK_AOO,items,Food,New,Chilled Sake,冰鎮清酒
+drinkSakeChilledTSK_AOOSchematic,items,Food,,Chilled Sake Recipe,冰鎮清酒食譜
+drinkSakeChilledTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Smooth and silky rice wine.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]柔滑的米酒。
+,,,,,
+drinkSakeHotTSK_AOO,items,Food,New,Hot Sake,熱清酒
+drinkSakeHotTSK_AOOSchematic,items,Food,,Hot Sake Recipe,熱清酒食譜
+drinkSakeHotTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Smooth and silky rice wine.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]柔滑的米酒。
+,,,,,
+drinkTequilaTSK_AOO,items,Food,New,Tequila,龍舌蘭酒
+drinkTequilaTSK_AOOSchematic,items,Food,,Tequila Recipe,龍舌蘭酒食譜
+drinkTequilaTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Wherever you are, it's a party with tequila!",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]無論你在哪裡，龍舌蘭酒都是派對！
+,,,,,
+drinkVodkaTSK_AOO,items,Food,New,Vodka,伏特加
+drinkVodkaTSK_AOOSchematic,items,Food,,Vodka Recipe,伏特加食譜
+drinkVodkaTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Always be true to the Motherland.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]永遠忠於祖國。
+,,,,,
+drinkWhiskeyTSK_AOO,items,Food,New,Whiskey,威士忌
+drinkWhiskeyTSK_AOOSchematic,items,Food,,Whiskey Recipe,威士忌食譜
+drinkWhiskeyTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]Whiskey, scotch, and bourbon",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]威士忌、蘇格蘭威士忌和波本威士忌
+,,,,,
+resourceWhiskeyStoneTSK_AOO,items,Food,New,Whiskey Stone,威士忌石
+resourceWhiskeyStoneTSK_AOOSchematic,items,Food,,Whiskey Stone Recipe,威士忌石食譜
+resourceWhiskeyStoneTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Chill your scotch without watering it down with these whiskey stones.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]用這些威士忌石冷卻你的蘇格蘭威士忌，而不會用水稀釋它。
+,,,,,
+drinkWhiteWineTSK_AOO,items,Food,New,White Wine,白葡萄酒
+drinkWhiteWineTSK_AOOSchematic,items,Food,,White Wine Recipe,白葡萄酒食譜
+drinkWhiteWineTSK_AOODesc,items,Food,,"[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]White wine, featuring floral hints and a light fruit finish.",[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]白葡萄酒，帶有花香和清淡的水果味。
+,,,,,
+drinkSchnappsTSK_AOO,items,Food,New,Schnapps,水果白蘭地
+drinkSchnappsTSK_AOOSchematic,items,Food,,Schnapps Recipe,水果白蘭地食譜
+drinkSchnappsTSK_AOODesc,items,Food,,[abddfc]TYPE: [ffffff]Food \n\n[abddfc]DESCRIPTION:[ffffff]A light alcohol made from different fruits.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]由不同水果製成的清淡酒精。
+,,,,,
+,,,,,
+drugClawedPainkillersTSK_AOO,items,Medical,New,Clawed Painkillers,爪狀止痛藥
+drugClawedPainkillersTSK_AOOSchematic,items,Item,New,Clawed Painkillers Recipe,爪狀止痛藥食譜
+drugClawedPainkillersTSK_AOODesc,items,Medical,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]More powerful than regular painkillers and gives you better knuckle brawling for a short time.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]比普通止痛藥更有效，並在短時間內讓你的指關節打架更好。
+,,,,,
+medicalLionBalmTSK_AOO,items,Medical,New,Lion Balm,萬金油
+medicalLionBalmTSK_AOOSchematic,items,Item,New,Lion Balm Recipe,萬金油食譜
+medicalLionBalmTSK_AOODesc,items,Medical,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Apply to aches and pains to regain the strength of the lion!,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]塗抹在疼痛部位，以恢復獅子的力量！
+,,,,,
+medicalMentholTSK_AOO,items,Medical,New,Menthol,薄荷醇
+medicalMentholTSK_AOOSchematic,items,Item,New,Menthol Recipe,薄荷醇食譜
+medicalMentholTSK_AOODesc,items,Medical,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Menthol is a common ingredient in medical recipes.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]薄荷醇是醫學食譜中常見的成分。
+,,,,,
+drugRestorativeTabletTSK_AOO,items,Medical,New,Restorative Capsule,恢復膠囊
+drugRestorativeTabletTSK_AOOSchematic,items,Item,New,Restorative Capsule Recipe,恢復膠囊食譜
+drugRestorativeTabletTSK_AOODesc,items,Medical,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Hefty anti-ouch meds for the survivor on the move.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]為移動中的倖存者提供強效的止痛藥。
+,,,,,
+drinkRoseWaterTSK_AOO,items,Food,New,Rose Water,玫瑰水
+drinkRoseWaterTSK_AOOSchematic,items,Item,New,Rose Water Recipe,玫瑰水食譜
+drinkRoseWaterTSK_AOODesc,items,Food,New,[abddfc]TYPE: [ffffff]Food  \n\n[abddfc]DESCRIPTION:[ffffff]Rose water can be used in cooking as well as in medicinal recipes.,[abddfc]類型：[ffffff]食物 \n\n[abddfc]說明：[ffffff]玫瑰水可用於烹飪和藥用食譜。

@@ -1,286 +1,272 @@
-Key,Source,Context,Changes,English,tchinese,中文機翻
-,,,,,,
-,,,,,,
-vehicleBattle01,entity,Entity,,Derby Buggy,Derby Buggy,Derby Buggy
-vehicleBattle01Placeable,item,Items,,Derby Buggy,Derby Buggy,Derby Buggy
-vehicleBlockBattle01,block,Blocks,,Derby Buggy (Locked),Derby Buggy (鎖定),Derby Buggy (鎖定)
-vehicleLootBlockBattle01,block,Blocks,,Derby Buggy,Derby Buggy,Derby Buggy
-vehicleLoot2BlockBattle01,block,Blocks,,Derby Buggy,Derby Buggy,Derby Buggy
-vehicleBlockBattle01Pickup,block,Blocks,,Derby Buggy - Driveable,Derby Buggy - 可駕駛,Derby Buggy - 可駕駛
-vehicleBlockBattle01Empty,block,Blocks,,Derby Buggy - Broken,Derby Buggy - 損壞,Derby Buggy - 損壞
-,,,,,,
-vehicleBattle02,entity,Entity,,Derby #1,Derby #1,Derby #1
-vehicleBattle02Placeable,item,Items,,Derby #1,Derby #1,Derby #1
-vehicleBlockBattle02,block,Blocks,,Derby #1 (Locked),Derby #1 (鎖定),Derby #1 (鎖定)
-vehicleLootBlockBattle02,block,Blocks,,Derby #1,Derby #1,Derby #1
-vehicleLoot2BlockBattle02,block,Blocks,,Derby #1,Derby #1,Derby #1
-vehicleBlockBattle02Pickup,block,Blocks,,Derby #1 - Driveable,Derby #1 - 可駕駛,Derby #1 - 可駕駛
-vehicleBlockBattle02Empty,block,Blocks,,Derby #1 - Broken,Derby #1 - 損壞,Derby #1 - 損壞
-,,,,,,
-vehicleBattle03,entity,Entity,,Derby #2,Derby #2,Derby #2
-vehicleBattle03Placeable,item,Items,,Derby #2,Derby #2,Derby #2
-vehicleBlockBattle03,block,Blocks,,Derby #2 (Locked),Derby #2 (鎖定),Derby #2 (鎖定)
-vehicleLootBlockBattle03,block,Blocks,,Derby #2,Derby #2,Derby #2
-vehicleLoot2BlockBattle03,block,Blocks,,Derby #2,Derby #2,Derby #2
-vehicleBlockBattle03Pickup,block,Blocks,,Derby #2 - Driveable,Derby #2 - 可駕駛,Derby #2 - 可駕駛
-vehicleBlockBattle03Empty,block,Blocks,,Derby #2 - Broken,Derby #2 - 損壞,Derby #2 - 損壞
-,,,,,,
-vehicleBattle04,entity,Entity,,Derby #3,Derby #3,Derby #3
-vehicleBattle04Placeable,item,Items,,Derby #3,Derby #3,Derby #3
-vehicleBlockBattle04,block,Blocks,,Derby #3 (Locked),Derby #3 (鎖定),Derby #3 (鎖定)
-vehicleLootBlockBattle04,block,Blocks,,Derby #3,Derby #3,Derby #3
-vehicleLoot2BlockBattle04,block,Blocks,,Derby #3,Derby #3,Derby #3
-vehicleBlockBattle04Pickup,block,Blocks,,Derby #3 - Driveable,Derby #3 - 可駕駛,Derby #3 - 可駕駛
-vehicleBlockBattle04Empty,block,Blocks,,Derby #3 - Broken,Derby #3 - 損壞,Derby #3 - 損壞
-,,,,,,
-vehicleBattle05,entity,Entity,,Derby #4,Derby #4,Derby #4
-vehicleBattle05Placeable,item,Items,,Derby #5,Derby #5,Derby #5
-vehicleBlockBattle05,block,Blocks,,Derby #4 (Locked),Derby #4 (鎖定),Derby #4 (鎖定)
-vehicleLootBlockBattle05,block,Blocks,,Derby #4,Derby #4,Derby #4
-vehicleLoot2BlockBattle05,block,Blocks,,Derby #4,Derby #4,Derby #4
-vehicleBlockBattle05Pickup,block,Blocks,,Derby #4 - Driveable,Derby #4 - 可駕駛,Derby #4 - 可駕駛
-vehicleBlockBattle05Empty,block,Blocks,,Derby #4 - Broken,Derby #4 - 損壞,Derby #4 - 損壞
-,,,,,,
-vehicleBattle06,entity,Entity,,Derby #5,Derby #5,Derby #5
-vehicleBattle06Placeable,item,Items,,Derby #5,Derby #5,Derby #5
-vehicleBlockBattle06,block,Blocks,,Derby #5 (Locked),Derby #5 (鎖定),Derby #5 (鎖定)
-vehicleLootBlockBattle06,block,Blocks,,Derby #5,Derby #5,Derby #5
-vehicleLoot2BlockBattle06,block,Blocks,,Derby #5,Derby #5,Derby #5
-vehicleBlockBattle06Pickup,block,Blocks,,Derby #5 - Driveable,Derby #5 - 可駕駛,Derby #5 - 可駕駛
-vehicleBlockBattle06Empty,block,Blocks,,Derby #5 - Broken,Derby #5 - 損壞,Derby #5 - 損壞
-,,,,,,
-vehicleSuperCar01,entity,Entity,,Sports Car #1,跑車 #1,跑車 #1
-vehicleSuperCar01Placeable,item,Items,,Sports Car #1,跑車 #1,跑車 #1
-vehicleBlockSuperCar01,block,Blocks,,Sports Car #1 (Locked),跑車 #1 (鎖定),跑車 #1 (鎖定)
-vehicleLootBlockSuperCar01,block,Blocks,,Sports Car #1,跑車 #1,跑車 #1
-vehicleLoot2BlockSuperCar01,block,Blocks,,Sports Car #1,跑車 #1,跑車 #1
-vehicleBlockSuperCar01Pickup,block,Blocks,,Sports Car #1 - Driveable,跑車 #1 - 可駕駛,跑車 #1 - 可駕駛
-vehicleBlockSuperCar01Empty,block,Blocks,,Sports Car #1 - Broken,跑車 #1 - 損壞,跑車 #1 - 損壞
-,,,,,,
-vehicleSuperCar02,entity,Entity,,Sports Car #2,跑車 #2,跑車 #2
-vehicleSuperCar02Placeable,item,Items,,Sports Car #2,跑車 #2,跑車 #2
-vehicleBlockSuperCar02,block,Blocks,,Sports Car #2 (Locked),跑車 #2 (鎖定),跑車 #2 (鎖定)
-vehicleLootBlockSuperCar02,block,Blocks,,Sports Car #2,跑車 #2,跑車 #2
-vehicleLoot2BlockSuperCar02,block,Blocks,,Sports Car #2,跑車 #2,跑車 #2
-vehicleBlockSuperCar02Pickup,block,Blocks,,Sports Car #2 - Driveable,跑車 #2 - 可駕駛,跑車 #2 - 可駕駛
-vehicleBlockSuperCar02Empty,block,Blocks,,Sports Car #2 - Broken,跑車 #2 - 損壞,跑車 #2 - 損壞
-,,,,,,
-vehicleSuperCar03,entity,Entity,,Sports Car #3,跑車 #3,跑車 #3
-vehicleSuperCar03Placeable,item,Items,,Sports Car #3,跑車 #3,跑車 #3
-vehicleBlockSuperCar03,block,Blocks,,Sports Car #3 (Locked),跑車 #3 (鎖定),跑車 #3 (鎖定)
-vehicleLootBlockSuperCar03,block,Blocks,,Sports Car #3,跑車 #3,跑車 #3
-vehicleLoot2BlockSuperCar03,block,Blocks,,Sports Car #3,跑車 #3,跑車 #3
-vehicleBlockSuperCar03Pickup,block,Blocks,,Sports Car #3 - Driveable,跑車 #3 - 可駕駛,跑車 #3 - 可駕駛
-vehicleBlockSuperCar03Empty,block,Blocks,,Sports Car #3 - Broken,跑車 #3 - 損壞,跑車 #3 - 損壞
-,,,,,,
-vehicleRickShawBlue,entity,Entity,,RickShaw,人力車,人力車
-vehicleRickShawBluePlaceable,item,Items,,RickShaw,人力車,人力車
-vehicleBlockRickShawBlue,block,Blocks,,RickShaw (Locked),人力車 (鎖定),人力車 (鎖定)
-vehicleLootBlockRickShawBlue,block,Blocks,,RickShaw,人力車,人力車
-vehicleLoot2BlockRickShawBlue,block,Blocks,,RickShaw,人力車,人力車
-vehicleBlockRickShawBluePickup,block,Blocks,,RickShaw - Driveable,人力車 - 可駕駛,人力車 - 可駕駛
-vehicleBlockRickShawBlueEmpty,block,Blocks,,RickShaw - Broken,人力車 - 損壞,人力車 - 損壞
-,,,,,,
-vehicleCyberDelorean,entity,Entity,,Cyber Delorean,Cyber Delorean,Cyber Delorean
-vehicleCyberDeloreanPlaceable,item,Items,,Cyber Delorean,Cyber Delorean,Cyber Delorean
-vehicleBlockCyberDelorean,block,Blocks,,Cyber Delorean (Locked),Cyber Delorean (鎖定),Cyber Delorean (鎖定)
-vehicleLootBlockCyberDelorean,block,Blocks,,Cyber Delorean,Cyber Delorean,Cyber Delorean
-vehicleLoot2BlockCyberDelorean,block,Blocks,,Cyber Delorean,Cyber Delorean,Cyber Delorean
-vehicleBlockCyberDeloreanPickup,block,Blocks,,Cyber Delorean - Driveable,Cyber Delorean - 可駕駛,Cyber Delorean - 可駕駛
-vehicleBlockCyberDeloreanEmpty,block,Blocks,,Cyber Delorean - Broken,Cyber Delorean - 損壞,Cyber Delorean - 損壞
-,,,,,,
-vehicleBatCar01,entity,Entity,,Bat Tumbler,蝙蝠車,蝙蝠車
-vehicleBatCar01Placeable,item,Items,,Bat Tumbler,蝙蝠車,蝙蝠車
-vehicleBlockBatCar01,block,Blocks,,Bat Tumbler (Locked),蝙蝠車 (鎖定),蝙蝠車 (鎖定)
-vehicleLootBlockBatCar01,block,Blocks,,Bat Tumbler,蝙蝠車,蝙蝠車
-vehicleLoot2BlockBatCar01,block,Blocks,,Bat Tumbler,蝙蝠車,蝙蝠車
-vehicleBlockBatCar01Pickup,block,Blocks,,Bat Tumbler - Driveable,蝙蝠車 - 可駕駛,蝙蝠車 - 可駕駛
-vehicleBlockBatCar01Empty,block,Blocks,,Bat Tumbler - Broken,蝙蝠車 - 損壞,蝙蝠車 - 損壞
-,,,,,,
-vehicleScooter,entity,Entity,,Scooter,速克達,速克達
-vehicleScooterPlaceable,item,Items,,Scooter,速克達,速克達
-vehicleBlockScooter,block,Blocks,,Scooter (Locked),速克達 (鎖定),速克達 (鎖定)
-vehicleLootBlockScooter,block,Blocks,,Scooter,速克達,速克達
-vehicleLoot2BlockScooter,block,Blocks,,Scooter,速克達,速克達
-vehicleBlockScooterPickup,block,Blocks,,Scooter - Driveable,速克達 - 可駕駛,速克達 - 可駕駛
-vehicleBlockScooterEmpty,block,Blocks,,Scooter - Broken,速克達 - 損壞,速克達 - 損壞
-,,,,,,
-vehicleSportsCarWhite,entity,Entity,,Sports Car,跑車,跑車
-vehicleSportsCarWhitePlaceable,item,Items,,Sports Car,跑車,跑車
-vehicleBlockSportsCarWhite,block,Blocks,,Sports Car (Locked),跑車 (鎖定),跑車 (鎖定)
-vehicleLootBlockSportsCarWhite,block,Blocks,,Sports Car,跑車,跑車
-vehicleLoot2BlockSportsCarWhite,block,Blocks,,Sports Car,跑車,跑車
-vehicleBlockSportsCarWhitePickup,block,Blocks,,Sports Car - Driveable,跑車 - 可駕駛,跑車 - 可駕駛
-vehicleBlockSportsCarWhiteEmpty,block,Blocks,,Sports Car - Broken,跑車 - 損壞,跑車 - 損壞
-,,,,,,
-vehicleHotRod01,entity,Entity,,Hot Rod,熱棒車,熱棒車
-vehicleHotRod01Placeable,item,Items,,Hot Rod,熱棒車,熱棒車
-vehicleBlockHotRod01,block,Blocks,,Hot Rod (Locked),熱棒車 (鎖定),熱棒車 (鎖定)
-vehicleLootBlockHotRod01,block,Blocks,,Hot Rod,熱棒車,熱棒車
-vehicleLoot2BlockHotRod01,block,Blocks,,Hot Rod,熱棒車,熱棒車
-vehicleBlockHotRod01Pickup,block,Blocks,,Hot Rod - Driveable,熱棒車 - 可駕駛,熱棒車 - 可駕駛
-vehicleBlockHotRod01Empty,block,Blocks,,Hot Rod - Broken,熱棒車 - 損壞,熱棒車 - 損壞
-,,,,,,
-vehicleFeature01,entity,Entity,,Feature,特色,特色
-vehicleFeature01Placeable,item,Items,,Feature,特色,特色
-vehicleBlockFeature01,block,Blocks,,Feature (Locked),特色 (鎖定),特色 (鎖定)
-vehicleLootBlockFeature01,block,Blocks,,Feature,特色,特色
-vehicleLoot2BlockFeature01,block,Blocks,,Feature,特色,特色
-vehicleBlockFeature01Pickup,block,Blocks,,Feature - Driveable,特色 - 可駕駛,特色 - 可駕駛
-vehicleBlockFeature01Empty,block,Blocks,,Feature - Broken,特色 - 損壞,特色 - 損壞
-,,,,,,
-vehicleBuggy01,entity,Entity,,Buggy,沙灘車,沙灘車
-vehicleBuggy01Placeable,item,Items,,Buggy,沙灘車,沙灘車
-vehicleBlockBuggy01,block,Blocks,,Buggy (Locked),沙灘車 (鎖定),沙灘車 (鎖定)
-vehicleLootBlockBuggy01,block,Blocks,,Buggy,沙灘車,沙灘車
-vehicleLoot2BlockBuggy01,block,Blocks,,Buggy,沙灘車,沙灘車
-vehicleBlockBuggy01Pickup,block,Blocks,,Buggy - Driveable,沙灘車 - 可駕駛,沙灘車 - 可駕駛
-vehicleBlockBuggy01Empty,block,Blocks,,Buggy - Broken,沙灘車 - 損壞,沙灘車 - 損壞
-,,,,,,
-vehicleMuscleCar01,entity,Entity,,Muscle Car,肌肉車,肌肉車
-vehicleMuscleCar01Placeable,item,Items,,Muscle Car,肌肉車,肌肉車
-vehicleBlockMuscleCar01,block,Blocks,,Muscle Car (Locked),肌肉車 (鎖定),肌肉車 (鎖定)
-vehicleLootBlockMuscleCar01,block,Blocks,,Muscle Car,肌肉車,肌肉車
-vehicleLoot2BlockMuscleCar01,block,Blocks,,Muscle Car,肌肉車,肌肉車
-vehicleBlockMuscleCar01Pickup,block,Blocks,,Muscle Car - Driveable,肌肉車 - 可駕駛,肌肉車 - 可駕駛
-vehicleBlockMuscleCar01Empty,block,Blocks,,Muscle Car - Broken,肌肉車 - 損壞,肌肉車 - 損壞
-,,,,,,
-vehicleApocRV,entity,Entity,,Apocalypse RV,末日休旅車,末日休旅車
-vehicleApocRVPlaceable,item,Items,,Apocalypse RV,末日休旅車,末日休旅車
-vehicleBlockApocRV,block,Blocks,,Apocalypse RV (Locked),末日休旅車 (鎖定),末日休旅車 (鎖定)
-vehicleLootBlockApocRV,block,Blocks,,Apocalypse RV,末日休旅車,末日休旅車
-vehicleLoot2BlockApocRV,block,Blocks,,Apocalypse RV,末日休旅車,末日休旅車
-vehicleBlockApocRVPickup,block,Blocks,,Apocalypse RV - Driveable,末日休旅車 - 可駕駛,末日休旅車 - 可駕駛
-vehicleBlockApocRVEmpty,block,Blocks,,Apocalypse RV - Broken,末日休旅車 - 損壞,末日休旅車 - 損壞
-,,,,,,
-vehicleApocTractor,entity,Entity,,Apocalypse Tractor,末日拖拉機,末日拖拉機
-vehicleApocTractorPlaceable,item,Items,,Apocalypse Tractor,末日拖拉機,末日拖拉機
-vehicleBlockApocTractor,block,Blocks,,Apocalypse Tractor (Locked),末日拖拉機 (鎖定),末日拖拉機 (鎖定)
-vehicleLootBlockApocTractor,block,Blocks,,Apocalypse Tractor,末日拖拉機,末日拖拉機
-vehicleLoot2BlockApocTractor,block,Blocks,,Apocalypse Tractor,末日拖拉機,末日拖拉機
-vehicleBlockApocTractorPickup,block,Blocks,,Apocalypse Tractor - Driveable,末日拖拉機 - 可駕駛,末日拖拉機 - 可駕駛
-vehicleBlockApocTractorEmpty,block,Blocks,,Apocalypse Tractor - Broken,末日拖拉機 - 損壞,末日拖拉機 - 損壞
-,,,,,,
-vehicleHarley,entity,Entity,,Harley,哈雷,哈雷
-vehicleHarleyPlaceable,item,Items,,Harley,哈雷,哈雷
-vehicleBlockHarley,block,Blocks,,Harley (Locked),哈雷 (鎖定),哈雷 (鎖定)
-vehicleLootBlockHarley,block,Blocks,,Harley,哈雷,哈雷
-vehicleLoot2BlockHarley,block,Blocks,,Harley,哈雷,哈雷
-vehicleBlockHarleyPickup,block,Blocks,,Harley - Driveable,哈雷 - 可駕駛,哈雷 - 可駕駛
-vehicleBlockHarleyEmpty,block,Blocks,,Harley - Broken,哈雷 - 損壞,哈雷 - 損壞
-,,,,,,
-vehicleChopper,entity,Entity,,Chopper,Chopper,Chopper
-vehicleChopperPlaceable,item,Items,,Chopper,Chopper,Chopper
-vehicleBlockChopper,block,Blocks,,Chopper (Locked),Chopper (鎖定),Chopper (鎖定)
-vehicleLootBlockChopper,block,Blocks,,Chopper,Chopper,Chopper
-vehicleLoot2BlockChopper,block,Blocks,,Chopper,Chopper,Chopper
-vehicleBlockChopperPickup,block,Blocks,,Chopper - Driveable,Chopper - 可駕駛,Chopper - 可駕駛
-vehicleBlockChopperEmpty,block,Blocks,,Chopper - Broken,Chopper - 損壞,Chopper - 損壞
-,,,,,,
-vehicleMCycle01,entity,Entity,,M-Cycle,M-Cycle,M-Cycle
-vehicleMCycle01Placeable,item,Items,,M-Cycle,M-Cycle,M-Cycle
-vehicleBlockMCycle01,block,Blocks,,M-Cycle (Locked),M-Cycle (鎖定),M-Cycle (鎖定)
-vehicleLootBlockMCycle01,block,Blocks,,M-Cycle,M-Cycle,M-Cycle
-vehicleLoot2BlockMCycle01,block,Blocks,,M-Cycle,M-Cycle,M-Cycle
-vehicleBlockMCycle01Pickup,block,Blocks,,M-Cycle - Driveable,M-Cycle - 可駕駛,M-Cycle - 可駕駛
-vehicleBlockMCycle01Empty,block,Blocks,,M-Cycle - Broken,M-Cycle - 損壞,M-Cycle - 損壞
-,,,,,,
-vehicleRW01,entity,Entity,,Road Warrior #1,公路戰士 #1,公路戰士 #1
-vehicleRW01Placeable,item,Items,,Road Warrior #1,公路戰士 #1,公路戰士 #1
-vehicleBlockRW01,block,Blocks,,Road Warrior #1 (Locked),公路戰士 #1 (鎖定),公路戰士 #1 (鎖定)
-vehicleLootBlockRW01,block,Blocks,,Road Warrior #1,公路戰士 #1,公路戰士 #1
-vehicleLoot2BlockRW01,block,Blocks,,Road Warrior #1,公路戰士 #1,公路戰士 #1
-vehicleBlockRW01Pickup,block,Blocks,,Road Warrior #1 - Driveable,公路戰士 #1 - 可駕駛,公路戰士 #1 - 可駕駛
-vehicleBlockRW01Empty,block,Blocks,,Road Warrior #1 - Broken,公路戰士 #1 - 損壞,公路戰士 #1 - 損壞
-,,,,,,
-vehicleRW02,entity,Entity,,Road Warrior #2,公路戰士 #2,公路戰士 #2
-vehicleRW02Placeable,item,Items,,Road Warrior #2,公路戰士 #2,公路戰士 #2
-vehicleBlockRW02,block,Blocks,,Road Warrior #2 (Locked),公路戰士 #2 (鎖定),公路戰士 #2 (鎖定)
-vehicleLootBlockRW02,block,Blocks,,Road Warrior #2,公路戰士 #2,公路戰士 #2
-vehicleLoot2BlockRW02,block,Blocks,,Road Warrior #2,公路戰士 #2,公路戰士 #2
-vehicleBlockRW02Pickup,block,Blocks,,Road Warrior #2 - Driveable,公路戰士 #2 - 可駕駛,公路戰士 #2 - 可駕駛
-vehicleBlockRW02Empty,block,Blocks,,Road Warrior #2 - Broken,公路戰士 #2 - 損壞,公路戰士 #2 - 損壞
-,,,,,,
-vehicleRW03,entity,Entity,,Road Warrior #3,公路戰士 #3,公路戰士 #3
-vehicleRW03Placeable,item,Items,,Road Warrior #3,公路戰士 #3,公路戰士 #3
-vehicleBlockRW03,block,Blocks,,Road Warrior #3 (Locked),公路戰士 #3 (鎖定),公路戰士 #3 (鎖定)
-vehicleLootBlockRW03,block,Blocks,,Road Warrior #3,公路戰士 #3,公路戰士 #3
-vehicleLoot2BlockRW03,block,Blocks,,Road Warrior #3,公路戰士 #3,公路戰士 #3
-vehicleBlockRW03Pickup,block,Blocks,,Road Warrior #3 - Driveable,公路戰士 #3 - 可駕駛,公路戰士 #3 - 可駕駛
-vehicleBlockRW03Empty,block,Blocks,,Road Warrior #3 - Broken,公路戰士 #3 - 損壞,公路戰士 #3 - 損壞
-,,,,,,
-vehicleRW04,entity,Entity,,Road Warrior #4,公路戰士 #4,公路戰士 #4
-vehicleRW04Placeable,item,Items,,Road Warrior #4,公路戰士 #4,公路戰士 #4
-vehicleBlockRW04,block,Blocks,,Road Warrior #4 (Locked),公路戰士 #4 (鎖定),公路戰士 #4 (鎖定)
-vehicleLootBlockRW04,block,Blocks,,Road Warrior #4,公路戰士 #4,公路戰士 #4
-vehicleLoot2BlockRW04,block,Blocks,,Road Warrior #4,公路戰士 #4,公路戰士 #4
-vehicleBlockRW04Pickup,block,Blocks,,Road Warrior #4 - Driveable,公路戰士 #4 - 可駕駛,公路戰士 #4 - 可駕駛
-vehicleBlockRW04Empty,block,Blocks,,Road Warrior #4 - Broken,公路戰士 #4 - 損壞,公路戰士 #4 - 損壞
-,,,,,,
-vehicleRW05,entity,Entity,,Road Warrior #5,公路戰士 #5,公路戰士 #5
-vehicleRW05Placeable,item,Items,,Road Warrior #5,公路戰士 #5,公路戰士 #5
-vehicleBlockRW05,block,Blocks,,Road Warrior #5 (Locked),公路戰士 #5 (鎖定),公路戰士 #5 (鎖定)
-vehicleLootBlockRW05,block,Blocks,,Road Warrior #5,公路戰士 #5,公路戰士 #5
-vehicleLoot2BlockRW05,block,Blocks,,Road Warrior #5,公路戰士 #5,公路戰士 #5
-vehicleBlockRW05Pickup,block,Blocks,,Road Warrior #5 - Driveable,公路戰士 #5 - 可駕駛,公路戰士 #5 - 可駕駛
-vehicleBlockRW05Empty,block,Blocks,,Road Warrior #5 - Broken,公路戰士 #5 - 損壞,公路戰士 #5 - 損壞
-,,,,,,
-vehicleRW06,entity,Entity,,Road Warrior #6,公路戰士 #6,公路戰士 #6
-vehicleRW06Placeable,item,Items,,Road Warrior #6,公路戰士 #6,公路戰士 #6
-vehicleBlockRW06,block,Blocks,,Road Warrior #6 (Locked),公路戰士 #6 (鎖定),公路戰士 #6 (鎖定)
-vehicleLootBlockRW06,block,Blocks,,Road Warrior #6,公路戰士 #6,公路戰士 #6
-vehicleLoot2BlockRW06,block,Blocks,,Road Warrior #6,公路戰士 #6,公路戰士 #6
-vehicleBlockRW06Pickup,block,Blocks,,Road Warrior #6 - Driveable,公路戰士 #6 - 可駕駛,公路戰士 #6 - 可駕駛
-vehicleBlockRW06Empty,block,Blocks,,Road Warrior #6 - Broken,公路戰士 #6 - 損壞,公路戰士 #6 - 損壞
-,,,,,,
-vehicleRW07,entity,Entity,,Road Warrior #7,公路戰士 #7,公路戰士 #7
-vehicleRW07Placeable,item,Items,,Road Warrior #7,公路戰士 #7,公路戰士 #7
-vehicleBlockRW07,block,Blocks,,Road Warrior #7 (Locked),公路戰士 #7 (鎖定),公路戰士 #7 (鎖定)
-vehicleLootBlockRW07,block,Blocks,,Road Warrior #7,公路戰士 #7,公路戰士 #7
-vehicleLoot2BlockRW07,block,Blocks,,Road Warrior #7,公路戰士 #7,公路戰士 #7
-vehicleBlockRW07Pickup,block,Blocks,,Road Warrior #7 - Driveable,公路戰士 #7 - 可駕駛,公路戰士 #7 - 可駕駛
-vehicleBlockRW07Empty,block,Blocks,,Road Warrior #7 - Broken,公路戰士 #7 - 損壞,公路戰士 #7 - 損壞
-,,,,,,
+Key,Source,Context,Changes,English,tchinese
+,,,,,
+,,,,,
+vehicleBattle01,entity,Entity,,Derby Buggy,Derby Buggy
+vehicleBattle01Placeable,item,Items,,Derby Buggy,Derby Buggy
+vehicleBlockBattle01,block,Blocks,,Derby Buggy (Locked),Derby Buggy (鎖定)
+vehicleLootBlockBattle01,block,Blocks,,Derby Buggy,Derby Buggy
+vehicleLoot2BlockBattle01,block,Blocks,,Derby Buggy,Derby Buggy
+vehicleBlockBattle01Pickup,block,Blocks,,Derby Buggy - Driveable,Derby Buggy - 可駕駛
+vehicleBlockBattle01Empty,block,Blocks,,Derby Buggy - Broken,Derby Buggy - 損壞
+,,,,,
+vehicleBattle02,entity,Entity,,Derby #1,Derby #1
+vehicleBattle02Placeable,item,Items,,Derby #1,Derby #1
+vehicleBlockBattle02,block,Blocks,,Derby #1 (Locked),Derby #1 (鎖定)
+vehicleLootBlockBattle02,block,Blocks,,Derby #1,Derby #1
+vehicleLoot2BlockBattle02,block,Blocks,,Derby #1,Derby #1
+vehicleBlockBattle02Pickup,block,Blocks,,Derby #1 - Driveable,Derby #1 - 可駕駛
+vehicleBlockBattle02Empty,block,Blocks,,Derby #1 - Broken,Derby #1 - 損壞
+,,,,,
+vehicleBattle03,entity,Entity,,Derby #2,Derby #2
+vehicleBattle03Placeable,item,Items,,Derby #2,Derby #2
+vehicleBlockBattle03,block,Blocks,,Derby #2 (Locked),Derby #2 (鎖定)
+vehicleLootBlockBattle03,block,Blocks,,Derby #2,Derby #2
+vehicleLoot2BlockBattle03,block,Blocks,,Derby #2,Derby #2
+vehicleBlockBattle03Pickup,block,Blocks,,Derby #2 - Driveable,Derby #2 - 可駕駛
+vehicleBlockBattle03Empty,block,Blocks,,Derby #2 - Broken,Derby #2 - 損壞
+,,,,,
+vehicleBattle04,entity,Entity,,Derby #3,Derby #3
+vehicleBattle04Placeable,item,Items,,Derby #3,Derby #3
+vehicleBlockBattle04,block,Blocks,,Derby #3 (Locked),Derby #3 (鎖定)
+vehicleLootBlockBattle04,block,Blocks,,Derby #3,Derby #3
+vehicleLoot2BlockBattle04,block,Blocks,,Derby #3,Derby #3
+vehicleBlockBattle04Pickup,block,Blocks,,Derby #3 - Driveable,Derby #3 - 可駕駛
+vehicleBlockBattle04Empty,block,Blocks,,Derby #3 - Broken,Derby #3 - 損壞
+,,,,,
+vehicleBattle05,entity,Entity,,Derby #4,Derby #4
+vehicleBattle05Placeable,item,Items,,Derby #5,Derby #5
+vehicleBlockBattle05,block,Blocks,,Derby #4 (Locked),Derby #4 (鎖定)
+vehicleLootBlockBattle05,block,Blocks,,Derby #4,Derby #4
+vehicleLoot2BlockBattle05,block,Blocks,,Derby #4,Derby #4
+vehicleBlockBattle05Pickup,block,Blocks,,Derby #4 - Driveable,Derby #4 - 可駕駛
+vehicleBlockBattle05Empty,block,Blocks,,Derby #4 - Broken,Derby #4 - 損壞
+,,,,,
+vehicleBattle06,entity,Entity,,Derby #5,Derby #5
+vehicleBattle06Placeable,item,Items,,Derby #5,Derby #5
+vehicleBlockBattle06,block,Blocks,,Derby #5 (Locked),Derby #5 (鎖定)
+vehicleLootBlockBattle06,block,Blocks,,Derby #5,Derby #5
+vehicleLoot2BlockBattle06,block,Blocks,,Derby #5,Derby #5
+vehicleBlockBattle06Pickup,block,Blocks,,Derby #5 - Driveable,Derby #5 - 可駕駛
+vehicleBlockBattle06Empty,block,Blocks,,Derby #5 - Broken,Derby #5 - 損壞
+,,,,,
+vehicleSuperCar01,entity,Entity,,Sports Car #1,跑車 #1
+vehicleSuperCar01Placeable,item,Items,,Sports Car #1,跑車 #1
+vehicleBlockSuperCar01,block,Blocks,,Sports Car #1 (Locked),跑車 #1 (鎖定)
+vehicleLootBlockSuperCar01,block,Blocks,,Sports Car #1,跑車 #1
+vehicleLoot2BlockSuperCar01,block,Blocks,,Sports Car #1,跑車 #1
+vehicleBlockSuperCar01Pickup,block,Blocks,,Sports Car #1 - Driveable,跑車 #1 - 可駕駛
+vehicleBlockSuperCar01Empty,block,Blocks,,Sports Car #1 - Broken,跑車 #1 - 損壞
+,,,,,
+vehicleSuperCar02,entity,Entity,,Sports Car #2,跑車 #2
+vehicleSuperCar02Placeable,item,Items,,Sports Car #2,跑車 #2
+vehicleBlockSuperCar02,block,Blocks,,Sports Car #2 (Locked),跑車 #2 (鎖定)
+vehicleLootBlockSuperCar02,block,Blocks,,Sports Car #2,跑車 #2
+vehicleLoot2BlockSuperCar02,block,Blocks,,Sports Car #2,跑車 #2
+vehicleBlockSuperCar02Pickup,block,Blocks,,Sports Car #2 - Driveable,跑車 #2 - 可駕駛
+vehicleBlockSuperCar02Empty,block,Blocks,,Sports Car #2 - Broken,跑車 #2 - 損壞
+,,,,,
+vehicleSuperCar03,entity,Entity,,Sports Car #3,跑車 #3
+vehicleSuperCar03Placeable,item,Items,,Sports Car #3,跑車 #3
+vehicleBlockSuperCar03,block,Blocks,,Sports Car #3 (Locked),跑車 #3 (鎖定)
+vehicleLootBlockSuperCar03,block,Blocks,,Sports Car #3,跑車 #3
+vehicleLoot2BlockSuperCar03,block,Blocks,,Sports Car #3,跑車 #3
+vehicleBlockSuperCar03Pickup,block,Blocks,,Sports Car #3 - Driveable,跑車 #3 - 可駕駛
+vehicleBlockSuperCar03Empty,block,Blocks,,Sports Car #3 - Broken,跑車 #3 - 損壞
+,,,,,
+vehicleRickShawBlue,entity,Entity,,RickShaw,人力車
+vehicleRickShawBluePlaceable,item,Items,,RickShaw,人力車
+vehicleBlockRickShawBlue,block,Blocks,,RickShaw (Locked),人力車 (鎖定)
+vehicleLootBlockRickShawBlue,block,Blocks,,RickShaw,人力車
+vehicleLoot2BlockRickShawBlue,block,Blocks,,RickShaw,人力車
+vehicleBlockRickShawBluePickup,block,Blocks,,RickShaw - Driveable,人力車 - 可駕駛
+vehicleBlockRickShawBlueEmpty,block,Blocks,,RickShaw - Broken,人力車 - 損壞
+,,,,,
+vehicleCyberDelorean,entity,Entity,,Cyber Delorean,Cyber Delorean
+vehicleCyberDeloreanPlaceable,item,Items,,Cyber Delorean,Cyber Delorean
+vehicleBlockCyberDelorean,block,Blocks,,Cyber Delorean (Locked),Cyber Delorean (鎖定)
+vehicleLootBlockCyberDelorean,block,Blocks,,Cyber Delorean,Cyber Delorean
+vehicleLoot2BlockCyberDelorean,block,Blocks,,Cyber Delorean,Cyber Delorean
+vehicleBlockCyberDeloreanPickup,block,Blocks,,Cyber Delorean - Driveable,Cyber Delorean - 可駕駛
+vehicleBlockCyberDeloreanEmpty,block,Blocks,,Cyber Delorean - Broken,Cyber Delorean - 損壞
+,,,,,
+vehicleBatCar01,entity,Entity,,Bat Tumbler,蝙蝠車
+vehicleBatCar01Placeable,item,Items,,Bat Tumbler,蝙蝠車
+vehicleBlockBatCar01,block,Blocks,,Bat Tumbler (Locked),蝙蝠車 (鎖定)
+vehicleLootBlockBatCar01,block,Blocks,,Bat Tumbler,蝙蝠車
+vehicleLoot2BlockBatCar01,block,Blocks,,Bat Tumbler,蝙蝠車
+vehicleBlockBatCar01Pickup,block,Blocks,,Bat Tumbler - Driveable,蝙蝠車 - 可駕駛
+vehicleBlockBatCar01Empty,block,Blocks,,Bat Tumbler - Broken,蝙蝠車 - 損壞
+,,,,,
+vehicleScooter,entity,Entity,,Scooter,速克達
+vehicleScooterPlaceable,item,Items,,Scooter,速克達
+vehicleBlockScooter,block,Blocks,,Scooter (Locked),速克達 (鎖定)
+vehicleLootBlockScooter,block,Blocks,,Scooter,速克達
+vehicleLoot2BlockScooter,block,Blocks,,Scooter,速克達
+vehicleBlockScooterPickup,block,Blocks,,Scooter - Driveable,速克達 - 可駕駛
+vehicleBlockScooterEmpty,block,Blocks,,Scooter - Broken,速克達 - 損壞
+,,,,,
+vehicleSportsCarWhite,entity,Entity,,Sports Car,跑車
+vehicleSportsCarWhitePlaceable,item,Items,,Sports Car,跑車
+vehicleBlockSportsCarWhite,block,Blocks,,Sports Car (Locked),跑車 (鎖定)
+vehicleLootBlockSportsCarWhite,block,Blocks,,Sports Car,跑車
+vehicleLoot2BlockSportsCarWhite,block,Blocks,,Sports Car,跑車
+vehicleBlockSportsCarWhitePickup,block,Blocks,,Sports Car - Driveable,跑車 - 可駕駛
+vehicleBlockSportsCarWhiteEmpty,block,Blocks,,Sports Car - Broken,跑車 - 損壞
+,,,,,
+vehicleHotRod01,entity,Entity,,Hot Rod,熱棒車
+vehicleHotRod01Placeable,item,Items,,Hot Rod,熱棒車
+vehicleBlockHotRod01,block,Blocks,,Hot Rod (Locked),熱棒車 (鎖定)
+vehicleLootBlockHotRod01,block,Blocks,,Hot Rod,熱棒車
+vehicleLoot2BlockHotRod01,block,Blocks,,Hot Rod,熱棒車
+vehicleBlockHotRod01Pickup,block,Blocks,,Hot Rod - Driveable,熱棒車 - 可駕駛
+vehicleBlockHotRod01Empty,block,Blocks,,Hot Rod - Broken,熱棒車 - 損壞
+,,,,,
+vehicleFeature01,entity,Entity,,Feature,特色
+vehicleFeature01Placeable,item,Items,,Feature,特色
+vehicleBlockFeature01,block,Blocks,,Feature (Locked),特色 (鎖定)
+vehicleLootBlockFeature01,block,Blocks,,Feature,特色
+vehicleLoot2BlockFeature01,block,Blocks,,Feature,特色
+vehicleBlockFeature01Pickup,block,Blocks,,Feature - Driveable,特色 - 可駕駛
+vehicleBlockFeature01Empty,block,Blocks,,Feature - Broken,特色 - 損壞
+,,,,,
+vehicleBuggy01,entity,Entity,,Buggy,沙灘車
+vehicleBuggy01Placeable,item,Items,,Buggy,沙灘車
+vehicleBlockBuggy01,block,Blocks,,Buggy (Locked),沙灘車 (鎖定)
+vehicleLootBlockBuggy01,block,Blocks,,Buggy,沙灘車
+vehicleLoot2BlockBuggy01,block,Blocks,,Buggy,沙灘車
+vehicleBlockBuggy01Pickup,block,Blocks,,Buggy - Driveable,沙灘車 - 可駕駛
+vehicleBlockBuggy01Empty,block,Blocks,,Buggy - Broken,沙灘車 - 損壞
+,,,,,
+vehicleMuscleCar01,entity,Entity,,Muscle Car,肌肉車
+vehicleMuscleCar01Placeable,item,Items,,Muscle Car,肌肉車
+vehicleBlockMuscleCar01,block,Blocks,,Muscle Car (Locked),肌肉車 (鎖定)
+vehicleLootBlockMuscleCar01,block,Blocks,,Muscle Car,肌肉車
+vehicleLoot2BlockMuscleCar01,block,Blocks,,Muscle Car,肌肉車
+vehicleBlockMuscleCar01Pickup,block,Blocks,,Muscle Car - Driveable,肌肉車 - 可駕駛
+vehicleBlockMuscleCar01Empty,block,Blocks,,Muscle Car - Broken,肌肉車 - 損壞
+,,,,,
+vehicleApocRV,entity,Entity,,Apocalypse RV,末日休旅車
+vehicleApocRVPlaceable,item,Items,,Apocalypse RV,末日休旅車
+vehicleBlockApocRV,block,Blocks,,Apocalypse RV (Locked),末日休旅車 (鎖定)
+vehicleLootBlockApocRV,block,Blocks,,Apocalypse RV,末日休旅車
+vehicleLoot2BlockApocRV,block,Blocks,,Apocalypse RV,末日休旅車
+vehicleBlockApocRVPickup,block,Blocks,,Apocalypse RV - Driveable,末日休旅車 - 可駕駛
+vehicleBlockApocRVEmpty,block,Blocks,,Apocalypse RV - Broken,末日休旅車 - 損壞
+,,,,,
+vehicleApocTractor,entity,Entity,,Apocalypse Tractor,末日拖拉機
+vehicleApocTractorPlaceable,item,Items,,Apocalypse Tractor,末日拖拉機
+vehicleBlockApocTractor,block,Blocks,,Apocalypse Tractor (Locked),末日拖拉機 (鎖定)
+vehicleLootBlockApocTractor,block,Blocks,,Apocalypse Tractor,末日拖拉機
+vehicleLoot2BlockApocTractor,block,Blocks,,Apocalypse Tractor,末日拖拉機
+vehicleBlockApocTractorPickup,block,Blocks,,Apocalypse Tractor - Driveable,末日拖拉機 - 可駕駛
+vehicleBlockApocTractorEmpty,block,Blocks,,Apocalypse Tractor - Broken,末日拖拉機 - 損壞
+,,,,,
+vehicleHarley,entity,Entity,,Harley,哈雷
+vehicleHarleyPlaceable,item,Items,,Harley,哈雷
+vehicleBlockHarley,block,Blocks,,Harley (Locked),哈雷 (鎖定)
+vehicleLootBlockHarley,block,Blocks,,Harley,哈雷
+vehicleLoot2BlockHarley,block,Blocks,,Harley,哈雷
+vehicleBlockHarleyPickup,block,Blocks,,Harley - Driveable,哈雷 - 可駕駛
+vehicleBlockHarleyEmpty,block,Blocks,,Harley - Broken,哈雷 - 損壞
+,,,,,
+vehicleChopper,entity,Entity,,Chopper,Chopper
+vehicleChopperPlaceable,item,Items,,Chopper,Chopper
+vehicleBlockChopper,block,Blocks,,Chopper (Locked),Chopper (鎖定)
+vehicleLootBlockChopper,block,Blocks,,Chopper,Chopper
+vehicleLoot2BlockChopper,block,Blocks,,Chopper,Chopper
+vehicleBlockChopperPickup,block,Blocks,,Chopper - Driveable,Chopper - 可駕駛
+vehicleBlockChopperEmpty,block,Blocks,,Chopper - Broken,Chopper - 損壞
+,,,,,
+vehicleMCycle01,entity,Entity,,M-Cycle,M-Cycle
+vehicleMCycle01Placeable,item,Items,,M-Cycle,M-Cycle
+vehicleBlockMCycle01,block,Blocks,,M-Cycle (Locked),M-Cycle (鎖定)
+vehicleLootBlockMCycle01,block,Blocks,,M-Cycle,M-Cycle
+vehicleLoot2BlockMCycle01,block,Blocks,,M-Cycle,M-Cycle
+vehicleBlockMCycle01Pickup,block,Blocks,,M-Cycle - Driveable,M-Cycle - 可駕駛
+vehicleBlockMCycle01Empty,block,Blocks,,M-Cycle - Broken,M-Cycle - 損壞
+,,,,,
+vehicleRW01,entity,Entity,,Road Warrior #1,公路戰士 #1
+vehicleRW01Placeable,item,Items,,Road Warrior #1,公路戰士 #1
+vehicleBlockRW01,block,Blocks,,Road Warrior #1 (Locked),公路戰士 #1 (鎖定)
+vehicleLootBlockRW01,block,Blocks,,Road Warrior #1,公路戰士 #1
+vehicleLoot2BlockRW01,block,Blocks,,Road Warrior #1,公路戰士 #1
+vehicleBlockRW01Pickup,block,Blocks,,Road Warrior #1 - Driveable,公路戰士 #1 - 可駕駛
+vehicleBlockRW01Empty,block,Blocks,,Road Warrior #1 - Broken,公路戰士 #1 - 損壞
+,,,,,
+vehicleRW02,entity,Entity,,Road Warrior #2,公路戰士 #2
+vehicleRW02Placeable,item,Items,,Road Warrior #2,公路戰士 #2
+vehicleBlockRW02,block,Blocks,,Road Warrior #2 (Locked),公路戰士 #2 (鎖定)
+vehicleLootBlockRW02,block,Blocks,,Road Warrior #2,公路戰士 #2
+vehicleLoot2BlockRW02,block,Blocks,,Road Warrior #2,公路戰士 #2
+vehicleBlockRW02Pickup,block,Blocks,,Road Warrior #2 - Driveable,公路戰士 #2 - 可駕駛
+vehicleBlockRW02Empty,block,Blocks,,Road Warrior #2 - Broken,公路戰士 #2 - 損壞
+,,,,,
+vehicleRW03,entity,Entity,,Road Warrior #3,公路戰士 #3
+vehicleRW03Placeable,item,Items,,Road Warrior #3,公路戰士 #3
+vehicleBlockRW03,block,Blocks,,Road Warrior #3 (Locked),公路戰士 #3 (鎖定)
+vehicleLootBlockRW03,block,Blocks,,Road Warrior #3,公路戰士 #3
+vehicleLoot2BlockRW03,block,Blocks,,Road Warrior #3,公路戰士 #3
+vehicleBlockRW03Pickup,block,Blocks,,Road Warrior #3 - Driveable,公路戰士 #3 - 可駕駛
+vehicleBlockRW03Empty,block,Blocks,,Road Warrior #3 - Broken,公路戰士 #3 - 損壞
+,,,,,
+vehicleRW04,entity,Entity,,Road Warrior #4,公路戰士 #4
+vehicleRW04Placeable,item,Items,,Road Warrior #4,公路戰士 #4
+vehicleBlockRW04,block,Blocks,,Road Warrior #4 (Locked),公路戰士 #4 (鎖定)
+vehicleLootBlockRW04,block,Blocks,,Road Warrior #4,公路戰士 #4
+vehicleLoot2BlockRW04,block,Blocks,,Road Warrior #4,公路戰士 #4
+vehicleBlockRW04Pickup,block,Blocks,,Road Warrior #4 - Driveable,公路戰士 #4 - 可駕駛
+vehicleBlockRW04Empty,block,Blocks,,Road Warrior #4 - Broken,公路戰士 #4 - 損壞
+,,,,,
+vehicleRW05,entity,Entity,,Road Warrior #5,公路戰士 #5
+vehicleRW05Placeable,item,Items,,Road Warrior #5,公路戰士 #5
+vehicleBlockRW05,block,Blocks,,Road Warrior #5 (Locked),公路戰士 #5 (鎖定)
+vehicleLootBlockRW05,block,Blocks,,Road Warrior #5,公路戰士 #5
+vehicleLoot2BlockRW05,block,Blocks,,Road Warrior #5,公路戰士 #5
+vehicleBlockRW05Pickup,block,Blocks,,Road Warrior #5 - Driveable,公路戰士 #5 - 可駕駛
+vehicleBlockRW05Empty,block,Blocks,,Road Warrior #5 - Broken,公路戰士 #5 - 損壞
+,,,,,
+vehicleRW06,entity,Entity,,Road Warrior #6,公路戰士 #6
+vehicleRW06Placeable,item,Items,,Road Warrior #6,公路戰士 #6
+vehicleBlockRW06,block,Blocks,,Road Warrior #6 (Locked),公路戰士 #6 (鎖定)
+vehicleLootBlockRW06,block,Blocks,,Road Warrior #6,公路戰士 #6
+vehicleLoot2BlockRW06,block,Blocks,,Road Warrior #6,公路戰士 #6
+vehicleBlockRW06Pickup,block,Blocks,,Road Warrior #6 - Driveable,公路戰士 #6 - 可駕駛
+vehicleBlockRW06Empty,block,Blocks,,Road Warrior #6 - Broken,公路戰士 #6 - 損壞
+,,,,,
+vehicleRW07,entity,Entity,,Road Warrior #7,公路戰士 #7
+vehicleRW07Placeable,item,Items,,Road Warrior #7,公路戰士 #7
+vehicleBlockRW07,block,Blocks,,Road Warrior #7 (Locked),公路戰士 #7 (鎖定)
+vehicleLootBlockRW07,block,Blocks,,Road Warrior #7,公路戰士 #7
+vehicleLoot2BlockRW07,block,Blocks,,Road Warrior #7,公路戰士 #7
+vehicleBlockRW07Pickup,block,Blocks,,Road Warrior #7 - Driveable,公路戰士 #7 - 可駕駛
+vehicleBlockRW07Empty,block,Blocks,,Road Warrior #7 - Broken,公路戰士 #7 - 損壞
+,,,,,
 vehicleRW08,entity,Entity,,Road Warrior #8,"
-公路戰士 #8","
 公路戰士 #8"
 vehicleRW08Placeable,item,Items,,Road Warrior #8,"
-公路戰士 #8","
 公路戰士 #8"
 vehicleBlockRW08,block,Blocks,,Road Warrior #8 (Locked),"
-公路戰士 #8 (鎖定)","
 公路戰士 #8 (鎖定)"
 vehicleLootBlockRW08,block,Blocks,,Road Warrior #8,"
-公路戰士 #8","
 公路戰士 #8"
 vehicleLoot2BlockRW08,block,Blocks,,Road Warrior #8,"
-公路戰士 #8","
 公路戰士 #8"
 vehicleBlockRW08Pickup,block,Blocks,,Road Warrior #8 - Driveable,"
-公路戰士 #8 - 可駕駛","
 公路戰士 #8 - 可駕駛"
 vehicleBlockRW08Empty,block,Blocks,,Road Warrior #8 - Broken,"
-公路戰士 #8 - 損壞","
 公路戰士 #8 - 損壞"
-,,,,,,
+,,,,,
 vehicleRW09,entity,Entity,,Road Warrior #9,"
-公路戰士 #9","
 公路戰士 #9"
 vehicleRW09Placeable,item,Items,,Road Warrior #9,"
-公路戰士 #9","
 公路戰士 #9"
 vehicleBlockRW09,block,Blocks,,Road Warrior #9 (Locked),"
-公路戰士 #9 (鎖定)","
 公路戰士 #9 (鎖定)"
 vehicleLootBlockRW09,block,Blocks,,Road Warrior #9,"
-公路戰士 #9","
 公路戰士 #9"
 vehicleLoot2BlockRW09,block,Blocks,,Road Warrior #9,"
-公路戰士 #9","
 公路戰士 #9"
 vehicleBlockRW09Pickup,block,Blocks,,Road Warrior #9 - Driveable,"
-公路戰士 #9 - 可駕駛","
 公路戰士 #9 - 可駕駛"
 vehicleBlockRW09Empty,block,Blocks,,Road Warrior #9 - Broken,"
-公路戰士 #9 - 損壞","
 公路戰士 #9 - 損壞"

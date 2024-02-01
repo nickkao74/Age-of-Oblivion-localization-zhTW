@@ -1,29 +1,29 @@
-Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish,中文機翻
-,,,,,,,,,,,,,,,,,,,,
-Oakbatterybank,blocks,Block,,,Oakraven Battery Bank 1,,,,,,,,,,,,,Oakraven 電池組 1,,Oakraven 電池組 1
-Oakbatterybank2,blocks,Block,,,Oakraven Battery Bank 2,,,,,,,,,,,,,Oakraven 電池組 2,,Oakraven 電池組 2
-OakbatterybankDesc,blocks,Block,,,Add charged Power Cells to the Oakraven Battery Bank to provide a release of energy for objects that require power.,,,,,,,,,,,,,將已充電的電力電池加入 Oakraven 電池組，以提供能量釋放給需要電力的物件。,,將已充電的電力電池加入 Oakraven 電池組，以提供能量釋放給需要電力的物件。
-ArramusSolarPower,blocks,Block,,,Oakraven Solar Power Array,,,,,,,,,,,,,Oakraven 太陽能電池陣列,,Oakraven 太陽能電池陣列
-ArramusSolarPowerDesc,blocks,Block,,,The Oakraven Solar Power Array requires Oakraven Solar Cells. It will produce energy for connected objects that require power.,,,,,,,,,,,,,Oakraven 太陽能電池陣列需要 Oakraven 太陽能電池。它會為需要電力的連接物件產生能量。,,Oakraven 太陽能電池陣列需要 Oakraven 太陽能電池。它會為需要電力的連接物件產生能量。
-ArramusTurretPower,blocks,Block,,,Oakraven Turret Solar Power Array,,,,,,,,,,,,,Oakraven 砲塔太陽能電池陣列,,Oakraven 砲塔太陽能電池陣列
-ArramusTurretPowerDesc,blocks,Block,,,The Oakraven Turret Solar Power Array requires Oakraven Solar Cells. It will produce energy for connected objects that require power.,,,,,,,,,,,,,Oakraven 砲塔太陽能電池陣列需要 Oakraven 太陽能電池。它會為需要電力的連接物件產生能量。,,Oakraven 砲塔太陽能電池陣列需要 Oakraven 太陽能電池。它會為需要電力的連接物件產生能量。
-OakGenerator,blocks,Block,,,Oakraven Generator 1,,,,,,,,,,,,,Oakraven 發電機 1,,Oakraven 發電機 1
-OakGeneratorDesc,blocks,Block,,,The Oakraven Generator 1 converts fuel into electrical energy to power connected objects. It can also recharge Oakraven Power Cells.,,,,,,,,,,,,,Oakraven 發電機 1 將燃料轉換為電能，以供電給連接的物件。它也可以為 Oakraven 電力電池充電。,,Oakraven 發電機 1 將燃料轉換為電能，以供電給連接的物件。它也可以為 Oakraven 電力電池充電。
-OakGenerator2,blocks,Block,,,Oakraven Generator 2,,,,,,,,,,,,,Oakraven 發電機 2,,Oakraven 發電機 2
-OakGenerator2Desc,blocks,Block,,,The Oakraven Generator 2 converts fuel into electrical energy to power connected objects. It can also recharge Oakraven Power Cells.,,,,,,,,,,,,,Oakraven 發電機 2 將燃料轉換為電能，以供電給連接的物件。它也可以為 Oakraven 電力電池充電。,,Oakraven 發電機 2 將燃料轉換為電能，以供電給連接的物件。它也可以為 Oakraven 電力電池充電。
-OakBlackBetty,blocks,Block,,,Oakraven Generator - Black Betty,,,,,,,,,,,,,Oakraven 發電機 - 黑貝蒂,,Oakraven 發電機 - 黑貝蒂
-OakBlackBettyDesc,blocks,Block,,,The Oakraven Generator - Black Betty converts fuel into electrical energy to power connected objects. It can also recharge Oakraven Power Cells.,,,,,,,,,,,,,Oakraven 發電機 - 黑貝蒂將燃料轉換為電能，以供電給連接的物件。它也可以為 Oakraven 電力電池充電。,,Oakraven 發電機 - 黑貝蒂將燃料轉換為電能，以供電給連接的物件。它也可以為 Oakraven 電力電池充電。
-WorkbenchPowerCell,blocks,Block,,,Oakraven Power Workbench,,,,,,,,,,,,,Oakraven 電力工作台,,Oakraven 電力工作台
-WorkbenchPowerCellDesc,blocks,Block,,,"The Oakraven Power Workbench allows players to create Oakraven Battery Banks, Oakraven Generators, Oakraven Solar Arrays, Oakraven Power Cells, and Oakraven Solar Cells.",,,,,,,,,,,,,Oakraven 電力工作台允許玩家製作 Oakraven 電池組、Oakraven 發電機、Oakraven 太陽能陣列、Oakraven 電力電池和 Oakraven 太陽能電池。,,Oakraven 電力工作台允許玩家製作 Oakraven 電池組、Oakraven 發電機、Oakraven 太陽能陣列、Oakraven 電力電池和 Oakraven 太陽能電池。
-CrystalRock,blocks,Block,,,Crystal Rock,,,,,,,,,,,,,水晶岩,,水晶岩
-CrystalRockDesc,blocks,Block,,,Crystal Rock (Chop),,,,,,,,,,,,,水晶岩（切碎）,,水晶岩（切碎）
-BlueRock,blocks,Block,,,Blue Rock,,,,,,,,,,,,,藍色岩石,,藍色岩石
-BlueRockDesc,blocks,Block,,,Blue Rock (Chop),,,,,,,,,,,,,藍色岩石（切碎）,,藍色岩石（切碎）
-PowerCell,items,Item,,,Oakraven Power Cell,,,,,,,,,,,,,Oakraven 電力電池,,Oakraven 電力電池
-PowerCellDesc,items,Item,,,The Oakraven Power Cell stores electrical energy and can power connected objects when housed in an Oakraven Battery Bank. It can be recharged directly in an Oakraven Generator or when the Oakraven Battery Bank is connected to an Oakraven Solar Array or Oakraven Turret.,,,,,,,,,,,,,Oakraven 電力電池儲存電能，當裝入 Oakraven 電池組時，可以為連接的物件供電。它可以在 Oakraven 發電機中直接充電，或當 Oakraven 電池組連接到 Oakraven 太陽能陣列或 Oakraven 砲塔時充電。,,Oakraven 電力電池儲存電能，當裝入 Oakraven 電池組時，可以為連接的物件供電。它可以在 Oakraven 發電機中直接充電，或當 Oakraven 電池組連接到 Oakraven 太陽能陣列或 Oakraven 砲塔時充電。
-solarCell,items,Item,,,Oakraven Solar Cell,,,,,,,,,,,,,Oakraven 太陽能電池,,Oakraven 太陽能電池
-solarCellDesc,items,Item,,,The Oakraven Solar Cell harnesses energy when added to the Oakraven Solar Array or Oakraven Turret.,,,,,,,,,,,,,Oakraven 太陽能電池在加入 Oakraven 太陽能陣列或 Oakraven 砲塔時利用能量。,,Oakraven 太陽能電池在加入 Oakraven 太陽能陣列或 Oakraven 砲塔時利用能量。
-resourceCrystalRock,items,Item,,,Crystal Rock,,,,,,,,,,,,,水晶岩,,水晶岩
-resourceCrystalRockDesc,items,Item,,,Crystal Rock is used in the manufacture of the Oakraven Power Cell.,,,,,,,,,,,,,水晶岩用於製造 Oakraven 電力電池。,,水晶岩用於製造 Oakraven 電力電池。
-resourceBlueRock,items,Item,,,Blue Rock,,,,,,,,,,,,,藍色岩石,,藍色岩石
-resourceBlueRockDesc,items,Item,,,Blue Rock is used in the manufacture of the Oakraven Solar Cell.,,,,,,,,,,,,,藍色岩石用於製造 Oakraven 太陽能電池。,,藍色岩石用於製造 Oakraven 太陽能電池。
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+,,,,,,,,,,,,,,,,,,,
+Oakbatterybank,blocks,Block,,,Oakraven Battery Bank 1,,,,,,,,,,,,,Oakraven 電池組 1,
+Oakbatterybank2,blocks,Block,,,Oakraven Battery Bank 2,,,,,,,,,,,,,Oakraven 電池組 2,
+OakbatterybankDesc,blocks,Block,,,Add charged Power Cells to the Oakraven Battery Bank to provide a release of energy for objects that require power.,,,,,,,,,,,,,將已充電的電力電池加入 Oakraven 電池組，以提供能量釋放給需要電力的物件。,
+ArramusSolarPower,blocks,Block,,,Oakraven Solar Power Array,,,,,,,,,,,,,Oakraven 太陽能電池陣列,
+ArramusSolarPowerDesc,blocks,Block,,,The Oakraven Solar Power Array requires Oakraven Solar Cells. It will produce energy for connected objects that require power.,,,,,,,,,,,,,Oakraven 太陽能電池陣列需要 Oakraven 太陽能電池。它會為需要電力的連接物件產生能量。,
+ArramusTurretPower,blocks,Block,,,Oakraven Turret Solar Power Array,,,,,,,,,,,,,Oakraven 砲塔太陽能電池陣列,
+ArramusTurretPowerDesc,blocks,Block,,,The Oakraven Turret Solar Power Array requires Oakraven Solar Cells. It will produce energy for connected objects that require power.,,,,,,,,,,,,,Oakraven 砲塔太陽能電池陣列需要 Oakraven 太陽能電池。它會為需要電力的連接物件產生能量。,
+OakGenerator,blocks,Block,,,Oakraven Generator 1,,,,,,,,,,,,,Oakraven 發電機 1,
+OakGeneratorDesc,blocks,Block,,,The Oakraven Generator 1 converts fuel into electrical energy to power connected objects. It can also recharge Oakraven Power Cells.,,,,,,,,,,,,,Oakraven 發電機 1 將燃料轉換為電能，以供電給連接的物件。它也可以為 Oakraven 電力電池充電。,
+OakGenerator2,blocks,Block,,,Oakraven Generator 2,,,,,,,,,,,,,Oakraven 發電機 2,
+OakGenerator2Desc,blocks,Block,,,The Oakraven Generator 2 converts fuel into electrical energy to power connected objects. It can also recharge Oakraven Power Cells.,,,,,,,,,,,,,Oakraven 發電機 2 將燃料轉換為電能，以供電給連接的物件。它也可以為 Oakraven 電力電池充電。,
+OakBlackBetty,blocks,Block,,,Oakraven Generator - Black Betty,,,,,,,,,,,,,Oakraven 發電機 - 黑貝蒂,
+OakBlackBettyDesc,blocks,Block,,,The Oakraven Generator - Black Betty converts fuel into electrical energy to power connected objects. It can also recharge Oakraven Power Cells.,,,,,,,,,,,,,Oakraven 發電機 - 黑貝蒂將燃料轉換為電能，以供電給連接的物件。它也可以為 Oakraven 電力電池充電。,
+WorkbenchPowerCell,blocks,Block,,,Oakraven Power Workbench,,,,,,,,,,,,,Oakraven 電力工作台,
+WorkbenchPowerCellDesc,blocks,Block,,,"The Oakraven Power Workbench allows players to create Oakraven Battery Banks, Oakraven Generators, Oakraven Solar Arrays, Oakraven Power Cells, and Oakraven Solar Cells.",,,,,,,,,,,,,Oakraven 電力工作台允許玩家製作 Oakraven 電池組、Oakraven 發電機、Oakraven 太陽能陣列、Oakraven 電力電池和 Oakraven 太陽能電池。,
+CrystalRock,blocks,Block,,,Crystal Rock,,,,,,,,,,,,,水晶岩,
+CrystalRockDesc,blocks,Block,,,Crystal Rock (Chop),,,,,,,,,,,,,水晶岩（切碎）,
+BlueRock,blocks,Block,,,Blue Rock,,,,,,,,,,,,,藍色岩石,
+BlueRockDesc,blocks,Block,,,Blue Rock (Chop),,,,,,,,,,,,,藍色岩石（切碎）,
+PowerCell,items,Item,,,Oakraven Power Cell,,,,,,,,,,,,,Oakraven 電力電池,
+PowerCellDesc,items,Item,,,The Oakraven Power Cell stores electrical energy and can power connected objects when housed in an Oakraven Battery Bank. It can be recharged directly in an Oakraven Generator or when the Oakraven Battery Bank is connected to an Oakraven Solar Array or Oakraven Turret.,,,,,,,,,,,,,Oakraven 電力電池儲存電能，當裝入 Oakraven 電池組時，可以為連接的物件供電。它可以在 Oakraven 發電機中直接充電，或當 Oakraven 電池組連接到 Oakraven 太陽能陣列或 Oakraven 砲塔時充電。,
+solarCell,items,Item,,,Oakraven Solar Cell,,,,,,,,,,,,,Oakraven 太陽能電池,
+solarCellDesc,items,Item,,,The Oakraven Solar Cell harnesses energy when added to the Oakraven Solar Array or Oakraven Turret.,,,,,,,,,,,,,Oakraven 太陽能電池在加入 Oakraven 太陽能陣列或 Oakraven 砲塔時利用能量。,
+resourceCrystalRock,items,Item,,,Crystal Rock,,,,,,,,,,,,,水晶岩,
+resourceCrystalRockDesc,items,Item,,,Crystal Rock is used in the manufacture of the Oakraven Power Cell.,,,,,,,,,,,,,水晶岩用於製造 Oakraven 電力電池。,
+resourceBlueRock,items,Item,,,Blue Rock,,,,,,,,,,,,,藍色岩石,
+resourceBlueRockDesc,items,Item,,,Blue Rock is used in the manufacture of the Oakraven Solar Cell.,,,,,,,,,,,,,藍色岩石用於製造 Oakraven 太陽能電池。,

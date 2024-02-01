@@ -1,10 +1,10 @@
-Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish,中文機翻
-
-zombieSkeleton1,entityclasses,Entity,,,Skeleton Warrior,,,,,,,,,,,,,骷髏戰士,,骷髏戰士
-zombieSkeleton1Feral,entityclasses,Entity,,,Skeleton Warrior,,,,,,,,,,,,,骷髏戰士,,骷髏戰士
-zombieSkeleton2,entityclasses,Entity,,,Death Knight,,,,,,,,,,,,,死亡騎士,,死亡騎士
-zombieSkeleton2Feral,entityclasses,Entity,,,Death Knight,,,,,,,,,,,,,死亡騎士,,死亡騎士
-zombieSkeleton3,entityclasses,Entity,,,Skeleton,,,,,,,,,,,,,骷髏,,骷髏
-zombieSkeleton3Feral,entityclasses,Entity,,,Skeleton,,,,,,,,,,,,,骷髏,,骷髏
-zombieSkeleton4,entityclasses,Entity,,,Skeleton Monk,,,,,,,,,,,,,骷髏僧侶,,骷髏僧侶
-zombieSkeleton4Feral,entityclasses,Entity,,,Skeleton Monk,,,,,,,,,,,,,骷髏僧侶,,骷髏僧侶
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+,,,,,,,,,,,,,,,,,,,
+zombieSkeleton1,entityclasses,Entity,,,Skeleton Warrior,,,,,,,,,,,,,骷髏戰士,
+zombieSkeleton1Feral,entityclasses,Entity,,,Skeleton Warrior,,,,,,,,,,,,,骷髏戰士,
+zombieSkeleton2,entityclasses,Entity,,,Death Knight,,,,,,,,,,,,,死亡騎士,
+zombieSkeleton2Feral,entityclasses,Entity,,,Death Knight,,,,,,,,,,,,,死亡騎士,
+zombieSkeleton3,entityclasses,Entity,,,Skeleton,,,,,,,,,,,,,骷髏,
+zombieSkeleton3Feral,entityclasses,Entity,,,Skeleton,,,,,,,,,,,,,骷髏,
+zombieSkeleton4,entityclasses,Entity,,,Skeleton Monk,,,,,,,,,,,,,骷髏僧侶,
+zombieSkeleton4Feral,entityclasses,Entity,,,Skeleton Monk,,,,,,,,,,,,,骷髏僧侶,
