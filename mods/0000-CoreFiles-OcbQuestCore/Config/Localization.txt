@@ -1,21 +1,21 @@
-Key,english
-ObjectiveMailDeliver,Deliver Mail
-ObjectiveAirDrop,Wait for Air Drop
-ObjectiveKeepAirDropAlive,Keep Air-Drop alive
-ObjectiveWaitForFlightPlan,Wait for Plane
-ObjectiveWaitForAirDrop,Wait for Air-Drop
-ObjectiveWaitForTouchDown,Wait for Landing
-ObjectiveGetToAirDrop,Get Air-Drop
-ObjectiveKillEnemies,Kill Attackers
-ObjectiveWaitForServer,Wait for Position
-ObjectiveWaitForStart,Wait for Start
-PrepareForBattle,Prepare for battle
-EntityAirDropWait,Wait for quest to finish
-waiting,Waiting
-
-ObjectiveStayInArea,Stay in area
-ObjectiveReachArea,Go to area
-questMailDeliveryDesc,Mail Delivery Item
-
-HeadToTrader,Head to Trader:
-HeadToPosition,Head to Position:
+Key,english,tchinese,中文機翻
+ObjectiveMailDeliver,Deliver Mail,寄送郵件,寄送郵件
+ObjectiveAirDrop,Wait for Air Drop,等待空投,等待空投
+ObjectiveKeepAirDropAlive,Keep Air-Drop alive,保持空投,保持空投
+ObjectiveWaitForFlightPlan,Wait for Plane,等待飛機,等待飛機
+ObjectiveWaitForAirDrop,Wait for Air-Drop,等待空投,等待空投
+ObjectiveWaitForTouchDown,Wait for Landing,等待降落,等待降落
+ObjectiveGetToAirDrop,Get Air-Drop,取得空投,取得空投
+ObjectiveKillEnemies,Kill Attackers,擊殺攻擊者,擊殺攻擊者
+ObjectiveWaitForServer,Wait for Position,等待位置,等待位置
+ObjectiveWaitForStart,Wait for Start,等待開始,等待開始
+PrepareForBattle,Prepare for battle,準備戰鬥,準備戰鬥
+EntityAirDropWait,Wait for quest to finish,等待任務完成,等待任務完成
+waiting,Waiting,等待中,等待中
+,,,
+ObjectiveStayInArea,Stay in area,留在區域,留在區域
+ObjectiveReachArea,Go to area,前往區域,前往區域
+questMailDeliveryDesc,Mail Delivery Item,郵件寄送物品,郵件寄送物品
+,,,
+HeadToTrader,Head to Trader:,前往交易者：,前往交易者：
+HeadToPosition,Head to Position:,前往位置：,前往位置：
