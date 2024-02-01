@@ -1,193 +1,193 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
-MechFactionSchematic,items,Item,,,Master of disguse,,,,Maitre de l'écoeurement,,変装の名人,,,,,,,
-VaultDwellersFactionSchematic,items,Item,,,Master of disguse,,,,Maitre de l'écoeurement,,変装の名人,,,,,,,
-RedteamFactionSchematic,items,Item,,,Master of disguse,,,,Maitre de l'écoeurement,,変装の名人,,,,,,,
-BlueteamFactionSchematic,items,Item,,,Master of disguse,,,,Maitre de l'écoeurement,,変装の名人,,,,,,,
-GreenteamFactionSchematic,items,Item,,,Master of disguse,,,,Maitre de l'écoeurement,,変装の名人,,,,,,,
-MechFactionSchematicDesc,items,Item,,,Read this to switch over to the bandit faction!,,,,Lisez ceci pour basculer dans la faction des Mech!,,派閥変更・メカ,,,,,,,
-VaultDwellersFactionSchematicDesc,items,Item,,,Read this to switch over to the undead faction!,,,,Lisez ceci pour basculer dans la faction des VaultDwellers!,,派閥変更・ボルト住人,,,,,,,
-RedteamFactionSchematicDesc,items,Item,,,Read this to switch over to the Red team!,,,,Lisez ceci pour basculer dans la faction Redteam!,,チーム変更・赤,,,,,,,
-BlueteamFactionSchematicDesc,items,Item,,,Read this to switch over to the Blue team!,,,,Lisez ceci pour basculer dans la faction Blue team!,,チーム変更・青,,,,,,,
-GreenteamFactionSchematicDesc,items,Item,,,Read this to switch over to the Green Team!,,,,Lisez ceci pour basculer dans la faction Green Team!,,チーム変更・緑,,,,,,,
-MechPositiveFactionSchematic,items,Item,,,Peace and Love to the Mechs,,,,,,ピース&ラブ・メカ,,,,,,,
-MechPositiveFactionSchematicDesc,items,Item,,,Read this to spread the message of the mechs! Increase your standings with the mechs!,,,,,,メカの考えを拡散します。\n\nメカの信頼を得ます。,,,,,,,
-MechNegativeFactionSchematic,items,Item,,,Mechs: Unreliable! Untrustworthy!,,,,,,メカ: 頼りにならない！信用できない！,,,,,,,
-MechNegativeFactionSchematicDesc,items,Item,,,Read this to spread lies and fake news about the mechs! Decrease your standings with the mechs!,,,,,,メカのデマや悪い噂を拡散します。\n\nメカの信頼を失います。,,,,,,,
-VaultPositiveFactionSchematic,items,Item,,,Peace and Love to the Vault,,,,,,ピース&ラブ・ボルト,,,,,,,
-VaultPositiveFactionSchematicDesc,items,Item,,,Read this to spread the message of the vault! Increase your standings with the vault!,,,,,,ボルトの考えを拡散します。\n\nボルトの信頼を得ます。,,,,,,,
-VaultNegativeFactionSchematic,items,Item,,,The Vault: Unreliable! Untrustworthy!,,,,,,ボルト: 頼りにならない！信用できない！,,,,,,,
-VaultNegativeFactionSchematicDesc,items,Item,,,Read this to spread lies and fake news about the vault! Decrease your standings with the vault!,,,,,,ボルトのデマや悪い噂を拡散します。\n\nボルトの信頼を失います。,,,,,,,
-RedteamPositiveFactionSchematic,items,Item,,,Peace and Love to the Redteam,,,,,,ピース&ラブ・赤チーム,,,,,,,
-RedteamPositiveFactionSchematicDesc,items,Item,,,Read this to spread the message of the Redteam! Increase your standings with the Redteam!,,,,,,赤チームの考えを拡散します。\n\n赤チームの信頼を得ます。,,,,,,,
-RedteamNegativeFactionSchematic,items,Item,,,The Redteam: Unreliable! Untrustworthy!,,,,,,赤チーム: 頼りにならない！信用できない！,,,,,,,
-RedteamNegativeFactionSchematicDesc,items,Item,,,Read this to spread lies and fake news about the Redteam! Decrease your standings with the Redteam!,,,,,,赤チームのデマや悪い噂を拡散します。\n\n赤チームの信頼を失います。,,,,,,,
-BlueteamPositiveFactionSchematic,items,Item,,,Peace and Love to the Blueteam,,,,,,ピース&ラブ・青チーム,,,,,,,
-BlueteamPositiveFactionSchematicDesc,items,Item,,,Read this to spread the message of the Blueteam! Increase your standings with the Blueteam!,,,,,,青チームの考えを拡散します。\n\n青チームの信頼を得ます。,,,,,,,
-BlueteamNegativeFactionSchematic,items,Item,,,The Blueteam: Unreliable! Untrustworthy!,,,,,,青チーム: 頼りにならない！信用できない！,,,,,,,
-BlueteamNegativeFactionSchematicDesc,items,Item,,,Read this to spread lies and fake news about the Blueteam! Decrease your standings with the Blueteam!,,,,,,青チームのデマや悪い噂を拡散します。\n\n青チームの信頼を失います。,,,,,,,
-GreenteamPositiveFactionSchematic,items,Item,,,Peace and Love to the Greenteam,,,,,,ピース&ラブ・緑チーム,,,,,,,
-GreenteamPositiveFactionSchematicDesc,items,Item,,,Read this to spread the message of the Greenteam! Increase your standings with the Greenteam!,,,,,,緑チームの考えを拡散します。\n\n緑チームの信頼を得ます。,,,,,,,
-GreenteamNegativeFactionSchematic,items,Item,,,The Greenteam: Unreliable! Untrustworthy!,,,,,,緑チーム: 頼りにならない！信用できない！,,,,,,,
-GreenteamNegativeFactionSchematicDesc,items,Item,,,Read this to spread lies and fake news about the Greenteam! Decrease your standings with the Greenteam!,,,,,,緑チームのデマや悪い噂を拡散します。\n\n緑チームの信頼を失います。,,,,,,,
-
-npcNurseEmptyHand,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNurseClub,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNurseKnife,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNurseAxe,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNurseSpear,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNurseBat,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNurseMachete,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNurseSMG,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNurseM60,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNursePipePistol,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNursePistol,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNurseDPistol,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNursePipeMG,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNurseAK47,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNurseTRifle,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNursePipeRifle,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNurseHRifle,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNurseSRifle,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNursePipeShotgun,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNursePShotgun,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNurseAShotgun,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNurseXBow,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNurseLBow,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcNurseRocketL,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,
-npcHarleyEmptyHand,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyBMEmptyHand,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyClub,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyKnife,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyAxe,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleySpear,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyBat,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyMachete,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleySMG,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyM60,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyPipePistol,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyPistol,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyDPistol,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyPipeMG,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyAK47,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyTRifle,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyPipeRifle,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyHRifle,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyPipeShotgun,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyPShotgun,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyAShotgun,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyXBow,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyLBow,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcHarleyRocketL,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,
-npcBakerEmptyHand,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerClub,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerKnife,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerAxe,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerSpear,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerBat,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerMachete,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerSMG,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerM60,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerPipePistol,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerPistol,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerDPistol,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerPipeMG,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerAK47,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerTRifle,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerPipeRifle,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerHRifle,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerSRifle,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerPipeShotgun,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerPShotgun,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerAShotgun,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerXBow,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerLBow,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcBakerRocketL,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,
-npcAnimalFox,entityclasses,Entity,,,Fox,,,,Renard,,キツネ,,,,,,,
-animalFox,entityclasses,Entity,,,Fox,,,,Renard,,キツネ,,,,,,,
-zombieFemaleTutorial,entityclasses,Entity,,,DeadGirl,,,,Fille morte,,死んだ女の子,,,,,,,
-zombieFemaleTutorialFeral,entityclasses,Entity,,,DeadGirl,,,,Fille morte,,死んだ女の子,,,,,,,
-
-start,Quest,Dialogs,,,Are you the undead?,,,,,,あなたはアンデッドですか？,,,,,,,
-statement_-1684104497,Quest,Dialogs,,,Maybe not but a bar of soap wouldn't kill ya none either.,,,,,,,,,,,,,
-responseID_1595140464,Quest,Dialogs,,,No I'm not dead yet.,,,,,,いいえ、まだ死んではいません。,,,,,,,
-response_-24413466,Quest,Dialogs,,,Gee thanks.,,,,,,ありがとうございます。,,,,,,,
-responseID_-307220871,Quest,Dialogs,,,Be safe friend.,,,,,,お気をつけて。,,,,,,,
-
-start,Quest,Dialogs,,,Hello there,,,,,,こんにちは,,,,,,,
-statement_-1333722013,Quest,Dialogs,,,Im just a farmer type guy,,,,,,私は農夫です。,,,,,,,
-statement_1334552027,Quest,Dialogs,,,"Naz, funny name eh?",,,,,,ナズ、変な名前でしょ？,,,,,,,
-responseID_-1128936168,Quest,Dialogs,,,Tell me about yourself,,,,,,あなたの事をおしえてください。,,,,,,,
-responseID_-1290029400,Quest,Dialogs,,,Whats this place called?,,,,,,この場所の名前は何ですか？,,,,,,,
-responseID_1101680756,Quest,Dialogs,,,OK Bye,,,,,,分かりました、さようなら,,,,,,,
-
-itemNPCModHelp,items,Item,,,NPC Action: Help,,,,Action PNJ: Aide,,NPCアクション： 手助け,,,,,,,
-itemNPCModStop,items,Item,,,NPC Action: Stop,,,,Action PNJ: Arrêt,,NPCアクション： 停止,,,,,,,
-itemNPCModMode,items,Item,,,NPC Action: Mode,,,,Action PNJ: Mode,,NPCアクション： モード,,,,,,,
-
-buffNPCModHaltDisplayName,items,Item,,,Halt,,,,Arrêter,,,,,,,,,
-buffNPCModHaltDisplayDesc,items,Item,,,"While in either Threat or Full Control Mode, your hired NPCs will not engage until you tell them to Resume",,,,"Tant que vos PNJs seront en mode de contrôle complet ou de menaces, ils n'initieront pas le combat tant que vous le leur disiez de Reprendre",,,,,,,,,
-buffNPCModResumeDisplayName,items,Item,,,Resume,,,,Reprendre,,,,,,,,,
-buffNPCModResumeDisplayDesc,items,Item,,,"While in either Threat or Full Control Mode, your hired NPCs will engage until you tell them to Halt",,,,"Tant que vos PNJs seront en mode de contrôle complet ou de menaces, ils initieront le combat tant que vous le leur disiez d'Arrêter",,,,,,,,,
-buffNPCModHuntingModeDisplayName,items,Item,,,Hunting Mode,,,,Mode de Chasse,,,,,,,,,
-buffNPCModHuntingModeDisplayDesc,items,Item,,,"While in this mode, your hired NPCs will engage with everything considered as hostile",,,,"Dans ce mode, vos PNJs embauchés initieront le combat avec tout ce qu'ils considèrent être hostile",,,,,,,,,
-buffNPCModThreatControlModeDisplayName,items,Item,,,Threat Control Mode,,,,Mode de contrôle des menaces,,,,,,,,,
-buffNPCModThreatControlModeDisplayDesc,items,Item,,,"While in this mode, your hired NPCs will not engage with hostile animals (including zombies animals), unless:\n • You attack\n • You get attacked and took damage",,,,"Dans ce mode, vos your PNJs embauchés n'initieront pas le combat avec des animaux hostiles (incluant les animaux zombies), à moins que:\n • Vous attaquiez\n • Vous vous fassiez attaquer et prenez du dommage",,,,,,,,,
-buffNPCModFullControlModeDisplayName,items,Item,,,Full Control Mode,,,,Mode de contrôle complet,,,,,,,,,
-buffNPCModFullControlModeDisplayDesc,items,Item,,,"While in this mode, your hired NPCs will not engage, unless:\n • You attack\n • You get attacked and took damage",,,,"Dans ce mode, vos your PNJs embauchés n'initieront pas le combat, à moins que:\n • Vous attaquiez\n • Vous vous fassiez attaquer et prenez du dommage",,,,,,,,,
-
-GenericNPC_start,Quest,Dialogs,,,"Hello friend, how can I help you?",,,,"Bonjour ami, comment puis-je vous aider?",,こんにちは友達、どのようにあなたを助けることができますか？,,,,,,,
-GenericNPC_Command Menu,Quest,Dialogs,,,Command Menu,,,,Menu de commandes,,コマンドメニュー,,,,,,,
-GenericNPC_Weapon Classes,Quest,Dialogs,,,Weapon Classes,,,,Classes d'armes,,武器クラス,,,,,,,
-GenericNPC_Melee Menu,Quest,Dialogs,,,Melee Weapons,,,,Armes de mêlée,,近接武器,,,,,,,
-GenericNPC_Pistol Menu,Quest,Dialogs,,,Pistols,,,,Pistolets,,ピストル,,,,,,,
-GenericNPC_Rifle Menu,Quest,Dialogs,,,Rifles,,,,Fusils,,ライフル,,,,,,,
-GenericNPC_ShotGun Menu,Quest,Dialogs,,,Shotguns,,,,Fusils à pompe,,ショットガン,,,,,,,
-GenericNPC_Other Menu,Quest,Dialogs,,,Other Weapons,,,,Autres armes,,その他の武器,,,,,,,
-GenericNPC_Hire,Quest,Dialogs,,,I am interested in hiring you.,,,,Je suis intéressé à vous embaucher.,,あなたを雇うことに興味があります。,,,,,,,
-GenericNPC_FollowMe,Quest,Dialogs,,,Follow me,,,,Suivez-moi,,私に従ってください,,,,,,,
-GenericNPC_Dump2Log,Quest,Dialogs,,,Dump Values to Log,,,,Vider les valeurs dans le journal,,ログに値をダンプする,,,,,,,
-GenericNPC_ShowMe,Quest,Dialogs,,,Show Me your inventory,,,,Montrez-moi votre inventaire,,あなたの在庫を見せてください,,,,,,,
-GenericNPC_StayHere,Quest,Dialogs,,,Stay where you are standing,,,,Restez où vous êtes debout,,立っている場所にとどまってください,,,,,,,
-GenericNPC_Wander,Quest,Dialogs,,,Patrol around here,,,,Patrouillez autour d'ici,,ここを巡回してください,,,,,,,
-GenericNPC_Patrol,Quest,Dialogs,,,Patrol your coded route,,,,Patrouillez votre itinéraire codé,,コード化されたルートを巡回してください,,,,,,,
-GenericNPC_GuardHere,Quest,Dialogs,,,Stay where I am standing,,,,Restez où je suis debout,,私が立っている場所にとどまってください,,,,,,,
-GenericNPC_GuardReturnHere,Quest,Dialogs,,,Guard and return to where I am standing,,,,Gardez et revenez où je suis debout,,私が立っている場所に戻って警備してください,,,,,,,
-GenericNPC_SetCode,Quest,Dialogs,,,Here is your Patrol Code,,,,Voici votre code de patrouille,,こちらがあなたの巡回コードです,,,,,,,
-GenericNPC_Loot,Quest,Dialogs,,,Loot around here,,,,Pillez autour d'ici,,ここで略奪してください,,,,,,,
-GenericNPC_Dismiss,Quest,Dialogs,,,Dismiss,,,,Congédier,,解雇する,,,,,,,
-GenericNPC_Pickup,Quest,Dialogs,,,Pick Me up!,,,,Ramassez-moi!,,私を拾ってください！,,,,,,,
-GenericNPC_Weapon Menu,Quest,Dialogs,,,Weapon Menu,,,,Menu des armes,,武器メニュー,,,,,,,
-GenericNPC_Melee,Quest,Dialogs,,,Melee Menu,,,,Menu de mêlée,,近接メニュー,,,,,,,
-GenericNPC_Pistols,Quest,Dialogs,,,Pistol Menu,,,,Menu des pistolets,,ピストルメニュー,,,,,,,
-GenericNPC_Rifles,Quest,Dialogs,,,Rifle Menu,,,,Menu des fusils,,ライフルメニュー,,,,,,,
-GenericNPC_ShotGuns,Quest,Dialogs,,,ShotGun Menu,,,,Menu des fusils à pompe,,ショットガンメニュー,,,,,,,
-GenericNPC_Others,Quest,Dialogs,,,Other Menu,,,,Autre menu,,その他のメニュー,,,,,,,
-GenericNPC_BareHands,Quest,Dialogs,,,Use BareHands,,,,Utilisez les mains nues,,素手を使う,,,,,,,
-GenericNPC_Club,Quest,Dialogs,,,Use Club,,,,Utilisez un gourdin,,クラブを使う,,,,,,,
-GenericNPC_Knife,Quest,Dialogs,,,Use Knife,,,,Utilisez un couteau,,ナイフを使う,,,,,,,
-GenericNPC_Bat,Quest,Dialogs,,,Use Bat,,,,Utilisez une batte,,バットを使う,,,,,,,
-GenericNPC_Spear,Quest,Dialogs,,,Use Spear,,,,Utilisez une lance,,スピアを使う,,,,,,,
-GenericNPC_Machete,Quest,Dialogs,,,Use Machete,,,,Utilisez une machette,,マチェットを使う,,,,,,,
-GenericNPC_Axe,Quest,Dialogs,,,Use Axe,,,,Utilisez une hache,,斧を使う,,,,,,,
-GenericNPC_SMG,Quest,Dialogs,,,Use SMG,,,,Utilisez un pistolet-mitrailleur,,SMGを使う,,,,,,,
-GenericNPC_PipePistol,Quest,Dialogs,,,Use PipePistol,,,,Utilisez un pistolet à tuyau,,パイプピストルを使う,,,,,,,
-GenericNPC_PipeShotgun,Quest,Dialogs,,,Use PipeShotgun,,,,Utilisez un fusil à pompe à tuyau,,パイプショットガンを使う,,,,,,,
-GenericNPC_PipeRifle,Quest,Dialogs,,,Use PipeRifle,,,,Utilisez un fusil à tuyau,,パイプライフルを使う,,,,,,,
-GenericNPC_PipeMG,Quest,Dialogs,,,Use PipeMachinegun,,,,Utilisez une mitrailleuse à tuyau,,パイプマシンガンを使う,,,,,,,
-GenericNPC_M60,Quest,Dialogs,,,Use M60,,,,Utilisez un M60,,M60を使う,,,,,,,
-GenericNPC_Pistol,Quest,Dialogs,,,Use Pistol,,,,Utilisez un pistolet,,ピストルを使う,,,,,,,
-GenericNPC_DPistol,Quest,Dialogs,,,Use DesertEagle,,,,Utilisez un DesertEagle,,デザートイーグルを使う,,,,,,,
-GenericNPC_AK47,Quest,Dialogs,,,Use AK47,,,,Utilisez un AK47,,AK47を使う,,,,,,,
-GenericNPC_TRifle,Quest,Dialogs,,,Use AssaultRifle,,,,Utilisez un fusil d'assaut,,アサルトライフルを使う,,,,,,,
-GenericNPC_HRifle,Quest,Dialogs,,,Use HuntingR,,,,Utilisez un fusil de chasse,,ハンティングライフルを使う,,,,,,,
-GenericNPC_SRifle,Quest,Dialogs,,,Use SniperRifle,,,,Utilisez un fusil de sniper,,スナイパーライフルを使う,,,,,,,
-GenericNPC_LBow,Quest,Dialogs,,,Use Longbow,,,,Utilisez un arc long,,ロングボウを使う,,,,,,,
-GenericNPC_XBow,Quest,Dialogs,,,Use Crossbow,,,,Utilisez une arbalète,,クロスボウを使う,,,,,,,
-GenericNPC_PShotgun,Quest,Dialogs,,,Use Shotgun,,,,Utilisez un fusil à pompe,,ショットガンを使う,,,,,,,
-GenericNPC_AShotgun,Quest,Dialogs,,,Use AutoShotgun,,,,Utilisez un fusil à pompe automatique,,オートショットガンを使う,,,,,,,
-GenericNPC_RLauncher,Quest,Dialogs,,,Use RLauncher,,,,Utilisez un lance-roquettes,,ロケットランチャーを使う,,,,,,,
-GenericNPC_done,Quest,Dialogs,,,Nevermind.,,,,Peu importe.,,気にしないでください。,,,,,,,
-
+MechFactionSchematic,items,Item,,,Master of disguse,,,,Maitre de l'écoeurement,,変装の名人,,,,,,,偽裝大師
+VaultDwellersFactionSchematic,items,Item,,,Master of disguse,,,,Maitre de l'écoeurement,,変装の名人,,,,,,,偽裝大師
+RedteamFactionSchematic,items,Item,,,Master of disguse,,,,Maitre de l'écoeurement,,変装の名人,,,,,,,偽裝大師
+BlueteamFactionSchematic,items,Item,,,Master of disguse,,,,Maitre de l'écoeurement,,変装の名人,,,,,,,偽裝大師
+GreenteamFactionSchematic,items,Item,,,Master of disguse,,,,Maitre de l'écoeurement,,変装の名人,,,,,,,偽裝大師
+MechFactionSchematicDesc,items,Item,,,Read this to switch over to the bandit faction!,,,,Lisez ceci pour basculer dans la faction des Mech!,,派閥変更・メカ,,,,,,,閱讀此內容以切換到盜匪陣營！
+VaultDwellersFactionSchematicDesc,items,Item,,,Read this to switch over to the undead faction!,,,,Lisez ceci pour basculer dans la faction des VaultDwellers!,,派閥変更・ボルト住人,,,,,,,閱讀此內容以切換到不死族陣營！
+RedteamFactionSchematicDesc,items,Item,,,Read this to switch over to the Red team!,,,,Lisez ceci pour basculer dans la faction Redteam!,,チーム変更・赤,,,,,,,閱讀此內容以切換到紅隊！
+BlueteamFactionSchematicDesc,items,Item,,,Read this to switch over to the Blue team!,,,,Lisez ceci pour basculer dans la faction Blue team!,,チーム変更・青,,,,,,,閱讀此內容以切換到藍隊！
+GreenteamFactionSchematicDesc,items,Item,,,Read this to switch over to the Green Team!,,,,Lisez ceci pour basculer dans la faction Green Team!,,チーム変更・緑,,,,,,,閱讀此內容以切換到綠隊！
+MechPositiveFactionSchematic,items,Item,,,Peace and Love to the Mechs,,,,,,ピース&ラブ・メカ,,,,,,,和平與愛給予機甲
+MechPositiveFactionSchematicDesc,items,Item,,,Read this to spread the message of the mechs! Increase your standings with the mechs!,,,,,,メカの考えを拡散します。\n\nメカの信頼を得ます。,,,,,,,閱讀此內容以散播機甲的訊息！提升你在機甲中的地位！
+MechNegativeFactionSchematic,items,Item,,,Mechs: Unreliable! Untrustworthy!,,,,,,メカ: 頼りにならない！信用できない！,,,,,,,機甲：不可靠！不可信！
+MechNegativeFactionSchematicDesc,items,Item,,,Read this to spread lies and fake news about the mechs! Decrease your standings with the mechs!,,,,,,メカのデマや悪い噂を拡散します。\n\nメカの信頼を失います。,,,,,,,閱讀此內容以散播關於機甲的謊言和假新聞！降低你在機甲中的地位！
+VaultPositiveFactionSchematic,items,Item,,,Peace and Love to the Vault,,,,,,ピース&ラブ・ボルト,,,,,,,和平與愛給予金庫
+VaultPositiveFactionSchematicDesc,items,Item,,,Read this to spread the message of the vault! Increase your standings with the vault!,,,,,,ボルトの考えを拡散します。\n\nボルトの信頼を得ます。,,,,,,,閱讀此內容以散播金庫的訊息！提升你在金庫中的地位！
+VaultNegativeFactionSchematic,items,Item,,,The Vault: Unreliable! Untrustworthy!,,,,,,ボルト: 頼りにならない！信用できない！,,,,,,,金庫：不可靠！不可信！
+VaultNegativeFactionSchematicDesc,items,Item,,,Read this to spread lies and fake news about the vault! Decrease your standings with the vault!,,,,,,ボルトのデマや悪い噂を拡散します。\n\nボルトの信頼を失います。,,,,,,,閱讀此內容以散播關於金庫的謊言和假新聞！降低你在金庫中的地位！
+RedteamPositiveFactionSchematic,items,Item,,,Peace and Love to the Redteam,,,,,,ピース&ラブ・赤チーム,,,,,,,和平與愛給予紅隊
+RedteamPositiveFactionSchematicDesc,items,Item,,,Read this to spread the message of the Redteam! Increase your standings with the Redteam!,,,,,,赤チームの考えを拡散します。\n\n赤チームの信頼を得ます。,,,,,,,閱讀此內容以散播紅隊的訊息！提升你在紅隊中的地位！
+RedteamNegativeFactionSchematic,items,Item,,,The Redteam: Unreliable! Untrustworthy!,,,,,,赤チーム: 頼りにならない！信用できない！,,,,,,,紅隊：不可靠！不可信！
+RedteamNegativeFactionSchematicDesc,items,Item,,,Read this to spread lies and fake news about the Redteam! Decrease your standings with the Redteam!,,,,,,赤チームのデマや悪い噂を拡散します。\n\n赤チームの信頼を失います。,,,,,,,閱讀此內容以散播關於紅隊的謊言和假新聞！降低你在紅隊中的地位！
+BlueteamPositiveFactionSchematic,items,Item,,,Peace and Love to the Blueteam,,,,,,ピース&ラブ・青チーム,,,,,,,和平與愛給予藍隊
+BlueteamPositiveFactionSchematicDesc,items,Item,,,Read this to spread the message of the Blueteam! Increase your standings with the Blueteam!,,,,,,青チームの考えを拡散します。\n\n青チームの信頼を得ます。,,,,,,,閱讀此內容以散播藍隊的訊息！提升你在藍隊中的地位！
+BlueteamNegativeFactionSchematic,items,Item,,,The Blueteam: Unreliable! Untrustworthy!,,,,,,青チーム: 頼りにならない！信用できない！,,,,,,,藍隊：不可靠！不可信！
+BlueteamNegativeFactionSchematicDesc,items,Item,,,Read this to spread lies and fake news about the Blueteam! Decrease your standings with the Blueteam!,,,,,,青チームのデマや悪い噂を拡散します。\n\n青チームの信頼を失います。,,,,,,,閱讀此內容以散播關於藍隊的謊言和假新聞！降低你在藍隊中的地位！
+GreenteamPositiveFactionSchematic,items,Item,,,Peace and Love to the Greenteam,,,,,,ピース&ラブ・緑チーム,,,,,,,和平與愛給予綠隊
+GreenteamPositiveFactionSchematicDesc,items,Item,,,Read this to spread the message of the Greenteam! Increase your standings with the Greenteam!,,,,,,緑チームの考えを拡散します。\n\n緑チームの信頼を得ます。,,,,,,,閱讀此內容以散播綠隊的訊息！提升你在綠隊中的地位！
+GreenteamNegativeFactionSchematic,items,Item,,,The Greenteam: Unreliable! Untrustworthy!,,,,,,緑チーム: 頼りにならない！信用できない！,,,,,,,綠隊：不可靠！不可信！
+GreenteamNegativeFactionSchematicDesc,items,Item,,,Read this to spread lies and fake news about the Greenteam! Decrease your standings with the Greenteam!,,,,,,緑チームのデマや悪い噂を拡散します。\n\n緑チームの信頼を失います。,,,,,,,閱讀此內容以散播關於綠隊的謊言和假新聞！降低你在綠隊中的地位！
+,,,,,,,,,,,,,,,,,,
+npcNurseEmptyHand,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNurseClub,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNurseKnife,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNurseAxe,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNurseSpear,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNurseBat,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNurseMachete,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNurseSMG,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNurseM60,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNursePipePistol,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNursePistol,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNurseDPistol,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNursePipeMG,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNurseAK47,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNurseTRifle,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNursePipeRifle,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNurseHRifle,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNurseSRifle,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNursePipeShotgun,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNursePShotgun,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNurseAShotgun,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNurseXBow,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNurseLBow,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcNurseRocketL,entityclasses,Entity,,,Nurse,,,,L’infirmière,,ナース,,,,,,,護士
+npcHarleyEmptyHand,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyBMEmptyHand,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyClub,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyKnife,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyAxe,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleySpear,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyBat,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyMachete,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleySMG,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyM60,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyPipePistol,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyPistol,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyDPistol,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyPipeMG,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyAK47,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyTRifle,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyPipeRifle,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyHRifle,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyPipeShotgun,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyPShotgun,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyAShotgun,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyXBow,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyLBow,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcHarleyRocketL,entityclasses,Entity,,,Harley,,,,Harley,,ハーレー,,,,,,,哈利
+npcBakerEmptyHand,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,哈利
+npcBakerClub,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerKnife,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerAxe,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerSpear,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerBat,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerMachete,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerSMG,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerM60,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerPipePistol,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerPistol,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerDPistol,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerPipeMG,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerAK47,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerTRifle,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerPipeRifle,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerHRifle,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerSRifle,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerPipeShotgun,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerPShotgun,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerAShotgun,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerXBow,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerLBow,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcBakerRocketL,entityclasses,Entity,,,Baker,,,,Le boulanger,,ベーカー,,,,,,,貝克
+npcAnimalFox,entityclasses,Entity,,,Fox,,,,Renard,,キツネ,,,,,,,貝克
+animalFox,entityclasses,Entity,,,Fox,,,,Renard,,キツネ,,,,,,,貝克
+zombieFemaleTutorial,entityclasses,Entity,,,DeadGirl,,,,Fille morte,,死んだ女の子,,,,,,,福克斯
+zombieFemaleTutorialFeral,entityclasses,Entity,,,DeadGirl,,,,Fille morte,,死んだ女の子,,,,,,,福克斯
+,,,,,,,,,,,,,,,,,,
+start,Quest,Dialogs,,,Are you the undead?,,,,,,あなたはアンデッドですか？,,,,,,,不死族
+statement_-1684104497,Quest,Dialogs,,,Maybe not but a bar of soap wouldn't kill ya none either.,,,,,,,,,,,,,也許不是，但一塊肥皂也不會殺死你。
+responseID_1595140464,Quest,Dialogs,,,No I'm not dead yet.,,,,,,いいえ、まだ死んではいません。,,,,,,,不，我還沒死。
+response_-24413466,Quest,Dialogs,,,Gee thanks.,,,,,,ありがとうございます。,,,,,,,哇，謝謝。
+responseID_-307220871,Quest,Dialogs,,,Be safe friend.,,,,,,お気をつけて。,,,,,,,保重，朋友。
+,,,,,,,,,,,,,,,,,,
+start,Quest,Dialogs,,,Hello there,,,,,,こんにちは,,,,,,,你好
+statement_-1333722013,Quest,Dialogs,,,Im just a farmer type guy,,,,,,私は農夫です。,,,,,,,我只是個農夫
+statement_1334552027,Quest,Dialogs,,,"Naz, funny name eh?",,,,,,ナズ、変な名前でしょ？,,,,,,,納茲，有趣的名字，是吧？
+responseID_-1128936168,Quest,Dialogs,,,Tell me about yourself,,,,,,あなたの事をおしえてください。,,,,,,,告訴我關於你自己的事
+responseID_-1290029400,Quest,Dialogs,,,Whats this place called?,,,,,,この場所の名前は何ですか？,,,,,,,這個地方叫什麼名字？
+responseID_1101680756,Quest,Dialogs,,,OK Bye,,,,,,分かりました、さようなら,,,,,,,好的，再見
+,,,,,,,,,,,,,,,,,,
+itemNPCModHelp,items,Item,,,NPC Action: Help,,,,Action PNJ: Aide,,NPCアクション： 手助け,,,,,,,NPC 動作：幫助
+itemNPCModStop,items,Item,,,NPC Action: Stop,,,,Action PNJ: Arrêt,,NPCアクション： 停止,,,,,,,NPC 動作：停止
+itemNPCModMode,items,Item,,,NPC Action: Mode,,,,Action PNJ: Mode,,NPCアクション： モード,,,,,,,NPC 動作：模式
+,,,,,,,,,,,,,,,,,,
+buffNPCModHaltDisplayName,items,Item,,,Halt,,,,Arrêter,,,,,,,,,停止
+buffNPCModHaltDisplayDesc,items,Item,,,"While in either Threat or Full Control Mode, your hired NPCs will not engage until you tell them to Resume",,,,"Tant que vos PNJs seront en mode de contrôle complet ou de menaces, ils n'initieront pas le combat tant que vous le leur disiez de Reprendre",,,,,,,,,在威脅或完全控制模式下，你僱用的 NPC 在你告訴他們繼續之前不會參與
+buffNPCModResumeDisplayName,items,Item,,,Resume,,,,Reprendre,,,,,,,,,繼續
+buffNPCModResumeDisplayDesc,items,Item,,,"While in either Threat or Full Control Mode, your hired NPCs will engage until you tell them to Halt",,,,"Tant que vos PNJs seront en mode de contrôle complet ou de menaces, ils initieront le combat tant que vous le leur disiez d'Arrêter",,,,,,,,,在威脅或完全控制模式下，你僱用的 NPC 在你告訴他們停止之前會參與
+buffNPCModHuntingModeDisplayName,items,Item,,,Hunting Mode,,,,Mode de Chasse,,,,,,,,,狩獵模式
+buffNPCModHuntingModeDisplayDesc,items,Item,,,"While in this mode, your hired NPCs will engage with everything considered as hostile",,,,"Dans ce mode, vos PNJs embauchés initieront le combat avec tout ce qu'ils considèrent être hostile",,,,,,,,,在此模式下，你僱用的 NPC 會與所有被視為敵對的事物交戰
+buffNPCModThreatControlModeDisplayName,items,Item,,,Threat Control Mode,,,,Mode de contrôle des menaces,,,,,,,,,威脅控制模式
+buffNPCModThreatControlModeDisplayDesc,items,Item,,,"While in this mode, your hired NPCs will not engage with hostile animals (including zombies animals), unless:\n • You attack\n • You get attacked and took damage",,,,"Dans ce mode, vos your PNJs embauchés n'initieront pas le combat avec des animaux hostiles (incluant les animaux zombies), à moins que:\n • Vous attaquiez\n • Vous vous fassiez attaquer et prenez du dommage",,,,,,,,,在此模式下，你僱用的 NPC 只有在以下情況下才會與敵對動物（包括喪屍動物）交戰：\n • 你攻擊\n • 你受到攻擊並受到傷害
+buffNPCModFullControlModeDisplayName,items,Item,,,Full Control Mode,,,,Mode de contrôle complet,,,,,,,,,完全控制模式
+buffNPCModFullControlModeDisplayDesc,items,Item,,,"While in this mode, your hired NPCs will not engage, unless:\n • You attack\n • You get attacked and took damage",,,,"Dans ce mode, vos your PNJs embauchés n'initieront pas le combat, à moins que:\n • Vous attaquiez\n • Vous vous fassiez attaquer et prenez du dommage",,,,,,,,,在此模式下，你僱用的 NPC 只有在以下情況下才會交戰：\n • 你攻擊\n • 你受到攻擊並受到傷害
+,,,,,,,,,,,,,,,,,,
+GenericNPC_start,Quest,Dialogs,,,"Hello friend, how can I help you?",,,,"Bonjour ami, comment puis-je vous aider?",,こんにちは友達、どのようにあなたを助けることができますか？,,,,,,,你好朋友，我能幫你什麼嗎？
+GenericNPC_Command Menu,Quest,Dialogs,,,Command Menu,,,,Menu de commandes,,コマンドメニュー,,,,,,,指令選單
+GenericNPC_Weapon Classes,Quest,Dialogs,,,Weapon Classes,,,,Classes d'armes,,武器クラス,,,,,,,武器類別
+GenericNPC_Melee Menu,Quest,Dialogs,,,Melee Weapons,,,,Armes de mêlée,,近接武器,,,,,,,近戰武器
+GenericNPC_Pistol Menu,Quest,Dialogs,,,Pistols,,,,Pistolets,,ピストル,,,,,,,手槍
+GenericNPC_Rifle Menu,Quest,Dialogs,,,Rifles,,,,Fusils,,ライフル,,,,,,,步槍
+GenericNPC_ShotGun Menu,Quest,Dialogs,,,Shotguns,,,,Fusils à pompe,,ショットガン,,,,,,,霰彈槍
+GenericNPC_Other Menu,Quest,Dialogs,,,Other Weapons,,,,Autres armes,,その他の武器,,,,,,,其他武器
+GenericNPC_Hire,Quest,Dialogs,,,I am interested in hiring you.,,,,Je suis intéressé à vous embaucher.,,あなたを雇うことに興味があります。,,,,,,,我有興趣僱用你。
+GenericNPC_FollowMe,Quest,Dialogs,,,Follow me,,,,Suivez-moi,,私に従ってください,,,,,,,跟著我
+GenericNPC_Dump2Log,Quest,Dialogs,,,Dump Values to Log,,,,Vider les valeurs dans le journal,,ログに値をダンプする,,,,,,,將數值轉儲到日誌
+GenericNPC_ShowMe,Quest,Dialogs,,,Show Me your inventory,,,,Montrez-moi votre inventaire,,あなたの在庫を見せてください,,,,,,,秀出你的庫存
+GenericNPC_StayHere,Quest,Dialogs,,,Stay where you are standing,,,,Restez où vous êtes debout,,立っている場所にとどまってください,,,,,,,待在你現在站立的地方
+GenericNPC_Wander,Quest,Dialogs,,,Patrol around here,,,,Patrouillez autour d'ici,,ここを巡回してください,,,,,,,在此巡邏
+GenericNPC_Patrol,Quest,Dialogs,,,Patrol your coded route,,,,Patrouillez votre itinéraire codé,,コード化されたルートを巡回してください,,,,,,,巡邏你的編碼路線
+GenericNPC_GuardHere,Quest,Dialogs,,,Stay where I am standing,,,,Restez où je suis debout,,私が立っている場所にとどまってください,,,,,,,待在我站立的地方
+GenericNPC_GuardReturnHere,Quest,Dialogs,,,Guard and return to where I am standing,,,,Gardez et revenez où je suis debout,,私が立っている場所に戻って警備してください,,,,,,,警戒並返回我站立的地方
+GenericNPC_SetCode,Quest,Dialogs,,,Here is your Patrol Code,,,,Voici votre code de patrouille,,こちらがあなたの巡回コードです,,,,,,,這是你的巡邏代碼
+GenericNPC_Loot,Quest,Dialogs,,,Loot around here,,,,Pillez autour d'ici,,ここで略奪してください,,,,,,,在此掠奪
+GenericNPC_Dismiss,Quest,Dialogs,,,Dismiss,,,,Congédier,,解雇する,,,,,,,解僱
+GenericNPC_Pickup,Quest,Dialogs,,,Pick Me up!,,,,Ramassez-moi!,,私を拾ってください！,,,,,,,接我！
+GenericNPC_Weapon Menu,Quest,Dialogs,,,Weapon Menu,,,,Menu des armes,,武器メニュー,,,,,,,武器選單
+GenericNPC_Melee,Quest,Dialogs,,,Melee Menu,,,,Menu de mêlée,,近接メニュー,,,,,,,近戰選單
+GenericNPC_Pistols,Quest,Dialogs,,,Pistol Menu,,,,Menu des pistolets,,ピストルメニュー,,,,,,,手槍選單
+GenericNPC_Rifles,Quest,Dialogs,,,Rifle Menu,,,,Menu des fusils,,ライフルメニュー,,,,,,,步槍選單
+GenericNPC_ShotGuns,Quest,Dialogs,,,ShotGun Menu,,,,Menu des fusils à pompe,,ショットガンメニュー,,,,,,,霰彈槍選單
+GenericNPC_Others,Quest,Dialogs,,,Other Menu,,,,Autre menu,,その他のメニュー,,,,,,,其他選單
+GenericNPC_BareHands,Quest,Dialogs,,,Use BareHands,,,,Utilisez les mains nues,,素手を使う,,,,,,,使用徒手
+GenericNPC_Club,Quest,Dialogs,,,Use Club,,,,Utilisez un gourdin,,クラブを使う,,,,,,,使用棍棒
+GenericNPC_Knife,Quest,Dialogs,,,Use Knife,,,,Utilisez un couteau,,ナイフを使う,,,,,,,使用刀
+GenericNPC_Bat,Quest,Dialogs,,,Use Bat,,,,Utilisez une batte,,バットを使う,,,,,,,使用球棒
+GenericNPC_Spear,Quest,Dialogs,,,Use Spear,,,,Utilisez une lance,,スピアを使う,,,,,,,使用長矛
+GenericNPC_Machete,Quest,Dialogs,,,Use Machete,,,,Utilisez une machette,,マチェットを使う,,,,,,,使用大砍刀
+GenericNPC_Axe,Quest,Dialogs,,,Use Axe,,,,Utilisez une hache,,斧を使う,,,,,,,使用斧頭
+GenericNPC_SMG,Quest,Dialogs,,,Use SMG,,,,Utilisez un pistolet-mitrailleur,,SMGを使う,,,,,,,使用衝鋒槍
+GenericNPC_PipePistol,Quest,Dialogs,,,Use PipePistol,,,,Utilisez un pistolet à tuyau,,パイプピストルを使う,,,,,,,使用管狀手槍
+GenericNPC_PipeShotgun,Quest,Dialogs,,,Use PipeShotgun,,,,Utilisez un fusil à pompe à tuyau,,パイプショットガンを使う,,,,,,,使用管狀霰彈槍
+GenericNPC_PipeRifle,Quest,Dialogs,,,Use PipeRifle,,,,Utilisez un fusil à tuyau,,パイプライフルを使う,,,,,,,使用管狀步槍
+GenericNPC_PipeMG,Quest,Dialogs,,,Use PipeMachinegun,,,,Utilisez une mitrailleuse à tuyau,,パイプマシンガンを使う,,,,,,,使用管狀機槍
+GenericNPC_M60,Quest,Dialogs,,,Use M60,,,,Utilisez un M60,,M60を使う,,,,,,,使用 M60
+GenericNPC_Pistol,Quest,Dialogs,,,Use Pistol,,,,Utilisez un pistolet,,ピストルを使う,,,,,,,使用手槍
+GenericNPC_DPistol,Quest,Dialogs,,,Use DesertEagle,,,,Utilisez un DesertEagle,,デザートイーグルを使う,,,,,,,使用沙漠之鷹
+GenericNPC_AK47,Quest,Dialogs,,,Use AK47,,,,Utilisez un AK47,,AK47を使う,,,,,,,使用 AK47
+GenericNPC_TRifle,Quest,Dialogs,,,Use AssaultRifle,,,,Utilisez un fusil d'assaut,,アサルトライフルを使う,,,,,,,使用突擊步槍
+GenericNPC_HRifle,Quest,Dialogs,,,Use HuntingR,,,,Utilisez un fusil de chasse,,ハンティングライフルを使う,,,,,,,使用狩獵步槍
+GenericNPC_SRifle,Quest,Dialogs,,,Use SniperRifle,,,,Utilisez un fusil de sniper,,スナイパーライフルを使う,,,,,,,使用狙擊步槍
+GenericNPC_LBow,Quest,Dialogs,,,Use Longbow,,,,Utilisez un arc long,,ロングボウを使う,,,,,,,使用長弓
+GenericNPC_XBow,Quest,Dialogs,,,Use Crossbow,,,,Utilisez une arbalète,,クロスボウを使う,,,,,,,使用十字弓
+GenericNPC_PShotgun,Quest,Dialogs,,,Use Shotgun,,,,Utilisez un fusil à pompe,,ショットガンを使う,,,,,,,使用霰彈槍
+GenericNPC_AShotgun,Quest,Dialogs,,,Use AutoShotgun,,,,Utilisez un fusil à pompe automatique,,オートショットガンを使う,,,,,,,使用自動霰彈槍
+GenericNPC_RLauncher,Quest,Dialogs,,,Use RLauncher,,,,Utilisez un lance-roquettes,,ロケットランチャーを使う,,,,,,,使用火箭發射器
+GenericNPC_done,Quest,Dialogs,,,Nevermind.,,,,Peu importe.,,気にしないでください。,,,,,,,算了。
+,,,,,,,,,,,,,,,,,,
 EntityLootContainerNPC,entityclasses,Entity Info,,,Dropped Loot,,Fallengelassene Beute,Botín abandonado,Butin abandonné,Bottino caduto,落ちている略奪品,떨어진 약탈품,Upuszczony łup,Espólio caído,Выпавшие вещи,Düşürülmüş Ganimet,掉落的战利品,掉落戰利品
 EntityNPCLootContainer,entityclasses,Entity Info,,,Dropped Loot,,Fallengelassene Beute,Botín abandonado,Butin abandonné,Bottino caduto,落ちている略奪品,떨어진 약탈품,Upuszczony łup,Espólio caído,Выпавшие вещи,Düşürülmüş Ganimet,掉落的战利品,掉落戰利品
 EntityNPCLootContainerClub,entityclasses,Entity Info,,,Dropped Loot,,Fallengelassene Beute,Botín abandonado,Butin abandonné,Bottino caduto,落ちている略奪品,떨어진 약탈품,Upuszczony łup,Espólio caído,Выпавшие вещи,Düşürülmüş Ganimet,掉落的战利品,掉落戰利品

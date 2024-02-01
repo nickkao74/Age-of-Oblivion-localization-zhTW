@@ -1,8 +1,8 @@
-key,english,french
-
-poweredProducer,"Powered producer","Producteur alimenté"
-producer,"Producer","Producteur"
-buffWastelandRadiationName,"Radiation terres désolées"
-buffWastelandRadiationDesc,"Zone radioactive, tu dois avoir la tenue [ff9933]hazmat[-] complète afin de ne pas prendre de dégâts !"
-buffHazmatFullName,"Protection radioactive"
-buffHazmatFullDesc,"Une tenue qui te protège des radiations, te donnant l'accès aux terres désolées !"
+key,english,french,tchinese
+,,,
+poweredProducer,"Powered producer","Producteur alimenté",「動力生產者」
+producer,"Producer","Producteur",「生產者」
+buffWastelandRadiationName,,"Radiation terres désolées",「荒地輻射」
+buffWastelandRadiationDesc,,"Zone radioactive tu dois avoir la tenue [ff9933]hazmat[-] complète afin de ne pas prendre de dégâts !",「放射性區域，你必須擁有完整的[ff9933]危險品[-]裝備才能不受到傷害！」
+buffHazmatFullName,"Protection radioactive","Protection radioactive",「放射性保護」
+buffHazmatFullDesc,,"Une tenue qui te protège des radiations te donnant l'accès aux terres désolées !",「一套可以保護你免受輻射的服裝，讓你可以進入荒地！」

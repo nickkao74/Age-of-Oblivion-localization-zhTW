@@ -1,18 +1,18 @@
 ﻿Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
-
-quartzSettingGeneral,UI,Menu,x,,General
-quartzSettingGeneralTooltip,UI,Menu,x,,General settings for Quartz
-quartzSettingDebug,UI,Menu,x,,Debug
-quartzSettingDebugTooltip,UI,Menu,x,,Debugging settings for Quartz
-quartzSettingTextResolution,UI,Menu,x,,Text Resolution
-quartzSettingTextResolutionTooltip,UI,Menu,x,,"Sets the Text resolution. If set to high, may cause flickering of the UI every so often"
-quartzSettingDebugMode,UI,Menu,x,,Debug Mode
-quartzSettingDebugModeTooltip,UI,Menu,x,,Enables or disable Quartz debug mode
-quartzSettingInventory,UI,Menu,x,,Inventory
-quartzSettingInputInventoryTooltip,UI,Menu,x,,Inventory Player Control Bindings
-quartzSettingInputLockedSlots,UI,Menu,x,,Lock Slots
-quartzSettingInputLockedSlotsTooltip,UI,Menu,x,,Locks or Unlocks inventory slot when the slot is clicked on
-quartzUiSpriteWindowHeader,UI,Menu,x,,UIAtlas Sprites
-quartzXuiExport,UI,Menu,x,,Export Sprites
-quartzXuiExplorer,UI,Menu,x,,Open Export Folder
-quartzTooltipShowModSprites,UI,Menu,x,,Switch to show modded UIAtlas sprites
+,,,,,,,,,,,,,,,,,,,
+quartzSettingGeneral,UI,Menu,x,,General,,,,,,,,,,,,,一般,
+quartzSettingGeneralTooltip,UI,Menu,x,,General settings for Quartz,,,,,,,,,,,,,Quartz 的一般設定,
+quartzSettingDebug,UI,Menu,x,,Debug,,,,,,,,,,,,,除錯,
+quartzSettingDebugTooltip,UI,Menu,x,,Debugging settings for Quartz,,,,,,,,,,,,,Quartz 的除錯設定,
+quartzSettingTextResolution,UI,Menu,x,,Text Resolution,,,,,,,,,,,,,文字解析度,
+quartzSettingTextResolutionTooltip,UI,Menu,x,,"Sets the Text resolution. If set to high, may cause flickering of the UI every so often",,,,,,,,,,,,,設定文字解析度。如果設定為高，可能會導致 UI 偶爾閃爍,
+quartzSettingDebugMode,UI,Menu,x,,Debug Mode,,,,,,,,,,,,,除錯模式,
+quartzSettingDebugModeTooltip,UI,Menu,x,,Enables or disable Quartz debug mode,,,,,,,,,,,,,啟用或停用 Quartz 除錯模式,
+quartzSettingInventory,UI,Menu,x,,Inventory,,,,,,,,,,,,,物品欄,
+quartzSettingInputInventoryTooltip,UI,Menu,x,,Inventory Player Control Bindings,,,,,,,,,,,,,物品欄玩家控制鍵位,
+quartzSettingInputLockedSlots,UI,Menu,x,,Lock Slots,,,,,,,,,,,,,鎖定欄位,
+quartzSettingInputLockedSlotsTooltip,UI,Menu,x,,Locks or Unlocks inventory slot when the slot is clicked on,,,,,,,,,,,,,在點擊欄位時鎖定或解鎖物品欄欄位,
+quartzUiSpriteWindowHeader,UI,Menu,x,,UIAtlas Sprites,,,,,,,,,,,,,UIAtlas 精靈,
+quartzXuiExport,UI,Menu,x,,Export Sprites,,,,,,,,,,,,,匯出精靈,
+quartzXuiExplorer,UI,Menu,x,,Open Export Folder,,,,,,,,,,,,,開啟匯出資料夾,
+quartzTooltipShowModSprites,UI,Menu,x,,Switch to show modded UIAtlas sprites,,,,,,,,,,,,,切換以顯示已修改的 UIAtlas 精靈,
