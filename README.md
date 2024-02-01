@@ -1,4 +1,4 @@
-# Age-of-Oblivion 翻體中文翻譯
+# Age-of-Oblivion 繁體中文翻譯
 - 禁止營利及再次上傳。
 - 此為7 day to die 的 Age-of-Oblivion 模組中文翻譯，並不包含模組本體。請至[官方網站](https://ageofoblivion.com/)或自行尋找下載處。
 
